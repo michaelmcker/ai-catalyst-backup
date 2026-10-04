@@ -1,0 +1,1512 @@
+{
+  "version": 1,
+  "revision": "2026-10-03-b2c058038079",
+  "reviewDate": "2026-10-03",
+  "authority": "Direct human selections pasted into this chat",
+  "publicationAuthorized": false,
+  "source": {
+    "path": "/Users/michaelmckerracher/.codex/attachments/3ef270a9-cd50-4748-a927-cddf4bbad6d6/Pasted text.txt",
+    "sha256": "b2c058038079cd1ca4adcdad714c737c0de5f576ee54a2ed8488192faee7dd01",
+    "preservedCopy": "review/artwork-decisions-20261003.txt"
+  },
+  "counts": {
+    "keep": 49,
+    "adapt": 0,
+    "discard": 66,
+    "strongReject": 7,
+    "unreviewed": 0
+  },
+  "rules": {
+    "keep": "Retain this exact artwork. Notes describe separately versioned finishing work.",
+    "adapt": "Develop this source or composition with the user notes.",
+    "discard": "Leave this asset out of the next V3 layout pass. Preserve the source files.",
+    "strongReject": "Leave the asset and its visual direction out. Do not reuse or generate variations.",
+    "precedence": "This human selection supersedes prior inferred approval, filenames and historical feedback.",
+    "scope": "Selections govern asset eligibility. Page placement, finishing variants and publishing are separate decisions."
+  },
+  "artworks": [
+    {
+      "id": "A001",
+      "key": "688f39d55270",
+      "sha256": "688f39d552705d97298a65ec17c550381c8f7de33b7b65299f909271c064603b",
+      "path": "review/sketch-assets/knight-alpha-v1.png",
+      "title": "Knight cut-out, transparent background",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A002",
+      "key": "d47a802a8181",
+      "sha256": "d47a802a8181d33ac33aac3bdb7553434c53d63472e93be08ae977b71382dbb4",
+      "path": "site-v3/images/art-v2/knight-halftone.png",
+      "title": "Knight halftone",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/knight-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/knight-halftone.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A003",
+      "key": "5835882b559d",
+      "sha256": "5835882b559df29930beb23c370ddb259b56da32c807af73af1ee4a3aa67e101",
+      "path": "site-v3/images/art-v2/knight.png",
+      "title": "Knight",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/knight.png",
+        "art-direction/renaissance-locations-v3/proposals/02-company-knight.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/knight.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A004",
+      "key": "07d7a736d705",
+      "sha256": "07d7a736d70579861ad540bc0e8eee6cf4767bc19775be95e49bb450ce346be3",
+      "path": "site-v3/images/art-v2/portrait-halftone.png",
+      "title": "Portrait halftone",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/portrait-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/portrait-halftone.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A005",
+      "key": "967c4084bb93",
+      "sha256": "967c4084bb935d0990a687fdde8728a66e3118d48ca2711b2aea367d0f46bf1a",
+      "path": "site-v3/images/art-v2/portrait.png",
+      "title": "Portrait",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/portrait.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/portrait.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A006",
+      "key": "c58c3b870d34",
+      "sha256": "c58c3b870d340b417f1e15fd31e00967429529e665e81c7daf54b32081e030df",
+      "path": "site-v3/images/art-v2/sword-hand-halftone.png",
+      "title": "Sword hand halftone",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/sword-hand-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/sword-hand-halftone.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A007",
+      "key": "e289d39965d8",
+      "sha256": "e289d39965d88e0e08ecabe2451aeb9c0d4d6ad32fd87937d1183b559b4bf760",
+      "path": "site-v3/images/art-v2/sword-hand.png",
+      "title": "Sword hand",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "site-v2/images/art-v2/sword-hand.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/sword-hand.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A008",
+      "key": "f1590fc7c220",
+      "sha256": "f1590fc7c220ae2d9f940146b14766e5959acc2eef8da7b3606f1fb40e425ce4",
+      "path": "site-v3/images/art-v3/company-knight.png",
+      "title": "Knight portrait for Company",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "art-direction/chivalry-review-v2/images/05-helmeted-knight-v3.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/company-knight.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A009",
+      "key": "772fd8c7581f",
+      "sha256": "772fd8c7581f9350f3d6bfa7ee858f049e0ca2488ea032586a31e3042fce659d",
+      "path": "site-v3/images/art-v3/crossed-swords.png",
+      "title": "Crossed duelling swords, no people",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "art-direction/chivalry-review-v2/images/03-duelling-swords.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/crossed-swords.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A010",
+      "key": "590007f0aada",
+      "sha256": "590007f0aadaa7c6748e6959b25cdaf3187831cbdf0a51edb34dbbe50a3adde2",
+      "path": "site-v3/images/art-v3/kneeling-courtyard.png",
+      "title": "Kneeling knight in courtyard",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "art-direction/chivalry-review-v2/images/02-kneeling-courtyard-v7.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/kneeling-courtyard.png"
+      ],
+      "decision": "keep",
+      "note": "Needs to have those half-tone dots as well."
+    },
+    {
+      "id": "A011",
+      "key": "88a658823ab4",
+      "sha256": "88a658823ab44b0af665bc33e134355181e859a92454cae967370833e8d8471d",
+      "path": "site-v3/images/art-v3/social-helmet-sword.png",
+      "title": "Helmet and sword close-up",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/social-helmet-sword.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A012",
+      "key": "94ef5b5958f5",
+      "sha256": "94ef5b5958f51f9ee4a2e25130b38a64d4d734c642e27ff4aef2f70f128e4678",
+      "path": "site-v3/images/art-v3/social-horses-costumed.png",
+      "title": "Horse heads with period costume",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/social-horses-costumed.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A013",
+      "key": "d6994319e326",
+      "sha256": "d6994319e326446604bfb35a7b83dd3fc60c43635ddc3516e8829a0996f1a8e5",
+      "path": "site-v3/images/art-v3/social-horses-halftone.png",
+      "title": "Horse heads with period costume, halftone",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/social-horses-halftone.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A014",
+      "key": "9cfe433a4461",
+      "sha256": "9cfe433a4461555c60eae577c5c4a921169c52470f5699da4e963cb865136cba",
+      "path": "site-v3/images/art-v3/sword-hand-approved.png",
+      "title": "Sword hand, mirrored wide version",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "art-direction/chivalry-review-v2/images/01-hero-approved-v7.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/sword-hand-approved.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A015",
+      "key": "540e9bcbd333",
+      "sha256": "540e9bcbd3336c87fd041b58e205e521238f70fa290165b59bc64187fe15be18",
+      "path": "site-v3/images/art-v3/sword-hand-outpaint-v8.png",
+      "title": "Sword hand, extended hero version",
+      "category": "Close-ups and figures",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/sword-hand-outpaint-v8.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A016",
+      "key": "cbe3dd1854ef",
+      "sha256": "cbe3dd1854ef13071a77328da546650bb7d1ac9b2304421d5cfb2799773b7f49",
+      "path": "art-direction/chivalry-review-v1/images/01-hero-sword.png",
+      "title": "Hero sword",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A017",
+      "key": "784467f5fece",
+      "sha256": "784467f5fece589b3880c2dff2099ed7227fc6badce4ee750cc74241477b91ae",
+      "path": "art-direction/chivalry-review-v1/images/02-kneeling-service.png",
+      "title": "Kneeling service",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A018",
+      "key": "5600725c002d",
+      "sha256": "5600725c002d5aa811af42eecca2b50cf56a002e100ffc3e30ba2daaa0b8f5d9",
+      "path": "art-direction/chivalry-review-v2/images/01-hero-sword.png",
+      "title": "Hero sword",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A019",
+      "key": "0ab90e948f0e",
+      "sha256": "0ab90e948f0ee98d77f462f4c8c3f3febac5827fe11de6f0acf0dc59c2899c20",
+      "path": "art-direction/chivalry-review-v2/images/01-seated-sword-clean-v5.png",
+      "title": "Seated sword clean v5",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A020",
+      "key": "4f719a3adeb3",
+      "sha256": "4f719a3adeb3bbe6a57572c66adaf02f87667f9cf1f1a836173fecbd8ee41920",
+      "path": "art-direction/chivalry-review-v2/images/01-seated-sword-v5.png",
+      "title": "Seated sword v5",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A021",
+      "key": "0ef5bf7ce333",
+      "sha256": "0ef5bf7ce3334e1ab0fa004ac6974ff6780840db256654059ab48b8f0af200e3",
+      "path": "art-direction/chivalry-review-v2/images/02-kneeling-helmet-fine-v4.png",
+      "title": "Kneeling helmet fine v4",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A022",
+      "key": "24479ac3318d",
+      "sha256": "24479ac3318d9a12b20628a39cfb923338cc592bec7ef3f1b72c95b7e0797010",
+      "path": "art-direction/chivalry-review-v2/images/02-kneeling-helmet-v4.png",
+      "title": "Kneeling helmet v4",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A023",
+      "key": "cbc51a80b00f",
+      "sha256": "cbc51a80b00f7d1792533f3d880a5ab5d0ac7f5d7525369b1517b2e2b7b4e5f9",
+      "path": "art-direction/chivalry-review-v2/images/02-kneeling-service.png",
+      "title": "Kneeling service",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A024",
+      "key": "268665074c39",
+      "sha256": "268665074c39553cc148e2bd3dd09207d029af4261a2ddf3613503d8faed0b76",
+      "path": "art-direction/knight-dither-review/proposals/01-knight-hand.png",
+      "title": "Knight hand",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A025",
+      "key": "00d205bf0bcf",
+      "sha256": "00d205bf0bcf5d43c580d41b83f93ffe2eaf0c96e07558f2b1839a9af74c78f3",
+      "path": "art-direction/knight-dither-review/proposals/02-helmet-knight.png",
+      "title": "Helmet knight",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Needs the half-tone dots."
+    },
+    {
+      "id": "A026",
+      "key": "b68bc3e85499",
+      "sha256": "b68bc3e8549957e09c1c570fdfc6744018b1e21b78c6442ad544ee164c9adbd2",
+      "path": "art-direction/renaissance-refinement/proposals/01-humanist-detail.png",
+      "title": "Humanist detail",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A027",
+      "key": "4a99483fa686",
+      "sha256": "4a99483fa68637f776a87a875428a5b33464e1d3893db4059e8695b8bbcf7f6f",
+      "path": "art-direction/renaissance-refinement/proposals/02-knight-detail.png",
+      "title": "Knight detail",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A028",
+      "key": "1f22f629d66a",
+      "sha256": "1f22f629d66aff1a21265cdea789406771db83fb1e70780102a44bc4b0323422",
+      "path": "art-direction/renaissance-refinement/proposals/03-knight-portrait.png",
+      "title": "Knight portrait",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A029",
+      "key": "2ab68f794406",
+      "sha256": "2ab68f794406566f429371ab2f6ed635e6815b79faed43e452dc188fa57ac992",
+      "path": "review/recovered-artwork-sources/horse-heads-study.png",
+      "title": "Horse heads, simplified study",
+      "category": "Close-ups and figures",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A030",
+      "key": "2beb908388f2",
+      "sha256": "2beb908388f2089b060cc724ab3bdd2a6c550046f589e92b4056cc5dfa1120e2",
+      "path": "review/sketch-assets/court-council-helmets-v2.png",
+      "title": "Generated council, matching helmets",
+      "category": "Wide scenes and riders",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A031",
+      "key": "114a4753ab42",
+      "sha256": "114a4753ab42b5ecce1b1207799061e22810435c146ae226f51d243658cbdcf6",
+      "path": "site-v3/images/art-v3/cavalry-wide.png",
+      "title": "Cavalry wide",
+      "category": "Wide scenes and riders",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/cavalry-wide.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A032",
+      "key": "9dbec514b2ca",
+      "sha256": "9dbec514b2ca2b2d0a8786f72181bf5d256266d88d842f208d8cbfc89584dc7b",
+      "path": "site-v3/images/art-v3/coastal-cavalry-wide.png",
+      "title": "Coastal cavalry wide",
+      "category": "Wide scenes and riders",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/coastal-cavalry-wide.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A033",
+      "key": "2f41abe840e3",
+      "sha256": "2f41abe840e339ab447423679fe502d6bde73b3ee20419633e13cf4cb7dfc7b3",
+      "path": "site-v3/images/art-v3/court-council-v1.png",
+      "title": "Generated council, uncovered faces",
+      "category": "Wide scenes and riders",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A034",
+      "key": "1df69956b55d",
+      "sha256": "1df69956b55d863832438d71fe9e16f1cd0a6aef3902a098ef065822966c0919",
+      "path": "site-v3/images/art-v3/mounted-approach-v1.png",
+      "title": "Four riders approaching a bridge",
+      "category": "Wide scenes and riders",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A035",
+      "key": "d4032a7e568e",
+      "sha256": "d4032a7e568e10890d1b231a15cac1d829c9b5eca34eba1016b5ed344c2f2891",
+      "path": "site-v3/images/art-v3/river-approach-wide.png",
+      "title": "River approach wide",
+      "category": "Wide scenes and riders",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/river-approach-wide.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A036",
+      "key": "efceb0aebcaa",
+      "sha256": "efceb0aebcaa219983fbc333edddd533b2ccf0d78264d45a118d465f8c558a44",
+      "path": "site-v3/images/art-v3/tournament-wide.png",
+      "title": "Tournament wide",
+      "category": "Wide scenes and riders",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/tournament-wide.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A037",
+      "key": "50ceda51a768",
+      "sha256": "50ceda51a7682206a0dc19c1c341c22b01f84889e4465e7c810723669d97b7d6",
+      "path": "art-direction/chivalry-light-study/images/mounted-knight.png",
+      "title": "Mounted knight",
+      "category": "Wide scenes and riders",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A038",
+      "key": "7c8209c35480",
+      "sha256": "7c8209c35480dacf442733cb4b8b03e4e3452ecbffe274f1b2eccc9f650ef5df",
+      "path": "art-direction/chivalry-review-v1/images/03-renaissance-duel.png",
+      "title": "Renaissance duel",
+      "category": "Wide scenes and riders",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A039",
+      "key": "04664cb6832f",
+      "sha256": "04664cb6832fa09ce14074f958e4e14b87bb27f886101eaeb0bc85b2d46dd23c",
+      "path": "site-v3/images/art-v2/bridge-halftone.png",
+      "title": "Bridge halftone",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/bridge-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/bridge-halftone.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A040",
+      "key": "c9105df65f06",
+      "sha256": "c9105df65f068c77683f3d5ad64465b337e54b8fc667a392e9637ca0b3b94e5d",
+      "path": "site-v3/images/art-v2/bridge.png",
+      "title": "Bridge",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/bridge.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/bridge.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A041",
+      "key": "78edc8aac7ce",
+      "sha256": "78edc8aac7ce31e56b7b5ff5a65cffa065f305412fe28035b25f21955197c278",
+      "path": "site-v3/images/art-v2/loggia-halftone.png",
+      "title": "Loggia halftone",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/loggia-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/loggia-halftone.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A042",
+      "key": "828815585690",
+      "sha256": "828815585690d22d33fde705afc05bd25abbdb3603e24f47cad917c148669bb7",
+      "path": "site-v3/images/art-v2/loggia.png",
+      "title": "Loggia",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/loggia.png",
+        "art-direction/renaissance-review/proposals/11-footer.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/loggia.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A043",
+      "key": "b55891a8502f",
+      "sha256": "b55891a8502ff94a273ad8a7cb77ed1cb9aeab9d543d80d48a8e02ae534a31b1",
+      "path": "site-v3/images/art-v2/tower-halftone.png",
+      "title": "Tower halftone",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/tower-halftone.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/tower-halftone.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A044",
+      "key": "0ed04eff72dc",
+      "sha256": "0ed04eff72dc6624804a36806b444a370caebb7c2fca89fa288017694790dbdf",
+      "path": "site-v3/images/art-v2/tower.png",
+      "title": "Tower",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "site-v2/images/art-v2/tower.png",
+        "art-direction/renaissance-locations-v3/proposals/03-command-centre.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v2/tower.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A045",
+      "key": "13caee34a053",
+      "sha256": "13caee34a053f3b8d7981cd0b319a433b003f95a8530a747bb273c76735b9899",
+      "path": "site-v3/images/art-v3/briefing-arcade.png",
+      "title": "Briefing arcade",
+      "category": "Architecture and landscapes",
+      "aliases": [
+        "art-direction/chivalry-review-v2/images/04-exterior-arcade.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/art-v3/briefing-arcade.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A046",
+      "key": "67581ef37cfb",
+      "sha256": "67581ef37cfb62e7d4860cae2b4b06eb0133576e07fe2dc3b2c512d3773290db",
+      "path": "art-direction/chivalry-review-v1/images/04-exterior-arcade.png",
+      "title": "Exterior arcade",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A047",
+      "key": "16fe2be7c79d",
+      "sha256": "16fe2be7c79d56b14c7114685f6f9da8bc07ae71ff1e172629154fe0c16c9265",
+      "path": "art-direction/chivalry-review-v2/images/01-hero-chainmail-v3.png",
+      "title": "Hero chainmail v3",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A048",
+      "key": "6a6e5455c2a4",
+      "sha256": "6a6e5455c2a48a402afdde7c119b38e224307a7a9200afc7c202dbf9466283b5",
+      "path": "art-direction/chivalry-review-v2/images/01-hero-reference-pose-v4.png",
+      "title": "Hero reference pose v4",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A049",
+      "key": "f35739200f4c",
+      "sha256": "f35739200f4c0984be4d2b93586b611f160813bc5c71fa5a3d93c3cd37a1d141",
+      "path": "art-direction/chivalry-review-v2/images/01-hero-reference-wide-clean-v6.png",
+      "title": "Hero reference wide clean v6",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A050",
+      "key": "93c25e8c4cb0",
+      "sha256": "93c25e8c4cb0a77720e2789fb68bc304b83d4ffa8a3da75ee8b15a8084074381",
+      "path": "art-direction/chivalry-review-v2/images/01-hero-reference-wide-v6.png",
+      "title": "Hero reference wide v6",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Needs half-tones."
+    },
+    {
+      "id": "A051",
+      "key": "b5f1225612ad",
+      "sha256": "b5f1225612ad93d7a011bb2b4e23147bce2ec52c67baff13cd1256e3668710fd",
+      "path": "art-direction/knight-dither-review/proposals/03-cloister-arcade.png",
+      "title": "Cloister arcade",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A052",
+      "key": "4d6a6eeeb0e0",
+      "sha256": "4d6a6eeeb0e082c04650be0a103c8b1cc95cdc83c13b18ab9fcc1df50d75753c",
+      "path": "art-direction/knight-dither-review/proposals/04-gothic-arcade.png",
+      "title": "Gothic arcade",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A053",
+      "key": "3f1730eaae4a",
+      "sha256": "3f1730eaae4ac10c6546eb03d63e3f717bd928c4a1852f839a7ed3f48b099d1c",
+      "path": "art-direction/renaissance-exteriors-v4/proposals/01-arcade.png",
+      "title": "Arcade",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A054",
+      "key": "8ba32be94c1f",
+      "sha256": "8ba32be94c1f5d805a6670298ffce6b7edf0d9c9da9cfe092559b3058facdb6a",
+      "path": "art-direction/renaissance-exteriors-v4/proposals/02-piazza.png",
+      "title": "Piazza",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A055",
+      "key": "3798755c24e4",
+      "sha256": "3798755c24e4a06c602c9d1bd9b2ace87eb184004c436870c9d22f4e137c7e9c",
+      "path": "art-direction/renaissance-exteriors-v4/proposals/03-palazzo.png",
+      "title": "Palazzo",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A056",
+      "key": "11d0758152f3",
+      "sha256": "11d0758152f302e232c70fa37f98df97e0bf10611f475ade0d7bac244cddefb5",
+      "path": "art-direction/renaissance-locations-v3/proposals/04-social-intelligence.png",
+      "title": "Social intelligence",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A057",
+      "key": "388c3054c685",
+      "sha256": "388c3054c6854687306ec737944c941af79c622228fe3597f4572e4fb8340455",
+      "path": "art-direction/renaissance-locations-v3/proposals/05-online-conversion.png",
+      "title": "Online conversion",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A058",
+      "key": "cffeaae34d73",
+      "sha256": "cffeaae34d73d320a893dfc0f48eef9963f2052ff336f3f2ee242d50d87fe1fe",
+      "path": "art-direction/renaissance-locations-v3/proposals/06-commerce-mmm.png",
+      "title": "Commerce mmm",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A059",
+      "key": "aef0855d25e8",
+      "sha256": "aef0855d25e807ef598c9bdf79f3f356dfe7c5aa18f3c5fdcece14f2a96c79bf",
+      "path": "art-direction/renaissance-locations-v3/proposals/07-training.png",
+      "title": "Training",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A060",
+      "key": "fed4533abbe0",
+      "sha256": "fed4533abbe0964ac773ed8b42a7af417d81ddfbe7b5cbe8983bba997a7de285",
+      "path": "art-direction/renaissance-locations-v3/proposals/08-briefing.png",
+      "title": "Briefing",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A061",
+      "key": "60c76c36e7f5",
+      "sha256": "60c76c36e7f5e0e7ffd55b39ba09d23906c8178942b78a2e886aa3a951ca3cf7",
+      "path": "art-direction/renaissance-locations-v3/proposals/09-closing.png",
+      "title": "Closing",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A062",
+      "key": "2601df863093",
+      "sha256": "2601df863093c71f48826aa782c02779c46a4ad1133c153e8e2cb197db8d3deb",
+      "path": "art-direction/renaissance-review/proposals/01-home.png",
+      "title": "Home",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A063",
+      "key": "b0e33096d23f",
+      "sha256": "b0e33096d23f969f42d3607de9c62d70375637d46b052cc957ebf861a87fcd2e",
+      "path": "art-direction/renaissance-review/proposals/02-company.png",
+      "title": "Company",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "strongReject",
+      "note": ""
+    },
+    {
+      "id": "A064",
+      "key": "ef3c39f1c00a",
+      "sha256": "ef3c39f1c00ae73bcf1000925155f2d23f6e75f2066fb8636598360fb2167f56",
+      "path": "art-direction/renaissance-review/proposals/03-command-centre.png",
+      "title": "Command centre",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Need strong half-tones in there."
+    },
+    {
+      "id": "A065",
+      "key": "a736a2f2ba5e",
+      "sha256": "a736a2f2ba5e1ae1ca50f4cc6a610ac52091aaccab471c0bb7e7c35a74c8fae4",
+      "path": "art-direction/renaissance-review/proposals/04-how-we-work.png",
+      "title": "How we work",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A066",
+      "key": "19f62b5f0665",
+      "sha256": "19f62b5f06655fa51ed0c9fd32949fe5623311ac0eaec6d1223cf4f0ac1bd881",
+      "path": "art-direction/renaissance-review/proposals/05-creator.png",
+      "title": "Creator",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Needs very strong half-tones and delivering"
+    },
+    {
+      "id": "A067",
+      "key": "584101fac90e",
+      "sha256": "584101fac90e84a551d15eb2885b12bdf86aa79d39687abe9b674b208c433d0d",
+      "path": "art-direction/renaissance-review/proposals/06-consumer.png",
+      "title": "Consumer",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A068",
+      "key": "c6464fc76782",
+      "sha256": "c6464fc767824fe790069979d6fb70d7b8b8b3e24f404b6cf8360bedc3d415e8",
+      "path": "art-direction/renaissance-review/proposals/07-mmm.png",
+      "title": "Mmm",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Needs half-tones"
+    },
+    {
+      "id": "A069",
+      "key": "35dd4569f9ca",
+      "sha256": "35dd4569f9caa956c3e3f93de1a8f786d3f612bca5fab9575d6fb1a40448e604",
+      "path": "art-direction/renaissance-review/proposals/08-training.png",
+      "title": "Training",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A070",
+      "key": "e4f6acfa4f2a",
+      "sha256": "e4f6acfa4f2a2a227fed25e6f06a75c77ce9ef11c3b5bd8ade40dd61d6cc227a",
+      "path": "art-direction/renaissance-review/proposals/09-briefing.png",
+      "title": "Briefing",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A071",
+      "key": "a09068b18e52",
+      "sha256": "a09068b18e52af3d4a672786848233a9fb8040e7a2eac7926fbc151a4966a4de",
+      "path": "art-direction/renaissance-review/proposals/10-closing.png",
+      "title": "Closing",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A072",
+      "key": "421bf9d593c2",
+      "sha256": "421bf9d593c2ed6c40228ab8b419b9500c8d77a6d6b3716d58920931e122c613",
+      "path": "review/recovered-artwork-sources/terrace-early-source.png",
+      "title": "Early terrace landscape",
+      "category": "Architecture and landscapes",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A073",
+      "key": "ec04aa08f1c9",
+      "sha256": "ec04aa08f1c92af18f778b96c9fbc3338820c2e6cbc2ad899558970250a165be",
+      "path": "site-v3/assets/maps/atlas-generated-v4.png",
+      "title": "Atlas generated v4",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/atlas-generated-v4.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A074",
+      "key": "97420f454174",
+      "sha256": "97420f454174623ea14bdfd9e0613636e6cf7a6910e8fa36eb397417755d0cab",
+      "path": "site-v3/assets/maps/atlas-generated-v5.png",
+      "title": "Atlas generated v5",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/atlas-generated-v5.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A075",
+      "key": "65882c1b2158",
+      "sha256": "65882c1b2158a6d131243b99f1c8b86519dc1b2e65cf4aa6e7ccae65e7dba7ec",
+      "path": "site-v3/assets/maps/atlas-generated-v6-draft.png",
+      "title": "Atlas generated v6 draft",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/atlas-generated-v6-draft.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A076",
+      "key": "5c98367cfde1",
+      "sha256": "5c98367cfde1f63806565c681f52a2f10de3929ccb3317332b6d7e750cbd2090",
+      "path": "site-v3/assets/maps/blaeu-1630-cartography-quiet-v2.svg",
+      "title": "Earlier simplified SVG atlas",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/blaeu-1630-cartography-quiet-v2.svg"
+      ],
+      "decision": "keep",
+      "note": "It needs to have the outline around it, not the one with the pictures, but the black outline that exists with the dotted lines and stuff. It was cropped a little rough."
+    },
+    {
+      "id": "A077",
+      "key": "c91736976945",
+      "sha256": "c91736976945169dca0d78e6974aae971e7fa87935f460fc2707a47e631dd271",
+      "path": "site-v3/assets/maps/blaeu-1630-original.jpg",
+      "title": "Blaeu 1630 map, original scan",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/blaeu-1630-original.jpg"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A078",
+      "key": "c871c48b6af5",
+      "sha256": "c871c48b6af52598479a7d391cf8fb49907711d7002f8fab9067b6a02441acdb",
+      "path": "site-v3/assets/maps/world-atlas-outline-v3.svg",
+      "title": "Earlier SVG world outline",
+      "category": "Maps",
+      "aliases": [
+        "backups/v3-before-complete-layout-20261003-094905/assets/maps/world-atlas-outline-v3.svg"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A079",
+      "key": "2eadb4c6ca85",
+      "sha256": "2eadb4c6ca85bdd9e9c8eb0701b27f828ae21c5bc2bfed7a8d476f75eb7ca663",
+      "path": "review/recovered-artwork-sources/generated-map-outline-source.png",
+      "title": "Generated map outline, early source",
+      "category": "Maps",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A080",
+      "key": "76766d90a915",
+      "sha256": "76766d90a915838dbc1e41b7513cedb8bf4588c9ed864266fb1167d34d451b37",
+      "path": "site-v3/assets/statue-preview.jpg",
+      "title": "Statue preview",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/assets/statue-preview.jpg",
+        "site-v1/assets/statue-preview.jpg",
+        "site/assets/statue-preview.jpg",
+        "backups/v3-before-complete-layout-20261003-094905/assets/statue-preview.jpg"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A081",
+      "key": "1d0d33aca2e3",
+      "sha256": "1d0d33aca2e3b6a72ceefdd71cb233f9551f2f3a7e0d71155454e7590ff2930f",
+      "path": "site-v3/images/ai-catalyst/commerce-triptych.png",
+      "title": "Commerce triptych",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/commerce-triptych.png",
+        "site-v1/images/ai-catalyst/commerce-triptych.png",
+        "site/images/ai-catalyst/commerce-triptych.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/commerce-triptych.png"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A082",
+      "key": "0b98ce500229",
+      "sha256": "0b98ce500229f276d66883413708960a09380e4e1fc075f74f8b16e90f5cbfee",
+      "path": "site-v3/images/ai-catalyst/company-hero-v1.png",
+      "title": "Company hero v1",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/company-hero-v1.png",
+        "site-v1/images/ai-catalyst/company-hero-v1.png",
+        "site/images/ai-catalyst/company-hero-v1.png",
+        "baseline/images/ai-catalyst/company-hero-v1.png",
+        "before-full-revision/images/ai-catalyst/company-hero-v1.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/company-hero-v1.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A083",
+      "key": "f6853da9668d",
+      "sha256": "f6853da9668d352703aa91ce4b332d88fe18deb6f616ff102fa3b58e72502369",
+      "path": "site-v3/images/ai-catalyst/company-hero-v1.webp",
+      "title": "Company hero v1",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/company-hero-v1.webp",
+        "site-v1/images/ai-catalyst/company-hero-v1.webp",
+        "site/images/ai-catalyst/company-hero-v1.webp",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/company-hero-v1.webp"
+      ],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A084",
+      "key": "5eab9f1356ff",
+      "sha256": "5eab9f1356ffef9d545bf9aed2a7a4b9d2b7aa5c5d3c0be4f66556f862b15dc3",
+      "path": "site-v3/images/ai-catalyst/imported-01-5eab9f1356.webp",
+      "title": "Original V1 seated thinker hero",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/imported-01-5eab9f1356.webp",
+        "site-v1/images/ai-catalyst/imported-01-5eab9f1356.webp",
+        "site/images/ai-catalyst/imported-01-5eab9f1356.webp",
+        "baseline/images/ai-catalyst/imported-01-5eab9f1356.webp",
+        "before-full-revision/images/ai-catalyst/imported-01-5eab9f1356.webp",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/imported-01-5eab9f1356.webp"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A085",
+      "key": "0d00abb278f0",
+      "sha256": "0d00abb278f011a3a83c59a249be1dd3cd6c9272079eb3007cf0faea1ccadeff",
+      "path": "site-v3/images/ai-catalyst/imported-15-0d00abb278.webp",
+      "title": "Original V1 scenery, source 15",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/imported-15-0d00abb278.webp",
+        "site-v1/images/ai-catalyst/imported-15-0d00abb278.webp",
+        "site/images/ai-catalyst/imported-15-0d00abb278.webp",
+        "baseline/images/ai-catalyst/imported-15-0d00abb278.webp",
+        "before-full-revision/images/ai-catalyst/imported-15-0d00abb278.webp",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/imported-15-0d00abb278.webp"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A086",
+      "key": "fb67cbfa5820",
+      "sha256": "fb67cbfa5820d80a8b9c9605599dfc253623d07123e173e7e23a91d394360af9",
+      "path": "site-v3/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+      "title": "Original V1 scenery, source 16",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+        "site-v1/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+        "site/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+        "baseline/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+        "before-full-revision/images/ai-catalyst/imported-16-fb67cbfa58.webp",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/imported-16-fb67cbfa58.webp"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A087",
+      "key": "e648860b6cc5",
+      "sha256": "e648860b6cc54fee4c8c749625c8f3aaaeb3e1229e91078989826d63d4b77f3c",
+      "path": "site-v3/images/ai-catalyst/platform-hero-v1.png",
+      "title": "Platform hero v1",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/platform-hero-v1.png",
+        "site-v1/images/ai-catalyst/platform-hero-v1.png",
+        "site/images/ai-catalyst/platform-hero-v1.png",
+        "baseline/images/ai-catalyst/platform-hero-v1.png",
+        "before-full-revision/images/ai-catalyst/platform-hero-v1.png",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/platform-hero-v1.png"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A088",
+      "key": "a5da59b6b879",
+      "sha256": "a5da59b6b87967829b6c9b1686c885833637b49ca583c1911c4a0395c121dcd5",
+      "path": "site-v3/images/ai-catalyst/platform-hero-v1.webp",
+      "title": "Platform hero v1",
+      "category": "Original V1 artwork",
+      "aliases": [
+        "site-v2/images/ai-catalyst/platform-hero-v1.webp",
+        "site-v1/images/ai-catalyst/platform-hero-v1.webp",
+        "site/images/ai-catalyst/platform-hero-v1.webp",
+        "backups/v3-before-complete-layout-20261003-094905/images/ai-catalyst/platform-hero-v1.webp"
+      ],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A089",
+      "key": "465fda367a0d",
+      "sha256": "465fda367a0d0d23e56851bea049f85c87d3b03d0356ac96dfff1827b0bc5b81",
+      "path": "review/supplied-art-references/arthurian-coastal-painting.png",
+      "title": "Your reference: Arthurian coastal painting",
+      "category": "Your supplied references",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Redo in our style, with half-tones, jittering, and colours."
+    },
+    {
+      "id": "A090",
+      "key": "800b7987d90e",
+      "sha256": "800b7987d90e8e93fe3a0d8549ea6486c7d85f56ffa4db430c55c6a4c8ab2ed4",
+      "path": "art-direction/medieval-source-review/sources/cleveland-gauntlet.jpg",
+      "title": "Cleveland gauntlet",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A091",
+      "key": "b5eb84443d89",
+      "sha256": "b5eb84443d89b99fbfd5f066e54acaa4776cef4cb8067e475190841afde43563",
+      "path": "art-direction/medieval-source-review/sources/cleveland-head.jpg",
+      "title": "Cleveland head",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A092",
+      "key": "df1638e8d280",
+      "sha256": "df1638e8d2808d0a68051aab66383bd1467223345f3a6a3f152666d42fee8cd4",
+      "path": "art-direction/medieval-source-review/sources/cleveland-helmet.jpg",
+      "title": "Cleveland helmet",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A093",
+      "key": "c14d5c629d1b",
+      "sha256": "c14d5c629d1ba3f1e7381bfc0e22d4b6c15a22da137d20fe4643430de77ce412",
+      "path": "art-direction/medieval-source-review/sources/cloister-1.jpg",
+      "title": "Cloister 1",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A094",
+      "key": "3275e9340056",
+      "sha256": "3275e9340056bcb61aac3960cd84ceae89bd82658b48394cef2e0316ffb6437e",
+      "path": "art-direction/medieval-source-review/sources/cloister-2.jpg",
+      "title": "Cloister 2",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A095",
+      "key": "f40227f01d2c",
+      "sha256": "f40227f01d2cc974f50a8387872b4847a5bbd1d130860fb2b497fd048ccc8d9d",
+      "path": "art-direction/medieval-source-review/sources/cloister-3.jpg",
+      "title": "Cloister 3",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A096",
+      "key": "6bb91f107241",
+      "sha256": "6bb91f107241e1f03da865faa4c20899088779666dab823a0c8b123a1807a5f5",
+      "path": "art-direction/medieval-source-review/sources/cloister.jpg",
+      "title": "Cloister",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A097",
+      "key": "125e8b82c8d7",
+      "sha256": "125e8b82c8d7df0432f3aeb8296d4566821ce7d690f41f849794edb9f129c285",
+      "path": "art-direction/medieval-source-review/sources/gauntlet.jpg",
+      "title": "Gauntlet",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A098",
+      "key": "3dbdc351fb43",
+      "sha256": "3dbdc351fb43a0fc029ed8b99306dbe858ab354d400923857d7790ebb00fae88",
+      "path": "art-direction/medieval-source-review/sources/helmet.jpg",
+      "title": "Helmet",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A099",
+      "key": "97ca05820985",
+      "sha256": "97ca058209857972cf2092f4bf3f223f75438920805a274511c84cd231a19c26",
+      "path": "art-direction/medieval-source-review/sources/knight-1.jpg",
+      "title": "Knight 1",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A100",
+      "key": "d720d3311d89",
+      "sha256": "d720d3311d89e5100b6a283f739b07732e627635ee084530ec06baa8c188ea49",
+      "path": "art-direction/medieval-source-review/sources/knight-10.jpg",
+      "title": "Knight 10",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A101",
+      "key": "3b18a11a2453",
+      "sha256": "3b18a11a2453f7fbfb795388cffe0edff7df9250158bd70302a8961295baf14a",
+      "path": "art-direction/medieval-source-review/sources/knight-11.jpg",
+      "title": "Knight 11",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A102",
+      "key": "dfef3ac7823e",
+      "sha256": "dfef3ac7823e226525b8e64c38394298a809be0d2dd9704d300e43bfbf0f4420",
+      "path": "art-direction/medieval-source-review/sources/knight-2.jpg",
+      "title": "Knight 2",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A103",
+      "key": "67325e3ea284",
+      "sha256": "67325e3ea28426dcf6039faae4887e7f83f48691ca10c3b5f10521b7833056d4",
+      "path": "art-direction/medieval-source-review/sources/knight-3.jpg",
+      "title": "Knight 3",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A104",
+      "key": "05cabc4f3068",
+      "sha256": "05cabc4f3068665047bc55bda8179e5cf95acfa930a0c9a2a87c1a937a8a950c",
+      "path": "art-direction/medieval-source-review/sources/knight-4.jpg",
+      "title": "Knight 4",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A105",
+      "key": "4dc1c6f29f81",
+      "sha256": "4dc1c6f29f81717ba0fbb948cb743ae32eddec64b6d240e2a80d58554276171d",
+      "path": "art-direction/medieval-source-review/sources/knight-5.jpg",
+      "title": "Knight 5",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A106",
+      "key": "52b89893dce6",
+      "sha256": "52b89893dce661d4208113d3b3bf0ff923c7a748b0fb7742023d85dc10fb11b2",
+      "path": "art-direction/medieval-source-review/sources/knight-6.jpg",
+      "title": "Knight 6",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A107",
+      "key": "f8dff98bbcae",
+      "sha256": "f8dff98bbcaedcc23052623a10518923bde4bc802509b358c669058b9ec67bc6",
+      "path": "art-direction/medieval-source-review/sources/knight-7.jpg",
+      "title": "Knight 7",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A108",
+      "key": "1389a0e23922",
+      "sha256": "1389a0e239221cbdc852f5e9cedbdf56a8db511886a1ffd23e82e6607fe3a542",
+      "path": "art-direction/medieval-source-review/sources/knight-8.jpg",
+      "title": "Knight 8",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Could be interesting to do in our hero style."
+    },
+    {
+      "id": "A109",
+      "key": "ff70152cef5b",
+      "sha256": "ff70152cef5bf96534fc3752cd8b60d738fd8a0b2b625c46a260a60c553a7319",
+      "path": "art-direction/medieval-source-review/sources/knight-9.jpg",
+      "title": "Knight 9",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": "Could also be interesting to do in our hero style"
+    },
+    {
+      "id": "A110",
+      "key": "23d9199c15e9",
+      "sha256": "23d9199c15e9652b5d52a881a17fb2a2e61c9e975696a6849f9920706dffba2f",
+      "path": "art-direction/medieval-source-review/sources/met-chess.jpg",
+      "title": "Met chess",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A111",
+      "key": "0303b3a1df85",
+      "sha256": "0303b3a1df85bec1e9327f0d4f6355d2891df734eec1181cf7728e96651d29e4",
+      "path": "art-direction/medieval-source-review/sources/met-cloister.jpg",
+      "title": "Met cloister",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A112",
+      "key": "8346ff4d21f5",
+      "sha256": "8346ff4d21f5ec99455b073addc8aa49d5f028ef3da795b900d46ac4d447c545",
+      "path": "art-direction/medieval-source-review/sources/met-king.jpg",
+      "title": "Met king",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A113",
+      "key": "79514b633535",
+      "sha256": "79514b63353571ee1a3fa8a102fd92fce0fa91b4f35db7cabd11167efbd28aed",
+      "path": "art-direction/medieval-source-review/sources/met-knight.jpg",
+      "title": "Met knight",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A114",
+      "key": "36a493f20708",
+      "sha256": "36a493f20708ee180ac2cba28789ee27a90f15d2ac5a65e7c9b9d052391968ea",
+      "path": "art-direction/medieval-source-review/sources/stone-head.jpg",
+      "title": "Stone head",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A115",
+      "key": "4c7a6a444634",
+      "sha256": "4c7a6a4446341321126ef7cc7d097c93d380761af5f63ad6f3202b4ccda7d187",
+      "path": "art-direction/medieval-source-review/sources/sword-detail.jpg",
+      "title": "Sword detail",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A116",
+      "key": "f303d652f80c",
+      "sha256": "f303d652f80cfd3b91ef63bdf3bed0c512c60db821bf15ad3764216782a9fee4",
+      "path": "art-direction/renaissance-exteriors-v4/references/pienza-square.jpg",
+      "title": "Pienza square",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A117",
+      "key": "40fa9c603843",
+      "sha256": "40fa9c603843cd77fd65665cce9e36265c9550448d7c4980c791694f815cab8f",
+      "path": "art-direction/renaissance-exteriors-v4/references/strozzi-courtyard.jpg",
+      "title": "Strozzi courtyard",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "keep",
+      "note": ""
+    },
+    {
+      "id": "A118",
+      "key": "c35fa5277fcb",
+      "sha256": "c35fa5277fcb7fea7eaf4d0f882a15ce80b01e9cbb2cc65d1987725253ba33cf",
+      "path": "art-direction/renaissance-exteriors-v4/references/strozzi-model.jpg",
+      "title": "Strozzi model",
+      "category": "Earlier source references",
+      "aliases": [],
+      "decision": "discard",
+      "note": ""
+    },
+    {
+      "id": "A119",
+      "key": "f1ce56c0b857",
+      "sha256": "f1ce56c0b857c89bf78d148daae55d491d59c79c6803a844d786a4aa73553f0f",
+      "path": "review/renaissance-reference-sources/carpaccio-ambassadors.jpg",
+      "title": "Arrival of the English Ambassadors",
+      "category": "Painting references",
+      "aliases": [],
+      "decision": "keep",
+      "note": "",
+      "reference": "https://www.gallerieaccademia.it/opera/arrivo-degli-ambasciatori/"
+    },
+    {
+      "id": "A120",
+      "key": "799dd9cd1148",
+      "sha256": "799dd9cd1148c76860d3d240937eac4334b97cce636892107c49a1b455c372ed",
+      "path": "review/renaissance-reference-sources/giorgione-three-philosophers.jpg",
+      "title": "The Three Philosophers",
+      "category": "Painting references",
+      "aliases": [],
+      "decision": "discard",
+      "note": "",
+      "reference": "https://www.khm.at/kunstwerke/die-drei-philosophen-823"
+    },
+    {
+      "id": "A121",
+      "key": "f4c7d3b9943e",
+      "sha256": "f4c7d3b9943e6b50ec75c9850649645592d5ffde91cc74186feeacea6ee2819c",
+      "path": "review/renaissance-reference-sources/piombo-council-1516.jpg",
+      "title": "Cardinal Sauli, his secretary and two geographers",
+      "category": "Painting references",
+      "aliases": [],
+      "decision": "keep",
+      "note": "",
+      "reference": "https://www.nga.gov/artworks/46136-cardinal-bandinello-sauli-his-secretary-and-two-geographers"
+    },
+    {
+      "id": "A122",
+      "key": "dad17dafeabe",
+      "sha256": "dad17dafeabe76171c0b1060eca44b344593d17937120dd0dd0a343e0117aa1c",
+      "path": "review/renaissance-reference-sources/rembrandt-syndics-1662.webp",
+      "title": "The Syndics of the Amsterdam Drapers’ Guild",
+      "category": "Painting references",
+      "aliases": [],
+      "decision": "discard",
+      "note": "",
+      "reference": "https://www.rijksmuseum.nl/en/collection/object/The-Sampling-Officials-of-the-Amsterdam-Drapers-Guild-Known-as-The-Syndics--575b43f479d021359fb5f63b32f7c234"
+    }
+  ]
+}
