@@ -1,0 +1,40 @@
+[
+  {
+    "file": "coca-cola.svg",
+    "asset_url": "https://www.coca-colacompany.com/content/dam/corporate/us/en/header-footer/Header%20Icon.svg",
+    "source_page": "https://www.coca-colacompany.com/",
+    "sha256": "fb264c0d0e5a11310c1c5e8499f980bcfb87ac457e0458df4e2955f228ffeedd"
+  },
+  {
+    "file": "johnson-johnson.svg",
+    "asset_url": "https://jnj-content-lab2.brightspotcdn.com/ac/25/bd2078f54d5992dd486ed26140ce/johnson-johnson-logo.svg",
+    "source_page": "https://www.jnj.com/media-center/library/logos",
+    "sha256": "f3f08c93ca7404ea061ae2581918b2d9bf4327d9cc9b70f28ecc753637ef98e4"
+  },
+  {
+    "file": "four-seasons.svg",
+    "asset_url": "https://www.fourseasons.com/alt/fshr/design3/images/FS_Brand_Logo2.svg",
+    "source_page": "https://www.fourseasons.com/",
+    "sha256": "7b0bf8d52adf641fcc437f600c28f9a592f409b772a6b9aa0211f6a3118f743b"
+  },
+  {
+    "file": "accenture.svg",
+    "asset_url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/imagery-fy27/q1/Footer-Static-Desktop.svg",
+    "source_page": "https://www.accenture.com/en",
+    "sha256": "5b051a1dbb756d57ff7f91ffcdd0e87c656d21dfcf59f1ee0f20a3cf8a54dd74",
+    "method": "Official header wordmark paths and official greater-than mark; same conventional lockup, no tagline",
+    "source_master": "accenture-footer-source.svg"
+  },
+  {
+    "file": "edelman.svg",
+    "source_page": "https://www.edelman.com/",
+    "method": "Unmodified inline official header SVG",
+    "sha256": "6ce38b91f274b4bc1c81f417f878f269bd1f76ddb33bbe9e4056bdc2f0142ebb"
+  },
+  {
+    "file": "johnson-johnson-stacked.png",
+    "asset_url": "https://jnj-production-jnj.s3.us-east-1.amazonaws.com/brightspot/6d/a9/79c4f0144bc9820b28734d19a6ae/jj-logo-stacked-red-rgb.png",
+    "source_page": "https://www.jnj.com/media-center/library/logos",
+    "sha256": "a43ba477c4cec6780c7086c215169339aa26d30f59e28620ec79abbe50073bfb"
+  }
+]

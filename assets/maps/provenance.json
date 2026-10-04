@@ -1,0 +1,19 @@
+{
+  "title": "Digital vector facsimile of Willem Blaeu's 1630 world map",
+  "source": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~285940~90058458:Nova-Totius-Terrarum-Orbis-Geograph",
+  "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+  "source_dimensions": [
+    11434,
+    8475
+  ],
+  "source_sha256": "4b890745ff34df78ceb024efbcd33d9276df69b1634a6abdf65d33dee8a3f02c",
+  "method": "Source ink traced into spline paths; antique paper removed. Historical lettering is outlined, not editable text.",
+  "layers": {
+    "celestial-border": 1,
+    "elements-border": 1,
+    "cartography-and-lettering": 1,
+    "seasons-border": 1,
+    "architecture-border": 1
+  },
+  "network_registration": "Modern locations fitted visually to historical cartography; approximate, not navigation coordinates."
+}

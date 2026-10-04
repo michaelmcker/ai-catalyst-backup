@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Homepage",
+    "page": "index.html",
+    "src": "images/art-v3/sword-hand-outpaint-v8.png",
+    "width": 1536,
+    "height": 1024,
+    "kind": "hero"
+  },
+  {
+    "name": "How We Work",
+    "page": "solutions.html",
+    "src": "images/art-v3/kneeling-courtyard.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Social Intelligence",
+    "page": "creator-social.html",
+    "src": "images/art-v3/social-helmet-sword.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Full Commerce MMM",
+    "page": "marketing-investment.html",
+    "src": "images/art-v2/knight-halftone.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Commerce Command Centre",
+    "page": "platform.html",
+    "src": "images/art-v2/tower-halftone.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Company",
+    "page": "company.html",
+    "src": "images/art-v3/company-knight.png",
+    "width": 1536,
+    "height": 1024,
+    "kind": "hero"
+  },
+  {
+    "name": "Online Conversion",
+    "page": "online-conversion.html",
+    "src": "images/art-v3/kneeling-courtyard.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Training",
+    "page": "training.html",
+    "src": "images/art-v2/portrait-halftone.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Start a conversation",
+    "page": "briefing.html",
+    "src": "images/art-v3/briefing-arcade.png",
+    "width": 1672,
+    "height": 941,
+    "kind": "hero"
+  },
+  {
+    "name": "Cavalry landscape",
+    "page": "creator-social.html",
+    "src": "images/art-v3/cavalry-wide.png",
+    "width": 1942,
+    "height": 809,
+    "kind": "scene"
+  },
+  {
+    "name": "Tournament landscape",
+    "page": "marketing-investment.html",
+    "src": "images/art-v3/tournament-wide.png",
+    "width": 1942,
+    "height": 809,
+    "kind": "scene"
+  },
+  {
+    "name": "Coastal cavalry",
+    "page": "online-conversion.html",
+    "src": "images/art-v3/coastal-cavalry-wide.png",
+    "width": 1942,
+    "height": 809,
+    "kind": "scene",
+    "section": "coastal-cavalry",
+    "direction": "original",
+    "review": "additional landscape"
+  },
+  {
+    "name": "River approach",
+    "page": "training.html",
+    "src": "images/art-v3/river-approach-wide.png",
+    "width": 1942,
+    "height": 809,
+    "kind": "scene",
+    "section": "river-approach",
+    "direction": "original",
+    "review": "additional landscape"
+  },
+  {
+    "name": "Shared footer",
+    "page": "index.html",
+    "src": "images/art-v2/bridge-halftone.png",
+    "width": 1774,
+    "height": 887,
+    "kind": "footer",
+    "pages": "all nine V3 pages"
+  }
+]

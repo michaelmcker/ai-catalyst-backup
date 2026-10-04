@@ -1,0 +1,104 @@
+{
+  "verified": "2026-10-02",
+  "state": "local review; not deployed",
+  "checks": [
+    {
+      "criticalBroken": [],
+      "heading": "Experience at the decision table.",
+      "iframes": [],
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/company.html?review=tablet",
+      "viewport": [
+        820,
+        900
+      ]
+    },
+    {
+      "criticalBroken": [],
+      "heading": "We start with what matters to your business.",
+      "iframes": [],
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/solutions.html?review=tablet",
+      "viewport": [
+        820,
+        900
+      ]
+    },
+    {
+      "criticalBroken": [],
+      "heading": "What happens if you move the budget?",
+      "iframes": [
+        "eMMMy integration within Aryma Edge: contribution, scenarios and allocation"
+      ],
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/marketing-investment.html?review=tablet#mmm-demo",
+      "viewport": [
+        820,
+        900
+      ]
+    },
+    {
+      "criticalBroken": [],
+      "heading": "Help customers make the purchase.",
+      "iframes": [
+        "AI Catalyst: Analucia digital concierge launch"
+      ],
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/online-conversion.html?review=tablet#analucia",
+      "viewport": [
+        820,
+        900
+      ]
+    },
+    {
+      "art": {
+        "bottom": 1029.984375,
+        "height": 350,
+        "left": 24,
+        "right": 399,
+        "top": 679.984375,
+        "width": 375,
+        "x": 24,
+        "y": 679.984375
+      },
+      "fit": "contain",
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/solutions.html?review=phone",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "iframeWidth": 325,
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/marketing-investment.html?review=phone#mmm-demo",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "artReady": true,
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/solutions.html?review=phone2",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "heroReady": true,
+      "overflow": 0,
+      "url": "http://localhost:3112/site-v3/index.html?review=chivalry-v3",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "embeddedPlayers": "Both YouTube players visibly loaded with correct titles and thumbnails; full playback was not re-reviewed this turn",
+  "map": "Five registered pins, four straight routes, location picker updates verified desktop and phone",
+  "advisors": "Five public profiles read live; advisor membership supplied by Michael",
+  "firstPaint": "Art review visibly repainted; black field removed without changing shader printing math"
+}

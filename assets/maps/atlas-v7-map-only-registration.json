@@ -1,0 +1,53 @@
+{
+  "source": "blaeu-1630-original.jpg",
+  "source_size": [
+    1536,
+    1139
+  ],
+  "crop_pixels": [
+    272,
+    235,
+    972,
+    654
+  ],
+  "viewBox": [
+    0,
+    0,
+    972,
+    654
+  ],
+  "city_pixels": {
+    "Toronto": [
+      378,
+      240
+    ],
+    "Halifax": [
+      441,
+      233
+    ],
+    "Prague": [
+      631,
+      230
+    ],
+    "Tel Aviv": [
+      708,
+      288
+    ],
+    "Bengaluru": [
+      820,
+      351
+    ]
+  },
+  "registration_note": "Preserves the previous scan registration and translates it into the map-only crop; not a modern projection.",
+  "visible_city_labels": false,
+  "fixed_dot_diameter_css_px": {
+    "desktop": 16,
+    "mobile": 12
+  },
+  "moving_dot_diameter_css_px": {
+    "desktop": 9,
+    "mobile": 7
+  },
+  "route": "curved quadratic",
+  "source_image_modified": false
+}

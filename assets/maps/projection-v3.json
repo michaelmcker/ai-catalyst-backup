@@ -1,0 +1,27 @@
+{
+  "style": "Simplified digital atlas inspired by 1600s plates; modern geographical outlines",
+  "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+  "rights": "Public domain",
+  "projection": {
+    "type": "equirectangular",
+    "viewBox": [
+      0,
+      0,
+      1016,
+      650
+    ],
+    "extent": [
+      -180,
+      -85,
+      180,
+      85
+    ],
+    "mapRect": [
+      40,
+      20,
+      936,
+      442
+    ]
+  },
+  "ornaments": "Native editable polar coastlines and compass rose; no historical place labels"
+}

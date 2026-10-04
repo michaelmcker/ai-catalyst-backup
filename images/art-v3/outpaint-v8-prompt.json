@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "edit",
+  "source": "sword-hand-approved.png",
+  "output": "sword-hand-outpaint-v8.png",
+  "prompt": "Use case: precise-object-edit. Asset: AI Catalyst website hero outpainting. Edit the provided approved blue engraving; retain the exact relaxed hand resting over the sword crossguard, sword angle, pommel, chainmail cuff and robe design. Extend the canvas substantially above, below and to the left, and reveal more of the robed torso on the right. Wider AND taller composition, landscape 3:2, intended full-width desktop hero with text occupying the left 55%. Keep the subject in the right 45%, the hand at about 72% across and 58% down. Only outpaint/reframe; do not redesign the sword or hand. Continuously fade the outer cloth and engraving perimeter softly into the pale icy-blue background, especially upper edge and lower edge, with no rectangular boundary or hard horizontal cut. Preserve restrained pale blue/navy copperplate engraving and halftone dots, softly reduced fine detail, no cartoon contours, no extra people, no head or face, no scene, no lettering, no logos. Upper-left and left-middle remain almost empty pale blue for large text. The form should feel tall and sculptural like the approved original hero, with ample room around its silhouette."
+}

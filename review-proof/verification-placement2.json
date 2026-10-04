@@ -1,0 +1,44 @@
+{
+  "review": "placement2",
+  "date": "2026-10-02",
+  "local_only": true,
+  "hero": "images/art-v3/sword-hand-outpaint-v8.png",
+  "hero_generation": "built-in image_gen edit",
+  "viewports_checked": [
+    {
+      "width": 1280,
+      "height": 720,
+      "content_width": 1265
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "content_width": 805
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "content_width": 375
+    }
+  ],
+  "horizontal_overflow": false,
+  "missing_local_references": [],
+  "homepage_console_errors": [],
+  "gallery_console_errors": [],
+  "map_removed_controls": [
+    "location-picker",
+    "atlas-credit",
+    "location-detail"
+  ],
+  "map_coordinate_source": "assets/maps/projection-v3.json",
+  "logo_source_record": "assets/brand-logos/provenance.json",
+  "company_advisors": [
+    "Bill Langlois",
+    "Andrew Ryder",
+    "Adun Abiodun",
+    "Pina Sciarra",
+    "Megan Page"
+  ],
+  "image_overview": "artwork-review.html",
+  "creative_review": "Ready for user review; no new approval inferred"
+}

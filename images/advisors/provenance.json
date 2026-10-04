@@ -1,0 +1,96 @@
+{
+  "verified": "2026-10-02",
+  "entries": [
+    {
+      "name": "Bill Langlois",
+      "slug": "bill-langlois",
+      "profile": "https://www.linkedin.com/in/billlanglois/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/D5603AQGXic2Z_yICmg/profile-displayphoto-crop_800_800/B56Z_2hLbOGsAI-/0/1786547321135?e=1792627200&v=beta&t=uKnSao55iumiF2U4yW-vtOYTdpHmgmg77Guxt6SCodc",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/bill-langlois-source.jpg",
+      "sha256": "b36f9ea92f47b067e2285c9bcfa9e18aa4bbafc3cc1e6efe8d9d5a64383d483b"
+    },
+    {
+      "name": "Andrew Ryder",
+      "slug": "andrew-ryder",
+      "profile": "https://www.linkedin.com/in/andrewryder/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/C4D03AQEEkmAfmKN8Rg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1641882054540?e=1792627200&v=beta&t=5pmu-B788pvgfaS_xkoQsf6NgKRppb-hWq5n16s6nK8",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/andrew-ryder-source.jpg",
+      "sha256": "73e1ad41a30ceb06716c88537cd8210e5334f42effb683108e6ced1c9b9248ea"
+    },
+    {
+      "name": "Adun Abiodun",
+      "slug": "adun-abiodun",
+      "profile": "https://www.linkedin.com/in/adun-abiodun-664550138/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/D5603AQEi_wfZpq358g/profile-displayphoto-crop_800_800/B56Z7geTOBIMAU-/0/1781882500306?e=1792627200&v=beta&t=XMavHSjN5b0ShMylX0pgpKACfN6aelUc34w_4IYjr5U",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/adun-abiodun-source.jpg",
+      "sha256": "4aaab3e6aac06d02c21b245c83c854f0c662fe76d5f0a2871767cf584c3542d1"
+    },
+    {
+      "name": "Pina Sciarra",
+      "slug": "pina-sciarra",
+      "profile": "https://www.linkedin.com/in/pina-sciarra/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/D5603AQG6YS7Wh1HDxQ/profile-displayphoto-crop_800_800/B56aCGWFsjJAAI-/0/1788960335694?e=1792627200&v=beta&t=0hbEdLLFYGbcwjr0JRSa4a_7JMQ_lAdDSwPtT_x_n7Q",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/pina-sciarra-source.jpg",
+      "sha256": "c37f65fb36f5d88462814a1495b019f7c63a516872e311e728042b9f335efe0d"
+    },
+    {
+      "name": "Megan Page",
+      "slug": "megan-page",
+      "profile": "https://www.linkedin.com/in/megan-page-ba627013/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/D4E03AQGu_E75RZ-xZQ/profile-displayphoto-crop_800_800/B4EZ49a2DIKoAI-/0/1779146908582?e=1792627200&v=beta&t=SyjAQpUz24qp_cwomFCsD184wGMN0UfckX2E9XEUOaw",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/megan-page-source.jpg",
+      "sha256": "e41e9eb9614fb18fcf1a6da5aedb34dc11a6ed1f6f26734c3850ca145784083a"
+    },
+    {
+      "name": "Nick Bobrow",
+      "slug": "nick-bobrow",
+      "profile": "https://www.linkedin.com/in/nickbobrow/",
+      "image": {
+        "alt": "",
+        "h": 640,
+        "src": "https://media.licdn.com/dms/image/v2/C5603AQEOBtyILoMb_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517789771638?e=1792627200&v=beta&t=Gk5tLe1sHCYW4CYoLZZvqlTskGuh7ly-NdeUy7sIBEg",
+        "w": 640
+      },
+      "localPath": "website-revision/site-v3/images/advisors/nick-bobrow-source.jpg",
+      "sha256": "fa1899c177f11f75f80a54cd29389745dd77f1876e4e9aa08555a54f7896255e"
+    },
+    {
+      "name": "Randy Weyersberg",
+      "slug": "randy-weyersberg",
+      "profile": "https://www.linkedin.com/in/randyweyersberg/",
+      "image": {
+        "alt": "",
+        "h": 400,
+        "src": "https://media.licdn.com/dms/image/v2/D4E03AQElYVF9kxBaoA/profile-displayphoto-scale_400_400/B4EZ2ctRB2J4Ag-/0/1776450606294?e=1792627200&v=beta&t=2MsHonVSMrwxTQIGon4enwoIQBVaTXr_D_2rFPvFcEQ",
+        "w": 400
+      },
+      "localPath": "website-revision/site-v3/images/advisors/randy-weyersberg-source.jpg",
+      "sha256": "e2853e45b7f29ad0e4644c81dbc61c0dff2f2a4b3496d8f44332b2a908ad88e6"
+    }
+  ]
+}

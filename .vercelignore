@@ -1,0 +1,13 @@
+.env*
+.vercel
+.git
+.gitignore
+.vercelignore
+
+# Local review and editing files
+artwork-review.html
+selected-artwork.json
+review-notes.md
+review-proof
+engine-proof.js
+components

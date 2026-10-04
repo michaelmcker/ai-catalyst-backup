@@ -1,0 +1,26 @@
+{
+  "image": "atlas-generated-v4.png",
+  "method": "Artwork registration in pixel coordinates",
+  "points": {
+    "Toronto": [
+      433,
+      318
+    ],
+    "Halifax": [
+      494,
+      291
+    ],
+    "Prague": [
+      785,
+      289
+    ],
+    "Tel Aviv": [
+      876,
+      364
+    ],
+    "Bengaluru": [
+      1036,
+      436
+    ]
+  }
+}

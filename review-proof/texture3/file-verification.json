@@ -1,0 +1,20 @@
+{
+  "missingLocalAssets": [],
+  "visibleEmDashes": [],
+  "v2CodeChanged": [],
+  "pages": 10,
+  "version": "V3 local review",
+  "visualChecks": [
+    "1280px desktop",
+    "390px mobile"
+  ],
+  "reviewed": [
+    "MMM knight hero",
+    "How We Work knight fade",
+    "Command Centre crossing swords",
+    "Randy founder portrait",
+    "advisor fine halftone",
+    "subpage sword footer",
+    "full-width atlas"
+  ]
+}
