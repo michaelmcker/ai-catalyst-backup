@@ -36,7 +36,7 @@
   const imageFragment=`precision highp float;varying vec2 uv;
     uniform sampler2D source,trail;
     uniform vec2 crop,offset,cssSize,fieldOrigin,fieldSize,texel;
-    uniform float clock,motion,hero,printStrength,atlas,softness,continuous,printPattern,printDepth;
+    uniform float clock,motion,hero,clearPaper,printStrength,atlas,softness,continuous,printPattern,printDepth;
     uniform vec4 edgeFade;
     ${printing}
     vec3 imageSample(vec2 p){
@@ -83,12 +83,14 @@
       col=mix(col,vec3(.20,.40,.74),bluePass);
       float whiteArea=smoothstep(.85,.985,lum);
       vec3 backdrop=hero>.5?paperTone(worldPixels,clock,fieldSize.y):paper;
-      col=mix(col,backdrop,whiteArea);
+      // Cutout heroes reveal the actual shared field instead of painting a second
+      // screen inside the artwork's rectangular canvas.
+      if(clearPaper<.5)col=mix(col,backdrop,whiteArea);
       // Feather at the sampled image edges, including letterboxing. Alpha lets
       // the actual shared paper field show through instead of painting a box.
       float edges=mix(1.,smoothstep(0.,max(edgeFade.x,.001),imageUV.x),step(.001,edgeFade.x))*mix(1.,smoothstep(0.,max(edgeFade.y,.001),1.-imageUV.x),step(.001,edgeFade.y))*mix(1.,smoothstep(0.,max(edgeFade.z,.001),imageUV.y),step(.001,edgeFade.z))*mix(1.,smoothstep(0.,max(edgeFade.w,.001),1.-imageUV.y),step(.001,edgeFade.w));
       float feather=mix(edges,step(order8(worldPixels),edges),.52);
-      gl_FragColor=vec4(col,feather*sourceAlpha);
+      gl_FragColor=vec4(col,feather*sourceAlpha*(1.-clearPaper*whiteArea));
     }`;
   const fieldFragment=`precision highp float;varying vec2 uv;uniform vec2 cssSize;uniform float clock;${printing}
     void main(){gl_FragColor=vec4(paperTone(vec2(uv.x,1.-uv.y)*cssSize,clock,cssSize.y),1.);}`;
@@ -115,7 +117,7 @@
     gl.useProgram(program);const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
     gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
     const a=gl.getAttribLocation(program,'p');gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,2,gl.FLOAT,false,0,0);
-    const u={};['source','trail','crop','offset','cssSize','fieldOrigin','fieldSize','clock','motion','hero','printStrength','edgeFade','atlas','texel','softness','continuous','printPattern','printDepth'].forEach(n=>u[n]=gl.getUniformLocation(program,n));
+    const u={};['source','trail','crop','offset','cssSize','fieldOrigin','fieldSize','clock','motion','hero','clearPaper','printStrength','edgeFade','atlas','texel','softness','continuous','printPattern','printDepth'].forEach(n=>u[n]=gl.getUniformLocation(program,n));
     const state={canvas,gl,program,u,ready:true,visible:false,dirty:true,hero:false,width:1,height:1,rect:null};
     state.fit=rect=>{state.rect=rect;state.width=rect.width;state.height=rect.height;const ratio=Math.min(devicePixelRatio||1,2,4096/Math.max(1,rect.width,rect.height));canvas.width=Math.max(1,Math.round(rect.width*ratio));canvas.height=Math.max(1,Math.round(rect.height*ratio));gl.viewport(0,0,canvas.width,canvas.height);state.dirty=true;};
     states.add(state);return state;
@@ -168,7 +170,7 @@
           const defaultEdges=isHero?'.24 .13 .17 .3':'.08 .08 .17 .22';
           const edges=(stage.dataset.artFeather||(profile?profile.edges:defaultEdges)).split(' ').map(Number);
           gl.uniform1f(u.printStrength,Math.max(0,Math.min(1,setting(stage.dataset.artPrint,profile?profile.print:(isHero?.72:.42)))));gl.uniform4f(u.edgeFade,...edges);gl.uniform1f(u.atlas,stage.dataset.artColor==='atlas'?1:0);
-          gl.uniform1f(u.clock,isHero?time:0);gl.uniform1f(u.motion,isHero&&!reduced.matches?1:0);gl.uniform1f(u.hero,isHero?1:0);gl.drawArrays(gl.TRIANGLES,0,6);stage.classList.add('site-art-ready');
+          gl.uniform1f(u.clock,isHero?time:0);gl.uniform1f(u.motion,isHero&&!reduced.matches?1:0);gl.uniform1f(u.hero,isHero?1:0);gl.uniform1f(u.clearPaper,isHero&&stage.dataset.artAsset==='sword-hand'?1:0);gl.drawArrays(gl.TRIANGLES,0,6);stage.classList.add('site-art-ready');
         };
         new ResizeObserver(measure).observe(stage);measure();state.draw(reduced.matches?0:performance.now()/1000);visibility(stage,state);
         canvas.addEventListener('webglcontextlost',()=>{state.ready=false;stage.classList.remove('site-art-ready');});
