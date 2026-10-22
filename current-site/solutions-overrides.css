@@ -1,0 +1,11 @@
+/* How We Work keeps the film in the editorial grid: copy left, moving dithered film right. */
+.page-hero--work{display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);align-items:stretch;gap:5%;min-height:700px}
+.page-hero--work .page-hero__copy{min-height:0;max-width:690px;padding:clamp(150px,15vw,220px) 0 clamp(110px,12vw,170px);justify-content:center}
+.page-hero--work .page-hero__art{position:relative;inset:auto;right:auto;top:auto;bottom:auto;width:clamp(460px,42vw,700px);height:auto;aspect-ratio:1;min-height:0;align-self:center;justify-self:end;overflow:visible}
+.page-hero--work .page-hero__art:before{inset:-10%;opacity:.42}
+.page-hero--work .page-hero__art:after{inset:-10%;background:linear-gradient(90deg,rgba(237,247,255,.92) 0%,rgba(237,247,255,.42) 22%,transparent 62%),linear-gradient(180deg,transparent 62%,var(--paper) 100%);opacity:.58}
+.page-hero--work .film-dither{inset:-10%;opacity:.18}
+.page-hero--work .page-atmosphere{z-index:2}.page-hero--work .page-hero__art{z-index:1}
+.page-hero--work .page-hero__copy{z-index:4}
+@media(max-width:900px){.page-hero--work{display:grid;grid-template-columns:1fr;min-height:720px;gap:0}.page-hero--work .page-hero__copy{padding:86px 0 290px;min-height:720px;max-width:760px}.page-hero--work .page-hero__art{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;min-height:0;overflow:hidden}.page-hero--work .page-hero__art:after{inset:0;background:linear-gradient(180deg,rgba(237,247,255,.98) 0%,rgba(237,247,255,.78) 18%,transparent 48%),linear-gradient(180deg,transparent 58%,var(--paper) 100%);opacity:.84}.page-hero--work .film-dither{inset:0}}
+@media(max-width:600px){.page-hero--work .page-hero__copy{padding:68px 0 280px;min-height:720px}.page-hero--work .page-hero__copy>p{font-size:19px;max-width:355px}}

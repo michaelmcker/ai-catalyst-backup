@@ -1,0 +1,87 @@
+{
+  "project_id": "221b4eb9-dd01-4746-a063-72785aa6497f",
+  "workspace_id": "2adde5fd420f78c52985",
+  "editor_url": "https://lovable.dev/projects/221b4eb9-dd01-4746-a063-72785aa6497f",
+  "preview_url": "https://id-preview--221b4eb9-dd01-4746-a063-72785aa6497f.lovable.app",
+  "commit": "015d6112e4812db99bdafb95eae5ea9dcfbce225",
+  "state": "completed",
+  "published": false,
+  "transfer_method": "Direct ZIP upload, original static documents with minimal TanStack serving adapter",
+  "files_present": 83,
+  "source_checks": [
+    {
+      "name": "briefing.html",
+      "sha": "c6abd0f1fd3739df8b17fd12a9d1c8caf7c9fcc0",
+      "expected": "c6abd0f1fd3739df8b17fd12a9d1c8caf7c9fcc0",
+      "match": true
+    },
+    {
+      "name": "company.html",
+      "sha": "8e77bb1339e55caf462fd7db4591e1032433c085",
+      "expected": "8e77bb1339e55caf462fd7db4591e1032433c085",
+      "match": true
+    },
+    {
+      "name": "creator-social.html",
+      "sha": "56c4d58471edd584a1a6ae1390ef7fe8ae9a4dc4",
+      "expected": "56c4d58471edd584a1a6ae1390ef7fe8ae9a4dc4",
+      "match": true
+    },
+    {
+      "name": "halftone-rendering.js",
+      "sha": "0a8629236aac50bd22c2408f72eebe0de826d678",
+      "expected": "0a8629236aac50bd22c2408f72eebe0de826d678",
+      "match": true
+    },
+    {
+      "name": "index.html",
+      "sha": "3b4256bbecc862b3d082985d18e1d4551203f226",
+      "expected": "3b4256bbecc862b3d082985d18e1d4551203f226",
+      "match": true
+    },
+    {
+      "name": "marketing-investment.html",
+      "sha": "5609f0ec6084c8bf805451aaf207aae0243cba09",
+      "expected": "5609f0ec6084c8bf805451aaf207aae0243cba09",
+      "match": true
+    },
+    {
+      "name": "online-conversion.html",
+      "sha": "8734f6803f2a5c6cb83af35f5f41fdf43befac6d",
+      "expected": "8734f6803f2a5c6cb83af35f5f41fdf43befac6d",
+      "match": true
+    },
+    {
+      "name": "platform.html",
+      "sha": "d8825f25d54567509bde08472f34b8b99f10d8d1",
+      "expected": "d8825f25d54567509bde08472f34b8b99f10d8d1",
+      "match": true
+    },
+    {
+      "name": "restored-home-motion.js",
+      "sha": "4d443205e78760f01edf58d89ee7597a6e8d317b",
+      "expected": "4d443205e78760f01edf58d89ee7597a6e8d317b",
+      "match": true
+    },
+    {
+      "name": "solutions.html",
+      "sha": "43f6e305f8fce2579b7364e3921ad2d624fb48fb",
+      "expected": "43f6e305f8fce2579b7364e3921ad2d624fb48fb",
+      "match": true
+    },
+    {
+      "name": "training.html",
+      "sha": "37b9a1368662946c17cfafb943a05c30a7837bba",
+      "expected": "37b9a1368662946c17cfafb943a05c30a7837bba",
+      "match": true
+    },
+    {
+      "name": "partner-neutral.css",
+      "sha": "51d6eb9f18471ac3e84382c271de5eba72c65129",
+      "expected": "51d6eb9f18471ac3e84382c271de5eba72c65129",
+      "match": true
+    }
+  ],
+  "lovable_validation": "Imported the approved ZIP directly into the Lovable project; GitHub was not needed. The nine original HTML pages are preserved in `site/`, and the remaining 74 files\u2014including CSS, JavaScript, artwork, portraits, SVGs, map, and `full-film.mp4`\u2014are in `public/` at their original paths. All 83 files match the archive byte for byte.\n\nAdded a minimal serving adapter: `src/lib/site-documents.ts` returns the original HTML documents unchanged, with routes for `/` and all eight `.html` subpages. This avoids the production host\u2019s redirect from `.html` URLs to extensionless paths. Original query strings, anchors, metadata, styles, scripts, and normal navigation are preserved. No iframe, React recreation, external hotlinks, redesign, or Vercel changes were introduced. Project memory and `AGENTS.md` now specify direct ZIP import as the source of truth.\n\nProduction build and editor-preview checks passed. All nine pages and all 83 files were verified; browser checks at 390px, 820px, and 1280px found no failed loads, broken images, console errors, or horizontal overflow. Reduced-motion fallback, map labels, navigation, query strings, and anchors were checked. Tests were added to verify the nine HTML documents remain byte-identical.\n\nThe archive\u2019s film is 6.5 MB, not the stated 40 MB; it was copied exactly as supplied. The Blaeu map SVG is included but unused by the pages. Nothing was published, and the existing Vercel site was not modified. No blockers.",
+  "screenshot_url": "https://screenshot2.lovable.dev/lovp_5ry9hpwjms879v6jwzev81zefr/933e178f5fbda0fc3a71ec8707dd869b_1792619264206.png"
+}

@@ -1,0 +1,30 @@
+/* One restrained navigation treatment shared by every page and scroll state. */
+.masthead{align-items:center;gap:20px;padding:8px 12px 8px 18px;background:rgba(237,247,255,.96);backdrop-filter:blur(10px);border:0;box-shadow:none}
+.masthead:before{content:"";position:absolute;inset:0;background:#edf7ff;z-index:2;pointer-events:none}
+.masthead .masthead-logo,.masthead.is-compact .masthead-logo,.masthead.is-open .masthead-logo{width:180px;height:44px;padding:0;background:transparent!important;box-shadow:none!important;justify-content:flex-start}
+.masthead .masthead-logo img{width:174px;max-height:36px}
+.masthead .masthead-links{display:none!important}
+.masthead .masthead-actions{margin-left:auto;background:transparent;gap:16px}
+.masthead .masthead-toggle,.masthead.is-compact .masthead-toggle{visibility:visible;opacity:1;overflow:visible;width:104px;height:44px;min-height:44px;padding:0 10px;background:transparent;gap:17px;font-size:16px;justify-content:center}
+.masthead .masthead-contact{width:44px;height:44px}
+.masthead .masthead-panel{top:calc(100% + 12px);width:min(530px,100%);max-height:calc(100dvh - 130px);padding:23px 30px 24px;background:#edf7ff;border:1px solid #bfd3ed}
+.masthead .masthead-menu-list,.masthead .masthead-capabilities{list-style:none;padding:0;margin:0}
+.masthead .masthead-panel nav a{font-size:clamp(28px,2.7vw,38px);font-weight:300;line-height:1.18;letter-spacing:-.04em;padding:12px 0}
+.masthead .masthead-capabilities{border-left:1px solid #afc7e4;margin:10px 0 14px 1px;padding:0 0 0 20px}
+.masthead .masthead-panel .masthead-capabilities a{font-size:18px!important;line-height:1.35;letter-spacing:-.015em;font-weight:400;padding:8px 0;border:0;color:#244677}
+.masthead .masthead-panel .masthead-capabilities a:hover{color:#1a55f4;padding-left:5px}
+.masthead .masthead-panel .masthead-capabilities a[aria-current]{color:#061b74;text-decoration:underline;text-underline-offset:5px}
+.masthead .masthead-panel a[aria-current]:before{display:none}
+.masthead .masthead-panel-footer{font-size:14px;margin-top:20px}
+@media(max-width:600px){
+ .masthead{padding:7px 8px 7px 10px;gap:8px}
+ .masthead .masthead-logo,.masthead.is-compact .masthead-logo,.masthead.is-open .masthead-logo{width:142px;height:40px}
+ .masthead .masthead-logo img{width:140px;max-height:30px}
+ .masthead .masthead-actions{gap:4px}
+ .masthead .masthead-toggle,.masthead.is-compact .masthead-toggle{width:80px;height:40px;min-height:40px;padding:0 8px;gap:10px;font-size:14px}
+ .masthead .masthead-contact{width:40px;height:40px}
+ .masthead .masthead-panel{padding:18px 22px;max-height:calc(100dvh - 112px)}
+ .masthead .masthead-panel nav a{font-size:29px;padding:10px 0}
+ .masthead .masthead-panel .masthead-capabilities a{font-size:17px!important;padding:8px 0}
+}
+@media(max-width:359px){.masthead .masthead-logo,.masthead.is-compact .masthead-logo,.masthead.is-open .masthead-logo{width:124px}.masthead .masthead-logo img{width:122px}.masthead .masthead-toggle,.masthead.is-compact .masthead-toggle{width:74px}}

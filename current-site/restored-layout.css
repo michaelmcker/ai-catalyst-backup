@@ -1,0 +1,24 @@
+/* Targeted carry-forward of Michael's requested copy; original layouts restored. */
+.restored-home .process-page-link{margin-top:28px;font-size:18px}
+.restored-home .command-top-link{margin-top:26px}
+.restored-home .engine-page-link{margin-top:30px;font-size:18px}
+.restored-home .section-anchor{display:block;position:absolute;pointer-events:none}
+.restored-home .hero h1{max-width:14ch}
+.restored-home .hero-copy>p{max-width:29ch}
+.restored-home .mobile-ribbon-inputs,.restored-home .mobile-ribbon-outputs,
+.restored-subpage .mobile-ribbon-inputs,.restored-subpage .mobile-ribbon-outputs{direction:ltr}
+.restored-subpage .brain-section{grid-template-columns:1fr}
+.restored-subpage .brain-heading{max-width:940px}
+.restored-subpage .restored-process .how-heading{font-size:clamp(52px,6.8vw,104px)}
+.restored-subpage .restored-process .problem-heading>p{font-size:clamp(20px,1.7vw,26px);line-height:1.4;margin-top:28px;color:var(--mid)}
+.restored-home .how-heading{font-size:clamp(48px,5.4vw,78px);line-height:1.04}
+.restored-home .experience h2 span{white-space:nowrap}
+@media(min-width:701px) and (max-width:1100px){
+ .restored-home .hero h1{font-size:clamp(62px,8.2vw,85px);max-width:14ch}
+}
+@media(max-width:700px){
+ .restored-home .hero h1{font-size:clamp(42px,10.7vw,55px);max-width:14ch}
+ .restored-home .how-heading{font-size:clamp(40px,10vw,56px)}
+ .restored-home .hero-copy>p{max-width:28ch}
+ .restored-subpage .restored-process .how-heading{font-size:clamp(48px,13vw,68px)}
+}

@@ -1,0 +1,140 @@
+/* Focused V3 review additions. Approved V2 layout and artwork remain the base. */
+.logo-grid .company-name{font-family:inherit;font-size:clamp(16px,1.5vw,21px);font-weight:600;letter-spacing:-.035em;line-height:1.12;text-align:center;padding:10px 18px;color:var(--ink);max-width:100%}
+.advisor-network{padding-top:35px}
+.advisor-network .advisor-list{display:block;margin-top:44px;border-top:1px solid var(--rule)}
+.advisor-entry{display:grid;grid-template-columns:1fr 1.55fr auto;gap:35px;align-items:start;padding:30px 0;border-bottom:1px solid var(--rule)}
+.advisor-entry h3{font-size:clamp(24px,2.3vw,32px);font-weight:400;line-height:1.15;letter-spacing:-.04em;margin:0 0 10px}
+.advisor-entry .advisor-specialty{font-size:15px;line-height:1.35;margin:0;color:var(--muted,var(--ink));opacity:.75}
+.advisor-entry .advisor-summary{font-size:18px;line-height:1.5;margin:0;max-width:48ch}
+.advisor-profile{font-size:15px;text-decoration:none;white-space:nowrap;padding-top:5px}
+.advisor-profile:hover{text-decoration:underline}
+.case-study{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(32px,5vw,80px);align-items:center;margin-block:clamp(70px,10vw,140px)}
+.case-copy h2{font-size:clamp(36px,4.6vw,62px);font-weight:400;line-height:1.03;letter-spacing:-.05em;margin:0 0 26px}
+.case-copy p{font-size:18px;line-height:1.55;max-width:42ch;margin:0 0 20px}
+.case-copy .text-link{display:inline-flex;gap:12px;margin-top:8px;font-size:16px}
+.case-video{position:relative;width:100%;aspect-ratio:16/9;background:#0e1421;border:1px solid var(--rule);overflow:hidden}
+.case-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.commerce-coverage{padding-top:25px}
+.coverage-list{list-style:none;margin:44px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:70px;border-top:1px solid var(--rule)}
+.coverage-list li{font-size:20px;line-height:1.35;padding:17px 0;border-bottom:1px solid var(--rule)}
+.dimension-preview{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding-block:70px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.dimension-preview h2{font-size:clamp(34px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-.045em;margin:0}
+.dimension-preview p{font-size:18px;line-height:1.55;margin:0 0 24px}
+.hero-art[data-art-asset="sword-hand"] img{object-fit:cover!important;object-position:right center!important}
+.hero-scene:has(.art-v2-sword-hand) .hero{min-height:760px;height:clamp(760px,63vw,960px)}
+.hero-art[data-art-asset="sword-hand"]{inset:0!important;width:100%!important;mask-image:linear-gradient(to bottom,transparent,#000 11%,#000 85%,transparent)!important;mask-composite:add!important}
+.subpage .page-hero--work .page-hero__art img{object-fit:contain!important;object-position:right center!important}
+.atlas-map.world-map{aspect-ratio:1016/650;max-width:1100px;width:100%;height:auto;margin:50px auto 0;overflow:hidden}
+.atlas-map .atlas-base,.atlas-map svg,.atlas-map .map-pins{position:absolute;inset:0;left:0;top:0;width:100%;height:100%;object-fit:contain;transform:none}
+.atlas-map .atlas-base{display:block;opacity:.9}
+.atlas-map svg{overflow:visible;pointer-events:none}
+.atlas-map .map-pins{pointer-events:none}
+.atlas-map .map-pin{pointer-events:auto}
+.atlas-map .map-pins:after{content:none!important}
+.atlas-map .map-pin{width:11px;height:11px;border:2px solid var(--paper);background:#1e53f4;pointer-events:none;box-shadow:0 0 0 3px #2854ff12}
+.atlas-map .map-pin span{font-size:14px;background:var(--paper);padding:3px 6px;white-space:nowrap;letter-spacing:-.02em}
+.atlas-map .toronto span{top:18px;left:auto;right:0;transform:none}
+.atlas-map .halifax span{top:-28px;left:12px;transform:none}
+.atlas-map .prague span{top:-28px;left:10px;transform:none}
+.atlas-map .israel span{top:16px;left:12px;transform:none}
+.atlas-map .bengaluru span{top:15px;left:10px;transform:none}
+@media(max-width:1000px){
+ .hero-scene:has(.art-v2-sword-hand){display:flex;flex-direction:column}
+ .hero-scene:has(.art-v2-sword-hand) .hero{height:auto;min-height:0;display:flex;flex-direction:column;padding-top:0!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy{position:relative;z-index:3;order:0;min-height:0;padding-block:35px 0}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art{position:relative;inset:auto!important;left:0!important;order:1;width:100%!important;height:auto;min-height:0;aspect-ratio:3/2;margin-top:8px}
+ .case-study{grid-template-columns:1fr;gap:32px}
+ .case-copy{max-width:620px}
+ .case-copy p{max-width:56ch}
+ .advisor-entry{grid-template-columns:1fr 1.5fr;gap:20px 30px}
+ .advisor-profile{grid-column:2}
+ .atlas-map .map-pin span{font-size:12px}
+}
+@media(max-width:700px){
+ .subpage .page-hero--work{padding-top:0!important}
+ .subpage .page-hero--work:has(.art-v2-portrait) .page-hero__art{height:auto!important;min-height:0!important;aspect-ratio:1672/941}
+ .advisor-entry{grid-template-columns:1fr;gap:14px;padding:26px 0}
+ .advisor-profile{grid-column:auto;padding-top:0}
+ .advisor-entry .advisor-summary{font-size:17px}
+ .dimension-preview{grid-template-columns:1fr;gap:24px;padding-block:40px}
+ .coverage-list{column-gap:24px;margin-top:30px}
+ .coverage-list li{font-size:16px}
+ .logo-grid .company-name{font-size:16px;padding-inline:8px}
+ .atlas-map.world-map{width:100%;margin-left:0;margin-right:0;aspect-ratio:1016/650;height:auto;overflow:visible}
+ .atlas-map .map-pin span{display:none}
+ .atlas-map .map-pin{width:8px;height:8px;border-width:1.5px}
+ .atlas-map .map-pin:hover,.atlas-map .map-pin[aria-pressed=true]{box-shadow:0 0 0 4px #2854ff18}
+ .atlas-credit{font-size:11px}
+ .hero-scene:has(.art-v2-sword-hand){display:flex;flex-direction:column}
+ .hero-scene:has(.art-v2-sword-hand) .hero{height:auto;min-height:0;display:flex;flex-direction:column;padding-top:0!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy{position:relative;z-index:3;order:0;min-height:0;padding-block:35px 0}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art{position:relative;inset:auto!important;left:0!important;order:1;width:100%!important;height:auto;min-height:0;aspect-ratio:3/2;margin-top:8px}
+ .subpage .page-hero--work .page-hero__art img{object-position:right center!important}
+}
+
+.logo-grid .logo.logo-added img{display:block;object-fit:contain;width:100%;max-width:166px;max-height:55px;filter:brightness(0) invert(1)}
+.logo-grid .logo.logo-four-seasons img{max-height:64px;max-width:145px}
+.logo-grid .logo.logo-johnson-johnson img{max-width:120px;max-height:57px}
+.logo-grid .logo.logo-coca-cola img{max-width:190px}
+@media(max-width:700px){.logo-grid .logo.logo-added img{max-width:130px;max-height:46px}.logo-grid .logo.logo-four-seasons img{max-height:57px;max-width:123px}}
+
+@media(max-width:700px){.hero-scene:has(.art-v2-sword-hand) .hero-art{aspect-ratio:auto;height:320px;flex:none;margin-top:8px}}
+
+/* One roster, with the same portrait and biography hierarchy for all seven. */
+.team-grid-unified{grid-template-columns:repeat(3,minmax(0,1fr));gap:44px 30px;align-items:stretch}
+.team-grid-unified .team-card{display:flex;flex-direction:column;border:0;background:transparent}
+.team-grid-unified .team-portrait{position:relative;width:100%;height:auto;min-height:0;aspect-ratio:1/1;flex:none;background:#e8f4ff}
+.team-grid-unified .team-portrait img{position:absolute;inset:0;object-position:center 40%!important;mix-blend-mode:normal}
+.advisor-print{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.portrait-ready>img{visibility:hidden}
+.team-grid-unified .team-copy{padding:24px 0 0;display:flex;flex-direction:column;flex:1}
+.team-grid-unified .team-heading h3{font-size:clamp(27px,2.6vw,34px);line-height:1.1;font-weight:400}
+.team-grid-unified .advisor-role{font-size:15px;line-height:1.4;margin-top:10px;min-height:42px}
+.team-grid-unified .team-bio{margin-top:18px}
+.team-grid-unified .team-bio p{font-size:17px;line-height:1.5}
+.team-grid-unified .advisor-profile{display:inline-block;margin-top:22px;padding-top:0;align-self:flex-start}
+.atlas-map.world-map{aspect-ratio:3/2}
+.atlas-map .atlas-base{opacity:1}
+@media(max-width:1000px){.team-grid-unified{grid-template-columns:repeat(2,minmax(0,1fr))}.team-grid-unified .team-card{display:flex}.team-grid-unified .team-portrait{min-height:0;height:auto}}
+@media(max-width:700px){.team-grid-unified{grid-template-columns:1fr;gap:42px}.team-grid-unified .team-heading h3{font-size:32px}.team-grid-unified .advisor-role{min-height:0}.team-grid-unified .team-copy{padding:22px 0 0}.atlas-map.world-map{aspect-ratio:3/2}}
+
+/* V3: lighter static body artwork and a continuous dithered hero edge. */
+.architecture[data-site-art]{background:var(--paper)}
+.architecture[data-site-art]:after{background:linear-gradient(90deg,#edf7ffe8,transparent 65%)}
+.architecture[data-site-art]>p{color:var(--ink)}
+.subpage .page-hero--work{border-bottom:0}
+.subpage .page-hero__art[data-art-asset="kneeler"]{mask-image:none!important;mask-composite:add!important;overflow:hidden!important}
+.subpage .page-hero__art[data-art-asset="kneeler"] img{object-position:100% 50%!important}
+.architecture-swords{height:clamp(360px,40vw,620px);max-height:620px}
+.architecture-swords img{object-fit:contain;object-position:85% 50%}
+.chivalry-tail{position:relative;width:100%;height:clamp(240px,30vw,460px);overflow:hidden;margin-top:70px}
+.chivalry-tail img{display:block;width:100%;height:100%;object-fit:cover;object-position:right center}
+.network-fullbleed{max-width:none!important;padding-inline:0!important;margin-inline:0!important;width:100%}
+.network-fullbleed .wrap>h2{font-size:clamp(44px,4.9vw,73px);line-height:1.05}
+.network-fullbleed .atlas-map.world-map{max-width:none;width:100%;margin:50px 0 0;aspect-ratio:3/2}
+.team-grid-unified .team-card-founder{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1fr);gap:clamp(30px,6vw,90px);align-items:center;margin-bottom:26px}
+.team-grid-unified .team-card-founder .team-portrait{aspect-ratio:4/5;max-width:500px}
+.team-grid-unified .team-card-founder .team-copy{padding:0;max-width:540px}
+.team-grid-unified .team-card-founder h3{font-size:clamp(38px,4.5vw,65px)}
+.team-grid-unified .team-card-founder .advisor-role{min-height:0;font-size:19px}
+.team-grid-unified .team-card-founder .team-bio p{font-size:clamp(19px,1.8vw,24px);line-height:1.5}
+@media(max-width:700px){
+ .team-grid-unified .team-card-founder{display:flex;gap:0;margin-bottom:0}
+ .team-grid-unified .team-card-founder .team-portrait{max-width:none}
+ .team-grid-unified .team-card-founder .team-copy{padding-top:24px}
+ .subpage .page-hero:has([data-art-asset="kneeler"]){display:flex!important;flex-direction:column;min-height:0!important;padding-bottom:0}
+ .subpage .page-hero:has([data-art-asset="kneeler"]) .page-hero__copy{width:100%!important;min-height:0!important;max-width:none;padding:40px 0 0!important}
+ .subpage .page-hero:has([data-art-asset="kneeler"]) .page-hero__art{position:relative!important;inset:auto!important;left:-24px!important;align-self:flex-start!important;width:calc(100% + 48px)!important;height:360px!important;min-height:360px;margin:26px 0 0!important}
+ .network-fullbleed .atlas-map.world-map{margin-top:32px}
+ .network-fullbleed .wrap>h2{font-size:42px}
+ .chivalry-tail{margin-top:42px;height:280px}
+ .architecture-swords{height:380px}
+}
+
+/* Original engraved atlas, full bleed, with a quiet blue print treatment. */
+.network-fullbleed .atlas-map.world-map{aspect-ratio:1236.48/931.019;background:var(--paper);isolation:isolate}
+.atlas-map[data-art-color="atlas"] .atlas-base{width:124.22%!important;height:122.34%!important;left:-11.57%!important;top:-9.665%!important;object-fit:fill!important;filter:grayscale(1) sepia(1) saturate(1.7) hue-rotate(168deg)!important}
+.atlas-map[data-art-color="atlas"] svg,.atlas-map[data-art-color="atlas"] .map-pins{z-index:2}
+.atlas-map .map-pin{width:8px;height:8px;border:1.5px solid var(--paper);background:#2157bd;box-shadow:none}
+.atlas-map .map-pin span{font-size:13px;background:#edf7ffdb;padding:2px 5px}
+@media(max-width:700px){.atlas-map .map-pin{width:6px;height:6px;border-width:1px}}
