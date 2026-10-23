@@ -10,7 +10,7 @@
   if(contact?.classList.contains('enquiry-contact'))contact.hidden=Boolean(endpoint);
   form.addEventListener('submit',async event=>{
    event.preventDefault();if(!form.reportValidity())return;
-   if(!endpoint){status.classList.add('is-error');status.textContent='Enquiry delivery is not connected. Please contact AI Catalyst on LinkedIn. Your message has not been sent.';status.focus();return;}
+   if(!endpoint){status.classList.add('is-error');status.textContent='Enquiry delivery is not connected. Email randy@aicatalyst.biz or call 416-270-0132. Your message has not been sent.';status.focus();return;}
    const button=form.querySelector('[type=submit]');const original=button.textContent;button.disabled=true;button.textContent='Sending…';form.setAttribute('aria-busy','true');status.classList.remove('is-error');status.textContent='';
    try{const response=await fetch(endpoint,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});if(!response.ok)throw new Error('Delivery not confirmed');const receipt=await response.json();if(receipt.success!==true)throw new Error('Receipt not confirmed');status.textContent='Your enquiry has been received. We will be in touch.';form.reset();}
    catch(error){status.classList.add('is-error');status.textContent='We could not confirm delivery. Please try again. Your message is still here.';}

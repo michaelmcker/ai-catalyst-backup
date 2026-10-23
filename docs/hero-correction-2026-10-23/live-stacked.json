@@ -1,0 +1,30 @@
+[
+  {
+    "gap": 0,
+    "headerGap": 0,
+    "overflow": 0,
+    "page": "/marketing-investment",
+    "stacked": true
+  },
+  {
+    "gap": 0,
+    "headerGap": 0,
+    "overflow": 0,
+    "page": "/platform",
+    "stacked": true
+  },
+  {
+    "gap": 0,
+    "headerGap": 0,
+    "overflow": 0,
+    "page": "/creator-social",
+    "stacked": true
+  },
+  {
+    "gap": 0,
+    "headerGap": 0,
+    "overflow": 0,
+    "page": "/online-conversion",
+    "stacked": true
+  }
+]

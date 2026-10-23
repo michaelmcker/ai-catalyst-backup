@@ -1,0 +1,882 @@
+[
+  {
+    "art": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 661.28125,
+      "height": 541.3671875,
+      "left": 80.6328125,
+      "right": 684,
+      "top": 119.9140625,
+      "width": 603.3671875
+    },
+    "failures": [],
+    "page": "/solutions.html",
+    "side": true,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 640.8515625,
+      "height": 500.5078125,
+      "left": 80.6328125,
+      "right": 684,
+      "top": 140.34375,
+      "width": 603.3671875
+    },
+    "failures": [],
+    "page": "/company.html",
+    "side": true,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 606.8515625,
+      "height": 432.5078125,
+      "left": 80.6328125,
+      "right": 684,
+      "top": 174.34375,
+      "width": 603.3671875
+    },
+    "failures": [],
+    "page": "/briefing.html",
+    "side": true,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 608.453125,
+      "height": 435.7109375,
+      "left": 80.6328125,
+      "right": 684,
+      "top": 172.7421875,
+      "width": 603.3671875
+    },
+    "failures": [],
+    "page": "/training.html",
+    "side": true,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 981.4765625,
+      "height": 599.875,
+      "left": 0,
+      "right": 1440,
+      "top": 381.6015625,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 381.6015625,
+      "height": 300.6015625,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "failures": [],
+    "page": "/marketing-investment.html",
+    "side": false,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 865.59375,
+      "height": 483.9921875,
+      "left": 0,
+      "right": 1440,
+      "top": 381.6015625,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 381.6015625,
+      "height": 300.6015625,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "failures": [],
+    "page": "/platform.html",
+    "side": false,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 981.4765625,
+      "height": 599.875,
+      "left": 0,
+      "right": 1440,
+      "top": 381.6015625,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 381.6015625,
+      "height": 300.6015625,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "failures": [],
+    "page": "/creator-social.html",
+    "side": false,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 963.5078125,
+      "height": 599.875,
+      "left": 0,
+      "right": 1440,
+      "top": 363.6328125,
+      "width": 1440
+    },
+    "copy": {
+      "bottom": 363.6328125,
+      "height": 282.6328125,
+      "left": 0,
+      "right": 1440,
+      "top": 81,
+      "width": 1440
+    },
+    "failures": [],
+    "page": "/online-conversion.html",
+    "side": false,
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 621,
+      "height": 540,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 582.140625,
+      "height": 462.28125,
+      "left": 40,
+      "right": 486.3984375,
+      "top": 119.859375,
+      "width": 446.3984375
+    },
+    "failures": [],
+    "page": "/solutions.html",
+    "side": true,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 621,
+      "height": 540,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 570.34375,
+      "height": 438.6875,
+      "left": 40,
+      "right": 486.3984375,
+      "top": 131.65625,
+      "width": 446.3984375
+    },
+    "failures": [],
+    "page": "/company.html",
+    "side": true,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 621,
+      "height": 540,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 536.34375,
+      "height": 370.6875,
+      "left": 40,
+      "right": 486.3984375,
+      "top": 165.65625,
+      "width": 446.3984375
+    },
+    "failures": [],
+    "page": "/briefing.html",
+    "side": true,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 621,
+      "height": 540,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 541.84375,
+      "height": 381.6875,
+      "left": 40,
+      "right": 486.3984375,
+      "top": 160.15625,
+      "width": 446.3984375
+    },
+    "failures": [],
+    "page": "/training.html",
+    "side": true,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 794.078125,
+      "height": 426.578125,
+      "left": 0,
+      "right": 1024,
+      "top": 367.5,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "failures": [],
+    "page": "/marketing-investment.html",
+    "side": false,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 711.671875,
+      "height": 344.171875,
+      "left": 0,
+      "right": 1024,
+      "top": 367.5,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "failures": [],
+    "page": "/platform.html",
+    "side": false,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 794.078125,
+      "height": 426.578125,
+      "left": 0,
+      "right": 1024,
+      "top": 367.5,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "failures": [],
+    "page": "/creator-social.html",
+    "side": false,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 765.578125,
+      "height": 426.578125,
+      "left": 0,
+      "right": 1024,
+      "top": 339,
+      "width": 1024
+    },
+    "copy": {
+      "bottom": 339,
+      "height": 258,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024
+    },
+    "failures": [],
+    "page": "/online-conversion.html",
+    "side": false,
+    "width": 1024
+  },
+  {
+    "art": {
+      "bottom": 601,
+      "height": 520,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 539.234375,
+      "height": 458.234375,
+      "left": 40,
+      "right": 368,
+      "top": 81,
+      "width": 328
+    },
+    "failures": [],
+    "page": "/solutions.html",
+    "side": true,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 601,
+      "height": 520,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 471.15625,
+      "height": 390.15625,
+      "left": 40,
+      "right": 368,
+      "top": 81,
+      "width": 328
+    },
+    "failures": [],
+    "page": "/company.html",
+    "side": true,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 601,
+      "height": 520,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 407.15625,
+      "height": 326.15625,
+      "left": 40,
+      "right": 368,
+      "top": 81,
+      "width": 328
+    },
+    "failures": [],
+    "page": "/briefing.html",
+    "side": true,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 601,
+      "height": 520,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 417.15625,
+      "height": 336.15625,
+      "left": 40,
+      "right": 368,
+      "top": 81,
+      "width": 328
+    },
+    "failures": [],
+    "page": "/training.html",
+    "side": true,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 717.9296875,
+      "height": 319.9296875,
+      "left": 0,
+      "right": 768,
+      "top": 398,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 398,
+      "height": 317,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "failures": [],
+    "page": "/marketing-investment.html",
+    "side": false,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 640.71875,
+      "height": 258.125,
+      "left": 0,
+      "right": 768,
+      "top": 382.59375,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 382.59375,
+      "height": 301.59375,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "failures": [],
+    "page": "/platform.html",
+    "side": false,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 717.9296875,
+      "height": 319.9296875,
+      "left": 0,
+      "right": 768,
+      "top": 398,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 398,
+      "height": 317,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "failures": [],
+    "page": "/creator-social.html",
+    "side": false,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 690.9296875,
+      "height": 319.9296875,
+      "left": 0,
+      "right": 768,
+      "top": 371,
+      "width": 768
+    },
+    "copy": {
+      "bottom": 371,
+      "height": 290,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768
+    },
+    "failures": [],
+    "page": "/online-conversion.html",
+    "side": false,
+    "width": 768
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 744.59375,
+      "height": 452.109375,
+      "left": 0,
+      "right": 390,
+      "top": 292.484375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/solutions.html",
+    "side": true,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 333,
+      "height": 260,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 720.40625,
+      "height": 387.40625,
+      "left": 0,
+      "right": 390,
+      "top": 333,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/company.html",
+    "side": true,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 611.890625,
+      "height": 319.40625,
+      "left": 0,
+      "right": 390,
+      "top": 292.484375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/briefing.html",
+    "side": true,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 622.890625,
+      "height": 330.40625,
+      "left": 0,
+      "right": 390,
+      "top": 292.484375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/training.html",
+    "side": true,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 235.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 688.5703125,
+      "height": 453.109375,
+      "left": 0,
+      "right": 390,
+      "top": 235.4609375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/marketing-investment.html",
+    "side": false,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 204.078125,
+      "height": 131.078125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 628.6875,
+      "height": 424.609375,
+      "left": 0,
+      "right": 390,
+      "top": 204.078125,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/platform.html",
+    "side": false,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 235.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 660.0703125,
+      "height": 424.609375,
+      "left": 0,
+      "right": 390,
+      "top": 235.4609375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/creator-social.html",
+    "side": false,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 235.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390
+    },
+    "copy": {
+      "bottom": 631.5703125,
+      "height": 396.109375,
+      "left": 0,
+      "right": 390,
+      "top": 235.4609375,
+      "width": 390
+    },
+    "failures": [],
+    "page": "/online-conversion.html",
+    "side": false,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 253.09375,
+      "height": 180.09375,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 758.7109375,
+      "height": 505.6171875,
+      "left": 0,
+      "right": 320,
+      "top": 253.09375,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/solutions.html",
+    "side": true,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 286.328125,
+      "height": 213.328125,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 728.40625,
+      "height": 442.078125,
+      "left": 0,
+      "right": 320,
+      "top": 286.328125,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/company.html",
+    "side": true,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 253.09375,
+      "height": 180.09375,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 598.671875,
+      "height": 345.578125,
+      "left": 0,
+      "right": 320,
+      "top": 253.09375,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/briefing.html",
+    "side": true,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 253.09375,
+      "height": 180.09375,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 638.171875,
+      "height": 385.078125,
+      "left": 0,
+      "right": 320,
+      "top": 253.09375,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/training.html",
+    "side": true,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 206.3046875,
+      "height": 133.3046875,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 684.421875,
+      "height": 478.1171875,
+      "left": 0,
+      "right": 320,
+      "top": 206.3046875,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/marketing-investment.html",
+    "side": false,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 180.546875,
+      "height": 107.546875,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 641.7578125,
+      "height": 461.2109375,
+      "left": 0,
+      "right": 320,
+      "top": 180.546875,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/platform.html",
+    "side": false,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 206.3046875,
+      "height": 133.3046875,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 684.421875,
+      "height": 478.1171875,
+      "left": 0,
+      "right": 320,
+      "top": 206.3046875,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/creator-social.html",
+    "side": false,
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 206.3046875,
+      "height": 133.3046875,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320
+    },
+    "copy": {
+      "bottom": 691.9609375,
+      "height": 485.65625,
+      "left": 0,
+      "right": 320,
+      "top": 206.3046875,
+      "width": 320
+    },
+    "failures": [],
+    "page": "/online-conversion.html",
+    "side": false,
+    "width": 320
+  }
+]

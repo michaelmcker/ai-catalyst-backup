@@ -29,8 +29,8 @@
       float band=(floor(level)+smoothstep(.38,.62,fract(level)))/3.;
       return .025+band*.17;
     }
-    vec3 paperTone(vec2 pixels,float t,float height){
-      float fade=smoothstep(0.,.14,1.-pixels.y/height);
+    vec3 paperTone(vec2 pixels,float t,float height,float connected){
+      float fade=mix(smoothstep(0.,.14,1.-pixels.y/height),1.,connected);
       // A fixed print screen with smoothly changing ink opacity avoids twinkling dots.
       float dots=step(order8(pixels),.19);
       float density=.48+weather(pixels,t)*1.8;
@@ -58,7 +58,7 @@
     uniform sampler2D source,trail;
     uniform vec2 crop,offset,cssSize,fieldOrigin,fieldSize,texel;
     uniform vec3 pointer;
-    uniform float clock,motion,hero,clearPaper,printStrength,atlas,softness,continuous,printPattern,printDepth,whiteSurface;
+    uniform float clock,motion,hero,clearPaper,printStrength,atlas,softness,continuous,printPattern,printDepth,whiteSurface,connectedPrint;
     uniform vec4 edgeFade;
     ${printing}
     vec3 imageSample(vec2 p){
@@ -83,7 +83,10 @@
       float lum=dot(sampled,vec3(.299,.587,.114)),light=clamp((lum-.10)/.85,0.,1.);
       // Static printing remains when all movement is disabled.
       float local=floor(wake*5.)/5.;
-      float threshold=mix(order4(pixels),order8(pixels),step(.4,local)*.35*v1);
+      // Subpage art and paper share one screen origin, including after reflow.
+      // The homepage retains its approved independent V1 treatment.
+      vec2 printPixels=mix(pixels,worldPixels,connectedPrint);
+      float threshold=mix(order4(printPixels),order8(printPixels),max(connectedPrint,step(.4,local)*.35*v1));
       // Exact V1 tonal weather: source coordinates stay fixed as ink thresholds move.
       float slow=clock*.32;
       float ambient=(sin(v.x*6.+v.y*2.+slow)+.5*sin(v.y*8.-v.x*3.-slow*.7))*.095*motion*v1;
@@ -108,17 +111,20 @@
       vec3 col=mix(base,ink,clamp(printAmount*imageMask+local*.23*v1,0.,1.));
       float bluePass=(movingBand*.045+wake*quietArea*.035)*quietArea*(1.-v1);
       col=mix(col,vec3(.20,.40,.74),bluePass);
-      float whiteArea=mix(smoothstep(.85,.985,lum),smoothstep(.72,.91,lum)*(1.-smoothstep(.025,.10,detail)),clearPaper);
-      vec3 backdrop=hero>.5?mix(paperTone(worldPixels,clock,fieldSize.y),v1Paper(worldPixels,clock,fieldSize,pointer),whiteSurface):paper;
-      if(clearPaper<.5)col=mix(col,backdrop,whiteArea);
+      // Close-up source paper yields to the common field, rather than leaving
+      // a white halo inside the image rectangle. Scenic paintings stay intact.
+      float removePaper=max(clearPaper,connectedPrint*(1.-continuous));
+      float whiteArea=mix(smoothstep(.85,.985,lum),smoothstep(.72,.91,lum)*(1.-smoothstep(.025,.10,detail)),removePaper);
+      vec3 backdrop=hero>.5?mix(paperTone(worldPixels,clock,fieldSize.y,connectedPrint),v1Paper(worldPixels,clock,fieldSize,pointer),whiteSurface):paper;
+      if(removePaper<.5)col=mix(col,backdrop,whiteArea);
       // Feather at the sampled image edges, including letterboxing. Alpha lets
       // the actual shared paper field show through instead of painting a box.
       float edges=mix(1.,smoothstep(0.,max(edgeFade.x,.001),imageUV.x),step(.001,edgeFade.x))*mix(1.,smoothstep(0.,max(edgeFade.y,.001),1.-imageUV.x),step(.001,edgeFade.y))*mix(1.,smoothstep(0.,max(edgeFade.z,.001),imageUV.y),step(.001,edgeFade.z))*mix(1.,smoothstep(0.,max(edgeFade.w,.001),1.-imageUV.y),step(.001,edgeFade.w));
       float feather=mix(edges,step(order8(worldPixels),edges),.52);
-      gl_FragColor=vec4(col,feather*sourceAlpha*(1.-clearPaper*whiteArea));
+      gl_FragColor=vec4(col,feather*sourceAlpha*(1.-removePaper*whiteArea));
     }`;
-  const fieldFragment=`precision highp float;varying vec2 uv;uniform vec2 cssSize;uniform vec3 pointer;uniform float clock,whiteSurface;${printing}
-    void main(){vec2 v=vec2(uv.x,1.-uv.y);gl_FragColor=vec4(mix(paperTone(v*cssSize,clock,cssSize.y),v1Paper(v*cssSize,clock,cssSize,pointer),whiteSurface),1.);}`;
+  const fieldFragment=`precision highp float;varying vec2 uv;uniform vec2 cssSize;uniform vec3 pointer;uniform float clock,whiteSurface,connectedPrint;${printing}
+    void main(){vec2 v=vec2(uv.x,1.-uv.y);gl_FragColor=vec4(mix(paperTone(v*cssSize,clock,cssSize.y,connectedPrint),v1Paper(v*cssSize,clock,cssSize,pointer),whiteSurface),1.);}`;
   const mapFragment=`precision highp float;varying vec2 uv;uniform sampler2D source;uniform vec2 cssSize;uniform vec3 pointer;uniform float clock;${printing}
     void main(){
       vec2 v=vec2(uv.x,1.-uv.y),pixels=v*cssSize;
@@ -156,7 +162,7 @@
     gl.useProgram(program);const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
     gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
     const a=gl.getAttribLocation(program,'p');gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,2,gl.FLOAT,false,0,0);
-    const u={};['source','trail','crop','offset','cssSize','fieldOrigin','fieldSize','clock','motion','hero','clearPaper','printStrength','edgeFade','atlas','texel','softness','continuous','printPattern','printDepth','whiteSurface','pointer'].forEach(n=>u[n]=gl.getUniformLocation(program,n));
+    const u={};['source','trail','crop','offset','cssSize','fieldOrigin','fieldSize','clock','motion','hero','clearPaper','printStrength','edgeFade','atlas','texel','softness','continuous','printPattern','printDepth','whiteSurface','connectedPrint','pointer'].forEach(n=>u[n]=gl.getUniformLocation(program,n));
     const state={canvas,gl,program,u,ready:true,visible:false,dirty:true,hero:false,width:1,height:1,rect:null};
     state.fit=rect=>{state.rect=rect;state.width=rect.width;state.height=rect.height;const ratio=Math.min(devicePixelRatio||1,2,4096/Math.max(1,rect.width,rect.height));canvas.width=Math.max(1,Math.round(rect.width*ratio));canvas.height=Math.max(1,Math.round(rect.height*ratio));gl.viewport(0,0,canvas.width,canvas.height);state.dirty=true;};
     states.add(state);return state;
@@ -167,7 +173,7 @@
   }
   function visibility(element,state,field){new IntersectionObserver(entries=>{state.visible=entries[0].isIntersecting;if(field)field.visible=state.visible;if(state.visible){state.dirty=true;wake();}},{rootMargin:'80px',threshold:0}).observe(element);}
   function heroField(hero,isMap=false){
-    const area=isMap?hero:hero.closest('.art-opening,.hero-scene')||hero;
+    const area=isMap||hero.classList.contains('page-hero')?hero:hero.closest('.art-opening,.hero-scene')||hero;
     if(fields.has(area))return fields.get(area);
     if(!isMap)area.style.setProperty('--art-header-space',getComputedStyle(document.querySelector('#main')).paddingTop);
     const canvas=document.createElement('canvas');
@@ -189,7 +195,7 @@
       if(!field.rect)return;
       const {gl,u}=state;gl.useProgram(state.program);
       if(isMap){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,maskTexture);gl.uniform1i(u.source,0);}
-      gl.uniform1f(u.whiteSurface,whiteSurface?1:0);gl.uniform2f(u.cssSize,state.width,state.height);
+      gl.uniform1f(u.whiteSurface,whiteSurface?1:0);gl.uniform1f(u.connectedPrint,area.classList.contains('page-hero')?1:0);gl.uniform2f(u.cssSize,state.width,state.height);
       gl.uniform3f(u.pointer,...field.cursor);gl.uniform1f(u.clock,time);gl.drawArrays(gl.TRIANGLES,0,6);
     };
     function updateMapMask(){
@@ -265,6 +271,7 @@
           gl.useProgram(state.program);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,source);gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,trail);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,field?field.trail:empty);
           gl.uniform2f(u.crop,...state.crop);gl.uniform2f(u.offset,...state.offset);gl.uniform2f(u.cssSize,state.width,state.height);
           const profile=profiles[stage.dataset.artProfile];
+          gl.uniform1f(u.connectedPrint,isHero&&field?.area.classList.contains('page-hero')?1:0);
           gl.uniform1f(u.printDepth,['map','footer'].includes(stage.dataset.artProfile)?.13:.34);
           gl.uniform1f(u.printPattern,stage.dataset.artPrintPattern==='drift'?2:0);
           gl.uniform1f(u.continuous,['scene','architecture','painting','footer','map'].includes(stage.dataset.artProfile)?1:0);

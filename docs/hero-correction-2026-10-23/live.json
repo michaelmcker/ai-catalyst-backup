@@ -1,0 +1,44 @@
+[
+  {
+    "hero": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "top": 81,
+      "width": 1440
+    },
+    "page": "/solutions",
+    "sideBySide": true,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    }
+  },
+  {
+    "hero": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "top": 81,
+      "width": 1440
+    },
+    "page": "/company",
+    "sideBySide": true,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    }
+  },
+  {
+    "hero": {
+      "bottom": 700.1953125,
+      "height": 619.1953125,
+      "top": 81,
+      "width": 1440
+    },
+    "page": "/briefing",
+    "sideBySide": true,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    }
+  }
+]

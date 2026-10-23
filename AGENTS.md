@@ -28,9 +28,19 @@
 - Tighten image-first openings: no nav-to-art gap, use the source aspect ratio rather than square letterboxing, and keep roughly 18px between art and mobile hero copy. Preserve the entire subject while removing unused image-stage space.
 
 ### Latest motion and composition refinement
-- How We Work uses compact image-first composition through tablet widths of 701–1000px, with artwork directly below the nav and copy 22px below the image.
+- How We Work, Company, Briefing and Training use text left/image right on desktop and tablet, with a continuous patterned field around the subject. Below 701px, retain the complete source image first and copy immediately below.
 - Keep all dither dot positions and thresholds static. Animate only a slow, low-amplitude blue tonal pass, weighted towards brighter, low-detail areas using local luminance and edge contrast. Protect figures, armour and detailed architecture. No animated binary dot thresholds or pointer-driven changes in dot scale. Reduced motion freezes the artwork and field.
 - Remove vertical line overlays and dedicated vertical dither strips throughout V3. Michael rejected them. Preserve the fine print treatment without decorative image slicing.
 - Map routes use discreet, shallow asymmetric curves; one slow, small traveller per route fades before reaching city markers. Preserve the contained map and current background.
 - Command Centre “See the signals. Choose the next move.” is white knockout type directly on a shallower full-width image banner.
 - For selected future stacked artwork, explore simplified background planes with stronger separation from the foreground. Use the existing blue palette and consistent print texture; this is a direction to trial selectively, not approval to recolour the whole image library.
+
+## Current production contract — 23 October 2026
+
+- Deploy only `current-site/` to Randy's Cloudflare Pages project `ai-catalyst`: https://ai-catalyst-9l3.pages.dev/. Mirror changed public files at the repository root. `lovable-source/` and the October 22 backup records are historical archives.
+- `hero-layout.css` defines two primitives. `page-hero--side` is Solutions, Company, Briefing and Training. `page-hero--stacked` is Full Commerce MMM, Commerce Command Centre, Creator Intelligence and Agentic Consumer Intelligence. On wide screens the stacked primitive has headline left, support right and a flush landscape below. Do not convert Solutions into that primitive.
+- The portrait field must remain patterned to every edge without white halos or a bottom fade. The stacked artwork has no spacer, mask or feathered strip between copy and image. Headers join the hero at 81px desktop/tablet and 73px mobile.
+- Public contact is `randy@aicatalyst.biz`, `416-270-0132`, Toronto, Canada. Use mailto/tel links. Remove all LinkedIn contact and profile links, including the founder and advisors, and all Catalyst Retail Solutions references from the public site. A mailto link does not establish mailbox delivery.
+- Every expanded menu includes `Training and adoption` linked to `training.html`, immediately after `How We Work`.
+- Run `python3 scripts/check-public-site.py`, JavaScript syntax checks and rendered desktop/mobile checks after changes. The deployed static snapshot has no npm test script; the archived Lovable app and enclosing portfolio are separate projects.
+- Pattern/hero correction evidence and the rendered pixel regression are documented in `docs/hero-correction-2026-10-23/README.md`.
