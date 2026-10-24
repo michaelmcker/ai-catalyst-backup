@@ -20,6 +20,10 @@ PAGES = ('company','solutions','training')
 WIDTHS = (320,390,430,600)
 BASELINE = ROOT/'docs/safari-wrap-2026-10-23/baseline.json'
 CLIP_TOLERANCE = .5
+APPROVED_PARAGRAPHS = {
+    'solutions': 'We pair senior operators with validated AI in a focused pilot, with initial Full Commerce MMM findings in 2–6 weeks.',
+    'training': 'Practical training gives your team usable tools, a shared way to assess AI output and workflows they can run.',
+}
 
 
 def paragraph_lines(boxes):
@@ -53,7 +57,9 @@ def check_row(row, baseline_texts):
     reading_width = right-left
     require(reading_width>0,'hero reading width is invalid')
     require(abs(headline[0]-left)<=1.5,'headline does not start at the left reading gutter')
-    require(headline[2] <= left+reading_width*.5+1.5,'headline is not confined to the left half of its row')
+    maximum_headline_fraction = .78 if page in APPROVED_PARAGRAPHS else .5
+    require(headline[2] <= left+reading_width*maximum_headline_fraction+1.5,
+            'headline exceeds its approved row width')
     require(headline[2]-headline[0] >= reading_width*.4-1.5,'headline column has collapsed')
     require(art[2] >= left+reading_width*.5,'artwork does not extend into the right half')
     overlap = min(headline[3],art[3])-max(headline[1],art[1])
@@ -65,7 +71,7 @@ def check_row(row, baseline_texts):
     require(separation >= 20-.5,'paragraph begins less than 20px below the complete headline/art row')
     require(float(row['scrollWidth']) <= width+1,'horizontal document overflow exceeds 1px')
     require(row.get('texts') == baseline_texts,
-            'headline, paragraph or action text differs from the unchanged baseline')
+            'headline, paragraph or action text differs from the approved baseline and explicit paragraph revisions')
     mask, mask_info = subject_mask(page)
     to_source, mapping = image_mapping(row)
     if row['image'].get('sha256'):
@@ -105,7 +111,9 @@ def check_row(row, baseline_texts):
     require(not collisions,f'{len(collisions)} character bounds approach protected artwork ink within 10px')
     return {'page':page,'width':width,'browser':row.get('browser','unspecified'),
             'capture_kind':row.get('captureKind','unspecified'),'reading_width_css':reading_width,
-            'paragraph_separation_css':separation,'text_equals_baseline':row.get('texts')==baseline_texts,
+            'paragraph_separation_css':separation,'text_equals_approved':row.get('texts')==baseline_texts,
+            'maximum_headline_fraction':maximum_headline_fraction,
+            'approved_paragraph_revision':page in APPROVED_PARAGRAPHS,
             'tested_character_boxes':tested,'clip_bounds_css':bounds,'clip_tolerance_css':CLIP_TOLERANCE,
             'paragraph_lines':lines,'protected_source_mask':mask_info,'image_mapping':mapping,
             'ink_clearance_css':10,'collisions':collisions[:30],'failures':failures,
@@ -116,6 +124,8 @@ def load_baseline(path):
     rows=json.loads(path.read_text())
     result={row['page']:row['texts'] for row in rows}
     if set(result)!=set(PAGES):raise ValueError('baseline must contain all three original page texts')
+    for page,paragraph in APPROVED_PARAGRAPHS.items():
+        result[page]=dict(result[page],paragraph=paragraph)
     return result
 
 
@@ -141,7 +151,8 @@ def self_test():
         assert check_row(row,texts)['passed'],check_row(row,texts)['failures']
         cases=[]
         narrow=json.loads(json.dumps(row));narrow['paragraph']['right']=200;cases.append((narrow,'complete hero reading width'))
-        short=json.loads(json.dumps(row));short['texts']['paragraph']='PAR';cases.append((short,'unchanged baseline'))
+        short=json.loads(json.dumps(row));short['texts']['paragraph']='PAR';cases.append((short,'approved baseline'))
+        too_wide=json.loads(json.dumps(row));too_wide['headline']['right']=24+342*(.79 if page in APPROVED_PARAGRAPHS else .51)+2;cases.append((too_wide,'approved row width'))
         early=json.loads(json.dumps(row));early['paragraph']['top']=100+height+10;cases.append((early,'20px below'))
         clipped=json.loads(json.dumps(row));clipped['glyphs'][0]['rects'][0]['right']=390.75;cases.append((clipped,'0.5px'))
         split=json.loads(json.dumps(row));split['glyphs'][-1]['rects'][0]['top']+=100;split['glyphs'][-1]['rects'][0]['bottom']+=100;cases.append((split,'inter-line gap'))
@@ -187,7 +198,7 @@ def main():
             'results':results,'failures':failures}
     if args.output:args.output.write_text(json.dumps(report,indent=2)+'\n')
     if failures:raise SystemExit('\n'.join('FAIL: '+value for value in failures))
-    print(f'PASS: {len(results)} mobile rows; exact baseline text, contiguous full-width paragraphs, character bounds and source-ink clearance.')
+    print(f'PASS: {len(results)} mobile rows; exact approved text, contiguous full-width paragraphs, character bounds and source-ink clearance.')
 
 
 if __name__=='__main__':main()

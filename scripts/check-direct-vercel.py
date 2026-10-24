@@ -11,9 +11,17 @@ ROOT=Path(__file__).resolve().parents[1]
 CONTENT=runpy.run_path(str(ROOT/'scripts/apply-approved-content.py'))
 PANO={'platform','creator-social','marketing-investment','online-conversion'}
 ROW={'company','solutions','training'}
-ROW_CACHE='20261023-row1'
+ROW_CACHE='20261023-row2'
 MANIFEST=ROOT/'docs/direct-vercel-2026-10-23/source-manifest.json'
 CACHE='20261023-direct8'
+PARAGRAPH_REVISIONS={
+    'solutions':(
+        'Start with your business problem. We bring validated capabilities, senior operators and a focused pilot. Full Commerce MMM puts initial findings in your hands in 2–6 weeks.',
+        'We pair senior operators with validated AI in a focused pilot, with initial Full Commerce MMM findings in 2–6 weeks.'),
+    'training':(
+        "Practical training built around your team's work. Leave with usable tools, a shared way to evaluate the output and workflows you can run yourselves.",
+        'Practical training gives your team usable tools, a shared way to assess AI output and workflows they can run.'),
+}
 
 def original(path):
     return subprocess.check_output(['git','show','68dbb96:current-site/'+path],cwd=ROOT)
@@ -24,6 +32,10 @@ def expected(path,source):
         CONTENT['validate_result'](source,path)
     if path.endswith('.html'):
         s=source.decode()
+        if Path(path).stem in PARAGRAPH_REVISIONS:
+            before,after=PARAGRAPH_REVISIONS[Path(path).stem]
+            assert s.count('<p>'+before+'</p>')==1,path+': approved paragraph exception does not match its source'
+            s=s.replace('<p>'+before+'</p>','<p>'+after+'</p>',1)
         if Path(path).stem in PANO:
             s=s.replace('class="subpage ','class="subpage migration-pano ',1)
             s=s.replace('class="page-hero ','class="page-hero page-hero--stacked ',1)
@@ -232,7 +244,7 @@ def check():
         if 'hero-layout.css' in html or 'site-assets.js' in html or 'images/optimized' in html:
             fail.append(page+': previous adaptive renderer/delivery imports remain')
     if fail:raise SystemExit('\n'.join('FAIL: '+s for s in fail))
-    print(f'PASS: {len(rows)} Vercel files against the explicit allowlist; original assets/styles/interaction scripts and copy, retained print/weather/pointer calculations, authorized compositor and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
+    print(f'PASS: {len(rows)} Vercel files against the explicit allowlist; original assets/styles/interaction scripts, approved copy including two explicit shorter paragraphs, retained print/weather/pointer calculations, authorized compositor and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--self-test',action='store_true')

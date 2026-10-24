@@ -36,7 +36,12 @@
   transform:none!important;
  }
  body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="company-knight"] .page-hero__art{width:min(105vw,560px)!important;height:min(70vw,373.333px)!important;aspect-ratio:1536/1024!important;margin-right:calc(-1 * var(--gutter) - min(10vw,52px))!important}
- body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="kneeler"] .page-hero__art{width:min(115vw,560px)!important;height:min(64.721vw,315.167px)!important;aspect-ratio:1672/941!important;margin-right:calc(-1 * var(--gutter) - min(5vw,24px))!important}
+ body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="kneeler"] .page-hero__art{width:min(105vw,560px)!important;height:min(59.0939vw,315.167px)!important;aspect-ratio:1672/941!important;margin-top:36px!important;margin-right:calc(-1 * var(--gutter) - min(12vw,48px))!important}
  body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="portrait"] .page-hero__art{width:min(125vw,560px)!important;height:min(70.35vw,315.167px)!important;aspect-ratio:1672/941!important;margin-right:calc(-1 * var(--gutter) - min(5vw,20px))!important}
  body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__art img{object-fit:contain!important;object-position:center center!important}
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="kneeler"],[data-hero-subject="portrait"]) h1{
+  grid-column:1/-1;width:74%!important;
+  font-size:clamp(32px,9.6vw,52px)!important;align-self:start;
+ }
+
 }

@@ -1,3 +1,5 @@
+Latest refinement: the user then requested larger, wider How We Work/Training headlines and shorter subheads. Current source uses row2; see larger-headlines/README.md for the two explicit copy revisions and newer evidence. Earlier captures below retain the original longer text.
+
 # Mobile hero row: full subheads below the artwork
 
 The user rejected splitting supporting copy above and below an illustration.
