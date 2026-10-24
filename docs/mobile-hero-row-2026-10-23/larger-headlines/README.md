@@ -12,3 +12,7 @@ The two explicit paragraphs are the only new copy exceptions in the source verif
 `candidate.json` and 12 page captures cover Company, Solutions and Training at 320/390/430/600 CSS pixels, DPR3. `results.json` passes approved text completeness, unclipped character bounds, full-width uninterrupted paragraphs, >=20px image-to-paragraph separation and actual protected source-ink clearance. Self-tests reject changed copy, clipped characters, paragraph gaps, narrowed paragraphs and source-ink collisions.
 
 Two `native-safari-*-390.png` captures show the actual macOS Safari Responsive Design Mode rendering of the changed pages. They are visual review evidence, not physical iPhone verification. Deployment metadata and live source checks follow publication. Production remains unchanged while the user checks the preview.
+
+## Live preview
+
+https://2022074d.ai-catalyst-9l3.pages.dev/ deployed successfully through the built-in Cloudflare connection, commit cd67b40605947e9e0cab62bf211ca47b501d32fe. Native Safari visually reviewed Solutions and Training at 390px on this exact preview. Browser-loaded Training HTML and mobile-hero-row.css match committed source byte-for-byte. Training was additionally captured at 600px with the full updated paragraph 26px below its artwork. These live checks supplement the 12 local automated records; they are not 12 live checks or physical iPhone verification. Production remains f87c264b-eafd-441a-ade0-d4a03d7f02e4.

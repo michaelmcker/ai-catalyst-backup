@@ -1,0 +1,12 @@
+[
+  {
+    "path": "training.html",
+    "sha256": "970d280dde5f1016d3ef8c3f380a01b3361ae48c437136ce17362fbc60066ea2",
+    "matches_committed_source": true
+  },
+  {
+    "path": "mobile-hero-row.css",
+    "sha256": "36872a7dfcaf624b4aeabad9f56b7687a1f02f0972e35361582d064054ce6429",
+    "matches_committed_source": true
+  }
+]
