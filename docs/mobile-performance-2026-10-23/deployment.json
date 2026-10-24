@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "project": "ai-catalyst",
+  "deployment": "6b31159c-b489-4244-a6ac-d02a84c718ec",
+  "commit": "ff882fa428daba3b43d8c2d13a12a8ccf2390915",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-24T01:17:05.984979Z",
+    "status": "success"
+  },
+  "domains": [
+    {
+      "name": "aicatalyst.biz",
+      "status": "active"
+    },
+    {
+      "name": "www.aicatalyst.biz",
+      "status": "active"
+    }
+  ]
+}

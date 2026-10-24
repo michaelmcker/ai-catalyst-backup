@@ -27,3 +27,11 @@ The captured cold-cache homepage load transferred 3,354,706 bytes in 28 requests
 `rendered-checks.json` contains all nine pages at 1440, 1024, 768, 390 and 320 pixels: 45 checks, all hero images loaded, no horizontal overflow, exact header joins and flush panoramic image/copy joins. Mobile portrait text and image rectangles do not collide. Pixel-identical mobile captures verify the static finish. The film dialog and expanded Training menu route were exercised successfully, with no browser errors.
 
 Screenshots named `ai-catalyst-before-*` show the deployed baseline. `after-*` screenshots show the local correction. Production measurements are recorded separately after publication.
+
+## Published verification
+
+Code revision `ff882fa428daba3b43d8c2d13a12a8ccf2390915` was published through the official built-in Cloudflare connection to Randy's `ai-catalyst` project. Deployment `6b31159c-b489-4244-a6ac-d02a84c718ec` reports success. Both `aicatalyst.biz` and `www.aicatalyst.biz` remain active.
+
+The same cold-cache, narrow-viewport browser check transferred **150,951 bytes in 25 requests**, down **95.5%** from 3,354,706 bytes. The mobile hero response transferred 28,222 bytes including headers. The observed load event was 253 ms versus 718 ms before, on this desktop network. These measurements describe the test connection rather than real-device Core Web Vitals.
+
+`live-checks.json` verifies all nine custom-domain pages: images loaded, zero horizontal overflow, exact header joins and no retired links. The four portrait geometry checks pass on the published pages. `live-*.png` captures their actual production appearance. `performance-live.json` and `deployment.json` retain the network and Cloudflare evidence. Original source bytes for all 25 optimized masters were checked against the previous release and are unchanged.
