@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CONTENT=runpy.run_path(str(ROOT/'scripts/apply-approved-content.py'))
 PANO={'platform','creator-social','marketing-investment','online-conversion'}
 ROW={'company','solutions','training','briefing'}
-ROW_CACHE='20261024-row4'
+ROW_CACHE='20261024-row5'
 MANIFEST=ROOT/'docs/direct-vercel-2026-10-23/source-manifest.json'
 CACHE='20261023-direct8'
 RENDERER_CACHE='20261024-direct9'
@@ -55,8 +55,8 @@ def revise_paragraph(source,page):
     source=source.replace('<p>'+before+'</p>','<p>'+after+'</p>',1)
     if page=='training':
         headline='<h1>Put AI to work. Make it yours.</h1>'
-        assert source.count(headline)==1,'training: approved shorter headline does not match its source'
-        source=source.replace(headline,'<h1>Put AI to work.</h1>',1)
+        assert source.count(headline)==1,'training: original complete headline markup differs'
+        source=source.replace(headline,'<h1><span class="training-headline__opening">Put AI to work.</span> <span class="training-headline__closing">Make it yours.</span></h1>',1)
     return source
 
 def delivery_manifest():

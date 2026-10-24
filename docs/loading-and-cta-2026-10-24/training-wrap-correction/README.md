@@ -1,0 +1,7 @@
+# Restore Training headline and adjust its phone wrapping
+
+The preceding shortened headline was an agent misinterpretation. The user explicitly confirmed the complete headline must be “Put AI to work. Make it yours.” This correction restores every word. Sentence spans provide line-break control without changing the visible copy; only at700px and below are they blocks, with the lower sentence limited to80% of the existing heading column so it clears the portrait/sword. All paragraph, metadata, action, image, compositor and loading code remains unchanged. The row stylesheet cache key is20261024-row5. Desktop/tablet spans remain ordinary inline text.
+
+Fresh Training geometry/character captures cover320,390,430,600,768,1024,1440px atDPR3 in training-all-widths.json. rows.json combines the four fresh phone records with the twelve unchanged records from the preceding four-page proof. The row verifier passes all16 records, preserving complete copy, contiguous full-width subheads below the artwork, no clipping/overflow and10px protected source-ink clearance. Native macOS Safari Responsive Design Mode captures at320/390px verify the actual restored wording and wrapping. Physical iPhone review remains with Michael.
+
+Checks: check-public-site.py; check-direct-vercel.py --self-test; check-direct-vercel.py; check-mobile-hero-row.py using this directory’s rows.json. No npm test script exists in this static snapshot.
