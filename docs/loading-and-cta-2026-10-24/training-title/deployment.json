@@ -1,0 +1,25 @@
+{
+  "preview": {
+    "id": "cf2e415b-3139-45d2-b3fa-5650a9550c11",
+    "url": "https://cf2e415b.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T05:48:13.204919Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "74e07c113f354886a1829e87c0676283df189a23",
+        "commit_message": "Shorten Training headline to Put AI to work",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "publicFileCount": 104,
+  "physicalIPhoneVerification": "pending user preview review"
+}
