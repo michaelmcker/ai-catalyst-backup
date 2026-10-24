@@ -41,9 +41,14 @@ def image(tag):
     tag = set_attr(tag, 'srcset', ', '.join(f'{target} {width}w' for target, width in zip(targets, widths)))
     if portrait:
         sizes = '(max-width:700px) 40vw, 280px'
-    elif attr(tag, 'fetchpriority') == 'high' or any(part in source for part in ['sword-hand', 'company-knight', 'kneeling-courtyard', 'briefing-arcade', 'portrait-halftone']):
-        sizes = '(max-width:700px) 40vw, 60vw'
+    elif 'sword-hand' in source:
+        sizes = '(max-width:700px) 72vw, 62vw'
         tag = set_attr(tag, 'fetchpriority', 'high')
+    elif any(part in source for part in ['company-knight', 'kneeling-courtyard', 'briefing-arcade', 'portrait-halftone']):
+        sizes = '(max-width:700px) 40vw, 52vw'
+        tag = set_attr(tag, 'fetchpriority', 'high')
+    elif attr(tag, 'fetchpriority') == 'high' or '/art-v4/' in source or 'bridge-halftone' in source:
+        sizes = '100vw'
     else:
         sizes = '(max-width:700px) 100vw, 60vw'
     return set_attr(tag, 'sizes', sizes)

@@ -8,9 +8,11 @@ Public contact: `randy@aicatalyst.biz`, `416-270-0132`, Toronto, Canada. Randy c
 
 Validate source with `python3 scripts/check-public-site.py`. Rendered hero/pattern evidence is in `docs/hero-correction-2026-10-23/`. Deployment uploads only `current-site/`, excluding instructions, review material, historical exports and evidence.
 
-The latest mobile correction keeps Home, Company, How We Work, Briefing and Training in a compact text-left/image-right composition on phones. Panoramic engine pages retain image-first mobile openings. Halftone movement freezes on phones, and the heavy binary print overlay is replaced by a subtle tonal finish. Responsive, fingerprinted image variants preserve the source masters while reducing the four main mobile hero images to 16–28 KB. Lower-page product images and optional artwork renderers initialise near their section.
+The latest visual repair restores the substantial right-hand Home figure and full-width mobile headline. Company, How We Work, Briefing and Training retain text left/image right. All four panoramic pages place their headline section first and the full-width image directly below at every breakpoint; desktop puts headline left and support right.
 
-Rebuild delivery images with `python3 scripts/build-image-variants.py` (requires cwebp), then mirror changed public files to the root. Run `python3 scripts/check-image-budget.py` and `python3 scripts/check-mobile-hero.py docs/mobile-performance-2026-10-23/mobile-after.json`. Before/after screenshots, the cold-load baseline and the 45 viewport checks are in `docs/mobile-performance-2026-10-23/`.
+The original Vercel composition informs scale, but its dithering was also flawed. The revised finish retains modeled image shading, with a restrained fixed-grain screen and a continuous field behind copy and artwork. It removes the extra Home multiply layer, heavy scenic drift and shader blur of already-resampled images. Texture sampling uses the selected srcset width, because naturalWidth is density-corrected and can be much smaller than the uploaded bitmap.
+
+Rebuild delivery images with `python3 scripts/build-image-variants.py` (requires cwebp), then mirror changed public files to the root. Run `python3 scripts/check-image-budget.py` and `python3 scripts/check-mobile-hero.py docs/visual-repair-2026-10-23/rendered-checks.json`. Current screenshots and checks are in `docs/visual-repair-2026-10-23/`. The previous mobile-performance folder records the rejected release, including its incorrect compact Home and image-first panorama assumptions.
 
 ## Original backup — 22 October 2026
 

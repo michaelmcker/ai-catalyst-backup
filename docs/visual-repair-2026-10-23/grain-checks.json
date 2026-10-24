@@ -1,0 +1,110 @@
+[
+  {
+    "page": "index",
+    "width": 390,
+    "blueFraction": 0.529,
+    "meanBrightness": 251.09
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "blueFraction": 0.458,
+    "meanBrightness": 251.01
+  },
+  {
+    "page": "company",
+    "width": 390,
+    "blueFraction": 0.445,
+    "meanBrightness": 251.07
+  },
+  {
+    "page": "briefing",
+    "width": 390,
+    "blueFraction": 0.561,
+    "meanBrightness": 251.14
+  },
+  {
+    "page": "training",
+    "width": 390,
+    "blueFraction": 0.458,
+    "meanBrightness": 251.01
+  },
+  {
+    "page": "platform",
+    "width": 390,
+    "blueFraction": 0.458,
+    "meanBrightness": 251.01
+  },
+  {
+    "page": "creator-social",
+    "width": 390,
+    "blueFraction": 0.542,
+    "meanBrightness": 251.03
+  },
+  {
+    "page": "marketing-investment",
+    "width": 390,
+    "blueFraction": 0.548,
+    "meanBrightness": 251.01
+  },
+  {
+    "page": "online-conversion",
+    "width": 390,
+    "blueFraction": 0.539,
+    "meanBrightness": 251.02
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.91
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  },
+  {
+    "page": "company",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  },
+  {
+    "page": "briefing",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  },
+  {
+    "page": "training",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  },
+  {
+    "page": "platform",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  },
+  {
+    "page": "creator-social",
+    "width": 1440,
+    "blueFraction": 0.284,
+    "meanBrightness": 251.95
+  },
+  {
+    "page": "marketing-investment",
+    "width": 1440,
+    "blueFraction": 0.284,
+    "meanBrightness": 251.92
+  },
+  {
+    "page": "online-conversion",
+    "width": 1440,
+    "blueFraction": 0.291,
+    "meanBrightness": 251.9
+  }
+]

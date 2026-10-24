@@ -1,0 +1,452 @@
+[
+  {
+    "art": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 465.9609375,
+      "height": 392.9609375,
+      "left": 0,
+      "right": 225,
+      "top": 73,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 473,
+      "height": 400,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 280.375,
+      "height": 177.375,
+      "left": 24,
+      "right": 209,
+      "top": 103,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 473,
+      "height": 400,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "naturalHeight": 104,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 60vw",
+    "src": "https://aicatalyst.biz/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "srcset": "images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp 640w, images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp 1280w",
+    "textureWidth": null,
+    "url": "https://aicatalyst.biz/",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 199.0390625,
+      "height": 126.0390625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 620.15625,
+      "height": 421.1171875,
+      "left": 0,
+      "right": 375,
+      "top": 199.0390625,
+      "width": 375,
+      "x": 0,
+      "y": 199.0390625
+    },
+    "field": {
+      "bottom": 620.15625,
+      "height": 547.15625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 329.15625,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 221.0390625,
+      "width": 327,
+      "x": 24,
+      "y": 221.0390625
+    },
+    "hero": {
+      "bottom": 620.15625,
+      "height": 547.15625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 199.0390625,
+      "height": 126.0390625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "naturalHeight": 52,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 60vw",
+    "src": "https://aicatalyst.biz/images/optimized/mounted-approach-panel-v1-640-ad5b2a095e.webp",
+    "srcset": "images/optimized/mounted-approach-panel-v1-640-ad5b2a095e.webp 640w, images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp 1280w",
+    "support": {
+      "bottom": 588.15625,
+      "height": 239,
+      "left": 24,
+      "right": 351,
+      "top": 349.15625,
+      "width": 327,
+      "x": 24,
+      "y": 349.15625
+    },
+    "textureWidth": null,
+    "url": "https://aicatalyst.biz/platform",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 678.828125,
+      "height": 449.6171875,
+      "left": 0,
+      "right": 375,
+      "top": 229.2109375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "field": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 251.2109375,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "naturalHeight": 65,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 60vw",
+    "src": "https://aicatalyst.biz/images/optimized/cavalry-panel-v1-640-34345c27ef.webp",
+    "srcset": "images/optimized/cavalry-panel-v1-640-34345c27ef.webp 640w, images/optimized/cavalry-panel-v1-1280-5125d1d614.webp 1280w",
+    "support": {
+      "bottom": 646.828125,
+      "height": 267.5,
+      "left": 24,
+      "right": 351,
+      "top": 379.328125,
+      "width": 327,
+      "x": 24,
+      "y": 379.328125
+    },
+    "textureWidth": null,
+    "url": "https://aicatalyst.biz/creator-social",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 678.828125,
+      "height": 449.6171875,
+      "left": 0,
+      "right": 375,
+      "top": 229.2109375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "field": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 251.2109375,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "naturalHeight": 65,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 60vw",
+    "src": "https://aicatalyst.biz/images/optimized/river-approach-panel-v1-640-2077f55f3b.webp",
+    "srcset": "images/optimized/river-approach-panel-v1-640-2077f55f3b.webp 640w, images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp 1280w",
+    "support": {
+      "bottom": 646.828125,
+      "height": 267.5,
+      "left": 24,
+      "right": 351,
+      "top": 379.328125,
+      "width": 327,
+      "x": 24,
+      "y": 379.328125
+    },
+    "textureWidth": null,
+    "url": "https://aicatalyst.biz/marketing-investment",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 650.328125,
+      "height": 421.1171875,
+      "left": 0,
+      "right": 375,
+      "top": 229.2109375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "field": {
+      "bottom": 650.328125,
+      "height": 577.328125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 251.2109375,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 650.328125,
+      "height": 577.328125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 229.2109375,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "naturalHeight": 65,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 60vw",
+    "src": "https://aicatalyst.biz/images/optimized/coastal-cavalry-panel-v1-640-c0c7b62362.webp",
+    "srcset": "images/optimized/coastal-cavalry-panel-v1-640-c0c7b62362.webp 640w, images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp 1280w",
+    "support": {
+      "bottom": 618.328125,
+      "height": 239,
+      "left": 24,
+      "right": 351,
+      "top": 379.328125,
+      "width": 327,
+      "x": 24,
+      "y": 379.328125
+    },
+    "textureWidth": null,
+    "url": "https://aicatalyst.biz/online-conversion",
+    "width": 390
+  }
+]

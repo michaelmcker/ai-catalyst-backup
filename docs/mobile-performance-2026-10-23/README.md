@@ -1,3 +1,5 @@
+> Superseded visual release: Michael rejected the compact Home composition and image-first panoramic mobile openings after publication. The responsive image change also exposed a shader sampling bug. Geometry and static-motion assertions below describe that rejected release, not current acceptance criteria. See ../visual-repair-2026-10-23/ for the repair. Original network captures remain historical measurements.
+
 # Mobile portrait heroes and image delivery
 
 The reported phone issue was reproduced on the deployed site: Home used a 72%-wide off-screen image stage, while Company, How We Work and Briefing placed full-width artwork above their copy. The portrait heroes now retain smaller right-hand artwork and left-hand copy on phones. The existing panoramic primitive remains separate.

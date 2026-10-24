@@ -1,25 +1,32 @@
 /* Progressive print enhancement. Keep source shading, a quiet shared paper
-   field and fixed dot positions. Phones render once rather than every frame. */
+   field and fixed dot positions. Texture sampling uses decoded pixel sizes. */
 (() => {
   'use strict';
   const reduced=matchMedia('(prefers-reduced-motion: reduce)'),compact=matchMedia('(max-width:700px)'),states=new Set(),fields=new Map();
   // Each source retains its own halftone base. These profiles add screen-scale print.
   const profiles={
-    scene:{print:.68,softness:1.8,edges:'0 0 0 0'},
-    architecture:{print:.58,softness:1.3,edges:'.035 .035 .08 .12'},
-    painting:{print:.62,softness:1.6,edges:'.035 .035 .08 .12'},
-    close:{print:.18,softness:.4,edges:'.12 .08 .12 .18'},
+    scene:{print:.20,softness:1.8,edges:'0 0 0 0'},
+    architecture:{print:.24,softness:1.3,edges:'.035 .035 .08 .12'},
+    painting:{print:.24,softness:1.6,edges:'.035 .035 .08 .12'},
+    close:{print:.32,softness:.4,edges:'.12 .08 .12 .18'},
     footer:{print:.20,softness:.6,edges:'.015 .015 .05 .08'},
     map:{print:.10,softness:0,edges:'0 0 0 0'}
   };
   function setting(value,fallback){return value!==undefined&&value!==''&&Number.isFinite(Number(value))?Number(value):fallback;}
   let frame=0,last=0,clock=0;
-  const motionPaused=()=>reduced.matches||compact.matches||document.body.classList.contains('motion-paused');
+  const motionPaused=()=>reduced.matches||document.body.classList.contains('motion-paused');
   const vertex='attribute vec2 p;varying vec2 uv;void main(){uv=p*.5+.5;gl_Position=vec4(p,0.,1.);}';
   const printing=`
     float b2(vec2 p){vec2 a=mod(floor(p),2.);return 2.*a.x+3.*a.y-4.*a.x*a.y;}
     float order4(vec2 p){return (4.*b2(p)+b2(p/2.)+.5)/16.;}
     float order8(vec2 p){return (16.*b2(p)+4.*b2(p/2.)+b2(p/4.)+.5)/64.;}
+    float printScreen(vec2 pixels){
+      // Fixed one-CSS-pixel ink grains avoid the grid formed by a tiled Bayer screen.
+      vec2 cell=floor(pixels);
+      vec3 seed=fract(vec3(cell.xyx)*.1031);
+      seed+=dot(seed,seed.yzx+33.33);
+      return fract((seed.x+seed.y)*seed.z);
+    }
     float weather(vec2 pixels,float t){
       vec2 world=pixels/1100.;t*=.19;
       float bend=.22*sin(world.x*4.8+t*.7)+.10*sin(world.x*9.-t*.5);
@@ -31,8 +38,8 @@
     vec3 paperTone(vec2 pixels,float t,float height,float connected){
       float fade=mix(smoothstep(0.,.14,1.-pixels.y/height),1.,connected);
       // A fixed print screen with smoothly changing ink opacity avoids twinkling dots.
-      float dots=step(order8(pixels),.12);
-      float density=.20+weather(pixels,t)*.65;
+      float dots=step(printScreen(pixels),.14);
+      float density=.18+.36*smoothstep(.05,.22,weather(pixels,t));
       return mix(vec3(1.),vec3(.58,.74,.94),dots*density*fade);
     }
     float v1Field(vec2 pixels,float clock,vec2 size,vec3 pointer){
@@ -82,10 +89,9 @@
       float lum=dot(sampled,vec3(.299,.587,.114)),light=clamp((lum-.10)/.85,0.,1.);
       // Static printing remains when all movement is disabled.
       float local=floor(wake*5.)/5.;
-      // Subpage art and paper share one screen origin, including after reflow.
-      // The homepage retains its approved independent V1 treatment.
+      // Every hero and its paper share one fixed screen origin after reflow.
       vec2 printPixels=mix(pixels,worldPixels,connectedPrint);
-      float threshold=mix(order4(printPixels),order8(printPixels),max(connectedPrint,step(.4,local)*.35*v1));
+      float threshold=printScreen(printPixels);
       // Exact V1 tonal weather: source coordinates stay fixed as ink thresholds move.
       float slow=clock*.32;
       float ambient=(sin(v.x*6.+v.y*2.+slow)+.5*sin(v.y*8.-v.x*3.-slow*.7))*.095*motion*v1;
@@ -141,7 +147,7 @@
   function wake(){if(!frame&&!document.hidden)frame=requestAnimationFrame(tick);}
   function tick(now){
     frame=0;if(document.hidden)return;
-    if(now-last<1000/24){wake();return;}
+    if(now-last<1000/(compact.matches?18:24)){wake();return;}
     const dt=Math.min(.05,last?(now-last)/1000:1/24);last=now;
     const paused=motionPaused();if(!paused)clock+=dt;
     for(const field of fields.values())if(field.visible)field.update(dt);
@@ -177,8 +183,8 @@
     if(!isMap)area.style.setProperty('--art-header-space',getComputedStyle(document.querySelector('#main')).paddingTop);
     const canvas=document.createElement('canvas');
     canvas.className=isMap?'map-dither-field':'site-hero-field';canvas.setAttribute('aria-hidden','true');
-    // The homepage's single print field sits over the complete art composition.
-    // White source pixels cannot erase it at the rectangular image boundary.
+    // One paper field sits behind the complete hero composition.
+    // Close-up source paper reveals it without a second multiply layer.
     const whiteHero=!isMap&&area.dataset.artSurface==='white-flow';
     (whiteHero?hero:area).prepend(canvas);
     let state;
@@ -187,7 +193,7 @@
     const trail=document.createElement('canvas'),ctx=trail.getContext('2d',{alpha:false});
     const whiteSurface=isMap||area.dataset.artSurface==='white-flow';
     const field={area,state,trail,ctx,whiteSurface,visible:false,rect:null,pending:[],previous:null,cursor:[0,0,0],elapsed:0,scrollStamp:null};
-    state.hero=true;area.dataset.artMotion=isMap?'v1-dithered-land':'v1-density-and-wake';
+    state.hero=true;area.dataset.artMotion=isMap?'v1-dithered-land':'fixed-grain-tonal-pass';
     let maskTexture=null,maskGeneration=0;
     if(isMap){maskTexture=texture(state,state.gl.TEXTURE0);state.ready=false;}
     state.draw=time=>{
@@ -252,6 +258,13 @@
     canvas.addEventListener('webglcontextlost',()=>{state.ready=false;area.classList.remove('map-dither-ready');});
     visibility(area,state,field);fields.set(area,field);return field;
   }
+  function sourcePixels(img){
+    // naturalWidth is density-corrected by srcset/sizes. It is not the GL
+    // texture width: a 640px image can report 156px on a narrow viewport.
+    const selected=(img.srcset||'').split(',').map(value=>value.trim().split(/\s+/)).find(([url])=>url&&new URL(url,document.baseURI).href===img.currentSrc);
+    const width=selected&&/w$/.test(selected[1]||'')?parseFloat(selected[1]):img.naturalWidth;
+    return [width,width*img.naturalHeight/img.naturalWidth];
+  }
   function position(value,fallback){if(value==='left'||value==='top')return 0;if(value==='right'||value==='bottom')return 1;const number=parseFloat(value);return Number.isFinite(number)&&value.includes('%')?number/100:fallback;}
   function setup(stage){
     const img=stage.querySelector('img');if(!img)return;
@@ -260,7 +273,7 @@
       const canvas=stage.querySelector('canvas')||document.createElement('canvas');canvas.className='site-art-tones';canvas.setAttribute('aria-hidden','true');if(!canvas.parentElement)stage.append(canvas);
       try{
         const state=renderer(canvas,imageFragment);if(!state){canvas.remove();return;}
-        const {gl,u}=state;state.hero=isHero;stage.dataset.artLayers=isHero?'base-static-moving':'base-static';stage.dataset.artMotion=isHero&&field?.whiteSurface?'v1-threshold-and-wake':isHero?'luminance-edge-aware-tone':'static';
+        const {gl,u}=state;state.hero=isHero;stage.dataset.artLayers=isHero?'base-static-moving':'base-static';stage.dataset.artMotion=isHero?'fixed-grain-tonal-pass':'static';
         const source=texture(state,gl.TEXTURE0);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);
         const trail=texture(state,gl.TEXTURE1),empty=document.createElement('canvas');empty.width=empty.height=1;gl.uniform1i(u.source,0);gl.uniform1i(u.trail,1);
         function measure(){const r=stage.getBoundingClientRect();if(!r.width||!r.height||!img.complete||!img.naturalWidth)return;const styles=getComputedStyle(img),values=styles.objectPosition.split(' '),scale=(styles.objectFit==='contain'?Math.min:Math.max)(r.width/img.naturalWidth,r.height/img.naturalHeight),cx=r.width/(img.naturalWidth*scale),cy=r.height/(img.naturalHeight*scale);state.crop=[cx,cy];state.offset=[(1-cx)*position(values[0],.5),(1-cy)*position(values[1],.5)];if(stage.dataset.artCrop){const [x,y,w,h]=stage.dataset.artCrop.split(' ').map(Number);state.crop=[w,h];state.offset=[x,y];}state.fit(r);stage.dataset.ditherCell='1-css-px';wake();}
@@ -270,11 +283,12 @@
           gl.useProgram(state.program);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,source);gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,trail);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,field?field.trail:empty);
           gl.uniform2f(u.crop,...state.crop);gl.uniform2f(u.offset,...state.offset);gl.uniform2f(u.cssSize,state.width,state.height);
           const profile=profiles[stage.dataset.artProfile];
-          gl.uniform1f(u.connectedPrint,isHero&&field?.area.classList.contains('page-hero')?1:0);
-          gl.uniform1f(u.printDepth,['map','footer'].includes(stage.dataset.artProfile)?.13:.34);
+          gl.uniform1f(u.connectedPrint,isHero?1:0);
+          gl.uniform1f(u.printDepth,['map','footer','scene','architecture','painting'].includes(stage.dataset.artProfile)?.13:.22);
           gl.uniform1f(u.printPattern,stage.dataset.artPrintPattern==='drift'?2:0);
           gl.uniform1f(u.continuous,1);
-          gl.uniform2f(u.texel,1/img.naturalWidth,1/img.naturalHeight);gl.uniform1f(u.softness,setting(stage.dataset.artSoftness,profile?profile.softness:0));
+          const pixels=sourcePixels(img);stage.dataset.artTextureWidth=String(pixels[0]);
+          gl.uniform2f(u.texel,1/pixels[0],1/pixels[1]);gl.uniform1f(u.softness,setting(stage.dataset.artSoftness,img.srcset?0:profile?profile.softness:0));
           gl.uniform2f(u.fieldOrigin,field?state.rect.left-field.rect.left:0,field?state.rect.top-field.rect.top:0);gl.uniform2f(u.fieldSize,field?field.rect.width:1,field?field.rect.height:1);
           const defaultEdges=isHero?'.24 .13 .17 .3':'.08 .08 .17 .22';
           const edges=(stage.dataset.artFeather||(profile?profile.edges:defaultEdges)).split(' ').map(Number);
