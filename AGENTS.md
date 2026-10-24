@@ -2,7 +2,7 @@
 
 ## Latest instruction: preserve Vercel artwork and the requested mobile/performance repairs
 
-- The website logo now uses navy#0A2A5C text and three stars with a thin navy pill outline and transparent interior. Preserve its existing paths and dimensions. The exact filled navy variant is retained for other uses at brand/ai-catalyst-logo-filled-navy.svg. This supersedes the filled-pill website treatment below. See docs/logo-outline-2026-10-24/.
+- The website logo now uses navy#0A2A5C text and three stars with a thin navy pill outline and transparent interior. Preserve its existing paths and dimensions. The exact filled navy variant is retained for other uses at brand/ai-catalyst-logo-filled-navy.svg. Current production41144941-c60d-46a2-a55e-a7f063d960de applies this one-file update and reuses103 unchanged assets. This supersedes the filled-pill website treatment below. See docs/logo-outline-2026-10-24/.
 
 - The approved logo exception replaces only assets/logo.svg with the recreated navy#0A2A5C pill and client-layout-v3.css with the three exact logo sizing substitutions. Preserve header heights and every other public file. Current production b918019d-16b5-486b-b387-a6e3ff4a6f35 was published by uploading only those two paths and reusing102 assets. Reference and two-file manifest proof: docs/logo-swap-2026-10-24/. Never restore an older snapshot for this change.
 

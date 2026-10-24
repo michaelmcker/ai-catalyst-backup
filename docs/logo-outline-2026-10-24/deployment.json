@@ -1,0 +1,31 @@
+{
+  "deployment": {
+    "id": "41144941-c60d-46a2-a55e-a7f063d960de",
+    "url": "https://41144941.ai-catalyst-9l3.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T16:27:40.351994Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "4d3c734a310f5db42768df9d5a682f8a4db95333",
+        "commit_message": "Use navy text and stars with thin pill outline; preserve filled logo backup",
+        "commit_dirty": false
+      }
+    }
+  },
+  "canonical": "41144941-c60d-46a2-a55e-a7f063d960de",
+  "previousProduction": "b918019d-16b5-486b-b387-a6e3ff4a6f35",
+  "uploadedFiles": [
+    "/assets/logo.svg"
+  ],
+  "reusedLiveAssets": 103,
+  "fullSiteUpload": false,
+  "filledBackup": "brand/ai-catalyst-logo-filled-navy.svg",
+  "svgSHA256": "b8383198c725e7b6b7b31b21fa7b2f25062220af050ccfd6ce5d1cbcc9dc50d6"
+}

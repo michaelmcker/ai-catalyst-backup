@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://aicatalyst.biz/assets/logo.svg",
+    "status": 200,
+    "sha256": "b8383198c725e7b6b7b31b21fa7b2f25062220af050ccfd6ce5d1cbcc9dc50d6",
+    "matches_local_exactly": true
+  },
+  {
+    "url": "https://aicatalyst.biz/client-layout-v3.css",
+    "status": 200,
+    "sha256": "9c258da3c24a61030b43ba441582fc88970d14862ed31cc69840afd49e93e294",
+    "matches_local_exactly": true
+  }
+]
