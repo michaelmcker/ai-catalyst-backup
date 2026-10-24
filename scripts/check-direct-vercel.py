@@ -19,8 +19,8 @@ CACHE='20261023-direct8'
 RENDERER_CACHE='20261024-direct9'
 IMAGE_LOADER_CACHE='20261024-load1'
 IMAGE_LOADER_SHA256='767f07d5b0d122a1cd792a5c3dac0108d15f290ba16cc6f6e9f158b0573f044d'
-APPROVED_LOGO_SHA256='b8383198c725e7b6b7b31b21fa7b2f25062220af050ccfd6ce5d1cbcc9dc50d6'
-LOGO_URL='assets/logo.svg?v=outline-b8383198'
+APPROVED_LOGO_SHA256='60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84'
+LOGO_URL='assets/logo.svg?v=filled-60a31d37'
 DEFERRED_IMAGE_COUNTS={'index.html':2,'company.html':9,'briefing.html':2,'solutions.html':3,
                        'training.html':3,'platform.html':3,'creator-social.html':2,
                        'marketing-investment.html':3,'online-conversion.html':3}
@@ -429,8 +429,8 @@ def check():
             fail.append(path+': downloaded Vercel source differs from reference')
         if path=='assets/logo.svg':
             logo=(ROOT/'current-site'/path).read_bytes()
-            if hashlib.sha256(logo).hexdigest()!=APPROVED_LOGO_SHA256 or len(logo)!=4041:
-                fail.append(path+': differs from the exact approved outlined pill logo artwork')
+            if hashlib.sha256(logo).hexdigest()!=APPROVED_LOGO_SHA256 or len(logo)!=4044:
+                fail.append(path+': differs from the exact approved filled pill logo artwork')
             if (ROOT/path).read_bytes()!=logo:fail.append(path+': logo root mirror differs')
             continue
         if path=='halftone-rendering.js':
@@ -471,7 +471,7 @@ def check():
         if 'hero-layout.css' in html or 'site-assets.js' in html or 'images/optimized' in html:
             fail.append(page+': previous adaptive renderer/delivery imports remain')
     if fail:raise SystemExit('\n'.join('FAIL: '+s for s in fail))
-    print(f'PASS: {len(rows)} Vercel files and {derivatives} hash/dimension/alpha/RGB-checked derivatives against the explicit allowlist; exact approved outlined pill logo artwork and three sizing substitutions; 30 deferred images with exact noscript fallbacks and the hash/behavior-checked hero-first loader; original image masters and other styles/interaction scripts, approved copy including three explicit shorter paragraphs, vector arrows, retained print/weather/pointer calculations, authorized compositor, viewport scheduling and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
+    print(f'PASS: {len(rows)} Vercel files and {derivatives} hash/dimension/alpha/RGB-checked derivatives against the explicit allowlist; exact approved filled pill logo artwork and three sizing substitutions; 30 deferred images with exact noscript fallbacks and the hash/behavior-checked hero-first loader; original image masters and other styles/interaction scripts, approved copy including three explicit shorter paragraphs, vector arrows, retained print/weather/pointer calculations, authorized compositor, viewport scheduling and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--self-test',action='store_true')

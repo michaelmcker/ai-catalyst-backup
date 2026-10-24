@@ -1,0 +1,66 @@
+{
+  "total": 104,
+  "unchanged": 94,
+  "changed": [
+    {
+      "path": "/briefing.html",
+      "before": "eb3f889e2245204bc70d53d4ce673201",
+      "after": "0be7e93c59c282cc8c29da6c8f46a4bf",
+      "bytes": 7985
+    },
+    {
+      "path": "/company.html",
+      "before": "7eb5e44ad056ee1e08b98a1342f26dfc",
+      "after": "e118661333530d24c4a18c46c502e99a",
+      "bytes": 14310
+    },
+    {
+      "path": "/creator-social.html",
+      "before": "bc6f925838b5b5aed05c47450afe1f56",
+      "after": "e079402b0b96e3b4311c979eeb43764f",
+      "bytes": 11384
+    },
+    {
+      "path": "/index.html",
+      "before": "44613a97c04e409f943d100c8ab2070b",
+      "after": "b3adedcc8f0b5f51e26a3adac6047533",
+      "bytes": 52183
+    },
+    {
+      "path": "/marketing-investment.html",
+      "before": "d6cb06a2f399f2fceefc3430e1f3deb2",
+      "after": "57cd24e47efe69aa2547f5857a463444",
+      "bytes": 13520
+    },
+    {
+      "path": "/online-conversion.html",
+      "before": "37084dfd7315fde3d5a883dcf313ce93",
+      "after": "3d296bfe1f80395f4bb87445f7ca5753",
+      "bytes": 14418
+    },
+    {
+      "path": "/platform.html",
+      "before": "2a58b94ac9a8432f517f3eae4c703a00",
+      "after": "0125f13093b2045f51586e9191c41580",
+      "bytes": 44647
+    },
+    {
+      "path": "/solutions.html",
+      "before": "88abaca2b5c908e5ad6be4edcd9d6b82",
+      "after": "73ef539a9fa2a6efc0ed7e9a3d6cb1e2",
+      "bytes": 11846
+    },
+    {
+      "path": "/training.html",
+      "before": "e59790d1ebfaa8a5745d3bf9b559e1cd",
+      "after": "d41edea35b131d67080dc206ed37fb87",
+      "bytes": 10262
+    },
+    {
+      "path": "/assets/logo.svg",
+      "before": "39dfb1b5259d859a15028d0e6b363306",
+      "after": "532bccd7068650114022cecd80c2cd0c",
+      "bytes": 4044
+    }
+  ]
+}
