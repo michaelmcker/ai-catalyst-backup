@@ -1,0 +1,34 @@
+{
+  "deployment": {
+    "id": "d6752c2e-90e0-48d4-957e-d40812a028f5",
+    "url": "https://d6752c2e.ai-catalyst-9l3.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T06:05:35.55095Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "c9c841cfc900959fc7e80db62c6d1325823b68d7",
+        "commit_message": "Publish verified hero wrapping and image-loading fixes from preview 0c4f6a16",
+        "commit_dirty": false
+      }
+    }
+  },
+  "canonical_deployment": "d6752c2e-90e0-48d4-957e-d40812a028f5",
+  "domains": [
+    "ai-catalyst-9l3.pages.dev",
+    "aicatalyst.biz",
+    "www.aicatalyst.biz"
+  ],
+  "sourcePreview": "0c4f6a16-f088-4265-94c6-b73588d66083",
+  "publicAssetCount": 104,
+  "manifestSHA256": "881782c91698fefafbb301353b62aff3167486e9423afbc476cbd7d91864120c",
+  "previousProduction": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "nativeSafariCheck": "https://aicatalyst.biz/training at390px; complete headline and paragraph visible",
+  "physicalIPhoneVerification": "not performed by agent"
+}
