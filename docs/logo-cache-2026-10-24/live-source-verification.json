@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://aicatalyst.biz/creator-social.html",
+    "finalUrl": "https://aicatalyst.biz/creator-social",
+    "status": 200,
+    "sha256": "c46394d5c67d9723faaee4328bfeae8d1631e6474d222ab9c3e6077c96bfbe90",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/index.html",
+    "finalUrl": "https://aicatalyst.biz/",
+    "status": 200,
+    "sha256": "f71cea128b45b55e22b6337886266c22f65167d19fa0daf0d76c2288908a7281",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/marketing-investment.html",
+    "finalUrl": "https://aicatalyst.biz/marketing-investment",
+    "status": 200,
+    "sha256": "baef0a0d429180673109570a4596cde48ba7516955876fa0fb09dc6908a49a96",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/briefing.html",
+    "finalUrl": "https://aicatalyst.biz/briefing",
+    "status": 200,
+    "sha256": "188a6397a8df1a26d0ab9c71d165f9495d0ac638f1b30dd93db7e064573dd795",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/platform.html",
+    "finalUrl": "https://aicatalyst.biz/platform",
+    "status": 200,
+    "sha256": "e836fa8c8bdbce419301748d4998f7fd0198acc27fdaffd009f5375b04b0e1e8",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/online-conversion.html",
+    "finalUrl": "https://aicatalyst.biz/online-conversion",
+    "status": 200,
+    "sha256": "25244920d0a1e592d99bd110df7a2d6f88e6377183f0d71727a4a15b9713fba4",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/company.html",
+    "finalUrl": "https://aicatalyst.biz/company",
+    "status": 200,
+    "sha256": "9bd207398b4c9a7404c48eb224b9e488bb8b74df46c863cefdd8802137f20279",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/training.html",
+    "finalUrl": "https://aicatalyst.biz/training",
+    "status": 200,
+    "sha256": "fdaab64eab84699a02a489adc2f20b43578ee02a34caac1047941ca0e2acaf1f",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/solutions.html",
+    "finalUrl": "https://aicatalyst.biz/solutions",
+    "status": 200,
+    "sha256": "1ed27ac1e08f43775c3a70e50fab40802331eb963982e532a4ab09c44b8720e6",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://ai-catalyst-9l3.pages.dev/",
+    "finalUrl": "https://ai-catalyst-9l3.pages.dev/",
+    "status": 200,
+    "sha256": "ca12ae965daff9259bda0be164400aa09fe1237fab87c43bb5eafb227c5fef7b",
+    "wire_matches_source": true,
+    "email_protection_present": false,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://www.aicatalyst.biz/",
+    "finalUrl": "https://www.aicatalyst.biz/",
+    "status": 200,
+    "sha256": "793201a19deaddc302f2e1431e10d2c20e4b0f9ef691b3f7091976d1b054e9eb",
+    "wire_matches_source": false,
+    "email_protection_present": true,
+    "logoReferences": [
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198",
+      "assets/logo.svg?v=outline-b8383198"
+    ],
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/assets/logo.svg?v=outline-b8383198",
+    "finalUrl": "https://aicatalyst.biz/assets/logo.svg?v=outline-b8383198",
+    "status": 200,
+    "sha256": "b8383198c725e7b6b7b31b21fa7b2f25062220af050ccfd6ce5d1cbcc9dc50d6",
+    "wire_matches_source": true,
+    "email_protection_present": false,
+    "logoReferences": [],
+    "cacheControl": "public, max-age=14400, must-revalidate",
+    "verified": "exact SVG bytes"
+  }
+]
