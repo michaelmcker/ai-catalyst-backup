@@ -1,0 +1,24 @@
+{
+  "preview": {
+    "id": "6c471ecb-0ace-4216-ac79-cc1ea9d365f7",
+    "url": "https://6c471ecb.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T04:38:04.271597Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "a1a158aa7ccaf5d22f31ff0b03c86121b7359222",
+        "commit_message": "Wrap mobile hero copy around original illustrations in Safari",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "status": "historical preview; split-paragraph treatment rejected by subsequent user feedback"
+}

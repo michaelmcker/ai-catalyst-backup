@@ -1,3 +1,7 @@
+# Historical attempt, rejected by subsequent user feedback
+
+This proof records a layout that split a supporting paragraph around an image. The user rejected that treatment even though all text remained present. Current work uses a headline/artwork row followed by one complete paragraph; see ../mobile-hero-row-2026-10-23/. Do not deploy the historical mobile-subject-wrap files.
+
 # Mobile subject wrapping proof
 
 This is the regression contract for Company, How We Work/Solutions and Training.

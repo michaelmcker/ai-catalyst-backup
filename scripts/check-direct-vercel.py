@@ -10,8 +10,8 @@ import argparse, hashlib, json, re, runpy, subprocess
 ROOT=Path(__file__).resolve().parents[1]
 CONTENT=runpy.run_path(str(ROOT/'scripts/apply-approved-content.py'))
 PANO={'platform','creator-social','marketing-investment','online-conversion'}
-WRAP={'company','solutions','training'}
-WRAP_CACHE='20261023-wrap1'
+ROW={'company','solutions','training'}
+ROW_CACHE='20261023-row1'
 MANIFEST=ROOT/'docs/direct-vercel-2026-10-23/source-manifest.json'
 CACHE='20261023-direct8'
 
@@ -31,11 +31,8 @@ def expected(path,source):
             assert n==1,path
         imports=(f'<link rel="stylesheet" href="migration-changes.css?v={CACHE}">'
                  f'<link rel="stylesheet" href="hero-responsive-fix.css?v={CACHE}">')
-        if Path(path).stem in WRAP:
-            imports+=f'<link rel="stylesheet" href="mobile-subject-wrap.css?v={WRAP_CACHE}">'
-            s=s.replace('</h1>','</h1><span class="hero-mobile-subject-space" aria-hidden="true" hidden></span>',1)
-            s=s.replace('<script src="halftone-rendering.js',
-                        f'<script src="mobile-subject-wrap.js?v={WRAP_CACHE}" defer></script><script src="halftone-rendering.js',1)
+        if Path(path).stem in ROW:
+            imports+=f'<link rel="stylesheet" href="mobile-hero-row.css?v={ROW_CACHE}">'
         s=s.replace('</head>',imports+'</head>',1)
         s=re.sub(r'(halftone-rendering.js|feedback-v3.css)(?:\?[^"\s]+)?',lambda m:m[1]+'?v='+CACHE,s)
         source=s.encode()
@@ -225,7 +222,7 @@ def check():
     responsive=(ROOT/'current-site/hero-responsive-fix.css').read_text()
     if (ROOT/'hero-responsive-fix.css').read_text()!=responsive:fail.append('responsive CSS mirror differs')
     fail.extend(check_responsive_css(responsive))
-    # Briefing was explicitly accepted and is outside the three-page wrap fix.
+    # Briefing was explicitly accepted and is outside the three-page row fix.
     for prefix in ('current-site/',''):
         approved=subprocess.check_output(['git','show','9763a3a:current-site/briefing.html'],cwd=ROOT)
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:

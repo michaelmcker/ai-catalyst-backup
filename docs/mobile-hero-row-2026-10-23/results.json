@@ -1,0 +1,1173 @@
+{
+  "method": "Headline/art row above one intact full-width paragraph; per-character clipping and independent source-ink clearance.",
+  "limits": "DOMRange boxes are conservative, not glyph outlines. Browser captures do not establish physical iPhone Safari appearance.",
+  "results": [
+    {
+      "page": "company",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 280.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 233,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        636.3359375
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          353.5,
+          378.1484375,
+          402.796875,
+          427.4453125,
+          452.09375,
+          476.7421875,
+          501.390625
+        ],
+        "line_count": 7,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          0.0,
+          0.0
+        ],
+        "crop": [
+          1.0,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-320.png"
+    },
+    {
+      "page": "solutions",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 280.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 213,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        632.140625
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          336.6015625,
+          361.25,
+          385.8984375,
+          410.546875,
+          435.1953125
+        ],
+        "line_count": 5,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -2.0485955749216522e-05,
+          0.0
+        ],
+        "crop": [
+          1.0000409719114984,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-320.png"
+    },
+    {
+      "page": "training",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 280.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 169,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        588.15625
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          354.6171875,
+          379.265625,
+          403.9140625,
+          428.5625,
+          453.2109375
+        ],
+        "line_count": 5,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -5.3965779054365726e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000107931558109,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-320.png"
+    },
+    {
+      "page": "company",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 342.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 233,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        651.890625
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          402.5,
+          427.1484375,
+          451.796875,
+          476.4453125,
+          501.09375,
+          525.7421875
+        ],
+        "line_count": 6,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          0.0,
+          0.0
+        ],
+        "crop": [
+          1.0,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-390.png"
+    },
+    {
+      "page": "solutions",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 342.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 213,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        652.796875
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          381.90625,
+          406.5546875,
+          431.203125,
+          455.8515625
+        ],
+        "line_count": 4,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -1.8067724941728258e-05,
+          0.0
+        ],
+        "crop": [
+          1.0000361354498835,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-390.png"
+    },
+    {
+      "page": "training",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 342.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 169,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        603.953125
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          403.859375,
+          428.5078125,
+          453.15625,
+          477.8046875
+        ],
+        "line_count": 4,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -9.400977865170468e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000188019557303,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-390.png"
+    },
+    {
+      "page": "company",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 382.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 233,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        655.2421875
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          430.5,
+          455.1484375,
+          479.796875,
+          504.4453125,
+          529.09375
+        ],
+        "line_count": 5,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          0.0,
+          0.0
+        ],
+        "crop": [
+          1.0,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-430.png"
+    },
+    {
+      "page": "solutions",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 382.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 213,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        669.890625
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          407.796875,
+          432.4453125,
+          457.09375,
+          481.7421875
+        ],
+        "line_count": 4,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -1.3028881941989923e-05,
+          0.0
+        ],
+        "crop": [
+          1.000026057763884,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-430.png"
+    },
+    {
+      "page": "training",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 382.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 169,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        607.4453125
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          432.0,
+          456.6484375,
+          481.296875
+        ],
+        "line_count": 3,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -7.414290798313239e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000148285815966,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-430.png"
+    },
+    {
+      "page": "company",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 552.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 233,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        702.921875
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          502.828125,
+          527.4765625,
+          552.125,
+          576.7734375
+        ],
+        "line_count": 4,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -6.975543743625856e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000139510874873,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-600.png"
+    },
+    {
+      "page": "solutions",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 552.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 213,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        682.109375
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          444.6640625,
+          469.3125,
+          493.9609375
+        ],
+        "line_count": 3,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -5.3965779054365726e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000107931558109,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-600.png"
+    },
+    {
+      "page": "training",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "unspecified",
+      "reading_width_css": 552.0,
+      "paragraph_separation_css": 26.0,
+      "text_equals_baseline": true,
+      "tested_character_boxes": 169,
+      "clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        620.109375
+      ],
+      "clip_tolerance_css": 0.5,
+      "paragraph_lines": {
+        "line_tops_css": [
+          444.6640625,
+          469.3125,
+          493.9609375
+        ],
+        "line_count": 3,
+        "line_gaps_css": [
+          24.6484375,
+          24.6484375
+        ],
+        "normal_median_leading_css": 24.6484375,
+        "maximum_gap_css": 24.6484375,
+        "contiguous": true
+      },
+      "protected_source_mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "image_mapping": {
+        "offset": [
+          -5.3965779054365726e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000107931558109,
+          1.0
+        ]
+      },
+      "ink_clearance_css": 10,
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-600.png"
+    }
+  ],
+  "failures": []
+}

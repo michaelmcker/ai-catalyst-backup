@@ -1,0 +1,1106 @@
+[
+  {
+    "page": "company",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 430.65625,
+      "height": 203,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "company",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 430.65625,
+      "height": 203,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "solutions",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 586.984375,
+      "height": 505.984375,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 245.984375,
+      "height": 126.984375,
+      "left": 40,
+      "right": 385.7265625,
+      "top": 119,
+      "width": 345.7265625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 414.984375,
+      "height": 145,
+      "left": 40,
+      "right": 385.7265625,
+      "top": 269.984375,
+      "width": 345.7265625,
+      "x": 40,
+      "y": 269.984375
+    },
+    "art": {
+      "bottom": 586.984375,
+      "height": 505.984375,
+      "left": 432.765625,
+      "right": 768,
+      "top": 81,
+      "width": 335.234375,
+      "x": 432.765625,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "solutions",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 586.984375,
+      "height": 505.984375,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 245.984375,
+      "height": 126.984375,
+      "left": 40,
+      "right": 385.7265625,
+      "top": 119,
+      "width": 345.7265625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 414.984375,
+      "height": 145,
+      "left": 40,
+      "right": 385.7265625,
+      "top": 269.984375,
+      "width": 345.7265625,
+      "x": 40,
+      "y": 269.984375
+    },
+    "art": {
+      "bottom": 586.984375,
+      "height": 505.984375,
+      "left": 432.765625,
+      "right": 768,
+      "top": 81,
+      "width": 335.234375,
+      "x": 432.765625,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "training",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 372.65625,
+      "height": 145,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "training",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 372.65625,
+      "height": 145,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "briefing",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 401.65625,
+      "height": 174,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "briefing",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 768,
+      "top": 81,
+      "width": 768,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 203.65625,
+      "height": 84.65625,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 119,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 401.65625,
+      "height": 174,
+      "left": 40,
+      "right": 377.2734375,
+      "top": 227.65625,
+      "width": 337.2734375,
+      "x": 40,
+      "y": 227.65625
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 439.671875,
+      "right": 768,
+      "top": 81,
+      "width": 328.328125,
+      "x": 439.671875,
+      "y": 81
+    },
+    "scrollWidth": 768
+  },
+  {
+    "page": "company",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "company",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "solutions",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 284.3515625,
+      "height": 165.3515625,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 424.3515625,
+      "height": 116,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 308.3515625,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 308.3515625
+    },
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "solutions",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 284.3515625,
+      "height": 165.3515625,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 424.3515625,
+      "height": 116,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 308.3515625,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 308.3515625
+    },
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "training",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 340.234375,
+      "height": 87,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "training",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 340.234375,
+      "height": 87,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "briefing",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "briefing",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1024,
+      "top": 81,
+      "width": 1024,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 119,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 511.0390625,
+      "top": 253.234375,
+      "width": 471.0390625,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 586.234375,
+      "right": 1023.9921875,
+      "top": 81,
+      "width": 437.7578125,
+      "x": 586.234375,
+      "y": 81
+    },
+    "scrollWidth": 1024
+  },
+  {
+    "page": "company",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 502.328125,
+      "height": 205.59375,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "company",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 502.328125,
+      "height": 205.59375,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 689.1640625,
+      "height": 689.1640625,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 348.1015625,
+      "height": 238.1015625,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 513.1640625,
+      "height": 137.0625,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 376.1015625,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 376.1015625
+    },
+    "art": {
+      "bottom": 689.1640625,
+      "height": 607.1640625,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 689.1640625,
+      "height": 689.1640625,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 348.1015625,
+      "height": 238.1015625,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 513.1640625,
+      "height": 137.0625,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 376.1015625,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 376.1015625
+    },
+    "art": {
+      "bottom": 689.1640625,
+      "height": 607.1640625,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "training",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 433.796875,
+      "height": 137.0625,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "training",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 433.796875,
+      "height": 137.0625,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "briefing",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 468.0625,
+      "height": 171.328125,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  },
+  {
+    "page": "briefing",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 268.734375,
+      "height": 158.734375,
+      "left": 80.6328125,
+      "right": 1359.3671875,
+      "top": 110,
+      "width": 1278.734375,
+      "x": 80.6328125,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 468.0625,
+      "height": 171.328125,
+      "left": 80.6328125,
+      "right": 620.6328125,
+      "top": 296.734375,
+      "width": 540,
+      "x": 80.6328125,
+      "y": 296.734375
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1440,
+      "top": 82,
+      "width": 1440,
+      "x": 0,
+      "y": 82
+    },
+    "scrollWidth": 1440
+  }
+]
