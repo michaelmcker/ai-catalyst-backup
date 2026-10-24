@@ -1,0 +1,216 @@
+{
+  "page": "company",
+  "version": "baseline",
+  "elapsedToArtwork": 12006.40000000596,
+  "heroURL": "/__baseline/images/art-v3/company-knight.webp",
+  "heroResource": {
+    "name": "/__baseline/images/art-v3/company-knight.webp",
+    "type": "img",
+    "bytes": 1336716,
+    "start": 117.20000000298023,
+    "end": 11973.79999999702,
+    "duration": 11856.59999999404
+  },
+  "completedImageBytes": 1355884,
+  "deferred": 0,
+  "resource": [
+    {
+      "name": "/__baseline/subpages.css",
+      "type": "link",
+      "bytes": 33296,
+      "start": 109.09999999403954,
+      "end": 863.5999999940395,
+      "duration": 754.5
+    },
+    {
+      "name": "/__baseline/site-system.css",
+      "type": "link",
+      "bytes": 11154,
+      "start": 109.20000000298023,
+      "end": 435.8999999910593,
+      "duration": 326.69999998807907
+    },
+    {
+      "name": "/__baseline/editorial-system.css",
+      "type": "link",
+      "bytes": 29176,
+      "start": 109.20000000298023,
+      "end": 785.7999999970198,
+      "duration": 676.5999999940395
+    },
+    {
+      "name": "/__baseline/site-shell.js",
+      "type": "script",
+      "bytes": 4378,
+      "start": 109.3999999910593,
+      "end": 1222.7999999970198,
+      "duration": 1113.4000000059605
+    },
+    {
+      "name": "/__baseline/restored-platform-motion.js",
+      "type": "script",
+      "bytes": 10598,
+      "start": 109.3999999910593,
+      "end": 1272.0999999940395,
+      "duration": 1162.7000000029802
+    },
+    {
+      "name": "/__baseline/restored-layout.css",
+      "type": "link",
+      "bytes": 1488,
+      "start": 109.5,
+      "end": 269.09999999403954,
+      "duration": 159.59999999403954
+    },
+    {
+      "name": "/__baseline/entry-refinement.css",
+      "type": "link",
+      "bytes": 5598,
+      "start": 109.5,
+      "end": 360.29999999701977,
+      "duration": 250.79999999701977
+    },
+    {
+      "name": "/__baseline/restored-content.css",
+      "type": "link",
+      "bytes": 18659,
+      "start": 109.5,
+      "end": 585.7999999970198,
+      "duration": 476.29999999701977
+    },
+    {
+      "name": "/__baseline/site-story.js",
+      "type": "script",
+      "bytes": 2750,
+      "start": 109.5,
+      "end": 1192.2999999970198,
+      "duration": 1082.7999999970198
+    },
+    {
+      "name": "/__baseline/simplified-navigation.css",
+      "type": "link",
+      "bytes": 3024,
+      "start": 109.59999999403954,
+      "end": 441.79999999701977,
+      "duration": 332.20000000298023
+    },
+    {
+      "name": "/__baseline/art-direction-v2.css",
+      "type": "link",
+      "bytes": 6550,
+      "start": 109.59999999403954,
+      "end": 573.8999999910593,
+      "duration": 464.29999999701977
+    },
+    {
+      "name": "/__baseline/chivalry-v3.css",
+      "type": "link",
+      "bytes": 12113,
+      "start": 109.59999999403954,
+      "end": 923.8999999910593,
+      "duration": 814.2999999970198
+    },
+    {
+      "name": "/__baseline/advisor-portraits.js",
+      "type": "script",
+      "bytes": 2262,
+      "start": 109.59999999403954,
+      "end": 1216,
+      "duration": 1106.4000000059605
+    },
+    {
+      "name": "/__baseline/hero-responsive-fix.css",
+      "type": "link",
+      "bytes": 12400,
+      "start": 109.70000000298023,
+      "end": 802.7999999970198,
+      "duration": 693.0999999940395
+    },
+    {
+      "name": "/__baseline/client-layout-v3.css",
+      "type": "link",
+      "bytes": 23952,
+      "start": 109.70000000298023,
+      "end": 1011.3999999910593,
+      "duration": 901.6999999880791
+    },
+    {
+      "name": "/__baseline/migration-changes.css",
+      "type": "link",
+      "bytes": 6133,
+      "start": 109.70000000298023,
+      "end": 1023.7999999970198,
+      "duration": 914.0999999940395
+    },
+    {
+      "name": "/__baseline/feedback-v3.css",
+      "type": "link",
+      "bytes": 18108,
+      "start": 109.70000000298023,
+      "end": 1049.5999999940395,
+      "duration": 939.8999999910593
+    },
+    {
+      "name": "/__baseline/hero-composition-v3.css",
+      "type": "link",
+      "bytes": 11381,
+      "start": 109.70000000298023,
+      "end": 1073.7999999970198,
+      "duration": 964.0999999940395
+    },
+    {
+      "name": "/__baseline/mobile-hero-row.css",
+      "type": "link",
+      "bytes": 3954,
+      "start": 111.8999999910593,
+      "end": 1031.3999999910593,
+      "duration": 919.5
+    },
+    {
+      "name": "/__baseline/assets/logo.svg",
+      "type": "img",
+      "bytes": 5262,
+      "start": 112.20000000298023,
+      "end": 1169.0999999940395,
+      "duration": 1056.8999999910593
+    },
+    {
+      "name": "/__baseline/images/art-v3/company-knight.webp",
+      "type": "img",
+      "bytes": 1336716,
+      "start": 117.20000000298023,
+      "end": 11973.79999999702,
+      "duration": 11856.59999999404
+    },
+    {
+      "name": "/__baseline/revision-enquiry.js",
+      "type": "script",
+      "bytes": 1890,
+      "start": 149.5,
+      "end": 1282.7000000029802,
+      "duration": 1133.2000000029802
+    },
+    {
+      "name": "/__baseline/halftone-rendering.js",
+      "type": "script",
+      "bytes": 32777,
+      "start": 149.59999999403954,
+      "end": 1721.0999999940395,
+      "duration": 1571.5
+    },
+    {
+      "name": "/__baseline/images/advisors/nick-bobrow-source.jpg",
+      "type": "img",
+      "bytes": 13906,
+      "start": 1103.8999999910593,
+      "end": 1540.5,
+      "duration": 436.6000000089407
+    }
+  ],
+  "network": {
+    "latencyMs": 80,
+    "downloadBytesPerSecond": 250000,
+    "uploadBytesPerSecond": 125000,
+    "cacheDisabled": true
+  }
+}

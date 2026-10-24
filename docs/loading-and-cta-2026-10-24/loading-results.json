@@ -1,0 +1,17 @@
+{
+  "measurement": "local Chromium iframe first-artwork readiness; not physical iPhone or field LCP",
+  "network": {
+    "latencyMs": 80,
+    "downloadBytesPerSecond": 250000,
+    "uploadBytesPerSecond": 125000,
+    "cacheDisabled": true
+  },
+  "before_ms": 12006.40000000596,
+  "after_ms": 5441,
+  "improvement_percent": 54.682502665267705,
+  "before_hero_bytes": 1336716,
+  "after_hero_bytes": 1015040,
+  "red_control": "baseline as candidate rejected",
+  "failures": [],
+  "passed": true
+}

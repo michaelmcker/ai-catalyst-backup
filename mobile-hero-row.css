@@ -1,7 +1,7 @@
 /* Phone composition: headline beside artwork; each complete subhead below.
    All copy, original artwork and the shared renderer remain unchanged. */
 @media(max-width:700px){
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]){
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]){
   display:grid!important;
   grid-template-columns:minmax(0,48fr) minmax(0,52fr);
   grid-template-rows:auto auto auto auto;
@@ -10,27 +10,27 @@
   min-height:0!important;
   align-items:start;
  }
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__copy{display:contents!important}
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .hero-subject-space{display:none!important}
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) h1{
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .page-hero__copy{display:contents!important}
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .hero-subject-space{display:none!important}
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) h1{
   grid-column:1;grid-row:1;align-self:center;position:relative;z-index:3;
   width:100%!important;min-width:0!important;max-width:none!important;
   margin:0!important;
   font-size:clamp(30px,8.2vw,44px)!important;
   text-wrap:wrap!important;
  }
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__copy>p{
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .page-hero__copy>p{
   grid-column:1/-1;grid-row:2;position:relative;z-index:3;
   width:100%!important;min-width:0!important;max-width:none!important;
   margin:26px 0 0!important;text-wrap:wrap!important;
  }
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .hero-link{
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .hero-link{
   grid-column:1/-1;grid-row:3;position:relative;z-index:3;justify-self:start;margin:24px 0 0!important;
  }
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .hero-film-button{
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .hero-film-button{
   grid-column:1/-1;grid-row:4;position:relative;z-index:3;justify-self:start;margin:18px 0 0!important;
  }
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__art{
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .page-hero__art{
   position:relative!important;grid-column:1/-1;grid-row:1;justify-self:end;align-self:end;
   inset:auto!important;min-height:0!important;height:auto!important;
   transform:none!important;
@@ -38,10 +38,44 @@
  body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="company-knight"] .page-hero__art{width:min(105vw,560px)!important;height:min(70vw,373.333px)!important;aspect-ratio:1536/1024!important;margin-right:calc(-1 * var(--gutter) - min(10vw,52px))!important}
  body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="kneeler"] .page-hero__art{width:min(105vw,560px)!important;height:min(59.0939vw,315.167px)!important;aspect-ratio:1672/941!important;margin-top:36px!important;margin-right:calc(-1 * var(--gutter) - min(12vw,48px))!important}
  body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="portrait"] .page-hero__art{width:min(125vw,560px)!important;height:min(70.35vw,315.167px)!important;aspect-ratio:1672/941!important;margin-right:calc(-1 * var(--gutter) - min(5vw,20px))!important}
- body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__art img{object-fit:contain!important;object-position:center center!important}
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"],[data-hero-subject="arcade"]) .page-hero__art img{object-fit:contain!important;object-position:center center!important}
  body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="kneeler"],[data-hero-subject="portrait"]) h1{
   grid-column:1/-1;width:74%!important;
   font-size:clamp(32px,9.6vw,52px)!important;align-self:start;
  }
 
+ body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="company-knight"] h1{
+  grid-column:1/-1;width:68%!important;font-size:clamp(32px,9.6vw,52px)!important;align-self:start;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="portrait"] h1{
+  width:78%!important;font-size:clamp(34px,10.2vw,56px)!important;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="arcade"] h1{
+  grid-column:1/-1;width:62%!important;font-size:clamp(34px,9.4vw,48px)!important;align-self:start;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject="arcade"] .page-hero__art{
+  width:min(125vw,560px)!important;height:min(70.35vw,315.167px)!important;aspect-ratio:1672/941!important;
+  margin-right:calc(-1 * var(--gutter) - min(25vw,110px) - 12px)!important;
+ }
+ body.subpage-solutions #main>.page-hero .hero-actions-row{
+  grid-column:1/-1;grid-row:3;position:relative;z-index:3;display:flex;align-items:center;gap:12px;margin-top:24px;
+ }
+ body.subpage-solutions #main>.page-hero .hero-actions-row>.hero-link,
+ body.subpage-solutions #main>.page-hero .hero-actions-row>.hero-film-button{
+  position:relative;z-index:3;flex:1 1 0;min-width:0;max-width:none!important;width:auto!important;
+  margin:0!important;padding:0;font-size:clamp(14px,3.8vw,16px)!important;gap:8px;
+ }
+ body.subpage-solutions #main>.page-hero .hero-actions-row>.hero-link{flex-grow:1.2}
+ body.subpage-solutions #main>.page-hero .hero-actions-row>.hero-film-button{justify-content:flex-start;background:transparent;min-height:44px}
+ body.subpage-solutions #main>.page-hero .hero-actions-row .film-play-icon{flex:0 0 26px;width:26px;height:26px}
+
+}
+
+/* Keep the paired actions on one row wherever the desktop copy has room. */
+@media(min-width:701px){
+ body.subpage-solutions .hero-actions-row{display:flex;align-items:center;gap:16px;flex-wrap:nowrap;width:100%;max-width:540px}
+ body.subpage-solutions .hero-actions-row>.hero-link,body.subpage-solutions .hero-actions-row>.hero-film-button{flex:1 1 0;min-width:0;width:auto!important;max-width:none!important;margin-top:24px!important;font-size:16px;gap:8px}
+ body.subpage-solutions .hero-actions-row>.hero-link{flex-grow:1.2}
+ body.subpage-solutions .hero-actions-row>.hero-film-button{padding:0;background:transparent;justify-content:flex-start}
+ body.subpage-solutions .hero-actions-row .film-play-icon{flex:0 0 28px;width:28px;height:28px}
 }

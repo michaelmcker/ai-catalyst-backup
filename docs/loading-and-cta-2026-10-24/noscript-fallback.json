@@ -1,0 +1,54 @@
+{
+  "compositorStarted": false,
+  "executionRestoredOnlyForInspection": true,
+  "hiddenPending": true,
+  "parsedWithScriptsDisabled": true,
+  "url": "http://127.0.0.1:8856/current-site/company.html#advisors",
+  "visibleFallbacks": [
+    {
+      "height": 1435,
+      "src": "http://127.0.0.1:8856/current-site/images/delivery-v1/randy-earlier-portrait-f9cd34718c46.webp",
+      "width": 1096
+    },
+    {
+      "height": 323,
+      "src": "http://127.0.0.1:8856/current-site/images/advisors/nick-bobrow-source.jpg",
+      "width": 323
+    },
+    {
+      "height": 800,
+      "src": "http://127.0.0.1:8856/current-site/images/advisors/bill-langlois-source.jpg",
+      "width": 800
+    },
+    {
+      "height": 800,
+      "src": "http://127.0.0.1:8856/current-site/images/advisors/andrew-ryder-source.jpg",
+      "width": 800
+    },
+    {
+      "height": 800,
+      "src": "http://127.0.0.1:8856/current-site/images/advisors/adun-abiodun-source.jpg",
+      "width": 800
+    },
+    {
+      "height": 800,
+      "src": "http://127.0.0.1:8856/current-site/images/advisors/megan-page-source.jpg",
+      "width": 800
+    },
+    {
+      "height": 1086,
+      "src": "http://127.0.0.1:8856/current-site/images/delivery-v1/secular-geographers-halftone-v1-24fe06a1f986.webp",
+      "width": 1448
+    },
+    {
+      "height": 184,
+      "src": "http://127.0.0.1:8856/current-site/assets/logo.svg",
+      "width": 1042
+    },
+    {
+      "height": 887,
+      "src": "http://127.0.0.1:8856/current-site/images/delivery-v1/bridge-halftone-2619ec40e2c1.webp",
+      "width": 1774
+    }
+  ]
+}

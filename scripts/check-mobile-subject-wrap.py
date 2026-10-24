@@ -32,7 +32,11 @@ PROFILES = {
     'training': {'path': 'images/art-v2/portrait-halftone.webp', 'size': (1672, 941),
                  'roi': [(1340,85),(1570,110),(1660,230),(1672,870),(1450,941),
                          (1050,941),(930,700),(1130,560),(1280,490),(1200,330),(1240,150)]},
+    'briefing': {'path': 'images/art-v3/briefing-arcade.webp', 'size': (1672, 941),
+                 'roi': [(800,0),(1672,0),(1672,941),(800,941)]},
 }
+DELIVERY_MANIFEST = ROOT/'docs/image-delivery-2026-10-24/manifest.json'
+SOURCE_MANIFEST = ROOT/'docs/direct-vercel-2026-10-23/source-manifest.json'
 
 
 def rectangle(value):
@@ -86,7 +90,7 @@ def retain_components(mask, minimum=16):
     return result, count
 
 
-@lru_cache(maxsize=3)
+@lru_cache(maxsize=4)
 def subject_mask(page):
     profile = PROFILES[page]
     path = ROOT / 'current-site' / profile['path']
@@ -122,9 +126,17 @@ def image_mapping(row):
     source_size = PROFILES[page]['size']
     if (int(image['naturalWidth']), int(image['naturalHeight'])) != source_size:
         raise ValueError('captured natural dimensions differ from the approved image')
-    path = unquote(urlparse(image['src']).path)
-    if not path.endswith(PROFILES[page]['path']):
-        raise ValueError('captured source is not the approved page artwork')
+    location=urlparse(image['src'])
+    path=unquote(location.path)
+    # Local evidence serves the canonical directory beneath /current-site/.
+    # Only a literal loopback host may shed that development-only prefix;
+    # deployed URLs must still match the reviewed root-relative path exactly.
+    if (location.scheme in ('http','https') and
+            location.hostname in ('127.0.0.1','localhost','::1') and
+            path.startswith('/current-site/')):
+        path=path[len('/current-site/'):]
+    else:path=path.lstrip('/')
+    delivery = approved_delivery(page,path)
     left, top, right, bottom = rectangle(row['art'])
     width, height = right-left, bottom-top
     if width <= 0 or height <= 0:
@@ -148,7 +160,54 @@ def image_mapping(row):
                 (offset_y+(y0-padding-top)/height*crop_y)*source_size[1],
                 (offset_x+(x1+padding-left)/width*crop_x)*source_size[0],
                 (offset_y+(y1+padding-top)/height*crop_y)*source_size[1])
-    return to_source, {'offset': [offset_x,offset_y], 'crop': [crop_x,crop_y]}
+    return to_source, {'offset': [offset_x,offset_y], 'crop': [crop_x,crop_y], **delivery}
+
+
+def approved_delivery(page,path):
+    """Allow only this source or its exact, hash-checked delivery mapping.
+
+    Independent collision masks always use the original pixels. A derivative
+    may change encoding only; source identity and natural geometry stay fixed.
+    """
+    profile=PROFILES[page]
+    source_path=profile['path']
+    source_data=(ROOT/'current-site'/source_path).read_bytes()
+    source_sha=hashlib.sha256(source_data).hexdigest()
+    approved={row['path']:row['sha256'] for row in json.loads(SOURCE_MANIFEST.read_text())}
+    if approved.get(source_path)!=source_sha:
+        raise ValueError('approved original artwork hash differs from the Vercel source manifest')
+    if path==source_path:
+        return {'source_path':source_path,'source_sha256':source_sha,
+                'delivered_path':path,'delivered_sha256':source_sha,'derivative':False}
+    if not DELIVERY_MANIFEST.exists():
+        raise ValueError('captured source is not the approved page artwork; delivery manifest is absent')
+    manifest=json.loads(DELIVERY_MANIFEST.read_text())
+    entries=[entry for entry in manifest['entries'] if entry['source_path']==source_path]
+    if len(entries)!=1:
+        raise ValueError('delivery manifest must contain exactly one mapping for the approved artwork')
+    entry=entries[0]
+    if (path!=entry['delivery_path'] or
+            manifest['relative_url_map'].get(source_path)!=path or
+            manifest['url_map'].get('/'+source_path)!='/'+path):
+        raise ValueError('captured source is not the exact approved original-to-delivery mapping')
+    if Path(path).is_absolute() or '..' in Path(path).parts:
+        raise ValueError('delivery mapping escapes the public directory')
+    if (entry['source_sha256']!=source_sha or
+            tuple(entry['dimensions'])!=profile['size'] or
+            entry.get('dimensions_exact') is not True or entry.get('alpha_exact') is not True or
+            not 0<=float(entry['max_rgb_error'])<=2):
+        raise ValueError('delivery mapping changes the approved source identity, geometry or pixel budget')
+    delivered=ROOT/'current-site'/path
+    data=delivered.read_bytes()
+    if hashlib.sha256(data).hexdigest()!=entry['delivered_sha256']:
+        raise ValueError('delivered artwork hash differs from its exact manifest mapping')
+    if (ROOT/path).read_bytes()!=data:
+        raise ValueError('delivered artwork root mirror differs')
+    with Image.open(delivered) as image:
+        if image.size!=profile['size']:
+            raise ValueError('delivered artwork dimensions differ from the approved original')
+    return {'source_path':source_path,'source_sha256':source_sha,
+            'delivered_path':path,'delivered_sha256':entry['delivered_sha256'],'derivative':True}
 
 
 def check_row(row):
@@ -176,9 +235,9 @@ def check_row(row):
     require(abs((art[3]-art[1])-expected_height) <= 1.5,
             'art height does not follow its fixed source aspect ratio')
     mask, mask_info = subject_mask(page)
-    if row['image'].get('sha256'):
-        require(row['image']['sha256'] == mask_info['sha256'], 'captured source hash differs')
     to_source, mapping = image_mapping(row)
+    if row['image'].get('sha256'):
+        require(row['image']['sha256'] == mapping['delivered_sha256'], 'captured delivered source hash differs')
     texts = row.get('texts', {})
     glyphs = row.get('glyphs', [])
     collisions, tested = [], 0
@@ -231,6 +290,29 @@ def load_rows(path):
 
 
 def self_test():
+    # The geometry test must not accept another artwork simply because a
+    # similarly sized derivative has been captured under its filename.
+    for page,profile in PROFILES.items():
+        assert not approved_delivery(page,profile['path'])['derivative']
+        width,height=profile['size']
+        probe={'page':page,'art':{'left':0,'top':0,'width':width,'height':height},
+               'image':{'src':'http://127.0.0.1:8856/current-site/'+profile['path'],
+                        'naturalWidth':width,'naturalHeight':height,
+                        'objectFit':'contain','objectPosition':'50% 50%'}}
+        assert image_mapping(probe)[1]['source_path']==profile['path']
+        for origin in ('https://example.com','http://127.0.0.1.example.com'):
+            probe['image']['src']=origin+'/current-site/'+profile['path']
+            try:image_mapping(probe)
+            except ValueError:pass
+            else:raise AssertionError(page+': remote development-prefix path was accepted')
+        try:approved_delivery(page,'images/delivery-v1/unlisted.webp')
+        except ValueError:pass
+        else:raise AssertionError(page+': unlisted delivery path was accepted')
+    if DELIVERY_MANIFEST.exists():
+        manifest=json.loads(DELIVERY_MANIFEST.read_text())
+        for page,profile in PROFILES.items():
+            delivered=manifest['relative_url_map'].get(profile['path'])
+            if delivered:assert approved_delivery(page,delivered)['derivative']
     for page in PAGES:
         mask, info = subject_mask(page)
         assert info['protected_source_pixels'] >= 1000

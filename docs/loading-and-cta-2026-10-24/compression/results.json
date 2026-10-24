@@ -1,0 +1,42 @@
+[
+  {
+    "page": "index",
+    "mean_absolute_rgb_error": 0.44305641025641024,
+    "p99_channel_error": 8.0,
+    "max_channel_error": 213,
+    "pixels_max_error_over16_percent": 0.2651282051282051,
+    "pixels_max_error_over64_percent": 0.025897435897435896
+  },
+  {
+    "page": "company",
+    "mean_absolute_rgb_error": 0.2022059829059829,
+    "p99_channel_error": 5.0,
+    "max_channel_error": 137,
+    "pixels_max_error_over16_percent": 0.07487179487179486,
+    "pixels_max_error_over64_percent": 0.006923076923076924
+  },
+  {
+    "page": "solutions",
+    "mean_absolute_rgb_error": 0.23136495726495726,
+    "p99_channel_error": 6.0,
+    "max_channel_error": 138,
+    "pixels_max_error_over16_percent": 0.08897435897435897,
+    "pixels_max_error_over64_percent": 0.008461538461538461
+  },
+  {
+    "page": "training",
+    "mean_absolute_rgb_error": 0.3295094017094017,
+    "p99_channel_error": 7.0,
+    "max_channel_error": 142,
+    "pixels_max_error_over16_percent": 0.14871794871794872,
+    "pixels_max_error_over64_percent": 0.011538461538461537
+  },
+  {
+    "page": "briefing",
+    "mean_absolute_rgb_error": 0.30417606837606836,
+    "p99_channel_error": 7.0,
+    "max_channel_error": 139,
+    "pixels_max_error_over16_percent": 0.13256410256410256,
+    "pixels_max_error_over64_percent": 0.013076923076923078
+  }
+]

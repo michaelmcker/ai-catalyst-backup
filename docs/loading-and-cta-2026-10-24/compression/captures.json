@@ -1,0 +1,262 @@
+[
+  {
+    "page": "index",
+    "version": "original",
+    "art": {
+      "bottom": 603,
+      "height": 530,
+      "left": -78,
+      "right": 468,
+      "top": 73,
+      "width": 546,
+      "x": -78,
+      "y": 73
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 603,
+      "height": 530,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/art-v3/sword-hand-outpaint-v8.webp"
+  },
+  {
+    "page": "index",
+    "version": "delivery",
+    "art": {
+      "bottom": 603,
+      "height": 530,
+      "left": -78,
+      "right": 468,
+      "top": 73,
+      "width": 546,
+      "x": -78,
+      "y": 73
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 603,
+      "height": 530,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/sword-hand-outpaint-v8-67faff9b985f.webp"
+  },
+  {
+    "page": "company",
+    "version": "original",
+    "art": {
+      "bottom": 374,
+      "height": 273,
+      "left": 19.5,
+      "right": 429,
+      "top": 101,
+      "width": 409.5,
+      "x": 19.5,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 651.890625,
+      "height": 578.890625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/art-v3/company-knight.webp"
+  },
+  {
+    "page": "company",
+    "version": "delivery",
+    "art": {
+      "bottom": 374,
+      "height": 273,
+      "left": 19.5,
+      "right": 429,
+      "top": 101,
+      "width": 409.5,
+      "x": 19.5,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 651.890625,
+      "height": 578.890625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/company-knight-20f2f9737494.webp"
+  },
+  {
+    "page": "solutions",
+    "version": "original",
+    "art": {
+      "bottom": 367.4609375,
+      "height": 230.4609375,
+      "left": 27.296875,
+      "right": 436.796875,
+      "top": 137,
+      "width": 409.5,
+      "x": 27.296875,
+      "y": 137
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 604.203125,
+      "height": 531.203125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/art-v3/kneeling-courtyard.webp"
+  },
+  {
+    "page": "solutions",
+    "version": "delivery",
+    "art": {
+      "bottom": 367.4609375,
+      "height": 230.4609375,
+      "left": 27.296875,
+      "right": 436.796875,
+      "top": 137,
+      "width": 409.5,
+      "x": 27.296875,
+      "y": 137
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 604.203125,
+      "height": 531.203125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/kneeling-courtyard-75f9e7a9b9aa.webp"
+  },
+  {
+    "page": "training",
+    "version": "original",
+    "art": {
+      "bottom": 375.359375,
+      "height": 274.359375,
+      "left": -78,
+      "right": 409.5,
+      "top": 101,
+      "width": 487.5,
+      "x": -78,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 579.3046875,
+      "height": 506.3046875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/art-v2/portrait-halftone.webp"
+  },
+  {
+    "page": "training",
+    "version": "delivery",
+    "art": {
+      "bottom": 375.359375,
+      "height": 274.359375,
+      "left": -78,
+      "right": 409.5,
+      "top": 101,
+      "width": 487.5,
+      "x": -78,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 579.3046875,
+      "height": 506.3046875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/portrait-halftone-17f472228fa3.webp"
+  },
+  {
+    "page": "briefing",
+    "version": "original",
+    "art": {
+      "bottom": 375.359375,
+      "height": 274.359375,
+      "left": 0,
+      "right": 487.5,
+      "top": 101,
+      "width": 487.5,
+      "x": 0,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 535.953125,
+      "height": 462.953125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/art-v3/briefing-arcade.webp"
+  },
+  {
+    "page": "briefing",
+    "version": "delivery",
+    "art": {
+      "bottom": 375.359375,
+      "height": 274.359375,
+      "left": 0,
+      "right": 487.5,
+      "top": 101,
+      "width": 487.5,
+      "x": 0,
+      "y": 101
+    },
+    "canvasRatio": "3",
+    "hero": {
+      "bottom": 535.953125,
+      "height": 462.953125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/briefing-arcade-64c9f68e53cd.webp"
+  }
+]

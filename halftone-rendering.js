@@ -200,7 +200,10 @@
     const {gl}=state;gl.activeTexture(unit);const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);
     gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);return t;
   }
-  function visibility(element,state,field){new IntersectionObserver(entries=>{state.visible=entries[0].isIntersecting;if(field)field.visible=state.visible;if(state.visible){state.dirty=true;wake();}},{rootMargin:'80px',threshold:0}).observe(element);}
+  function visibility(element,state,field){
+    if(typeof IntersectionObserver!=='function'){state.visible=true;if(field)field.visible=true;state.dirty=true;wake();return;}
+    new IntersectionObserver(entries=>{state.visible=entries[0].isIntersecting;if(field)field.visible=state.visible;if(state.visible){state.dirty=true;wake();}},{rootMargin:'80px',threshold:0}).observe(element);
+  }
   function heroField(hero,isMap=false){
     const area=isMap?hero:hero.closest('.art-opening,.hero-scene')||hero;
     if(fields.has(area))return fields.get(area);
@@ -376,7 +379,12 @@
     const img=stage.querySelector('img');if(!img)return;
     const isHero=stage.dataset.siteArt==='hero',field=isHero?heroField(stage.closest('.hero,.page-hero')):null;
     if(isHero){if(field)setupHero(stage,img,field);return;}
+    let initialised=false;
     function initialise(){
+      // A cached image may already be decoded when its viewport gate opens.
+      // Load and observer notifications must still create only one renderer.
+      if(initialised||!img.complete||!img.naturalWidth)return;
+      initialised=true;delete stage.dataset.artDeferred;
       const canvas=stage.querySelector('canvas')||document.createElement('canvas');canvas.className='site-art-tones';canvas.setAttribute('aria-hidden','true');if(!canvas.parentElement)stage.append(canvas);
       try{
         const state=renderer(canvas,imageFragment);if(!state){canvas.remove();return;}
@@ -404,10 +412,30 @@
         canvas.addEventListener('webglcontextlost',()=>{state.ready=false;stage.classList.remove('site-art-ready');});
       }catch(error){canvas.remove();console.warn('Artwork uses its halftone base:',error.message);}
     }
-    if(img.complete&&img.naturalWidth)initialise();else img.addEventListener('load',initialise,{once:true});
+    nearViewport(stage,()=>{
+      if(img.complete&&img.naturalWidth)initialise();else img.addEventListener('load',initialise,{once:true});
+    });
+  }
+  // Native lazy images can decode far below the fold. Delay shader creation,
+  // texture upload and map rasterisation until a separate 300px viewport gate.
+  const deferredStarts=new WeakMap();
+  const nearObserver=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{
+    for(const entry of entries){
+      if(!entry.isIntersecting)continue;
+      nearObserver.unobserve(entry.target);
+      const start=deferredStarts.get(entry.target);deferredStarts.delete(entry.target);
+      start?.();
+    }
+  },{rootMargin:'300px',threshold:0}):null;
+  function nearViewport(element,start){
+    let started=false;
+    const once=()=>{if(started)return;started=true;start();};
+    element.dataset.artDeferred='waiting';
+    if(!nearObserver){once();return;}
+    deferredStarts.set(element,once);nearObserver.observe(element);
   }
   document.querySelectorAll('[data-site-art]').forEach(setup);
-  document.querySelectorAll('.world-map.dotted-map').forEach(map=>heroField(map,true));
+  document.querySelectorAll('.world-map.dotted-map').forEach(map=>nearViewport(map,()=>{delete map.dataset.artDeferred;heroField(map,true);}));
   window.addEventListener('resize',()=>{const spacing=getComputedStyle(document.querySelector('#main')).paddingTop;fields.forEach(f=>{if(!f.area.classList.contains('dotted-map')){f.area.style.setProperty('--art-header-space',spacing);f.measure();}});},{passive:true});
   document.addEventListener('visibilitychange',()=>{last=0;if(!document.hidden){states.forEach(s=>s.dirty=true);wake();}});
   function resetMotion(){fields.forEach(f=>{f.pending=[];f.previous=null;f.cursor=[0,0,0];f.scrollStamp=null;f.ctx.fillStyle='#000';f.ctx.fillRect(0,0,f.trail.width,f.trail.height);});states.forEach(s=>s.dirty=true);last=0;wake();}

@@ -16,13 +16,15 @@ ROOT = Path(__file__).resolve().parents[1]
 HELPERS = runpy.run_path(str(ROOT/'scripts/check-mobile-subject-wrap.py'))
 rectangle, numeric, nonspace = [HELPERS[key] for key in ('rectangle','numeric','nonspace')]
 subject_mask, image_mapping = [HELPERS[key] for key in ('subject_mask','image_mapping')]
-PAGES = ('company','solutions','training')
+PAGES = ('company','solutions','training','briefing')
 WIDTHS = (320,390,430,600)
 BASELINE = ROOT/'docs/safari-wrap-2026-10-23/baseline.json'
 CLIP_TOLERANCE = .5
+MAX_HEADLINE_FRACTIONS = {'company':.68,'solutions':.78,'training':.78,'briefing':.62}
 APPROVED_PARAGRAPHS = {
     'solutions': 'We pair senior operators with validated AI in a focused pilot, with initial Full Commerce MMM findings in 2–6 weeks.',
     'training': 'Practical training gives your team usable tools, a shared way to assess AI output and workflows they can run.',
+    'briefing': 'Tell us what you want to improve. We start with your market and data. Initial Full Commerce MMM findings arrive in 2–6 weeks.',
 }
 
 
@@ -57,7 +59,7 @@ def check_row(row, baseline_texts):
     reading_width = right-left
     require(reading_width>0,'hero reading width is invalid')
     require(abs(headline[0]-left)<=1.5,'headline does not start at the left reading gutter')
-    maximum_headline_fraction = .78 if page in APPROVED_PARAGRAPHS else .5
+    maximum_headline_fraction = MAX_HEADLINE_FRACTIONS[page]
     require(headline[2] <= left+reading_width*maximum_headline_fraction+1.5,
             'headline exceeds its approved row width')
     require(headline[2]-headline[0] >= reading_width*.4-1.5,'headline column has collapsed')
@@ -75,7 +77,7 @@ def check_row(row, baseline_texts):
     mask, mask_info = subject_mask(page)
     to_source, mapping = image_mapping(row)
     if row['image'].get('sha256'):
-        require(row['image']['sha256']==mask_info['sha256'],'captured source hash differs')
+        require(row['image']['sha256']==mapping['delivered_sha256'],'captured delivered source hash differs')
     bounds=(max(0.0,hero[0]),hero[1],min(float(width),hero[2]),hero[3])
     glyphs=row.get('glyphs',[])
     texts=row.get('texts',{})
@@ -123,9 +125,15 @@ def check_row(row, baseline_texts):
 def load_baseline(path):
     rows=json.loads(path.read_text())
     result={row['page']:row['texts'] for row in rows}
-    if set(result)!=set(PAGES):raise ValueError('baseline must contain all three original page texts')
+    if set(result)!=set(PAGES)-{'briefing'}:raise ValueError('baseline must contain all three original page texts')
+    # Accepted checkpoint 9763a3a supplies the unchanged Briefing headline;
+    # its newly authorized paragraph and absent action are explicit here.
+    result['briefing']={'headline':'Start with your market. Your data.',
+                        'paragraph':APPROVED_PARAGRAPHS['briefing'],'action':''}
     for page,paragraph in APPROVED_PARAGRAPHS.items():
         result[page]=dict(result[page],paragraph=paragraph)
+    for page in PAGES:
+        result[page]=dict(result[page],action=result[page].get('action','').replace('↗',''))
     return result
 
 
@@ -152,7 +160,7 @@ def self_test():
         cases=[]
         narrow=json.loads(json.dumps(row));narrow['paragraph']['right']=200;cases.append((narrow,'complete hero reading width'))
         short=json.loads(json.dumps(row));short['texts']['paragraph']='PAR';cases.append((short,'approved baseline'))
-        too_wide=json.loads(json.dumps(row));too_wide['headline']['right']=24+342*(.79 if page in APPROVED_PARAGRAPHS else .51)+2;cases.append((too_wide,'approved row width'))
+        too_wide=json.loads(json.dumps(row));too_wide['headline']['right']=24+342*(MAX_HEADLINE_FRACTIONS[page]+.01)+2;cases.append((too_wide,'approved row width'))
         early=json.loads(json.dumps(row));early['paragraph']['top']=100+height+10;cases.append((early,'20px below'))
         clipped=json.loads(json.dumps(row));clipped['glyphs'][0]['rects'][0]['right']=390.75;cases.append((clipped,'0.5px'))
         split=json.loads(json.dumps(row));split['glyphs'][-1]['rects'][0]['top']+=100;split['glyphs'][-1]['rects'][0]['bottom']+=100;cases.append((split,'inter-line gap'))

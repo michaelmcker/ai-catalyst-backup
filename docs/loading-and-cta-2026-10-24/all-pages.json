@@ -1,0 +1,191 @@
+[
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 2,
+    "hero": {
+      "bottom": 603,
+      "height": 530,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/sword-hand-outpaint-v8-67faff9b985f.webp",
+    "missingVisibleArt": [],
+    "page": "index",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/sword-hand-outpaint-v8-67faff9b985f.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 8,
+    "hero": {
+      "bottom": 651.890625,
+      "height": 578.890625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/company-knight-20f2f9737494.webp",
+    "missingVisibleArt": [],
+    "page": "company",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/company-knight-20f2f9737494.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 3,
+    "hero": {
+      "bottom": 604.203125,
+      "height": 531.203125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/kneeling-courtyard-75f9e7a9b9aa.webp",
+    "missingVisibleArt": [],
+    "page": "solutions",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/kneeling-courtyard-75f9e7a9b9aa.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 3,
+    "hero": {
+      "bottom": 579.3046875,
+      "height": 506.3046875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/portrait-halftone-17f472228fa3.webp",
+    "missingVisibleArt": [],
+    "page": "training",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/portrait-halftone-17f472228fa3.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 1,
+    "heldImages": 1,
+    "hero": {
+      "bottom": 535.953125,
+      "height": 462.953125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/briefing-arcade-64c9f68e53cd.webp",
+    "missingVisibleArt": [],
+    "page": "briefing",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/briefing-arcade-64c9f68e53cd.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 3,
+    "hero": {
+      "bottom": 516.3359375,
+      "height": 443.3359375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/mounted-approach-panel-v1-799796d8f777.webp",
+    "missingVisibleArt": [],
+    "page": "platform",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/mounted-approach-panel-v1-799796d8f777.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 1,
+    "heldImages": 2,
+    "hero": {
+      "bottom": 548.3671875,
+      "height": 475.3671875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/cavalry-panel-v1-45ea575cb7d1.webp",
+    "missingVisibleArt": [],
+    "page": "creator-social",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/cavalry-panel-v1-45ea575cb7d1.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 3,
+    "hero": {
+      "bottom": 526.7109375,
+      "height": 453.7109375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/river-approach-panel-v1-1d81aa395c63.webp",
+    "missingVisibleArt": [],
+    "page": "marketing-investment",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/river-approach-panel-v1-1d81aa395c63.webp",
+    "width": 390
+  },
+  {
+    "bodyArtWaiting": 2,
+    "heldImages": 3,
+    "hero": {
+      "bottom": 548.3671875,
+      "height": 475.3671875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "heroPreload": "images/delivery-v1/coastal-cavalry-panel-v1-915730773780.webp",
+    "missingVisibleArt": [],
+    "page": "online-conversion",
+    "ready": "true",
+    "scrollWidth": 390,
+    "source": "http://127.0.0.1:8856/current-site/images/delivery-v1/coastal-cavalry-panel-v1-915730773780.webp",
+    "width": 390
+  }
+]

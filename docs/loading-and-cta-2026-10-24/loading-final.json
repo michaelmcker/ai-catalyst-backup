@@ -1,0 +1,216 @@
+{
+  "page": "company",
+  "version": "candidate",
+  "elapsedToArtwork": 5441,
+  "heroURL": "/current-site/images/delivery-v1/company-knight-20f2f9737494.webp",
+  "heroResource": {
+    "name": "/current-site/images/delivery-v1/company-knight-20f2f9737494.webp",
+    "type": "link",
+    "bytes": 1015040,
+    "start": 100.70000000298023,
+    "end": 5410.29999999702,
+    "duration": 5309.5999999940395
+  },
+  "completedImageBytes": 5262,
+  "deferred": 2,
+  "resource": [
+    {
+      "name": "/current-site/images/delivery-v1/company-knight-20f2f9737494.webp",
+      "type": "link",
+      "bytes": 1015040,
+      "start": 100.70000000298023,
+      "end": 5410.29999999702,
+      "duration": 5309.5999999940395
+    },
+    {
+      "name": "/current-site/site-system.css",
+      "type": "link",
+      "bytes": 11154,
+      "start": 100.79999999701977,
+      "end": 455.20000000298023,
+      "duration": 354.40000000596046
+    },
+    {
+      "name": "/current-site/subpages.css",
+      "type": "link",
+      "bytes": 33296,
+      "start": 100.79999999701977,
+      "end": 886.7999999970198,
+      "duration": 786
+    },
+    {
+      "name": "/current-site/restored-content.css",
+      "type": "link",
+      "bytes": 18659,
+      "start": 100.90000000596046,
+      "end": 586.4000000059605,
+      "duration": 485.5
+    },
+    {
+      "name": "/current-site/editorial-system.css",
+      "type": "link",
+      "bytes": 29176,
+      "start": 100.90000000596046,
+      "end": 874.0999999940395,
+      "duration": 773.1999999880791
+    },
+    {
+      "name": "/current-site/site-shell.js",
+      "type": "script",
+      "bytes": 4378,
+      "start": 100.90000000596046,
+      "end": 1408.9000000059605,
+      "duration": 1308
+    },
+    {
+      "name": "/current-site/restored-platform-motion.js",
+      "type": "script",
+      "bytes": 10598,
+      "start": 100.90000000596046,
+      "end": 1467.7999999970198,
+      "duration": 1366.8999999910593
+    },
+    {
+      "name": "/current-site/restored-layout.css",
+      "type": "link",
+      "bytes": 1488,
+      "start": 101,
+      "end": 244.59999999403954,
+      "duration": 143.59999999403954
+    },
+    {
+      "name": "/current-site/entry-refinement.css",
+      "type": "link",
+      "bytes": 5598,
+      "start": 101,
+      "end": 467.09999999403954,
+      "duration": 366.09999999403954
+    },
+    {
+      "name": "/current-site/chivalry-v3.css",
+      "type": "link",
+      "bytes": 12113,
+      "start": 101,
+      "end": 850.7000000029802,
+      "duration": 749.7000000029802
+    },
+    {
+      "name": "/current-site/simplified-navigation.css",
+      "type": "link",
+      "bytes": 3024,
+      "start": 101,
+      "end": 1013,
+      "duration": 912
+    },
+    {
+      "name": "/current-site/art-direction-v2.css",
+      "type": "link",
+      "bytes": 6550,
+      "start": 101,
+      "end": 1109,
+      "duration": 1008
+    },
+    {
+      "name": "/current-site/site-story.js",
+      "type": "script",
+      "bytes": 2750,
+      "start": 101,
+      "end": 1378.0999999940395,
+      "duration": 1277.0999999940395
+    },
+    {
+      "name": "/current-site/advisor-portraits.js",
+      "type": "script",
+      "bytes": 2262,
+      "start": 101,
+      "end": 1431.5999999940395,
+      "duration": 1330.5999999940395
+    },
+    {
+      "name": "/current-site/hero-composition-v3.css",
+      "type": "link",
+      "bytes": 11381,
+      "start": 101.09999999403954,
+      "end": 797.0999999940395,
+      "duration": 696
+    },
+    {
+      "name": "/current-site/client-layout-v3.css",
+      "type": "link",
+      "bytes": 23952,
+      "start": 101.20000000298023,
+      "end": 1167.5999999940395,
+      "duration": 1066.3999999910593
+    },
+    {
+      "name": "/current-site/feedback-v3.css",
+      "type": "link",
+      "bytes": 18108,
+      "start": 106.5,
+      "end": 1228.7999999970198,
+      "duration": 1122.2999999970198
+    },
+    {
+      "name": "/current-site/mobile-hero-row.css",
+      "type": "link",
+      "bytes": 6230,
+      "start": 106.59999999403954,
+      "end": 1240.5999999940395,
+      "duration": 1134
+    },
+    {
+      "name": "/current-site/hero-responsive-fix.css",
+      "type": "link",
+      "bytes": 12400,
+      "start": 106.59999999403954,
+      "end": 1252.4000000059605,
+      "duration": 1145.800000011921
+    },
+    {
+      "name": "/current-site/migration-changes.css",
+      "type": "link",
+      "bytes": 6133,
+      "start": 106.59999999403954,
+      "end": 1300.4000000059605,
+      "duration": 1193.800000011921
+    },
+    {
+      "name": "/current-site/assets/logo.svg",
+      "type": "img",
+      "bytes": 5262,
+      "start": 106.70000000298023,
+      "end": 1318.4000000059605,
+      "duration": 1211.7000000029802
+    },
+    {
+      "name": "/current-site/revision-enquiry.js",
+      "type": "script",
+      "bytes": 1890,
+      "start": 155.20000000298023,
+      "end": 1450.2000000029802,
+      "duration": 1295
+    },
+    {
+      "name": "/current-site/image-loading.js",
+      "type": "script",
+      "bytes": 1762,
+      "start": 155.29999999701977,
+      "end": 1486.7000000029802,
+      "duration": 1331.4000000059605
+    },
+    {
+      "name": "/current-site/halftone-rendering.js",
+      "type": "script",
+      "bytes": 34156,
+      "start": 155.29999999701977,
+      "end": 1762,
+      "duration": 1606.7000000029802
+    }
+  ],
+  "network": {
+    "latencyMs": 80,
+    "downloadBytesPerSecond": 250000,
+    "uploadBytesPerSecond": 125000,
+    "cacheDisabled": true
+  }
+}

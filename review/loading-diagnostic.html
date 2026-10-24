@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><title>Local image loading diagnostic</title>
+<style>body{font:16px system-ui;margin:20px}iframe{width:390px;height:900px;border:1px solid #ccc}pre{white-space:pre-wrap}</style>
+<h1>Local image loading diagnostic</h1><button id="start">Start diagnostic</button><pre id="result">Measuring…</pre><iframe title="Site loading sample"></iframe>
+<script>
+const params=new URLSearchParams(location.search),frame=document.querySelector('iframe');
+const page=params.get('page')||'company',version=params.get('version')==='baseline'?'baseline':'candidate';
+const path=(version==='baseline'?'/__baseline/':'/current-site/')+page+'.html';
+document.querySelector('#start').addEventListener('click',()=>{
+const started=performance.now();frame.src=path;
+const poll=setInterval(()=>{try{
+ const doc=frame.contentDocument,view=frame.contentWindow;
+ if(!doc||!view.location.pathname.endsWith(page+'.html'))return;
+ const art=doc.querySelector('[data-site-art="hero"]');
+ if(art?.dataset.artDrawReady!=='true')return;
+ const resource=view.performance.getEntriesByType('resource').map(r=>({name:new URL(r.name).pathname,type:r.initiatorType,bytes:r.encodedBodySize,start:r.startTime,end:r.responseEnd,duration:r.duration}));
+ const hero=art.querySelector('img'),heroURL=new URL(hero.currentSrc).pathname;
+ const result={page,version,elapsedToArtwork:performance.now()-started,heroURL,heroResource:resource.find(r=>r.name===heroURL),completedImageBytes:resource.filter(r=>r.type==='img').reduce((a,r)=>a+r.bytes,0),deferred:[...doc.querySelectorAll('[data-art-deferred="waiting"]')].length,resource};
+ document.querySelector('#result').textContent=JSON.stringify(result);document.body.dataset.complete='true';clearInterval(poll);
+}catch(error){document.querySelector('#result').textContent=error.message;}},16);
+},{once:true});
+</script>

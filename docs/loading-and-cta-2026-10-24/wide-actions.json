@@ -1,0 +1,104 @@
+[
+  {
+    "actions": [
+      {
+        "rect": {
+          "bottom": 465.578125,
+          "height": 55.59375,
+          "left": 40,
+          "right": 219.8515625,
+          "top": 409.984375,
+          "width": 179.8515625,
+          "x": 40,
+          "y": 409.984375
+        },
+        "text": "See the working model "
+      },
+      {
+        "rect": {
+          "bottom": 459.78125,
+          "height": 44,
+          "left": 235.8515625,
+          "right": 385.7265625,
+          "top": 415.78125,
+          "width": 149.875,
+          "x": 235.8515625,
+          "y": 415.78125
+        },
+        "text": "Watch the film"
+      }
+    ],
+    "filmButtonCount": 1,
+    "filmDialogCount": 1,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "actions": [
+      {
+        "rect": {
+          "bottom": 467.3515625,
+          "height": 44,
+          "left": 40,
+          "right": 288.203125,
+          "top": 423.3515625,
+          "width": 248.203125,
+          "x": 40,
+          "y": 423.3515625
+        },
+        "text": "See the working model "
+      },
+      {
+        "rect": {
+          "bottom": 465.3515625,
+          "height": 44,
+          "left": 304.203125,
+          "right": 511.0390625,
+          "top": 421.3515625,
+          "width": 206.8359375,
+          "x": 304.203125,
+          "y": 421.3515625
+        },
+        "text": "Watch the film"
+      }
+    ],
+    "filmButtonCount": 1,
+    "filmDialogCount": 1,
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "actions": [
+      {
+        "rect": {
+          "bottom": 550.8984375,
+          "height": 44,
+          "left": 80.6328125,
+          "right": 366.453125,
+          "top": 506.8984375,
+          "width": 285.8203125,
+          "x": 80.6328125,
+          "y": 506.8984375
+        },
+        "text": "See the working model "
+      },
+      {
+        "rect": {
+          "bottom": 548.8984375,
+          "height": 44,
+          "left": 382.453125,
+          "right": 620.6328125,
+          "top": 504.8984375,
+          "width": 238.1796875,
+          "x": 382.453125,
+          "y": 504.8984375
+        },
+        "text": "Watch the film"
+      }
+    ],
+    "filmButtonCount": 1,
+    "filmDialogCount": 1,
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]
