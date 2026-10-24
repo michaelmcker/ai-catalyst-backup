@@ -1,0 +1,34 @@
+{
+  "deployment": {
+    "id": "1f4f585e-269f-417b-bb36-ae1b44eab307",
+    "url": "https://1f4f585e.ai-catalyst-9l3.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T17:02:46.161617Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "7f586e0c28a7abadf6b7a6b1bfa8ba747b586bf9",
+        "commit_message": "Version logo references to bypass older cached filled artwork",
+        "commit_dirty": false
+      }
+    }
+  },
+  "canonical": "1f4f585e-269f-417b-bb36-ae1b44eab307",
+  "previousProduction": "41144941-c60d-46a2-a55e-a7f063d960de",
+  "publicChange": "Only three logo URL references in each of the nine existing HTML pages",
+  "reusedLiveAssets": 95,
+  "fullSiteUpload": false,
+  "logoURL": "assets/logo.svg?v=outline-b8383198",
+  "browserProof": {
+    "normalReload": true,
+    "logoComplete": true,
+    "observedURL": "https://ai-catalyst-9l3.pages.dev/assets/logo.svg?v=outline-b8383198",
+    "headerHeight": 81
+  }
+}
