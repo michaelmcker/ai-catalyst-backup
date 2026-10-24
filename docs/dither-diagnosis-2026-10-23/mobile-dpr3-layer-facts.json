@@ -1,0 +1,185 @@
+{
+  "vercel": {
+    "canvas": {
+      "className": "site-art-tones",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pixelHeight": 757,
+      "pixelWidth": 562,
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "visible",
+      "zIndex": "1"
+    },
+    "data": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "v1-threshold-and-wake",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".90",
+      "siteArt": "hero"
+    },
+    "field": {
+      "className": "site-hero-field",
+      "mixBlendMode": "multiply",
+      "opacity": "1",
+      "pixelHeight": 883,
+      "pixelWidth": 780,
+      "rect": {
+        "bottom": 514.40625,
+        "height": 441.40625,
+        "left": 0,
+        "right": 390,
+        "top": 73,
+        "width": 390,
+        "x": 0,
+        "y": 73
+      },
+      "visibility": "visible",
+      "zIndex": "1"
+    },
+    "image": {
+      "className": "",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "hidden",
+      "zIndex": "auto"
+    },
+    "stage": {
+      "className": "hero-art interactive-art art-v2-sword-hand site-art-ready",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "visible",
+      "zIndex": "0"
+    },
+    "url": "https://ai-catalyst-wheat.vercel.app/index.html",
+    "viewport": {
+      "dpr": 3,
+      "height": 844,
+      "width": 390
+    }
+  },
+  "cloudflare": {
+    "canvas": {
+      "className": "site-art-tones",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pixelHeight": 757,
+      "pixelWidth": 562,
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "visible",
+      "zIndex": "1"
+    },
+    "data": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "fixed-grain-tonal-pass",
+      "artPrint": ".32",
+      "artProfile": "close",
+      "artTextureWidth": "1280",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".32",
+      "siteArt": "hero"
+    },
+    "field": {
+      "className": "site-hero-field",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pixelHeight": 883,
+      "pixelWidth": 780,
+      "rect": {
+        "bottom": 514.40625,
+        "height": 441.40625,
+        "left": 0,
+        "right": 390,
+        "top": 73,
+        "width": 390,
+        "x": 0,
+        "y": 73
+      },
+      "visibility": "visible",
+      "zIndex": "0"
+    },
+    "image": {
+      "className": "",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "hidden",
+      "zIndex": "auto"
+    },
+    "stage": {
+      "className": "hero-art interactive-art art-v2-sword-hand site-art-ready",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "rect": {
+        "bottom": 514.40625,
+        "height": 378.40625,
+        "left": 216,
+        "right": 496.796875,
+        "top": 136,
+        "width": 280.796875,
+        "x": 216,
+        "y": 136
+      },
+      "visibility": "visible",
+      "zIndex": "1"
+    },
+    "url": "https://aicatalyst.biz/",
+    "viewport": {
+      "dpr": 3,
+      "height": 844,
+      "width": 390
+    }
+  }
+}

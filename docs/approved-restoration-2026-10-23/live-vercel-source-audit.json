@@ -1,0 +1,383 @@
+{
+  "files": [
+    {
+      "page": "index",
+      "relative": "index.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/index.html",
+      "bytes": 50672,
+      "mime": "text/html",
+      "sha256": "c5146509a8e400f6f18d24ce598f1e31fdede17928a093d44425e3d86a37d2c0",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "solutions.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/solutions.html",
+      "bytes": 10694,
+      "mime": "text/html",
+      "sha256": "bd1fd13ff1aea827499fbfee8869ba6985d02a4816a063226c933ea50da53045",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "solutions-overrides.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/solutions-overrides.css",
+      "bytes": 1804,
+      "mime": "text/css",
+      "sha256": "6e1d7206472bd5bb1e00685ae33303d06f412e6674b4df0bd8761c5beb796af8",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "feedback-v3.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/feedback-v3.css?v=20261014-1",
+      "bytes": 18108,
+      "mime": "text/css",
+      "sha256": "56b36114005cce6ceea107fc4372b7187499cd03f3567ba7ddb5babeb1bca645",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "restored-content.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/restored-content.css?v=20260930-restore1",
+      "bytes": 18659,
+      "mime": "text/css",
+      "sha256": "92d3dc974093c15df13b5f3bad5e2b7d068c94b72764fba52f1832ddceb4a97c",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "chivalry-v3.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/chivalry-v3.css?v=20261002-wrap3",
+      "bytes": 12113,
+      "mime": "text/css",
+      "sha256": "79672ecbce53351b432036a0a333ab2c3ca28bd9d96339e5b8bedb2bf729ef62",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "images/art-v3/kneeling-courtyard.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/kneeling-courtyard.webp",
+      "bytes": 1505028,
+      "mime": "image/webp",
+      "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "subpages.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/subpages.css",
+      "bytes": 33296,
+      "mime": "text/css",
+      "sha256": "b10293c221698c9d79ae0e1f8831956e09e57d2f501e123ad413a99dbc07b773",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "site-story.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/site-story.js?v=20260930-entry1",
+      "bytes": 2750,
+      "mime": "application/javascript",
+      "sha256": "32625ee7b87524308d08485f672796e404999605fec65513bc5f6d47c8491d11",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "halftone-rendering.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/halftone-rendering.js?v=20261014-1",
+      "bytes": 23955,
+      "mime": "application/javascript",
+      "sha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "solutions",
+      "relative": "restored-platform-motion.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/restored-platform-motion.js?v=20261014-1",
+      "bytes": 10598,
+      "mime": "application/javascript",
+      "sha256": "1dddcfb22667f1d8c28e5c5d032fcbbd5cde3d14997f679c376b13dbec0fee53",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "company.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/company.html",
+      "bytes": 13311,
+      "mime": "text/html",
+      "sha256": "7421f95f4d75121bed96fe011b69d030cc4aaf90d2dc2e328f30fba8eeb1e1ac",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "images/art-v3/company-knight.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/company-knight.webp",
+      "bytes": 1336716,
+      "mime": "image/webp",
+      "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "hero-composition-v3.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/hero-composition-v3.css?v=20261002-goal1",
+      "bytes": 11381,
+      "mime": "text/css",
+      "sha256": "67cea4976f77a858bb7e26dafaf1b11a0c27aaaa583ad9b670be5800e534a749",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "advisor-portraits.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/advisor-portraits.js?v=20261002-fine3",
+      "bytes": 2262,
+      "mime": "application/javascript",
+      "sha256": "a1528374108ce9a4f7600eddc38d9ba07d2bae9445a858aeddba57b3bbbac089",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "images/advisors/andrew-ryder-source.jpg",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/andrew-ryder-source.jpg",
+      "bytes": 135471,
+      "mime": "image/jpeg",
+      "sha256": "73e1ad41a30ceb06716c88537cd8210e5334f42effb683108e6ced1c9b9248ea",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "images/advisors/randy-earlier-portrait.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/randy-earlier-portrait.webp",
+      "bytes": 2707472,
+      "mime": "image/webp",
+      "sha256": "1ebf8adff576a0b8a021dbb9d86e64e02bdfd6b5bc000639976ea75ee6d0a847",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "images/advisors/bill-langlois-source.jpg",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/bill-langlois-source.jpg",
+      "bytes": 383944,
+      "mime": "image/jpeg",
+      "sha256": "b36f9ea92f47b067e2285c9bcfa9e18aa4bbafc3cc1e6efe8d9d5a64383d483b",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "company",
+      "relative": "images/advisors/nick-bobrow-source.jpg",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/nick-bobrow-source.jpg",
+      "bytes": 13906,
+      "mime": "image/jpeg",
+      "sha256": "fa1899c177f11f75f80a54cd29389745dd77f1876e4e9aa08555a54f7896255e",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "briefing",
+      "relative": "briefing.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/briefing.html",
+      "bytes": 7160,
+      "mime": "text/html",
+      "sha256": "7b5a9c13010c240c60c8d4a118b45523febcff4bde83570c9c22ba05224079e0",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "briefing",
+      "relative": "images/art-v3/briefing-arcade.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/briefing-arcade.webp",
+      "bytes": 1677348,
+      "mime": "image/webp",
+      "sha256": "6f0295b9d5e67123ced68a5a9d4ee6fa164b1c5294297d4384fa48cd68379e02",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "briefing",
+      "relative": "revision-enquiry.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/revision-enquiry.js",
+      "bytes": 1881,
+      "mime": "application/javascript",
+      "sha256": "05531b2463e1fb72339ce119665d7394bc10f4d89002b5c49ce3f126c09f608b",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "briefing",
+      "relative": "images/art-v2/bridge-halftone.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v2/bridge-halftone.webp",
+      "bytes": 1559348,
+      "mime": "image/webp",
+      "sha256": "c6af6c2d172b9820dbccd0a698962faa24868cc9f0ae4104caa4d3610d426368",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "training",
+      "relative": "training.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/training.html",
+      "bytes": 8727,
+      "mime": "text/html",
+      "sha256": "d93777aaee7e13f9c7feed4ad8ee2e52f3f14d1a534e4dadb0e34630d723d3f3",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "training",
+      "relative": "platform-command.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/platform-command.css",
+      "bytes": 8674,
+      "mime": "text/css",
+      "sha256": "ba58d13a91bbf959ae1a5202653b7a1eb356a5dd07ddb13cf3771d536bb46397",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "training",
+      "relative": "images/art-v2/portrait-halftone.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v2/portrait-halftone.webp",
+      "bytes": 1638592,
+      "mime": "image/webp",
+      "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "training",
+      "relative": "images/art-v4/cloister-garden-panel-v1.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cloister-garden-panel-v1.webp",
+      "bytes": 2270702,
+      "mime": "image/webp",
+      "sha256": "ce8050db9d5dbde5dae2b27ae4be5edbd3910b1d85517fcf4d300bf2449dbd98",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "platform.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/platform.html",
+      "bytes": 43323,
+      "mime": "text/html",
+      "sha256": "8bade47721504904eba54c008dd2dcffe17c75d6add11a086c9c9625580ba012",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "images/ai-catalyst/imported-13-2e7ec4d4ce.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-13-2e7ec4d4ce.webp",
+      "bytes": 675826,
+      "mime": "image/webp",
+      "sha256": "2e7ec4d4ce52eade7caffc2a70814523c37b99912ff0c087ab40602d6c06e2d7",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "images/ai-catalyst/imported-12-36916e45b6.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-12-36916e45b6.webp",
+      "bytes": 391626,
+      "mime": "image/webp",
+      "sha256": "36916e45b6f45c331ba4de1615584922696024bb78ecbae0f218a168c490034a",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "images/art-v4/mounted-approach-panel-v1.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/mounted-approach-panel-v1.webp",
+      "bytes": 2167644,
+      "mime": "image/webp",
+      "sha256": "ae0b4de89f703f4d1ff8502941f4b09a95dc65194580746f4271a05236a15f77",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "partner-neutral.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/partner-neutral.css?v=20261020-2",
+      "bytes": 637,
+      "mime": "text/css",
+      "sha256": "bd21c646e233a141e52a17792b068aeb742d0a62f8033be261c97fa6fbfad31a",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "platform",
+      "relative": "images/ai-catalyst/imported-14-046af0d744.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-14-046af0d744.webp",
+      "bytes": 417230,
+      "mime": "image/webp",
+      "sha256": "046af0d744266ad604d3325a8409edc801762d9212ef3369d76d305a33d9b2f8",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "creator-social",
+      "relative": "creator-social.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/creator-social.html",
+      "bytes": 9873,
+      "mime": "text/html",
+      "sha256": "52baeced859c638bbe727f9ea312816274449644def3dd2eb38ded1e0329d6de",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "creator-social",
+      "relative": "quality-site.css",
+      "url": "https://ai-catalyst-wheat.vercel.app/quality-site.css?v=20260930-oci1",
+      "bytes": 39063,
+      "mime": "text/css",
+      "sha256": "ff7211880d2a3c683e7b00b12e590c3e8fe86651b32e3c035f69852b4fc42c1c",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "creator-social",
+      "relative": "images/art-v4/cavalry-panel-v1.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cavalry-panel-v1.webp",
+      "bytes": 1975410,
+      "mime": "image/webp",
+      "sha256": "abf9a739d3b1c2ca5255d6a58b4c35fc08042a7360967195c25e9f76769c5751",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "creator-social",
+      "relative": "quality-motion.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/quality-motion.js?v=20260929-quality1",
+      "bytes": 2915,
+      "mime": "application/javascript",
+      "sha256": "10e577420921b1580c108ea0bedc9c51369a96aae85d595d0137ab01ad10668d",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "creator-social",
+      "relative": "platform-motion.js",
+      "url": "https://ai-catalyst-wheat.vercel.app/platform-motion.js?v=20261014-1",
+      "bytes": 11722,
+      "mime": "application/javascript",
+      "sha256": "3990cbb0532bbd0254598a79fdacc0de2d031ebcb4bd0443e9ea0e8b9f8ef03a",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "marketing-investment",
+      "relative": "marketing-investment.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/marketing-investment.html",
+      "bytes": 11715,
+      "mime": "text/html",
+      "sha256": "567b4f1cc8478a55cc59dd4af83d10deb4f06b8a12e69ec05f95677465e33e62",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "marketing-investment",
+      "relative": "images/art-v4/river-approach-panel-v1.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/river-approach-panel-v1.webp",
+      "bytes": 2177216,
+      "mime": "image/webp",
+      "sha256": "7464094dd1e79a470f9088a1f5f48ac874c0c9a68d248fb8b9f379a8ae93f4bb",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "online-conversion",
+      "relative": "online-conversion.html",
+      "url": "https://ai-catalyst-wheat.vercel.app/online-conversion.html",
+      "bytes": 12652,
+      "mime": "text/html",
+      "sha256": "8b30fa80c8766205b9d2c272dab0aac5703c57dee36a8bd1c9f7872cb770ccf0",
+      "matchesApprovedBackup": true
+    },
+    {
+      "page": "online-conversion",
+      "relative": "images/art-v4/coastal-cavalry-panel-v1.webp",
+      "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/coastal-cavalry-panel-v1.webp",
+      "bytes": 2084926,
+      "mime": "image/webp",
+      "sha256": "6cc441df17fc175963bdbcca80f1e85d0bdeb7e5edea109be3921805224a5942",
+      "matchesApprovedBackup": true
+    }
+  ],
+  "failures": []
+}

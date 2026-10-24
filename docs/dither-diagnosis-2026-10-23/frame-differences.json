@@ -1,0 +1,86 @@
+{
+  "vercel": {
+    "idle-1": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0044,
+        "mean_channel_difference": 0.084
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.0407,
+        "mean_channel_difference": 0.63
+      }
+    },
+    "pointer-0": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0212,
+        "mean_channel_difference": 0.386
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.1415,
+        "mean_channel_difference": 2.011
+      }
+    },
+    "pointer-1": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0573,
+        "mean_channel_difference": 0.78
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.2243,
+        "mean_channel_difference": 3.005
+      }
+    },
+    "pointer-2": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0554,
+        "mean_channel_difference": 0.8
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.2844,
+        "mean_channel_difference": 3.749
+      }
+    }
+  },
+  "cloudflare": {
+    "idle-1": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0,
+        "mean_channel_difference": 0.036
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.0001,
+        "mean_channel_difference": 0.037
+      }
+    },
+    "pointer-0": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0003,
+        "mean_channel_difference": 0.109
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.0004,
+        "mean_channel_difference": 0.125
+      }
+    },
+    "pointer-1": {
+      "text_field": {
+        "changed_fraction_gt5": 0.0019,
+        "mean_channel_difference": 0.174
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.0014,
+        "mean_channel_difference": 0.209
+      }
+    },
+    "pointer-2": {
+      "text_field": {
+        "changed_fraction_gt5": 0.004,
+        "mean_channel_difference": 0.228
+      },
+      "artwork": {
+        "changed_fraction_gt5": 0.0022,
+        "mean_channel_difference": 0.293
+      }
+    }
+  }
+}

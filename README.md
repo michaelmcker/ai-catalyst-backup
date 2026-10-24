@@ -8,11 +8,11 @@ Public contact: `randy@aicatalyst.biz`, `416-270-0132`, Toronto, Canada. Randy c
 
 Validate source with `python3 scripts/check-public-site.py`. Rendered hero/pattern evidence is in `docs/hero-correction-2026-10-23/`. Deployment uploads only `current-site/`, excluding instructions, review material, historical exports and evidence.
 
-The latest visual repair restores the substantial right-hand Home figure and full-width mobile headline. Company, How We Work, Briefing and Training retain text left/image right. All four panoramic pages place their headline section first and the full-width image directly below at every breakpoint; desktop puts headline left and support right.
+The approved Vercel rendering has been restored from the verified GitHub source. It retains the moving ordered dither, original image profiles and original body layouts/interactions. All nine live Vercel HTML pages and 42 observed assets match backup revision 68dbb96; the source audit is in docs/approved-restoration-2026-10-23/. Today's approved contact/navigation changes remain.
 
-The original Vercel composition informs scale, but its dithering was also flawed. The revised finish retains modeled image shading, with a restrained fixed-grain screen and a continuous field behind copy and artwork. It removes the extra Home multiply layer, heavy scenic drift and shader blur of already-resampled images. Texture sampling uses the selected srcset width, because naturalWidth is density-corrected and can be much smaller than the uploaded bitmap.
+Home retains its substantial right-side artwork. Company, How We Work, Briefing and Training retain their requested side heroes. All four panoramic pages keep headline left, support right and the full-width image immediately below on desktop AND mobile. A shared moving overlay covers the complete hero, including artwork, on all pages. Responsive delivery, source masters and resize guards are preserved.
 
-Rebuild delivery images with `python3 scripts/build-image-variants.py` (requires cwebp), then mirror changed public files to the root. Run `python3 scripts/check-image-budget.py` and `python3 scripts/check-mobile-hero.py docs/visual-repair-2026-10-23/rendered-checks.json`. Current screenshots and checks are in `docs/visual-repair-2026-10-23/`. The previous mobile-performance folder records the rejected release, including its incorrect compact Home and image-first panorama assumptions.
+Run `python3 scripts/check-approved-restoration.py`, `python3 scripts/check-public-site.py`, `python3 scripts/check-image-budget.py`, `python3 scripts/check-mobile-hero.py docs/approved-restoration-2026-10-23/rendered-checks.json`, and `python3 scripts/check-restored-motion.py docs/approved-restoration-2026-10-23`. Current visual evidence is in that folder. Earlier fixed-grain releases and their acceptance assumptions were rejected.
 
 ## Original backup — 22 October 2026
 

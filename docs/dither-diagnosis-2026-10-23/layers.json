@@ -1,0 +1,279 @@
+{
+  "vercel": {
+    "canvas": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "site-art-tones",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "1"
+    },
+    "data": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "v1-threshold-and-wake",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".90",
+      "siteArt": "hero"
+    },
+    "dpr": 1,
+    "field": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "multiply",
+      "className": "site-hero-field",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "1"
+    },
+    "hero": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "hero",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "auto"
+    },
+    "img": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "auto"
+    },
+    "innerWidth": 390,
+    "scene": {
+      "background": "rgb(255, 255, 255)",
+      "blend": "normal",
+      "className": "hero-scene",
+      "display": "flex",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "auto"
+    },
+    "scripts": [
+      "https://ai-catalyst-wheat.vercel.app/site-shell.js?v=20261003-shared1",
+      "https://ai-catalyst-wheat.vercel.app/restored-home-motion.js?v=20261015-mapcontrast1",
+      "https://ai-catalyst-wheat.vercel.app/revision-enquiry.js?v=20261003-audit1",
+      "https://ai-catalyst-wheat.vercel.app/service-motion.js?v=20260930-pilot2",
+      "https://ai-catalyst-wheat.vercel.app/halftone-rendering.js?v=20261015-continuity2"
+    ],
+    "stage": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "hero-art interactive-art art-v2-sword-hand site-art-ready",
+      "display": "block",
+      "mask": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 28px)",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "0"
+    },
+    "url": "https://ai-catalyst-wheat.vercel.app/"
+  },
+  "cloudflare": {
+    "canvas": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "site-art-tones",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "1"
+    },
+    "data": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "fixed-grain-tonal-pass",
+      "artPrint": ".32",
+      "artProfile": "close",
+      "artTextureWidth": "640",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".32",
+      "siteArt": "hero"
+    },
+    "dpr": 1,
+    "field": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "site-hero-field",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "0"
+    },
+    "hero": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "hero",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "auto"
+    },
+    "img": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "",
+      "display": "block",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "auto"
+    },
+    "innerWidth": 390,
+    "scene": {
+      "background": "rgb(255, 255, 255)",
+      "blend": "normal",
+      "className": "hero-scene",
+      "display": "flex",
+      "mask": "none",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 438.625,
+        "left": 0,
+        "right": 375,
+        "top": 73,
+        "width": 375,
+        "x": 0,
+        "y": 73
+      },
+      "z": "auto"
+    },
+    "scripts": [
+      "https://aicatalyst.biz/site-shell.js?v=20261003-shared1",
+      "https://aicatalyst.biz/restored-home-motion.js?v=20261023-repair4",
+      "https://aicatalyst.biz/revision-enquiry.js?v=20261023-contact1",
+      "https://aicatalyst.biz/service-motion.js?v=20260930-pilot2",
+      "https://aicatalyst.biz/halftone-rendering.js?v=20261023-repair4",
+      "https://aicatalyst.biz/site-assets.js?v=20261023-performance1",
+      "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+    ],
+    "stage": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blend": "normal",
+      "className": "hero-art interactive-art art-v2-sword-hand site-art-ready",
+      "display": "block",
+      "mask": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 28px)",
+      "opacity": "1",
+      "rect": {
+        "bottom": 511.625,
+        "height": 375.625,
+        "left": 213,
+        "right": 483,
+        "top": 136,
+        "width": 270,
+        "x": 213,
+        "y": 136
+      },
+      "z": "1"
+    },
+    "url": "https://aicatalyst.biz/"
+  }
+}

@@ -32,10 +32,9 @@ for row in rows:
         require(abs(art['width'] - hero['width']) <= 1 and abs(art['left'] - hero['left']) <= 1,
                 'panoramic image is not full width')
         require(row['sizes'] == '100vw', 'panoramic image has an undersized delivery hint')
-        if row['width'] > 700:
-            support = row['support']
-            require(support['left'] >= heading['right'] and abs(support['top'] - heading['top']) < 12,
-                    'headline and support are not left/right')
+        support = row['support']
+        require(support['left'] >= heading['right'] and abs(support['top'] - heading['top']) < 12,
+                'headline and support are not left/right')
     elif name == 'index' and row['width'] <= 700:
         require(art['width'] >= hero['width'] * .65, 'homepage figure was reduced to a thumbnail')
         require(heading['width'] >= hero['width'] * .85, 'homepage headline squeezed into a narrow column')

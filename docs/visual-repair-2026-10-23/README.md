@@ -1,3 +1,5 @@
+> Rejected and superseded: the fixed-grain change removed the approved moving dither and image treatment. These checks did not establish equivalence to Vercel. Current restoration evidence is ../approved-restoration-2026-10-23/.
+
 # Hero composition and print repair
 
 Michael rejected the previous mobile release. Its homepage figure and headline were squeezed into a 40/60 split, the four panoramic openings remained image-first on phones, and responsive source images became blurred by the shared shader. The original Vercel composition is useful for scale, but Michael explicitly clarified that its original dithering was also faulty.
