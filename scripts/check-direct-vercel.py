@@ -19,6 +19,7 @@ CACHE='20261023-direct8'
 RENDERER_CACHE='20261024-direct9'
 IMAGE_LOADER_CACHE='20261024-load1'
 IMAGE_LOADER_SHA256='767f07d5b0d122a1cd792a5c3dac0108d15f290ba16cc6f6e9f158b0573f044d'
+APPROVED_LOGO_SHA256='60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84'
 DEFERRED_IMAGE_COUNTS={'index.html':2,'company.html':9,'briefing.html':2,'solutions.html':3,
                        'training.html':3,'platform.html':3,'creator-social.html':2,
                        'marketing-investment.html':3,'online-conversion.html':3}
@@ -167,6 +168,20 @@ def expected(path,source):
     if path in CONTENT['FILES']:
         source=CONTENT['patch'](source,path)
         CONTENT['validate_result'](source,path)
+    if path=='client-layout-v3.css':
+        css=source.decode()
+        substitutions=(
+            ('.quality-site .masthead.is-open .masthead-logo{width:180px;height:44px;',
+             '.quality-site .masthead.is-open .masthead-logo{width:140px;height:44px;'),
+            ('.masthead .masthead-logo img{width:174px;max-height:36px}',
+             '.masthead .masthead-logo img{width:auto;height:auto;max-width:100%;max-height:44px}'),
+            ('.masthead .masthead-logo img{width:138px;max-width:100%;max-height:30px}',
+             '.masthead .masthead-logo img{width:auto;max-width:100%;max-height:44px}'),
+        )
+        for before,after in substitutions:
+            assert css.count(before)==1,'client-layout-v3.css: original logo sizing rule differs'
+            css=css.replace(before,after,1)
+        source=css.encode()
     if path.endswith('.html'):
         s=source.decode()
         if Path(path).stem in PARAGRAPH_REVISIONS:
@@ -406,6 +421,12 @@ def check():
         path=row['path'];source=original(path)
         if hashlib.sha256(source).hexdigest()!=row['sha256'] or not row['matches_git_reference']:
             fail.append(path+': downloaded Vercel source differs from reference')
+        if path=='assets/logo.svg':
+            logo=(ROOT/'current-site'/path).read_bytes()
+            if hashlib.sha256(logo).hexdigest()!=APPROVED_LOGO_SHA256 or len(logo)!=4044:
+                fail.append(path+': differs from the exact approved pill-logo artwork')
+            if (ROOT/path).read_bytes()!=logo:fail.append(path+': logo root mirror differs')
+            continue
         if path=='halftone-rendering.js':
             try:fail.extend(check_renderer((ROOT/'current-site'/path).read_text(),source.decode()))
             except (ValueError,IndexError) as error:fail.append('renderer: '+str(error))
@@ -443,7 +464,7 @@ def check():
         if 'hero-layout.css' in html or 'site-assets.js' in html or 'images/optimized' in html:
             fail.append(page+': previous adaptive renderer/delivery imports remain')
     if fail:raise SystemExit('\n'.join('FAIL: '+s for s in fail))
-    print(f'PASS: {len(rows)} Vercel files and {derivatives} hash/dimension/alpha/RGB-checked derivatives against the explicit allowlist; 30 deferred images with exact noscript fallbacks and the hash/behavior-checked hero-first loader; original masters/styles/interaction scripts, approved copy including three explicit shorter paragraphs, vector arrows, retained print/weather/pointer calculations, authorized compositor, viewport scheduling and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
+    print(f'PASS: {len(rows)} Vercel files and {derivatives} hash/dimension/alpha/RGB-checked derivatives against the explicit allowlist; exact approved pill-logo artwork and three sizing substitutions; 30 deferred images with exact noscript fallbacks and the hash/behavior-checked hero-first loader; original image masters and other styles/interaction scripts, approved copy including three explicit shorter paragraphs, vector arrows, retained print/weather/pointer calculations, authorized compositor, viewport scheduling and scoped phone/tablet hero layouts. Safari/visual behavior requires separate rendered proof.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--self-test',action='store_true')

@@ -7,8 +7,8 @@
 .masthead.is-compact .masthead-logo,
 .masthead.is-open .masthead-logo,
 .quality-site .masthead.is-compact .masthead-logo,
-.quality-site .masthead.is-open .masthead-logo{width:180px;height:44px;padding:0;background:transparent!important;box-shadow:none!important}
-.masthead .masthead-logo img{width:174px;max-height:36px}
+.quality-site .masthead.is-open .masthead-logo{width:140px;height:44px;padding:0;background:transparent!important;box-shadow:none!important}
+.masthead .masthead-logo img{width:auto;height:auto;max-width:100%;max-height:44px}
 .masthead .masthead-actions{gap:16px;background:transparent!important;box-shadow:none!important}
 .masthead .masthead-toggle,
 .quality-site .masthead .masthead-toggle{width:104px;height:44px;min-height:44px;font-size:16px;font-weight:400;letter-spacing:0;line-height:1.2;background:transparent!important;box-shadow:none!important}
@@ -90,7 +90,7 @@ body.menu-is-open .masthead{right:var(--menu-scrollbar,0px)!important}
  .masthead,.quality-site .masthead{top:0!important;left:0!important;right:0!important;height:73px;min-height:73px;padding:16px var(--gutter,24px);gap:10px}
  body.menu-is-open .masthead{right:var(--menu-scrollbar,0px)!important}
  .masthead .masthead-logo,.masthead.is-compact .masthead-logo,.masthead.is-open .masthead-logo,.quality-site .masthead.is-compact .masthead-logo,.quality-site .masthead.is-open .masthead-logo{width:140px;max-width:45%;height:44px}
- .masthead .masthead-logo img{width:138px;max-width:100%;max-height:30px}
+ .masthead .masthead-logo img{width:auto;max-width:100%;max-height:44px}
  .masthead .masthead-actions{gap:8px}
  .masthead .masthead-toggle,.quality-site .masthead .masthead-toggle{width:76px;height:44px;min-height:44px;font-size:15px;gap:10px;padding:0}
  .masthead .masthead-contact{width:44px;height:44px}

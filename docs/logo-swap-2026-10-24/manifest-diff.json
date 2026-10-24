@@ -1,0 +1,18 @@
+{
+  "total": 104,
+  "unchanged": 102,
+  "changed": [
+    {
+      "path": "/assets/logo.svg",
+      "before": "aa637668e1eb613bfaff079b31976b1e",
+      "after": "532bccd7068650114022cecd80c2cd0c",
+      "bytes": 4044
+    },
+    {
+      "path": "/client-layout-v3.css",
+      "before": "04d62a57ba5393fe241ff5a151eb7f49",
+      "after": "68f2f4af3d9f9a82f843b6fc783391e0",
+      "bytes": 23977
+    }
+  ]
+}

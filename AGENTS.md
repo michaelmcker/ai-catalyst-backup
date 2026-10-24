@@ -2,6 +2,8 @@
 
 ## Latest instruction: preserve Vercel artwork and the requested mobile/performance repairs
 
+- The approved logo exception replaces only assets/logo.svg with the recreated navy#0A2A5C pill and client-layout-v3.css with the three exact logo sizing substitutions. Preserve header heights and every other public file. Reference and two-file manifest proof: docs/logo-swap-2026-10-24/. Never restore an older snapshot for this change.
+
 - The 83-file Vercel reference and all 39 original image masters stay unchanged. Current public HTML may use only the 17 full-size, hash-named delivery derivatives in docs/image-delivery-2026-10-24/manifest.json. They preserve intrinsic dimensions and exact alpha, with maximum RGB error2. This is the explicit performance exception; do not restore old resized/low-quality optimized files or alter dither profiles, colour, thresholds, texture footprint or motion to gain speed.
 - Preserve the single opaque paper/art compositor and original Bayer, weather, pointer/trail and per-image print functions. Shader strings are unchanged by the latest loading repair. Only nonhero initialization and the map wait for the 300px viewport gate; heroes initialize immediately.
 - At700px and below, Company, How We Work, Training and Start a Conversation use headline left/artwork right, followed by one entire full-width paragraph below. Never split a subhead above/below the image. Company headline may occupy68% of the reading width, Solutions/Training78%, Briefing62%, with protected source-ink clearance and no clipped text. Tablet701–1199 keeps the existing55/45 split; desktop>=1200 retains Vercel geometry, apart from the specifically requested paired actions and approved copy.
