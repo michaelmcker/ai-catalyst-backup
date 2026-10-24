@@ -3,7 +3,13 @@
 .subpage #main,.subpage #main:has(>.art-opening){padding-top:81px!important}
 .restored-home #main{padding-top:81px!important}
 [data-site-art]>.site-art-tones{transition:none!important}
-.subpage .page-hero>.site-hero-field{top:0!important;height:100%!important;z-index:1!important;mix-blend-mode:multiply}
+.subpage .page-hero>.site-hero-field{top:0!important;height:100%!important}
+/* Paper is composited into hero artwork by the shared shader. Keep the same
+   paper underneath transparent edges without cross-canvas multiply blending. */
+.subpage .page-hero>.site-hero-field,
+.hero-scene[data-art-surface="white-flow"] .site-hero-field{z-index:0!important;mix-blend-mode:normal!important}
+.subpage .page-hero .page-hero__art,
+.hero-scene[data-art-surface="white-flow"] .hero-art{z-index:1!important}
 .subpage .page-hero[data-hero-subject]{background:#fff!important}
 .page-hero__actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
 

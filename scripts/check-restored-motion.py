@@ -20,9 +20,9 @@ for name in ('index','platform'):
  a=Image.open(f/f'reduced-{name}-0.png').convert('RGB');b=Image.open(f/f'reduced-{name}-1.png').convert('RGB')
  if ImageChops.difference(a,b).getbbox():fail.append(name+': reduced-motion capture changes')
 for row in rows:
- if row['blend']!='multiply' or row['fieldZ']!='1' or row['imageVisibility']!='hidden':fail.append(row['url']+': shared overlay or fallback visibility differs')
+ if row['blend']!='normal' or row['fieldZ']!='0' or row['imageVisibility']!='hidden':fail.append(row['url']+': shared paper backdrop or fallback visibility differs')
  field,hero=row['field'],row['hero']
  if any(abs(field[key]-hero[key])>1 for key in ('top','bottom','left','right')):fail.append(row['url']+': moving field does not cover the full hero')
 (f/'motion-checks.json').write_text(json.dumps(results,indent=2)+'\n')
 if fail:raise SystemExit('\n'.join('FAIL: '+x for x in fail))
-print('PASS: all nine hero/artwork motion sequences, full-section shared overlays and pixel-identical reduced-motion captures.')
+print('PASS: all nine hero/artwork motion sequences, full-section common paper and pixel-identical reduced-motion captures.')

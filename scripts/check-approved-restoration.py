@@ -28,6 +28,17 @@ for path in files:
 baseline=git('9bc79bd','halftone-rendering.js').decode()
 shader=git(args.shader_revision,'halftone-rendering.js').decode() if args.shader_revision else (ROOT/'current-site/halftone-rendering.js').read_text()
 expected=baseline.replace('vec3 v1Paper(vec2 pixels,float t,vec2 size,vec3 pointer){','vec3 v1Paper(vec2 pixels,float t,vec2 size,vec3 pointer,float connected){').replace('float fade=smoothstep(0.,.14,1.-pixels.y/size.y);','float fade=mix(smoothstep(0.,.14,1.-pixels.y/size.y),1.,connected);').replace('v1Paper(worldPixels,clock,fieldSize,pointer)','v1Paper(worldPixels,clock,fieldSize,pointer,connectedPrint)').replace('v1Paper(v*cssSize,clock,cssSize,pointer)','v1Paper(v*cssSize,clock,cssSize,pointer,connectedPrint)').replace('if(removePaper<.5)col=mix(col,backdrop,whiteArea);','if(removePaper<.5)col=mix(col,hero>.5?paper:backdrop,whiteArea);')
+# User-requested paper correction: lighten only the common screen and composite
+# it in the hero image output, preserving original artwork profiles and motion.
+expected=expected.replace('return mix(vec3(1.),vec3(.58,.74,.94),dotInk*fade);',
+    '// Paper stays a light blue screen; artwork keeps its authored ink strength.\n      return mix(vec3(1.),vec3(.58,.74,.94),dotInk*fade*.42);')
+expected=expected.replace('if(removePaper<.5)col=mix(col,hero>.5?paper:backdrop,whiteArea);',
+    '''if(removePaper<.5)col=mix(col,hero>.5?paper:backdrop,whiteArea);
+      // Apply the common paper here, in the artwork's own output. Safari does
+      // not have to multiply a separate WebGL layer over a masked canvas.
+      // Transparent edges reveal the identical field underneath; opaque source
+      // paper receives that same field once, with matching world coordinates.
+      if(hero>.5)col*=backdrop;''')
 for block in ('printing','imageFragment','fieldFragment','mapFragment'):
     extract=lambda s:re.search(r'const '+block+r'=`([\s\S]*?)`;',s).group(1)
     if extract(shader)!=extract(expected):fail.append(block+': differs from recovered shader and explicit full-hero field adaptation')

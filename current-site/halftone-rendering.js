@@ -52,7 +52,8 @@
       // V1 prints the whole moving region as changing dot density, not outlines.
       float dotInk=step(order8(pixels),v1Density(v1Field(pixels,t,size,pointer)));
       float fade=mix(smoothstep(0.,.14,1.-pixels.y/size.y),1.,connected);
-      return mix(vec3(1.),vec3(.58,.74,.94),dotInk*fade);
+      // Paper stays a light blue screen; artwork keeps its authored ink strength.
+      return mix(vec3(1.),vec3(.58,.74,.94),dotInk*fade*.42);
     }`;
   const imageFragment=`precision highp float;varying vec2 uv;
     uniform sampler2D source,trail;
@@ -117,6 +118,11 @@
       float whiteArea=mix(smoothstep(.85,.985,lum),smoothstep(.72,.91,lum)*(1.-smoothstep(.025,.10,detail)),removePaper);
       vec3 backdrop=hero>.5?mix(paperTone(worldPixels,clock,fieldSize.y,connectedPrint),v1Paper(worldPixels,clock,fieldSize,pointer,connectedPrint),whiteSurface):paper;
       if(removePaper<.5)col=mix(col,hero>.5?paper:backdrop,whiteArea);
+      // Apply the common paper here, in the artwork's own output. Safari does
+      // not have to multiply a separate WebGL layer over a masked canvas.
+      // Transparent edges reveal the identical field underneath; opaque source
+      // paper receives that same field once, with matching world coordinates.
+      if(hero>.5)col*=backdrop;
       // Feather at the sampled image edges, including letterboxing. Alpha lets
       // the actual shared paper field show through instead of painting a box.
       float edges=mix(1.,smoothstep(0.,max(edgeFade.x,.001),imageUV.x),step(.001,edgeFade.x))*mix(1.,smoothstep(0.,max(edgeFade.y,.001),1.-imageUV.x),step(.001,edgeFade.y))*mix(1.,smoothstep(0.,max(edgeFade.z,.001),imageUV.y),step(.001,edgeFade.z))*mix(1.,smoothstep(0.,max(edgeFade.w,.001),1.-imageUV.y),step(.001,edgeFade.w));
@@ -178,8 +184,8 @@
     if(!isMap)area.style.setProperty('--art-header-space',getComputedStyle(document.querySelector('#main')).paddingTop);
     const canvas=document.createElement('canvas');
     canvas.className=isMap?'map-dither-field':'site-hero-field';canvas.setAttribute('aria-hidden','true');
-    // The homepage's single print field sits over the complete art composition.
-    // White source pixels cannot erase it at the rectangular image boundary.
+    // One paper field under the composition matches the paper multiplied into
+    // hero image output. White source pixels cannot erase that common screen.
     const whiteHero=!isMap&&area.dataset.artSurface==='white-flow';
     (whiteHero?hero:area).prepend(canvas);
     let state;
