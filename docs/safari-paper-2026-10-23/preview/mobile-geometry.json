@@ -1,0 +1,470 @@
+[
+  {
+    "art": {
+      "bottom": 603,
+      "height": 530,
+      "left": -78,
+      "right": 468,
+      "top": 73,
+      "width": 546,
+      "x": -78,
+      "y": 73
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 603,
+      "height": 530,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 256.40625,
+      "height": 155.40625,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "paragraph": {
+      "bottom": 452.78125,
+      "height": 170.375,
+      "left": 24,
+      "right": 208.6796875,
+      "top": 282.40625,
+      "width": 184.6796875,
+      "x": 24,
+      "y": 282.40625
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/",
+    "width": 390,
+    "page": "index"
+  },
+  {
+    "art": {
+      "bottom": 673,
+      "height": 600,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 73,
+      "width": 507,
+      "x": -58.5,
+      "y": 73
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 673,
+      "height": 600,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 178.703125,
+      "height": 77.703125,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "paragraph": {
+      "bottom": 401.890625,
+      "height": 197.1875,
+      "left": 24,
+      "right": 279,
+      "top": 204.703125,
+      "width": 255,
+      "x": 24,
+      "y": 204.703125
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/company",
+    "width": 390,
+    "page": "company"
+  },
+  {
+    "art": {
+      "bottom": 693,
+      "height": 620,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 73,
+      "width": 507,
+      "x": -58.5,
+      "y": 73
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 693,
+      "height": 620,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 217.5546875,
+      "height": 116.5546875,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "paragraph": {
+      "bottom": 440.7421875,
+      "height": 197.1875,
+      "left": 24,
+      "right": 208.6796875,
+      "top": 243.5546875,
+      "width": 184.6796875,
+      "x": 24,
+      "y": 243.5546875
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/solutions",
+    "width": 390,
+    "page": "solutions"
+  },
+  {
+    "art": {
+      "bottom": 523,
+      "height": 540,
+      "left": -19.4921875,
+      "right": 487.5,
+      "top": -17,
+      "width": 506.9921875,
+      "x": -19.4921875,
+      "y": -17
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 618.5390625,
+      "height": 545.5390625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 178.703125,
+      "height": 77.703125,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "paragraph": {
+      "bottom": 582.5390625,
+      "height": 377.8359375,
+      "left": 24,
+      "right": 366,
+      "top": 204.703125,
+      "width": 342,
+      "x": 24,
+      "y": 204.703125
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/briefing",
+    "width": 390,
+    "page": "briefing"
+  },
+  {
+    "art": {
+      "bottom": 571.2421875,
+      "height": 588.2421875,
+      "left": -97.4921875,
+      "right": 409.5,
+      "top": -17,
+      "width": 506.9921875,
+      "x": -97.4921875,
+      "y": -17
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 661.2421875,
+      "height": 588.2421875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 178.703125,
+      "height": 77.703125,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "paragraph": {
+      "bottom": 377.2421875,
+      "height": 172.5390625,
+      "left": 24,
+      "right": 366,
+      "top": 204.703125,
+      "width": 342,
+      "x": 24,
+      "y": 204.703125
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/training",
+    "width": 390,
+    "page": "training"
+  },
+  {
+    "art": {
+      "bottom": 516.3359375,
+      "height": 131.078125,
+      "left": 0,
+      "right": 390,
+      "top": 385.2578125,
+      "width": 390,
+      "x": 0,
+      "y": 385.2578125
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 385.2578125,
+      "height": 312.2578125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 264.421875,
+      "height": 167.421875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "paragraph": {
+      "bottom": 314.5,
+      "height": 217.5,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/platform",
+    "width": 390,
+    "page": "platform"
+  },
+  {
+    "art": {
+      "bottom": 548.3671875,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 385.90625,
+      "width": 390,
+      "x": 0,
+      "y": 385.90625
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 385.90625,
+      "height": 312.90625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 297.90625,
+      "height": 200.90625,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "paragraph": {
+      "bottom": 314.5,
+      "height": 217.5,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/creator-social",
+    "width": 390,
+    "page": "creator-social"
+  },
+  {
+    "art": {
+      "bottom": 526.7109375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 364.25,
+      "width": 390,
+      "x": 0,
+      "y": 364.25
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 364.25,
+      "height": 291.25,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 264.421875,
+      "height": 167.421875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "paragraph": {
+      "bottom": 336.25,
+      "height": 239.25,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/marketing-investment",
+    "width": 390,
+    "page": "marketing-investment"
+  },
+  {
+    "art": {
+      "bottom": 548.3671875,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 385.90625,
+      "width": 390,
+      "x": 0,
+      "y": 385.90625
+    },
+    "canvas": {
+      "artBackingRatio": "3",
+      "artDrawReady": "true",
+      "artOpaque": "true"
+    },
+    "copy": {
+      "bottom": 385.90625,
+      "height": 312.90625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "headline": {
+      "bottom": 297.90625,
+      "height": 200.90625,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "paragraph": {
+      "bottom": 271,
+      "height": 174,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": "true",
+    "scrollWidth": 390,
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev/online-conversion",
+    "width": 390,
+    "page": "online-conversion"
+  }
+]

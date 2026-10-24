@@ -1,0 +1,86 @@
+[
+  {
+    "path": "briefing.html",
+    "bytes": 7191,
+    "sha256": "aad88736c2c805ae8dd272075d8602d4c17d4ef25c557b469f5af8e4245005a3",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "company.html",
+    "bytes": 12291,
+    "sha256": "3b466bc745f2ff3d19a1449f15ad44f42931ccac57b22bba0544cec8edda3403",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "creator-social.html",
+    "bytes": 10123,
+    "sha256": "73b353ae7835ad63abce85293010ef5060f287999be78b5b58dad32bd978c961",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "halftone-rendering.js",
+    "bytes": 32777,
+    "sha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "hero-responsive-fix.css",
+    "bytes": 12400,
+    "sha256": "37d6fff9723e5293e678ceed9204b9bb7adbf14009559a715d6b23a15a527358",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "index.html",
+    "bytes": 50795,
+    "sha256": "76de932fd322422a03aa6a3f98a39fded036daa8dcfce2fc81a1eaf807d6b223",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "marketing-investment.html",
+    "bytes": 11965,
+    "sha256": "eb6c203c4624cc48137eda505e0cb5fae5be8515acd6ec9a37fdb71c9c80b3dc",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "migration-changes.css",
+    "bytes": 6133,
+    "sha256": "eba232f7816af636f4d7a91e53df10e6b3a2b04127fc70a4785817de1abafa37",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "online-conversion.html",
+    "bytes": 12902,
+    "sha256": "74737a99d72139224c4756f04ec59c426a5156fc7b15c6486f5c6859f6023cf7",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "platform.html",
+    "bytes": 43464,
+    "sha256": "915f6546aedb0c553b88e7765cbc56c26aee0904a461cb3e6322c4e626ad469d",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "solutions.html",
+    "bytes": 10725,
+    "sha256": "874ecb599c371fd9454e23d1215e49c9b7a83ae62b663e475e3987f1d547eb91",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  },
+  {
+    "path": "training.html",
+    "bytes": 8867,
+    "sha256": "9a935613aef315af5737d8cb97222470b9c8e384aa358afeaba8b049ec54783f",
+    "matches_source": true,
+    "retrieval": "loaded browser resource"
+  }
+]

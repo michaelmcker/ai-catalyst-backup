@@ -1,0 +1,31 @@
+{
+  "preview": {
+    "id": "3b7f62f1-a17d-4894-b3ee-b0a8b3777103",
+    "url": "https://3b7f62f1.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T04:15:26.134038Z",
+      "status": "success"
+    },
+    "aliases": [
+      "https://codex-direct-vercel-transfer.ai-catalyst-9l3.pages.dev"
+    ],
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "9c2a817ad9642afe4880a75381a8b1552f118997",
+        "commit_message": "Unify hero paper rendering and contain responsive hero copy",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "codeCommit": "9c2a817ad9642afe4880a75381a8b1552f118997",
+  "publicFileCount": 85,
+  "cacheKey": "20261023-direct8",
+  "physicalIPhoneVerification": "pending user check of this preview",
+  "sourceVerification": "12 browser-loaded responses byte-identical to committed source"
+}

@@ -115,3 +115,21 @@ approved source/content allowlist and public contact/navigation contract.
 Successful local checks do not mean the candidate has been published. During
 these captures production remained unchanged. A new preview is the next
 checkpoint for actual iPhone Safari feedback before production promotion.
+
+
+## Published preview
+
+Built-in Cloudflare connection created preview deployment `3b7f62f1-a17d-4894-b3ee-b0a8b3777103` from code commit `9c2a817ad9642afe4880a75381a8b1552f118997`:
+https://3b7f62f1.ai-catalyst-9l3.pages.dev/
+
+The 85-file public manifest uses cache key `20261023-direct8`. All nine live
+phone pages draw one ready opaque surface with no document overflow. Browser
+resource exports confirm all nine HTML documents plus the renderer and two
+added stylesheets match the committed files byte for byte. The live Briefing
+1024px check keeps both text blocks left of the image. See `preview/` and
+`deployment.json`. Public HTTP requests from Python returned403; source-byte
+verification instead uses resources loaded by the normal preview browser.
+
+Production deployment remains `f87c264b-eafd-441a-ade0-d4a03d7f02e4`. This preview
+has not been promoted. Physical iPhone Safari appearance remains pending
+Michael's review of this new preview.
