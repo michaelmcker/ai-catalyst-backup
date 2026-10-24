@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://aicatalyst.biz/assets/logo.svg",
+    "status": 200,
+    "sha256": "60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84",
+    "matches_local_exactly": true,
+    "cache_control": "public, max-age=14400, must-revalidate",
+    "etag": "W/\"532bccd7068650114022cecd80c2cd0c\""
+  },
+  {
+    "url": "https://aicatalyst.biz/client-layout-v3.css",
+    "status": 200,
+    "sha256": "9c258da3c24a61030b43ba441582fc88970d14862ed31cc69840afd49e93e294",
+    "matches_local_exactly": true,
+    "cache_control": "public, max-age=14400, must-revalidate",
+    "etag": "\"68f2f4af3d9f9a82f843b6fc783391e0\""
+  }
+]

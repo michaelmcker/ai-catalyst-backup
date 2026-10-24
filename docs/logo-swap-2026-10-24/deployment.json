@@ -1,0 +1,31 @@
+{
+  "deployment": {
+    "id": "b918019d-16b5-486b-b387-a6e3ff4a6f35",
+    "url": "https://b918019d.ai-catalyst-9l3.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T16:21:00.155415Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "0a81a8aa227b6265ced001f310b5a251c3c0815e",
+        "commit_message": "Apply two-file navy pill logo and header sizing patch; preserve live assets",
+        "commit_dirty": false
+      }
+    }
+  },
+  "canonical": "b918019d-16b5-486b-b387-a6e3ff4a6f35",
+  "previousProduction": "d6752c2e-90e0-48d4-957e-d40812a028f5",
+  "uploadedFiles": [
+    "/assets/logo.svg",
+    "/client-layout-v3.css"
+  ],
+  "reusedLiveAssets": 102,
+  "fullSiteUpload": false,
+  "svgSHA256": "60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84"
+}
