@@ -18,3 +18,11 @@ The previous separate CSS multiply layer above the masked artwork is removed. Th
 - Screenshots are Chromium emulation. Physical iPhone Safari is not available for independent verification. The user's screenshot remains the direct evidence of its previous failure.
 
 Canonical public source: current-site, mirrored to the root. Release cache key: 20261023-paper6. Publication results follow in deployment.json and live/.
+
+## Published checks
+
+Code commit 58e52cc90b290d09612cbbbc6ce40d9e1bde703a was pushed to GitHub and deployed through the official built-in Cloudflare connection. Deployment f87c264b-eafd-441a-ade0-d4a03d7f02e4 reports success and is canonical for Randy's ai-catalyst project. The live custom domain serves paper6 on all nine pages.
+
+Live desktop and retina phone geometry passes for all nine pages. Actual desktop mouse sequences retain visible hero and image motion. Both reduced-motion pairs remain pixel-identical. Live phone paper contrast passes with mean luminance 0.967 and darkest percentile 0.842. Actual served shader and CSS bytes match the deployed source; hashes and response bodies are retained in live/. The nine rendered pages retain Randy's mailto links and no LinkedIn links. No sampled console warnings/errors were observed. DNS and mail configuration were not changed.
+
+This verifies Chromium rendering and delivery. Physical iPhone Safari verification remains unavailable; no claim that the user's actual device has been tested is made.

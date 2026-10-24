@@ -1,0 +1,13 @@
+{
+  "account_id": "bbbb85e86074305e7fd5623be9406076",
+  "project": "ai-catalyst",
+  "deployment_id": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "url": "https://f87c264b.ai-catalyst-9l3.pages.dev",
+  "code_commit": "58e52cc90b290d09612cbbbc6ce40d9e1bde703a",
+  "status": "success",
+  "canonical_verified": true,
+  "published_at": "2026-10-24T03:20:03.688103Z",
+  "connection": "official built-in Cloudflare",
+  "cache_version": "20261023-paper6",
+  "custom_domain_verified": "https://aicatalyst.biz/"
+}

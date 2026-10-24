@@ -1,0 +1,68 @@
+/* Two hero primitives: close-ups beside their copy, landscapes below a
+   headline/support row. Both own one uninterrupted print field. */
+.subpage #main,.subpage #main:has(>.art-opening){padding-top:81px!important}
+.restored-home #main{padding-top:81px!important}
+[data-site-art]>.site-art-tones{transition:none!important}
+.subpage .page-hero>.site-hero-field{top:0!important;height:100%!important}
+/* Paper is composited into hero artwork by the shared shader. Keep the same
+   paper underneath transparent edges without cross-canvas multiply blending. */
+.subpage .page-hero>.site-hero-field,
+.hero-scene[data-art-surface="white-flow"] .site-hero-field{z-index:0!important;mix-blend-mode:normal!important}
+.subpage .page-hero .page-hero__art,
+.hero-scene[data-art-surface="white-flow"] .hero-art{z-index:1!important}
+.subpage .page-hero[data-hero-subject]{background:#fff!important}
+.page-hero__actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
+
+/* Solutions, Company, Briefing and Training: text left, subject right. The
+   artwork spans the field so its source paper can blend behind the copy. */
+.subpage .page-hero.page-hero--side[data-hero-subject]{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:5vw;position:relative;width:100%!important;max-width:none!important;min-height:clamp(540px,43vw,660px)!important;height:auto!important;margin:0!important;padding:0 var(--gutter)!important;overflow:hidden!important}
+.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{display:block!important;grid-column:1;grid-row:1;width:100%!important;max-width:none!important;min-height:0!important;margin:0!important;padding:48px 0!important;pointer-events:auto}
+.subpage .page-hero.page-hero--side[data-hero-subject] h1{width:100%!important;max-width:14ch!important;margin:0;font-size:clamp(44px,4.8vw,72px)!important;font-weight:300;line-height:1.06!important;letter-spacing:-.04em!important;text-wrap:balance!important}
+.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{width:100%!important;max-width:43ch!important;margin:28px 0 0!important;font-size:clamp(19px,1.5vw,23px)!important;line-height:1.5!important;text-wrap:pretty}
+.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{position:absolute!important;inset:5% 0 auto auto!important;width:52%!important;max-width:none!important;height:90%!important;min-height:0!important;margin:0!important;aspect-ratio:auto!important;mask-image:none!important}
+.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:right center!important}
+.subpage .page-hero.page-hero--side[data-hero-subject] .hero-link{margin:0!important;font-size:17px}
+.subpage .page-hero.page-hero--side[data-hero-subject] .hero-film-button{position:static!important;margin:0!important;pointer-events:auto}
+
+/* The four panoramic heroes: headline left, supporting copy right, then a
+   full-width source image touching the text region, without a spacer or fade. */
+.subpage .page-hero.page-hero--stacked[data-hero-subject]{display:flex!important;flex-direction:column!important;gap:0;min-height:0!important;height:auto!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;overflow:hidden!important}
+.subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,80px);order:0!important;width:100%!important;max-width:1600px!important;min-height:0!important;margin:0 auto!important;padding:40px var(--gutter) 32px!important;pointer-events:auto}
+.subpage .page-hero.page-hero--stacked[data-hero-subject] h1{width:auto!important;max-width:19ch!important;margin:0;font-size:clamp(44px,4.6vw,70px)!important;font-weight:300;line-height:1.06!important;letter-spacing:-.04em!important;text-wrap:balance!important}
+.page-hero__support{min-width:0;padding-top:4px}
+.page-hero__support>p{width:auto;max-width:44ch;margin:0;font-size:clamp(19px,1.45vw,22px);line-height:1.5;text-wrap:pretty}
+.subpage .page-hero.page-hero--stacked[data-hero-subject] .hero-link{margin:0!important;font-size:17px}
+.subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__art{order:1!important;position:relative!important;inset:auto!important;align-self:stretch!important;flex:none;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;aspect-ratio:var(--scene-ratio,2.4)!important;mask-image:none!important}
+.subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:center!important}
+
+@media(min-width:701px) and (max-width:1000px){
+ .subpage .page-hero.page-hero--side[data-hero-subject]{min-height:520px!important;gap:32px}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{padding:32px 0!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] h1{font-size:clamp(36px,4.8vw,48px)!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{font-size:18px!important;margin-top:22px!important}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{gap:32px;padding-top:32px!important;padding-bottom:28px!important}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(38px,5vw,50px)!important}
+ .page-hero__support>p{font-size:18px}
+ .page-hero__actions{gap:12px 20px;margin-top:20px}
+}
+
+@media(max-width:700px){
+ .subpage #main,.subpage #main:has(>.art-opening){padding-top:73px!important}
+ .restored-home #main{padding-top:73px!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject]{display:block!important;min-height:360px!important;padding:0!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{position:absolute!important;inset:28px 0 auto auto!important;width:40%!important;height:auto!important;aspect-ratio:.65!important;max-height:330px;margin:0!important;mask-image:none!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art img{object-fit:cover!important;object-position:82% center!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{position:relative;z-index:2;width:60%!important;padding:30px 16px 32px var(--gutter)!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] h1{font-size:clamp(26px,7.3vw,36px)!important;max-width:none!important;line-height:1.08!important;text-wrap:pretty!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{font-size:16px!important;line-height:1.45!important;margin-top:18px!important}
+ .subpage .page-hero.page-hero--side .page-hero__actions{gap:12px;margin-top:20px}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .hero-link{font-size:15px;line-height:1.4}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .hero-film-button{width:100%;min-height:44px;font-size:14px}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;order:0!important;padding:24px var(--gutter) 28px!important}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(24px,6.8vw,38px)!important;max-width:none!important}
+ .page-hero__support{padding:0;margin-top:0}
+ .page-hero__support>p{font-size:clamp(15px,3.9vw,18px);line-height:1.45}
+ .page-hero--stacked .page-hero__actions{gap:12px;margin-top:18px}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] .hero-link{font-size:15px;line-height:1.4}
+ .subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__art{order:1!important}
+}

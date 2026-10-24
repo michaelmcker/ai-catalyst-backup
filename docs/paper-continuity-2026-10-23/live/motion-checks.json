@@ -1,0 +1,47 @@
+[
+  {
+    "page": "index",
+    "hero": 0.1896,
+    "image": 0.3147
+  },
+  {
+    "page": "solutions",
+    "hero": 0.0933,
+    "image": 0.1546
+  },
+  {
+    "page": "company",
+    "hero": 0.0894,
+    "image": 0.142
+  },
+  {
+    "page": "briefing",
+    "hero": 0.178,
+    "image": 0.3384
+  },
+  {
+    "page": "training",
+    "hero": 0.0801,
+    "image": 0.1303
+  },
+  {
+    "page": "platform",
+    "hero": 0.0581,
+    "image": 0.0613
+  },
+  {
+    "page": "creator-social",
+    "hero": 0.0707,
+    "image": 0.078
+  },
+  {
+    "page": "marketing-investment",
+    "hero": 0.0683,
+    "image": 0.0762
+  },
+  {
+    "page": "online-conversion",
+    "hero": 0.0554,
+    "image": 0.0556
+  }
+]
