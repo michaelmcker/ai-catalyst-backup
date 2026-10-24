@@ -1,0 +1,184 @@
+[
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/images/delivery-v1/kneeling-courtyard-75f9e7a9b9aa.webp",
+    "status": 200,
+    "type": "Image",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "contentType": "image/webp"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/subpages.css",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/solutions-overrides.css",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/restored-content.css?v=20260930-restore1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/restored-layout.css?v=20260930-restore1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/simplified-navigation.css?v=20261002",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/client-layout-v3.css?v=20261003-audit1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/feedback-v3.css?v=20261023-direct8",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/hero-responsive-fix.css?v=20261023-direct8",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/mobile-hero-row.css?v=20261024-row4",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/chivalry-v3.css?v=20261002-wrap3",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/site-system.css?v=20261003-audit1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/editorial-system.css?v=20260919-14",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/entry-refinement.css?v=20260930-flow3",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/hero-composition-v3.css?v=20261003-client-copy1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/migration-changes.css?v=20261023-direct8",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/assets/logo.svg",
+    "status": 200,
+    "type": "Image",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/restored-platform-motion.js?v=20261014-1",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/site-story.js?v=20260930-entry1",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/service-motion.js?v=20260930-pilot2",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/image-loading.js?v=20261024-load1",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/revision-enquiry.js?v=20261003-audit1",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/halftone-rendering.js?v=20261024-direct9",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/art-direction-v2.css?v=20261002-halftone1",
+    "status": 200,
+    "type": "Stylesheet",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/site-shell.js?v=20261003-shared1",
+    "status": 200,
+    "type": "Script",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev/favicon.ico",
+    "status": 200,
+    "type": "Other",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/html; charset=utf-8"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "solutions.html",
+    "sha256": "727d4f3b3483cb97e32095663fe018c471519173a72a14dc86e1fcd8062252dd",
+    "matches_code_commit": true
+  },
+  {
+    "path": "mobile-hero-row.css",
+    "sha256": "6047d54bb0d0d013ddf73690605c42beb27f84de2d359104b36090de14653119",
+    "matches_code_commit": true
+  },
+  {
+    "path": "image-loading.js",
+    "sha256": "767f07d5b0d122a1cd792a5c3dac0108d15f290ba16cc6f6e9f158b0573f044d",
+    "matches_code_commit": true
+  },
+  {
+    "path": "halftone-rendering.js",
+    "sha256": "21ce5aea190586dfd311246b67114dd011300255766962cc44f6c4795c9e7e4b",
+    "matches_code_commit": true
+  }
+]

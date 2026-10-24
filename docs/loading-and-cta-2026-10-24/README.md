@@ -89,3 +89,7 @@ instructions, source manifests and screenshots stay outside the public104-file
 manifest. Publish a preview through Randy's built-in Cloudflare connection;
 production remains unchanged pending Michael's iPhone review. Deployment receipt
 and final public-response checks are added after publication.
+
+## Published preview
+
+https://4015ba35.ai-catalyst-9l3.pages.dev/ deployed successfully through the built-in Cloudflare connection to Randy’s ai-catalyst project, code commit6a697b8c5a323965905909485db936f897d4622d,104 public files. Native macOS Safari visually reviewed all four changed pages at390px on this exact preview. Browser-loaded Solutions HTML, row CSS, loader and renderer match the committed source byte-for-byte. The actual hero image response is200 with Cache-Control public,max-age=31536000,immutable. Solutions has ready artwork, correct shortened copy and no390px overflow. These live checks supplement the16 local automated records; they are not16 live tests or physical iPhone verification. Production remains f87c264b-eafd-441a-ade0-d4a03d7f02e4.

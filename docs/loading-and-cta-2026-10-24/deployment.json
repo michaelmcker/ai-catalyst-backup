@@ -1,0 +1,30 @@
+{
+  "preview": {
+    "id": "4015ba35-3143-48df-8f2e-4f45b26c6070",
+    "url": "https://4015ba35.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T05:36:12.988279Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "6a697b8c5a323965905909485db936f897d4622d",
+        "commit_message": "Improve hero actions, mobile copy and image loading without changing shaders",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "publicFileCount": 104,
+  "cacheKeys": {
+    "renderer": "20261024-direct9",
+    "rows": "20261024-row4",
+    "loader": "20261024-load1"
+  },
+  "physicalIPhoneVerification": "pending user preview review"
+}
