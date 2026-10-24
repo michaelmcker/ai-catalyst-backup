@@ -5,3 +5,5 @@ The preceding shortened headline was an agent misinterpretation. The user explic
 Fresh Training geometry/character captures cover320,390,430,600,768,1024,1440px atDPR3 in training-all-widths.json. rows.json combines the four fresh phone records with the twelve unchanged records from the preceding four-page proof. The row verifier passes all16 records, preserving complete copy, contiguous full-width subheads below the artwork, no clipping/overflow and10px protected source-ink clearance. Native macOS Safari Responsive Design Mode captures at320/390px verify the actual restored wording and wrapping. Physical iPhone review remains with Michael.
 
 Checks: check-public-site.py; check-direct-vercel.py --self-test; check-direct-vercel.py; check-mobile-hero-row.py using this directory’s rows.json. No npm test script exists in this static snapshot.
+
+Successful Cloudflare preview: https://0c4f6a16.ai-catalyst-9l3.pages.dev/training — code commit c9c841cfc900959fc7e80db62c6d1325823b68d7. Live native Safari390px confirmed the exact complete headline and wrapping; screenshot native-safari-preview-390.png. Production remains f87c264b-eafd-441a-ade0-d4a03d7f02e4.

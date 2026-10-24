@@ -1,0 +1,25 @@
+{
+  "preview": {
+    "id": "0c4f6a16-f088-4265-94c6-b73588d66083",
+    "url": "https://0c4f6a16.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T06:03:15.993063Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "c9c841cfc900959fc7e80db62c6d1325823b68d7",
+        "commit_message": "Restore full Training headline and wrap it clear of portrait",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "publicFileCount": 104,
+  "physicalIPhoneVerification": "pending user preview review"
+}
