@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://aicatalyst.biz/creator-social.html",
+    "finalUrl": "https://aicatalyst.biz/creator-social",
+    "status": 200,
+    "sha256": "4ab59044192e7f083c2fc2cc1133625667fc03a98cfd0f6db5c860355efc807c",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/index.html",
+    "finalUrl": "https://aicatalyst.biz/",
+    "status": 200,
+    "sha256": "c51979064804fd2fc5dc981aaf722dfbc84f2121350584fccc5f48cb7628eb70",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/marketing-investment.html",
+    "finalUrl": "https://aicatalyst.biz/marketing-investment",
+    "status": 200,
+    "sha256": "7d5e1063ff0c222d33c5d31bafaa6768f39eccb2b1fd532492c4c6c6533f587f",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/briefing.html",
+    "finalUrl": "https://aicatalyst.biz/briefing",
+    "status": 200,
+    "sha256": "ac91a49d3bccd3099e173c8df28068ebc87117c2a34210ab4ddec7709156f50c",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/platform.html",
+    "finalUrl": "https://aicatalyst.biz/platform",
+    "status": 200,
+    "sha256": "e3e71ce5358f9ccdfbd5ba28768733d495c5033ba1f429220af3e5f43c88711b",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/online-conversion.html",
+    "finalUrl": "https://aicatalyst.biz/online-conversion",
+    "status": 200,
+    "sha256": "0c6b2a8633524d78ab09c501e36a62d03b200de53e13c1bab6059ec7022d2e78",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/company.html",
+    "finalUrl": "https://aicatalyst.biz/company",
+    "status": 200,
+    "sha256": "666376be1d8df2b3e824e4e283c5afadcd2275451c6e527191f69fb3312a138c",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/training.html",
+    "finalUrl": "https://aicatalyst.biz/training",
+    "status": 200,
+    "sha256": "bdb1d14416f20dc8eeffee9b7f540af6c7b0e1e02b5d506957c50ee7d6b0042b",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/solutions.html",
+    "finalUrl": "https://aicatalyst.biz/solutions",
+    "status": 200,
+    "sha256": "38c5552ed3d3b6533b24747d5cc9a74462eb526de2ffa030fb720c142cdb24b9",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://ai-catalyst-9l3.pages.dev/",
+    "finalUrl": "https://ai-catalyst-9l3.pages.dev/",
+    "status": 200,
+    "sha256": "e113645a5bf0b97685acd98a0b02b96af9fe907a556d4765532930e764fa2f96",
+    "logoReferences": [
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37",
+      "assets/logo.svg?v=filled-60a31d37"
+    ],
+    "verified": "exact logo references"
+  },
+  {
+    "url": "https://aicatalyst.biz/assets/logo.svg?v=filled-60a31d37",
+    "finalUrl": "https://aicatalyst.biz/assets/logo.svg?v=filled-60a31d37",
+    "status": 200,
+    "sha256": "60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84",
+    "logoReferences": [],
+    "verified": "exact filled SVG bytes"
+  }
+]

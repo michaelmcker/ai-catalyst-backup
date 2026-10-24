@@ -2,7 +2,7 @@
 
 ## Latest instruction: preserve Vercel artwork and the requested mobile/performance repairs
 
-- Michael requested the filled dark-blue pill on live for comparison, superseding the outlined website treatment below. Use exact filled SVG SHA25660a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84 with assets/logo.svg?v=filled-60a31d37 in all27 page logo references. Preserve sizing/CSS/all other public content. Both SVG variants remain in brand/. See docs/logo-filled-review-2026-10-24/.
+- Michael requested the filled dark-blue pill on live for comparison, superseding the outlined website treatment below. Use exact filled SVG SHA25660a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84 with assets/logo.svg?v=filled-60a31d37 in all27 page logo references. Preserve sizing/CSS/all other public content. Both SVG variants remain in brand/. Current production1c1a2107-18ae-4ba9-9105-f943b5354ea2 serves this filled variant, verified after a normal page reload. See docs/logo-filled-review-2026-10-24/.
 
 - Logo-cache correction: all nine public pages reference assets/logo.svg?v=outline-b8383198 in header/footer/noscript. This exact logo-URL exception supersedes the earlier two-file-only patch scope; do not change any other page content. It prevents reuse of the old four-hour cached filled logo. Current production1f4f585e-269f-417b-bb36-ae1b44eab307 includes this logo-reference-only patch, verified with a normal browser reload. See docs/logo-cache-2026-10-24/.
 

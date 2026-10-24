@@ -1,0 +1,33 @@
+{
+  "deployment": {
+    "id": "1c1a2107-18ae-4ba9-9105-f943b5354ea2",
+    "url": "https://1c1a2107.ai-catalyst-9l3.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T18:33:18.599437Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "93c14a409ea6e51587b4c8df738785723d882fa0",
+        "commit_message": "Put filled dark-blue logo up for comparison with a fresh logo URL",
+        "commit_dirty": false
+      }
+    }
+  },
+  "canonical": "1c1a2107-18ae-4ba9-9105-f943b5354ea2",
+  "previousProduction": "1f4f585e-269f-417b-bb36-ae1b44eab307",
+  "publicChanges": [
+    "Shared filled SVG",
+    "Three logo URL references on each of nine pages"
+  ],
+  "unchangedAssets": 94,
+  "logoURL": "assets/logo.svg?v=filled-60a31d37",
+  "normalReloadVerified": true,
+  "headerHeight": 81,
+  "bothVariantsPreserved": true
+}
