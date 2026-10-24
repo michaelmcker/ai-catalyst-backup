@@ -4,7 +4,7 @@
 .contact-email{overflow-wrap:anywhere;min-width:0;max-width:100%}
 .enquiry-contact address .contact-email{display:inline-flex;align-items:center;min-height:44px;font-size:clamp(20px,2.2vw,32px);line-height:1.3;border-bottom:1px solid currentColor}
 .home-contact .enquiry-contact address .contact-email{font-size:20px;color:white;border-color:#ffffff66}
-.migration-pano #main{padding-top:81px!important}
+.subpage.migration-pano #main,.subpage.migration-pano #main:has(>.art-opening){padding-top:81px!important}
 .migration-pano .page-hero.page-hero--stacked[data-hero-subject]{display:flex!important;flex-direction:column!important;gap:0;min-height:0!important;height:auto!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;overflow:hidden!important}
 .migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,80px);width:100%!important;max-width:1600px!important;min-height:0!important;margin:0 auto!important;padding:40px var(--gutter) 32px!important;pointer-events:auto}
 .migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{width:auto!important;max-width:19ch!important;margin:0;font-size:clamp(44px,4.6vw,70px)!important;line-height:1.06!important;letter-spacing:-.04em!important;text-wrap:balance!important}
@@ -30,7 +30,7 @@
  body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__art{position:absolute!important;inset:28px 0 auto auto!important;left:auto!important;width:43%!important;height:340px!important;min-height:0!important;margin:0!important;mask-image:none!important}
  body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__art img{object-fit:cover!important;object-position:78% center!important}
  body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .hero-link{font-size:15px;margin-top:22px!important}
- .migration-pano #main{padding-top:73px!important}
+ .subpage.migration-pano #main,.subpage.migration-pano #main:has(>.art-opening){padding-top:73px!important}
  .migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;padding:24px var(--gutter) 28px!important}
  .migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(24px,6.8vw,38px)!important;max-width:none!important}
  .migration-pano .page-hero__support{padding:0}
@@ -40,8 +40,9 @@
  /* Command Centre: keep the paragraph right, with the CTA below the headline
     left, balancing the two columns above the flush landscape. */
  .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:16px 20px}
- .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{grid-column:1;grid-row:1;font-size:clamp(29px,8.1vw,36px)!important}
+ .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{grid-column:1;grid-row:1;font-size:clamp(26px,8.1vw,36px)!important}
  .subpage-platform.migration-pano .page-hero__support{display:contents}
  .subpage-platform.migration-pano .page-hero__support>p{grid-column:2;grid-row:1 / span 2;font-size:15px;line-height:1.45}
  .subpage-platform.migration-pano .page-hero__actions{grid-column:1;grid-row:2;align-self:end;margin-top:0}
+ .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .hero-link{font-size:14px;line-height:1.35;gap:8px}
 }
