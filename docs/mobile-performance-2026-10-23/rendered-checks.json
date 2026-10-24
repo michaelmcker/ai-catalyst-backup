@@ -1,0 +1,3852 @@
+[
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1425,
+          "width": 641.25,
+          "x": 783.75,
+          "y": 81
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1425,
+          "width": 641.25,
+          "x": 783.75,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 601.5078125,
+      "height": 511.015625,
+      "right": 783.75,
+      "width": 783.75,
+      "x": 0,
+      "y": 90.4921875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 377.5859375,
+      "height": 231.09375,
+      "right": 783.75,
+      "width": 703.953125,
+      "x": 79.796875,
+      "y": 146.4921875
+    },
+    "hero": {
+      "bottom": 611,
+      "height": 530,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 693.75,
+          "height": 612.75,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 636.03125,
+      "height": 497.3125,
+      "right": 676.875,
+      "width": 597.078125,
+      "x": 79.796875,
+      "y": 138.71875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-1280-40731e0da8.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 331.71875,
+      "height": 145,
+      "right": 612.21875,
+      "width": 532.421875,
+      "x": 79.796875,
+      "y": 186.71875
+    },
+    "hero": {
+      "bottom": 693.75,
+      "height": 612.75,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 693.75,
+          "height": 612.75,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 656.25,
+      "height": 537.75,
+      "right": 676.875,
+      "width": 597.078125,
+      "x": 79.796875,
+      "y": 118.5
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 384,
+      "height": 217.5,
+      "right": 612.21875,
+      "width": 532.421875,
+      "x": 79.796875,
+      "y": 166.5
+    },
+    "hero": {
+      "bottom": 693.75,
+      "height": 612.75,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 693.75,
+          "height": 612.75,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 602.03125,
+      "height": 429.3125,
+      "right": 676.875,
+      "width": 597.078125,
+      "x": 79.796875,
+      "y": 172.71875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 365.71875,
+      "height": 145,
+      "right": 612.21875,
+      "width": 532.421875,
+      "x": 79.796875,
+      "y": 220.71875
+    },
+    "hero": {
+      "bottom": 693.75,
+      "height": 612.75,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 693.75,
+          "height": 612.75,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 663.1015625,
+          "height": 551.46875,
+          "right": 1425,
+          "width": 741,
+          "x": 684,
+          "y": 111.6328125
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 603.96875,
+      "height": 433.1875,
+      "right": 676.875,
+      "width": 597.078125,
+      "x": 79.796875,
+      "y": 170.78125
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 363.78125,
+      "height": 145,
+      "right": 612.21875,
+      "width": 532.421875,
+      "x": 79.796875,
+      "y": 218.78125
+    },
+    "hero": {
+      "bottom": 693.75,
+      "height": 612.75,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--platform wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/training.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 892.5859375,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "right": 718.53125,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 973.5859375,
+      "height": 892.5859375,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/marketing-investment.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 858.90625,
+          "height": 777.90625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 858.90625,
+          "height": 478.9453125,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 858.90625,
+          "height": 478.9453125,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "right": 718.53125,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 858.90625,
+      "height": 777.90625,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/platform.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 892.5859375,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 973.5859375,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 379.9609375
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "right": 718.53125,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 973.5859375,
+      "height": 892.5859375,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/creator-social.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 955.0546875,
+          "height": 874.0546875,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 955.0546875,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 361.4296875
+        },
+        "src": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 955.0546875,
+          "height": 593.625,
+          "right": 1425,
+          "width": 1425,
+          "x": 0,
+          "y": 361.4296875
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 361.4296875,
+      "height": 280.4296875,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "right": 718.53125,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 955.0546875,
+      "height": 874.0546875,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/online-conversion.html",
+    "width": 1440
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1008.9921875,
+          "width": 454.046875,
+          "x": 554.9453125,
+          "y": 81
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 611,
+          "height": 530,
+          "right": 1008.9921875,
+          "width": 454.046875,
+          "x": 554.9453125,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 567.671875,
+      "height": 443.3515625,
+      "right": 554.9453125,
+      "width": 554.9453125,
+      "x": 0,
+      "y": 124.3203125
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 345.671875,
+      "height": 165.3515625,
+      "right": 554.9453125,
+      "width": 514.9453125,
+      "x": 40,
+      "y": 180.3203125
+    },
+    "hero": {
+      "bottom": 611,
+      "height": 530,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 621,
+          "height": 540,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 569.578125,
+      "height": 437.15625,
+      "right": 479.2734375,
+      "width": 439.2734375,
+      "x": 40,
+      "y": 132.421875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 283.078125,
+      "height": 102.65625,
+      "right": 416.9765625,
+      "width": 376.9765625,
+      "x": 40,
+      "y": 180.421875
+    },
+    "hero": {
+      "bottom": 621,
+      "height": 540,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 621,
+          "height": 540,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 580.9921875,
+      "height": 459.984375,
+      "right": 479.2734375,
+      "width": 439.2734375,
+      "x": 40,
+      "y": 121.0078125
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 322.9921875,
+      "height": 153.984375,
+      "right": 416.9765625,
+      "width": 376.9765625,
+      "x": 40,
+      "y": 169.0078125
+    },
+    "hero": {
+      "bottom": 621,
+      "height": 540,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 621,
+          "height": 540,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 535.578125,
+      "height": 369.15625,
+      "right": 479.2734375,
+      "width": 439.2734375,
+      "x": 40,
+      "y": 166.421875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 317.078125,
+      "height": 102.65625,
+      "right": 416.9765625,
+      "width": 376.9765625,
+      "x": 40,
+      "y": 214.421875
+    },
+    "hero": {
+      "bottom": 621,
+      "height": 540,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 621,
+          "height": 540,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 594,
+          "height": 486,
+          "right": 1009,
+          "width": 524.6796875,
+          "x": 484.3203125,
+          "y": 108
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 541.078125,
+      "height": 380.15625,
+      "right": 479.2734375,
+      "width": 439.2734375,
+      "x": 40,
+      "y": 160.921875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 311.578125,
+      "height": 102.65625,
+      "right": 416.9765625,
+      "width": 376.9765625,
+      "x": 40,
+      "y": 208.921875
+    },
+    "hero": {
+      "bottom": 621,
+      "height": 540,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--platform wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/training.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 706.828125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 268.5859375,
+      "height": 147.5859375,
+      "right": 509.921875,
+      "width": 469.921875,
+      "x": 40,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 787.828125,
+      "height": 706.828125,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/marketing-investment.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 706.625,
+          "height": 625.625,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 706.625,
+          "height": 339.125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 706.625,
+          "height": 339.125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 268.5859375,
+      "height": 147.5859375,
+      "right": 509.921875,
+      "width": 469.921875,
+      "x": 40,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 706.625,
+      "height": 625.625,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/platform.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 706.828125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 787.828125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 367.5
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 367.5,
+      "height": 286.5,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 268.5859375,
+      "height": 147.5859375,
+      "right": 509.921875,
+      "width": 469.921875,
+      "x": 40,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 787.828125,
+      "height": 706.828125,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/creator-social.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 759.328125,
+          "height": 678.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 759.328125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 339
+        },
+        "src": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 759.328125,
+          "height": 420.328125,
+          "right": 1009,
+          "width": 1009,
+          "x": 0,
+          "y": 339
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 339,
+      "height": 258,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 268.5859375,
+      "height": 147.5859375,
+      "right": 509.921875,
+      "width": 469.921875,
+      "x": 40,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 759.328125,
+      "height": 678.328125,
+      "right": 1009,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/online-conversion.html",
+    "width": 1024
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 501,
+          "height": 420,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 501,
+          "height": 420,
+          "right": 752.9921875,
+          "width": 338.84375,
+          "x": 414.1484375,
+          "y": 81
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 501,
+          "height": 420,
+          "right": 752.9921875,
+          "width": 338.84375,
+          "x": 414.1484375,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 472.7734375,
+      "height": 363.546875,
+      "right": 414.1484375,
+      "width": 414.1484375,
+      "x": 0,
+      "y": 109.2265625
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 278.7734375,
+      "height": 133.546875,
+      "right": 414.1484375,
+      "width": 374.1484375,
+      "x": 40,
+      "y": 145.2265625
+    },
+    "hero": {
+      "bottom": 501,
+      "height": 420,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 601,
+          "height": 520,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 469.609375,
+      "height": 388.609375,
+      "right": 360.5,
+      "width": 320.5,
+      "x": 40,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 189.609375,
+      "height": 76.609375,
+      "right": 321.3125,
+      "width": 281.3125,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 601,
+      "height": 520,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 601,
+          "height": 520,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 536.9140625,
+      "height": 455.9140625,
+      "right": 360.5,
+      "width": 320.5,
+      "x": 40,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 227.9140625,
+      "height": 114.9140625,
+      "right": 321.3125,
+      "width": 281.3125,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 601,
+      "height": 520,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 601,
+          "height": 520,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 405.609375,
+      "height": 324.609375,
+      "right": 360.5,
+      "width": 320.5,
+      "x": 40,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 189.609375,
+      "height": 76.609375,
+      "right": 321.3125,
+      "width": 281.3125,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 601,
+      "height": 520,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 601,
+          "height": 520,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 575,
+          "height": 468,
+          "right": 753,
+          "width": 391.5546875,
+          "x": 361.4453125,
+          "y": 107
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 415.609375,
+      "height": 334.609375,
+      "right": 360.5,
+      "width": 320.5,
+      "x": 40,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 189.609375,
+      "height": 76.609375,
+      "right": 321.3125,
+      "width": 281.3125,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 601,
+      "height": 520,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--side page-hero--platform wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/training.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 630.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 398
+        },
+        "src": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 398
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 398,
+      "height": 317,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 233.8203125,
+      "height": 120.8203125,
+      "right": 382.859375,
+      "width": 342.859375,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 711.6796875,
+      "height": 630.6796875,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/marketing-investment.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 635.6796875,
+          "height": 554.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 635.6796875,
+          "height": 253.0859375,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 382.59375
+        },
+        "src": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 635.6796875,
+          "height": 253.0859375,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 382.59375
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 382.59375,
+      "height": 301.59375,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 233.8203125,
+      "height": 120.8203125,
+      "right": 382.859375,
+      "width": 342.859375,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 635.6796875,
+      "height": 554.6796875,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/platform.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 630.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 398
+        },
+        "src": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 711.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 398
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 398,
+      "height": 317,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 233.8203125,
+      "height": 120.8203125,
+      "right": 382.859375,
+      "width": 342.859375,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 711.6796875,
+      "height": 630.6796875,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/creator-social.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 684.6796875,
+          "height": 603.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 81
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 684.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 371
+        },
+        "src": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 684.6796875,
+          "height": 313.6796875,
+          "right": 753,
+          "width": 753,
+          "x": 0,
+          "y": 371
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 371,
+      "height": 290,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "headerBottom": 81,
+    "heading": {
+      "bottom": 233.8203125,
+      "height": 120.8203125,
+      "right": 382.859375,
+      "width": 342.859375,
+      "x": 40,
+      "y": 113
+    },
+    "hero": {
+      "bottom": 684.6796875,
+      "height": 603.6796875,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/online-conversion.html",
+    "width": 768
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 473,
+          "height": 400,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 465.9609375,
+      "height": 392.9609375,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 280.375,
+      "height": 177.375,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 473,
+      "height": 400,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 537.640625,
+          "height": 464.640625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 558.84375,
+          "height": 485.84375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 450.4453125,
+          "height": 377.4453125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 433,
+          "height": 360,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 426.890625,
+      "height": 353.890625,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 162.125,
+      "height": 59.125,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 433,
+      "height": 360,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--platform wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/training.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 678.828125,
+          "height": 605.828125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 678.828125,
+      "height": 449.6171875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/marketing-investment.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 620.15625,
+          "height": 547.15625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 199.0390625,
+          "height": 126.0390625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 199.0390625,
+          "height": 126.0390625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 620.15625,
+      "height": 421.1171875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 199.0390625
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 329.15625,
+      "height": 108.1171875,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 221.0390625
+    },
+    "hero": {
+      "bottom": 620.15625,
+      "height": 547.15625,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/platform.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 678.828125,
+          "height": 605.828125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 678.828125,
+      "height": 449.6171875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/creator-social.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 650.328125,
+          "height": 577.328125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 229.2109375,
+          "height": 156.2109375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 650.328125,
+      "height": 421.1171875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 229.2109375
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 359.328125,
+      "height": 108.1171875,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 251.2109375
+    },
+    "hero": {
+      "bottom": 650.328125,
+      "height": 577.328125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/online-conversion.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 480.25,
+          "height": 407.25,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 480.25,
+      "height": 407.25,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 271.46875,
+      "height": 168.46875,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 480.25,
+      "height": 407.25,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 591.171875,
+          "height": 518.171875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 591.171875,
+      "height": 518.171875,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 187.234375,
+      "height": 84.234375,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 591.171875,
+      "height": 518.171875,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 628.859375,
+          "height": 555.859375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 628.859375,
+      "height": 555.859375,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 215.3125,
+      "height": 112.3125,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 628.859375,
+      "height": 555.859375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 538.7734375,
+          "height": 465.7734375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 538.7734375,
+      "height": 465.7734375,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 187.234375,
+      "height": 84.234375,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 538.7734375,
+      "height": 465.7734375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 498.390625,
+          "height": 425.390625,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 498.390625,
+      "height": 425.390625,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 187.234375,
+      "height": 84.234375,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 498.390625,
+      "height": 425.390625,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--platform wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/training.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 678.171875,
+          "height": 605.171875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 678.171875,
+      "height": 478.1171875,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 200.0546875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 330.171875,
+      "height": 108.1171875,
+      "right": 285,
+      "width": 265,
+      "x": 20,
+      "y": 222.0546875
+    },
+    "hero": {
+      "bottom": 678.171875,
+      "height": 605.171875,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/marketing-investment.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 665.21875,
+          "height": 592.21875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 175.5078125,
+          "height": 102.5078125,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 175.5078125,
+          "height": 102.5078125,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 665.21875,
+      "height": 489.7109375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 175.5078125
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 305.625,
+      "height": 108.1171875,
+      "right": 285,
+      "width": 265,
+      "x": 20,
+      "y": 197.5078125
+    },
+    "hero": {
+      "bottom": 665.21875,
+      "height": 592.21875,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/platform.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 714.2109375,
+          "height": 641.2109375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 714.2109375,
+      "height": 514.15625,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 200.0546875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 366.2109375,
+      "height": 144.15625,
+      "right": 285,
+      "width": 265,
+      "x": 20,
+      "y": 222.0546875
+    },
+    "hero": {
+      "bottom": 714.2109375,
+      "height": 641.2109375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/creator-social.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 685.7109375,
+          "height": 612.7109375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "platform-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 200.0546875,
+          "height": 127.0546875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 685.7109375,
+      "height": 485.65625,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 200.0546875
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 366.2109375,
+      "height": 144.15625,
+      "right": 285,
+      "width": 265,
+      "x": 20,
+      "y": 222.0546875
+    },
+    "hero": {
+      "bottom": 685.7109375,
+      "height": 612.7109375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/online-conversion.html",
+    "width": 320
+  }
+]

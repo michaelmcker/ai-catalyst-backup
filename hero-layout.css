@@ -1,6 +1,8 @@
 /* Two hero primitives: close-ups beside their copy, landscapes below a
    headline/support row. Both own one uninterrupted print field. */
 .subpage #main,.subpage #main:has(>.art-opening){padding-top:81px!important}
+.restored-home #main{padding-top:81px!important}
+[data-site-art]>.site-art-tones{transition:none!important}
 .subpage .page-hero>.site-hero-field{top:0!important;height:100%!important}
 .page-hero__actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
 
@@ -10,7 +12,7 @@
 .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{display:block!important;grid-column:1;grid-row:1;width:100%!important;max-width:none!important;min-height:0!important;margin:0!important;padding:48px 0!important;pointer-events:auto}
 .subpage .page-hero.page-hero--side[data-hero-subject] h1{width:100%!important;max-width:14ch!important;margin:0;font-size:clamp(44px,4.8vw,72px)!important;font-weight:300;line-height:1.06!important;letter-spacing:-.04em!important;text-wrap:balance!important}
 .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{width:100%!important;max-width:43ch!important;margin:28px 0 0!important;font-size:clamp(19px,1.5vw,23px)!important;line-height:1.5!important;text-wrap:pretty}
-.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{position:absolute!important;inset:0!important;width:100%!important;max-width:none!important;height:100%!important;min-height:0!important;margin:0!important;aspect-ratio:auto!important;mask-image:none!important}
+.subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{position:absolute!important;inset:5% 0 auto auto!important;width:52%!important;max-width:none!important;height:90%!important;min-height:0!important;margin:0!important;aspect-ratio:auto!important;mask-image:none!important}
 .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:right center!important}
 .subpage .page-hero.page-hero--side[data-hero-subject] .hero-link{margin:0!important;font-size:17px}
 .subpage .page-hero.page-hero--side[data-hero-subject] .hero-film-button{position:static!important;margin:0!important;pointer-events:auto}
@@ -47,12 +49,16 @@
 
 @media(max-width:700px){
  .subpage #main,.subpage #main:has(>.art-opening){padding-top:73px!important}
- .subpage .page-hero.page-hero--side[data-hero-subject]{display:flex!important;flex-direction:column!important;gap:0;min-height:0!important;padding:0!important}
- .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{order:0;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;aspect-ratio:var(--hero-art-ratio,16/9)!important}
- .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art img{object-position:center!important}
- .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{order:1;padding:22px var(--gutter) 32px!important}
- .subpage .page-hero.page-hero--side[data-hero-subject] h1{font-size:clamp(34px,9vw,48px)!important;max-width:21ch!important}
- .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{font-size:19px!important;margin-top:20px!important}
+ .restored-home #main{padding-top:73px!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject]{display:block!important;min-height:360px!important;padding:0!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art{position:absolute!important;inset:28px 0 auto auto!important;width:40%!important;height:auto!important;aspect-ratio:.65!important;max-height:330px;margin:0!important;mask-image:none!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__art img{object-fit:cover!important;object-position:82% center!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy{position:relative;z-index:2;width:60%!important;padding:30px 16px 32px var(--gutter)!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] h1{font-size:clamp(26px,7.3vw,36px)!important;max-width:none!important;line-height:1.08!important;text-wrap:pretty!important}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .page-hero__copy>p{font-size:16px!important;line-height:1.45!important;margin-top:18px!important}
+ .subpage .page-hero.page-hero--side .page-hero__actions{gap:12px;margin-top:20px}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .hero-link{font-size:15px;line-height:1.4}
+ .subpage .page-hero.page-hero--side[data-hero-subject] .hero-film-button{width:100%;min-height:44px;font-size:14px}
  .subpage .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{display:block!important;order:1!important;padding:22px var(--gutter) 32px!important}
  .subpage .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(34px,9vw,48px)!important;max-width:21ch!important}
  .page-hero__support{padding:0;margin-top:20px}
@@ -61,4 +67,20 @@
  .subpage .scene-feature:not(#signals-scene){display:flex;flex-direction:column;gap:24px;margin:40px auto;padding:0 var(--gutter)}
  .subpage .scene-feature:not(#signals-scene)>.period-scene{order:0;flex:none}
  .subpage .scene-feature:not(#signals-scene)>.scene-feature__copy{order:1}
+}
+
+/* Home uses the same compact side composition on phones. No floated text
+   exclusion or off-screen image stage; the whole headline belongs to the hero. */
+@media(max-width:700px){
+ .hero-scene:has(.art-v2-sword-hand) .hero{display:block!important;min-height:400px!important;height:auto!important;overflow:hidden}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art{position:absolute!important;inset:28px 0 auto auto!important;left:auto!important;right:0!important;top:28px!important;width:40%!important;max-width:none!important;height:auto!important;min-height:0!important;aspect-ratio:.65!important;max-height:330px!important;margin:0!important;mask-image:none!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art img{object-fit:cover!important;object-position:82% center!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy{width:60%!important;max-width:none;margin:0!important;padding:30px 16px 32px var(--gutter)!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy h1{font-size:clamp(26px,7.3vw,36px)!important;line-height:1.08!important;letter-spacing:-.045em!important;max-width:none!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy h1>span{display:block!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy h1 .hero-promise>span{display:inline!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-description{width:100%;margin:20px 0 0!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-wrap-shape{display:none!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-description p{font-size:16px!important;line-height:1.45!important}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-explore{margin-top:20px!important;font-size:15px;padding:10px 20px}
 }

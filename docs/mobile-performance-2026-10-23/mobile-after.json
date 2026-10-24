@@ -1,0 +1,672 @@
+[
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 473,
+          "height": 400,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 465.9609375,
+      "height": 392.9609375,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 280.375,
+      "height": 177.375,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 473,
+      "height": 400,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 537.640625,
+          "height": 464.640625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 558.84375,
+          "height": 485.84375,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 450.4453125,
+          "height": 377.4453125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 331.765625,
+          "height": 230.765625,
+          "right": 375,
+          "width": 150,
+          "x": 225,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "right": 225,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "right": 209,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 480.25,
+          "height": 407.25,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 480.25,
+      "height": 407.25,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 271.46875,
+      "height": 168.46875,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 480.25,
+      "height": 407.25,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "hero",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/index.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 591.171875,
+          "height": 518.171875,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/company-knight-1280-40731e0da8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 591.171875,
+      "height": 518.171875,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/company-knight-640-54faa9a60e.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 187.234375,
+      "height": 84.234375,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 591.171875,
+      "height": 518.171875,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/company.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 628.859375,
+          "height": 555.859375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 628.859375,
+      "height": 555.859375,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 215.3125,
+      "height": 112.3125,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 628.859375,
+      "height": 555.859375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/solutions.html",
+    "width": 320
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 538.7734375,
+          "height": 465.7734375,
+          "right": 305,
+          "width": 305,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 288.6875,
+          "height": 187.6875,
+          "right": 305,
+          "width": 122,
+          "x": 183,
+          "y": 101
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 538.7734375,
+      "height": 465.7734375,
+      "right": 183,
+      "width": 183,
+      "x": 0,
+      "y": 73
+    },
+    "currentSrc": "http://127.0.0.1:8088/images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "headerBottom": 73,
+    "heading": {
+      "bottom": 187.234375,
+      "height": 84.234375,
+      "right": 167,
+      "width": 147,
+      "x": 20,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 538.7734375,
+      "height": 465.7734375,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "imageLoaded": true,
+    "overflow": -15,
+    "url": "http://127.0.0.1:8088/briefing.html",
+    "width": 320
+  }
+]

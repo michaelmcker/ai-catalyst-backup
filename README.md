@@ -2,11 +2,15 @@
 
 ## Current production — 23 October 2026
 
-The editable production site is `current-site/`, served from Randy's Cloudflare Pages project at https://ai-catalyst-9l3.pages.dev/. The 84-file site includes the corrected portrait/scenic hero layouts, continuous hero pattern, direct email and phone contact, and Training and adoption in all nine expanded menus. Matching root public files are kept in sync.
+The editable production site is `current-site/`, served from Randy's Cloudflare Pages project `ai-catalyst` at https://aicatalyst.biz/ and https://www.aicatalyst.biz/. The Pages address https://ai-catalyst-9l3.pages.dev/ also remains available. Matching root public files are kept in sync.
 
-Public contact: `randy@aicatalyst.biz`, `416-270-0132`, Toronto, Canada. Email links open the visitor's mail application; mailbox delivery and Google Workspace readiness require separate verification. The existing enquiry forms remain hidden unless a delivery endpoint is configured.
+Public contact: `randy@aicatalyst.biz`, `416-270-0132`, Toronto, Canada. Randy confirmed the mailbox already works. Email links open the visitor's mail application. The existing enquiry forms remain hidden unless a delivery endpoint is configured.
 
 Validate source with `python3 scripts/check-public-site.py`. Rendered hero/pattern evidence is in `docs/hero-correction-2026-10-23/`. Deployment uploads only `current-site/`, excluding instructions, review material, historical exports and evidence.
+
+The latest mobile correction keeps Home, Company, How We Work, Briefing and Training in a compact text-left/image-right composition on phones. Panoramic engine pages retain image-first mobile openings. Halftone movement freezes on phones, and the heavy binary print overlay is replaced by a subtle tonal finish. Responsive, fingerprinted image variants preserve the source masters while reducing the four main mobile hero images to 16–28 KB. Lower-page product images and optional artwork renderers initialise near their section.
+
+Rebuild delivery images with `python3 scripts/build-image-variants.py` (requires cwebp), then mirror changed public files to the root. Run `python3 scripts/check-image-budget.py` and `python3 scripts/check-mobile-hero.py docs/mobile-performance-2026-10-23/mobile-after.json`. Before/after screenshots, the cold-load baseline and the 45 viewport checks are in `docs/mobile-performance-2026-10-23/`.
 
 ## Original backup — 22 October 2026
 

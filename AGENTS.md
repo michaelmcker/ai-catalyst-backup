@@ -44,3 +44,13 @@
 - Every expanded menu includes `Training and adoption` linked to `training.html`, immediately after `How We Work`.
 - Run `python3 scripts/check-public-site.py`, JavaScript syntax checks and rendered desktop/mobile checks after changes. The deployed static snapshot has no npm test script; the archived Lovable app and enclosing portfolio are separate projects.
 - Pattern/hero correction evidence and the rendered pixel regression are documented in `docs/hero-correction-2026-10-23/README.md`.
+
+### Mobile and performance correction — 23 October 2026
+
+- The latest user direction supersedes the earlier image-first mobile rule for close-up heroes. Home, Company, How We Work, Briefing and Training keep text left and a smaller image right on phones. The four panoramic heroes retain their own image-first mobile layout and flush image/copy joins.
+- `hero-layout.css` is loaded by Home as well as all subpages. Mobile close-up artwork occupies 40% of the hero; its copy occupies the remaining 60%, with contained text and no floated exclusion shape. Desktop subpage artwork is contained in the right 52% of the shared field.
+- Keep the pale, continuous hero field and subtle tonal texture. Do not restore the homepage's 90% mobile binary dither pass. Mobile halftone canvases render statically; desktop uses a slow tonal pass with fixed dot positions. Enhancement must not fade the source image away while the canvas appears.
+- Preserve original image masters. `scripts/build-image-variants.py` uses cwebp to create fingerprinted delivery variants under `current-site/images/optimized/`; HTML uses responsive srcset/sizes. Mirrors at the repository root must remain in sync. Never serve the multi-megabyte masters as the initial hero resource.
+- SVG product images use `site-assets.js` because SVG image elements do not support native lazy loading. Hydrate them near their section. Optional artwork shaders and map rasterisation initialise near the viewport.
+- Also run `python3 scripts/check-image-budget.py` and `python3 scripts/check-mobile-hero.py docs/mobile-performance-2026-10-23/mobile-after.json`. Browser evidence covers 1440/1024/768/390/320 widths. Verify responsive image texture replacement when resizing an already-loaded page.
+- Randy confirmed that `randy@aicatalyst.biz` already receives mail. The custom domains `aicatalyst.biz` and `www.aicatalyst.biz` are attached to the Pages project; retain their DNS and mail records.

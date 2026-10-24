@@ -41,16 +41,6 @@ if($('#notes-open'))$('#notes-open').onclick=()=>openDialog('#notes-dialog');
 $$('dialog').forEach(d=>{const close=d.querySelector('.dialog-close');if(close)close.onclick=()=>d.close();d.addEventListener('close',()=>document.body.classList.remove('modal-open'));d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
 $('.dialog-contact').onclick=()=>$('#people-dialog').close();
 
-// Keep even the engraving's soft printed perimeter beyond the final headline period.
-const heroPromise=$('.hero-promise'),homeHero=$('.hero');
-function measureHeroClearance(){
- if(!heroPromise||!homeHero||innerWidth>700)return;
- const line=heroPromise.lastElementChild,range=document.createRange();range.selectNodeContents(line);
- const text=range.getBoundingClientRect(),hero=homeHero.getBoundingClientRect();
- homeHero.style.setProperty('--hero-promise-clearance',`${Math.ceil(text.right-hero.left+24)}px`);
-}
-if(heroPromise){new ResizeObserver(measureHeroClearance).observe($('#hero-title'));document.fonts?.ready.then(measureHeroClearance);window.addEventListener('resize',measureHeroClearance,{passive:true});measureHeroClearance();}
-
 // One shared, visibility-aware clock. All continuous functions have periodic endpoints.
 const animations=[];let frame=0,last=0;
 function wake(){if(!frame&&!document.hidden)frame=requestAnimationFrame(tick)}

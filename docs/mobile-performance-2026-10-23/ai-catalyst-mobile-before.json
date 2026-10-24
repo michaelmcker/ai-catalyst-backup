@@ -1,0 +1,312 @@
+[
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 511.625,
+          "height": 438.625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 511.625,
+          "height": 375.625,
+          "right": 483,
+          "width": 270,
+          "x": 213,
+          "y": 136
+        },
+        "src": "images/art-v3/sword-hand-outpaint-v8.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 511.625,
+          "height": 375.625,
+          "right": 483,
+          "width": 270,
+          "x": 213,
+          "y": 136
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 511.625,
+      "height": 438.625,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 73
+    },
+    "heading": {
+      "bottom": 253.625,
+      "height": 152.625,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 511.625,
+      "height": 438.625,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "hero",
+    "overflow": -15,
+    "url": "https://aicatalyst.biz/",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 736.578125,
+          "height": 663.578125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 323,
+          "height": 250,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/art-v3/company-knight.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 323,
+          "height": 250,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 736.578125,
+      "height": 413.578125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 323
+    },
+    "heading": {
+      "bottom": 417.078125,
+      "height": 72.078125,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 345
+    },
+    "hero": {
+      "bottom": 736.578125,
+      "height": 663.578125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--company wrap",
+    "overflow": -15,
+    "url": "https://aicatalyst.biz/company",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 732.6640625,
+          "height": 659.6640625,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 284.046875,
+          "height": 211.046875,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/art-v3/kneeling-courtyard.webp",
+        "tag": "IMG"
+      },
+      {
+        "class": "site-art-tones",
+        "rect": {
+          "bottom": 284.046875,
+          "height": 211.046875,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      }
+    ],
+    "copy": {
+      "bottom": 732.6640625,
+      "height": 448.6171875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 284.046875
+    },
+    "heading": {
+      "bottom": 414.1640625,
+      "height": 108.1171875,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 306.046875
+    },
+    "hero": {
+      "bottom": 732.6640625,
+      "height": 659.6640625,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--work wrap",
+    "overflow": -15,
+    "url": "https://aicatalyst.biz/solutions",
+    "width": 390
+  },
+  {
+    "art": [
+      {
+        "class": "site-hero-field",
+        "rect": {
+          "bottom": 601.125,
+          "height": 528.125,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "page-atmosphere",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "right": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "src": null,
+        "tag": "CANVAS"
+      },
+      {
+        "class": "",
+        "rect": {
+          "bottom": 284.046875,
+          "height": 211.046875,
+          "right": 375,
+          "width": 375,
+          "x": 0,
+          "y": 73
+        },
+        "src": "images/art-v3/briefing-arcade.webp",
+        "tag": "IMG"
+      }
+    ],
+    "copy": {
+      "bottom": 601.125,
+      "height": 317.078125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 284.046875
+    },
+    "heading": {
+      "bottom": 378.125,
+      "height": 72.078125,
+      "right": 351,
+      "width": 327,
+      "x": 24,
+      "y": 306.046875
+    },
+    "hero": {
+      "bottom": 601.125,
+      "height": 528.125,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "heroClass": "page-hero page-hero--side page-hero--briefing wrap",
+    "overflow": -15,
+    "url": "https://aicatalyst.biz/briefing",
+    "width": 390
+  }
+]

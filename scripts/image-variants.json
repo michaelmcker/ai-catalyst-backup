@@ -1,0 +1,284 @@
+[
+  {
+    "source": "images/art-v4/cavalry-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/cavalry-panel-v1-640-34345c27ef.webp",
+    "bytes": 39598
+  },
+  {
+    "source": "images/art-v4/cavalry-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/cavalry-panel-v1-1280-5125d1d614.webp",
+    "bytes": 123262
+  },
+  {
+    "source": "images/art-v2/bridge-halftone.webp",
+    "width": 640,
+    "target": "images/optimized/bridge-halftone-640-dafc9e8fe1.webp",
+    "bytes": 16068
+  },
+  {
+    "source": "images/art-v2/bridge-halftone.webp",
+    "width": 1280,
+    "target": "images/optimized/bridge-halftone-1280-5722020ad7.webp",
+    "bytes": 72178
+  },
+  {
+    "source": "images/art-v3/sword-hand-outpaint-v8.webp",
+    "width": 640,
+    "target": "images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "bytes": 27682
+  },
+  {
+    "source": "images/art-v3/sword-hand-outpaint-v8.webp",
+    "width": 1280,
+    "target": "images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp",
+    "bytes": 129752
+  },
+  {
+    "source": "images/ai-catalyst/imported-12-36916e45b6.webp",
+    "width": 320,
+    "target": "images/optimized/imported-12-36916e45b6-320-267aa86fbc.webp",
+    "bytes": 20360
+  },
+  {
+    "source": "images/ai-catalyst/imported-13-2e7ec4d4ce.webp",
+    "width": 320,
+    "target": "images/optimized/imported-13-2e7ec4d4ce-320-3052b9ae26.webp",
+    "bytes": 25256
+  },
+  {
+    "source": "images/ai-catalyst/imported-14-046af0d744.webp",
+    "width": 320,
+    "target": "images/optimized/imported-14-046af0d744-320-2404839282.webp",
+    "bytes": 15676
+  },
+  {
+    "source": "images/art-v4/river-approach-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/river-approach-panel-v1-640-2077f55f3b.webp",
+    "bytes": 48344
+  },
+  {
+    "source": "images/art-v4/river-approach-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp",
+    "bytes": 168666
+  },
+  {
+    "source": "images/art-v4/tournament-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/tournament-panel-v1-640-16032cec79.webp",
+    "bytes": 41028
+  },
+  {
+    "source": "images/art-v4/tournament-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/tournament-panel-v1-1280-314b8f4f09.webp",
+    "bytes": 126254
+  },
+  {
+    "source": "images/art-v3/briefing-arcade.webp",
+    "width": 640,
+    "target": "images/optimized/briefing-arcade-640-e5acc71e6e.webp",
+    "bytes": 19452
+  },
+  {
+    "source": "images/art-v3/briefing-arcade.webp",
+    "width": 1280,
+    "target": "images/optimized/briefing-arcade-1280-b50fb78243.webp",
+    "bytes": 69144
+  },
+  {
+    "source": "images/art-v4/mounted-approach-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/mounted-approach-panel-v1-640-ad5b2a095e.webp",
+    "bytes": 39880
+  },
+  {
+    "source": "images/art-v4/mounted-approach-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp",
+    "bytes": 141012
+  },
+  {
+    "source": "images/art-v4/ambassadors-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/ambassadors-panel-v1-640-dddbd596bb.webp",
+    "bytes": 49608
+  },
+  {
+    "source": "images/art-v4/ambassadors-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/ambassadors-panel-v1-1280-6d0d7d3a81.webp",
+    "bytes": 170926
+  },
+  {
+    "source": "images/art-v4/coastal-cavalry-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/coastal-cavalry-panel-v1-640-c0c7b62362.webp",
+    "bytes": 46718
+  },
+  {
+    "source": "images/art-v4/coastal-cavalry-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp",
+    "bytes": 151950
+  },
+  {
+    "source": "images/art-v4/arthurian-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/arthurian-panel-v1-640-ddff0fe157.webp",
+    "bytes": 51964
+  },
+  {
+    "source": "images/art-v4/arthurian-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/arthurian-panel-v1-1280-9a03026c02.webp",
+    "bytes": 166298
+  },
+  {
+    "source": "images/art-v3/company-knight.webp",
+    "width": 640,
+    "target": "images/optimized/company-knight-640-54faa9a60e.webp",
+    "bytes": 23184
+  },
+  {
+    "source": "images/art-v3/company-knight.webp",
+    "width": 1280,
+    "target": "images/optimized/company-knight-1280-40731e0da8.webp",
+    "bytes": 87926
+  },
+  {
+    "source": "images/advisors/randy-earlier-portrait.webp",
+    "width": 320,
+    "target": "images/optimized/randy-earlier-portrait-320-2135e012e3.webp",
+    "bytes": 39720
+  },
+  {
+    "source": "images/advisors/randy-earlier-portrait.webp",
+    "width": 640,
+    "target": "images/optimized/randy-earlier-portrait-640-3ccaae4b70.webp",
+    "bytes": 200122
+  },
+  {
+    "source": "images/advisors/nick-bobrow-source.jpg",
+    "width": 320,
+    "target": "images/optimized/nick-bobrow-source-320-49a560f153.webp",
+    "bytes": 4642
+  },
+  {
+    "source": "images/advisors/nick-bobrow-source.jpg",
+    "width": 640,
+    "target": "images/optimized/nick-bobrow-source-640-87b6061997.webp",
+    "bytes": 11532
+  },
+  {
+    "source": "images/advisors/bill-langlois-source.jpg",
+    "width": 320,
+    "target": "images/optimized/bill-langlois-source-320-e9a564f6c7.webp",
+    "bytes": 4840
+  },
+  {
+    "source": "images/advisors/bill-langlois-source.jpg",
+    "width": 640,
+    "target": "images/optimized/bill-langlois-source-640-59685defb5.webp",
+    "bytes": 12202
+  },
+  {
+    "source": "images/advisors/andrew-ryder-source.jpg",
+    "width": 320,
+    "target": "images/optimized/andrew-ryder-source-320-d0ba51f4d3.webp",
+    "bytes": 14312
+  },
+  {
+    "source": "images/advisors/andrew-ryder-source.jpg",
+    "width": 640,
+    "target": "images/optimized/andrew-ryder-source-640-21aa8531a1.webp",
+    "bytes": 41346
+  },
+  {
+    "source": "images/advisors/adun-abiodun-source.jpg",
+    "width": 320,
+    "target": "images/optimized/adun-abiodun-source-320-cc62824b33.webp",
+    "bytes": 6236
+  },
+  {
+    "source": "images/advisors/adun-abiodun-source.jpg",
+    "width": 640,
+    "target": "images/optimized/adun-abiodun-source-640-f2ccb60b55.webp",
+    "bytes": 16296
+  },
+  {
+    "source": "images/advisors/megan-page-source.jpg",
+    "width": 320,
+    "target": "images/optimized/megan-page-source-320-7fa824cbc0.webp",
+    "bytes": 8660
+  },
+  {
+    "source": "images/advisors/megan-page-source.jpg",
+    "width": 640,
+    "target": "images/optimized/megan-page-source-640-fc1f0fd841.webp",
+    "bytes": 19952
+  },
+  {
+    "source": "images/art-v4/secular-geographers-halftone-v1.webp",
+    "width": 640,
+    "target": "images/optimized/secular-geographers-halftone-v1-640-e5d643dc27.webp",
+    "bytes": 42664
+  },
+  {
+    "source": "images/art-v4/secular-geographers-halftone-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/secular-geographers-halftone-v1-1280-267d261cd8.webp",
+    "bytes": 161894
+  },
+  {
+    "source": "images/art-v2/portrait-halftone.webp",
+    "width": 640,
+    "target": "images/optimized/portrait-halftone-640-22bdc13a83.webp",
+    "bytes": 24898
+  },
+  {
+    "source": "images/art-v2/portrait-halftone.webp",
+    "width": 1280,
+    "target": "images/optimized/portrait-halftone-1280-796c22b40d.webp",
+    "bytes": 95150
+  },
+  {
+    "source": "images/art-v4/cloister-garden-panel-v1.webp",
+    "width": 640,
+    "target": "images/optimized/cloister-garden-panel-v1-640-5053e2b5bb.webp",
+    "bytes": 54306
+  },
+  {
+    "source": "images/art-v4/cloister-garden-panel-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/cloister-garden-panel-v1-1280-122c1609d1.webp",
+    "bytes": 188370
+  },
+  {
+    "source": "images/art-v3/kneeling-courtyard.webp",
+    "width": 640,
+    "target": "images/optimized/kneeling-courtyard-640-197cac4154.webp",
+    "bytes": 15686
+  },
+  {
+    "source": "images/art-v3/kneeling-courtyard.webp",
+    "width": 1280,
+    "target": "images/optimized/kneeling-courtyard-1280-4c8be997fa.webp",
+    "bytes": 48708
+  },
+  {
+    "source": "images/art-v4/cloister-capitals-halftone-v1.webp",
+    "width": 640,
+    "target": "images/optimized/cloister-capitals-halftone-v1-640-99cb7bfee5.webp",
+    "bytes": 68558
+  },
+  {
+    "source": "images/art-v4/cloister-capitals-halftone-v1.webp",
+    "width": 1280,
+    "target": "images/optimized/cloister-capitals-halftone-v1-1280-ac13980e09.webp",
+    "bytes": 218352
+  }
+]

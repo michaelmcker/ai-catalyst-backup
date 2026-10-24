@@ -1,21 +1,20 @@
-/* Base artwork, print finish, and the verified Roman/Greco V1 dither motion.
-   V1 source: restored-home-motion.js SHA1 97804df71db9e4b59ed0f2a73391b616903fb382.
-   The homepage uses the original threshold animation; other art profiles stay intact. */
+/* Progressive print enhancement. Keep source shading, a quiet shared paper
+   field and fixed dot positions. Phones render once rather than every frame. */
 (() => {
   'use strict';
-  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),states=new Set(),fields=new Map();
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),compact=matchMedia('(max-width:700px)'),states=new Set(),fields=new Map();
   // Each source retains its own halftone base. These profiles add screen-scale print.
   const profiles={
     scene:{print:.68,softness:1.8,edges:'0 0 0 0'},
     architecture:{print:.58,softness:1.3,edges:'.035 .035 .08 .12'},
     painting:{print:.62,softness:1.6,edges:'.035 .035 .08 .12'},
-    close:{print:.58,softness:.7,edges:'.12 .08 .12 .18'},
+    close:{print:.18,softness:.4,edges:'.12 .08 .12 .18'},
     footer:{print:.20,softness:.6,edges:'.015 .015 .05 .08'},
     map:{print:.10,softness:0,edges:'0 0 0 0'}
   };
   function setting(value,fallback){return value!==undefined&&value!==''&&Number.isFinite(Number(value))?Number(value):fallback;}
   let frame=0,last=0,clock=0;
-  const motionPaused=()=>reduced.matches||document.body.classList.contains('motion-paused');
+  const motionPaused=()=>reduced.matches||compact.matches||document.body.classList.contains('motion-paused');
   const vertex='attribute vec2 p;varying vec2 uv;void main(){uv=p*.5+.5;gl_Position=vec4(p,0.,1.);}';
   const printing=`
     float b2(vec2 p){vec2 a=mod(floor(p),2.);return 2.*a.x+3.*a.y-4.*a.x*a.y;}
@@ -32,8 +31,8 @@
     vec3 paperTone(vec2 pixels,float t,float height,float connected){
       float fade=mix(smoothstep(0.,.14,1.-pixels.y/height),1.,connected);
       // A fixed print screen with smoothly changing ink opacity avoids twinkling dots.
-      float dots=step(order8(pixels),.19);
-      float density=.48+weather(pixels,t)*1.8;
+      float dots=step(order8(pixels),.12);
+      float density=.20+weather(pixels,t)*.65;
       return mix(vec3(1.),vec3(.58,.74,.94),dots*density*fade);
     }
     float v1Field(vec2 pixels,float clock,vec2 size,vec3 pointer){
@@ -75,7 +74,7 @@
       float sourceAlpha=texture2D(source,imageUV).a;
       if(atlas>.5){float tone=dot(base,vec3(.299,.587,.114));base=mix(vec3(.08,.22,.43),paper,smoothstep(.16,.84,tone));}
       float wake=texture2D(trail,worldPixels/fieldSize).r*motion;
-      float v1=whiteSurface*hero;
+      float v1=0.;
       float cell=1.+step(.68,wake)*v1;
       vec2 stepped=(floor(pixels/cell)+.5)*cell;
       vec3 sampled=imageSample((stepped/cssSize)*crop+offset);
@@ -115,7 +114,7 @@
       // a white halo inside the image rectangle. Scenic paintings stay intact.
       float removePaper=max(clearPaper,connectedPrint*(1.-continuous));
       float whiteArea=mix(smoothstep(.85,.985,lum),smoothstep(.72,.91,lum)*(1.-smoothstep(.025,.10,detail)),removePaper);
-      vec3 backdrop=hero>.5?mix(paperTone(worldPixels,clock,fieldSize.y,connectedPrint),v1Paper(worldPixels,clock,fieldSize,pointer),whiteSurface):paper;
+      vec3 backdrop=hero>.5?paperTone(worldPixels,clock,fieldSize.y,1.):paper;
       if(removePaper<.5)col=mix(col,backdrop,whiteArea);
       // Feather at the sampled image edges, including letterboxing. Alpha lets
       // the actual shared paper field show through instead of painting a box.
@@ -124,7 +123,7 @@
       gl_FragColor=vec4(col,feather*sourceAlpha*(1.-removePaper*whiteArea));
     }`;
   const fieldFragment=`precision highp float;varying vec2 uv;uniform vec2 cssSize;uniform vec3 pointer;uniform float clock,whiteSurface,connectedPrint;${printing}
-    void main(){vec2 v=vec2(uv.x,1.-uv.y);gl_FragColor=vec4(mix(paperTone(v*cssSize,clock,cssSize.y,connectedPrint),v1Paper(v*cssSize,clock,cssSize,pointer),whiteSurface),1.);}`;
+    void main(){vec2 v=vec2(uv.x,1.-uv.y);gl_FragColor=vec4(paperTone(v*cssSize,clock,cssSize.y,1.),1.);}`;
   const mapFragment=`precision highp float;varying vec2 uv;uniform sampler2D source;uniform vec2 cssSize;uniform vec3 pointer;uniform float clock;${printing}
     void main(){
       vec2 v=vec2(uv.x,1.-uv.y),pixels=v*cssSize;
@@ -264,7 +263,7 @@
         const {gl,u}=state;state.hero=isHero;stage.dataset.artLayers=isHero?'base-static-moving':'base-static';stage.dataset.artMotion=isHero&&field?.whiteSurface?'v1-threshold-and-wake':isHero?'luminance-edge-aware-tone':'static';
         const source=texture(state,gl.TEXTURE0);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);
         const trail=texture(state,gl.TEXTURE1),empty=document.createElement('canvas');empty.width=empty.height=1;gl.uniform1i(u.source,0);gl.uniform1i(u.trail,1);
-        function measure(){const r=stage.getBoundingClientRect();if(!r.width||!r.height)return;const styles=getComputedStyle(img),values=styles.objectPosition.split(' '),scale=(styles.objectFit==='contain'?Math.min:Math.max)(r.width/img.naturalWidth,r.height/img.naturalHeight),cx=r.width/(img.naturalWidth*scale),cy=r.height/(img.naturalHeight*scale);state.crop=[cx,cy];state.offset=[(1-cx)*position(values[0],.5),(1-cy)*position(values[1],.5)];if(stage.dataset.artCrop){const [x,y,w,h]=stage.dataset.artCrop.split(' ').map(Number);state.crop=[w,h];state.offset=[x,y];}state.fit(r);stage.dataset.ditherCell='1-css-px';wake();}
+        function measure(){const r=stage.getBoundingClientRect();if(!r.width||!r.height||!img.complete||!img.naturalWidth)return;const styles=getComputedStyle(img),values=styles.objectPosition.split(' '),scale=(styles.objectFit==='contain'?Math.min:Math.max)(r.width/img.naturalWidth,r.height/img.naturalHeight),cx=r.width/(img.naturalWidth*scale),cy=r.height/(img.naturalHeight*scale);state.crop=[cx,cy];state.offset=[(1-cx)*position(values[0],.5),(1-cy)*position(values[1],.5)];if(stage.dataset.artCrop){const [x,y,w,h]=stage.dataset.artCrop.split(' ').map(Number);state.crop=[w,h];state.offset=[x,y];}state.fit(r);stage.dataset.ditherCell='1-css-px';wake();}
         state.draw=time=>{
           // A responsive artwork may start hidden; wait until ResizeObserver measures it.
           if(!state.crop||!state.rect||(field&&!field.rect))return;
@@ -274,7 +273,7 @@
           gl.uniform1f(u.connectedPrint,isHero&&field?.area.classList.contains('page-hero')?1:0);
           gl.uniform1f(u.printDepth,['map','footer'].includes(stage.dataset.artProfile)?.13:.34);
           gl.uniform1f(u.printPattern,stage.dataset.artPrintPattern==='drift'?2:0);
-          gl.uniform1f(u.continuous,['scene','architecture','painting','footer','map'].includes(stage.dataset.artProfile)?1:0);
+          gl.uniform1f(u.continuous,1);
           gl.uniform2f(u.texel,1/img.naturalWidth,1/img.naturalHeight);gl.uniform1f(u.softness,setting(stage.dataset.artSoftness,profile?profile.softness:0));
           gl.uniform2f(u.fieldOrigin,field?state.rect.left-field.rect.left:0,field?state.rect.top-field.rect.top:0);gl.uniform2f(u.fieldSize,field?field.rect.width:1,field?field.rect.height:1);
           const defaultEdges=isHero?'.24 .13 .17 .3':'.08 .08 .17 .22';
@@ -283,17 +282,29 @@
           gl.uniform3f(u.pointer,...(field?field.cursor:[0,0,0]));gl.uniform1f(u.clock,isHero?time:0);gl.uniform1f(u.motion,isHero&&!motionPaused()?1:0);gl.uniform1f(u.hero,isHero?1:0);gl.uniform1f(u.clearPaper,isHero&&stage.dataset.artAsset==='sword-hand'?1:0);gl.uniform1f(u.whiteSurface,field&&field.whiteSurface?1:0);gl.drawArrays(gl.TRIANGLES,0,6);stage.classList.add('site-art-ready');
         };
         new ResizeObserver(measure).observe(stage);measure();state.draw(motionPaused()?0:clock);visibility(stage,state);
+        // A srcset change can temporarily clear naturalWidth during resize.
+        // Re-upload the selected texture once it is decoded, then measure it.
+        img.addEventListener('load',()=>{gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,source);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);measure();state.dirty=true;wake();});
         canvas.addEventListener('webglcontextlost',()=>{state.ready=false;stage.classList.remove('site-art-ready');});
       }catch(error){canvas.remove();console.warn('Artwork uses its halftone base:',error.message);}
     }
     if(img.complete&&img.naturalWidth)initialise();else img.addEventListener('load',initialise,{once:true});
   }
-  document.querySelectorAll('[data-site-art]').forEach(setup);
-  document.querySelectorAll('.world-map.dotted-map').forEach(map=>heroField(map,true));
+  // Heavy textures and map rasterisation initialise near their actual viewport.
+  // Native images remain visible while waiting for this optional enhancement.
+  const artworkObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(!entry.isIntersecting)return;
+    artworkObserver.unobserve(entry.target);
+    if(entry.target.matches('.world-map.dotted-map'))heroField(entry.target,true);else setup(entry.target);
+  }),{rootMargin:'300px'});
+  document.querySelectorAll('[data-site-art],.world-map.dotted-map').forEach(stage=>{
+    if(stage.dataset.siteArt==='hero')setup(stage);else artworkObserver.observe(stage);
+  });
   window.addEventListener('resize',()=>{const spacing=getComputedStyle(document.querySelector('#main')).paddingTop;fields.forEach(f=>{if(!f.area.classList.contains('dotted-map'))f.area.style.setProperty('--art-header-space',spacing)});},{passive:true});
   document.addEventListener('visibilitychange',()=>{last=0;if(!document.hidden){states.forEach(s=>s.dirty=true);wake();}});
   function resetMotion(){fields.forEach(f=>{f.pending=[];f.previous=null;f.cursor=[0,0,0];f.scrollStamp=null;f.ctx.fillStyle='#000';f.ctx.fillRect(0,0,f.trail.width,f.trail.height);});states.forEach(s=>s.dirty=true);last=0;wake();}
   reduced.addEventListener('change',resetMotion);
+  compact.addEventListener('change',resetMotion);
   let wasPaused=motionPaused();new MutationObserver(()=>{const paused=motionPaused();if(paused!==wasPaused){wasPaused=paused;resetMotion();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
   window.addEventListener('aic:artwork-refresh',()=>{states.forEach(s=>s.dirty=true);wake();});
 })();
