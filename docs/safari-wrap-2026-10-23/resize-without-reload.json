@@ -1,0 +1,281 @@
+[
+  {
+    "page": "company",
+    "width": 390,
+    "hero": {
+      "bottom": 633.484375,
+      "height": 560.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 542.6953125,
+      "height": 338,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 204.6953125,
+      "width": 507,
+      "x": -58.5,
+      "y": 204.6953125
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "Meet the advisors ",
+      "headline": "Experience at the decision table.",
+      "paragraph": "We start with the business problem, then curate the world for the AI-powered marketing capabilities to solve it. Former C-suite operators shape the engagement, defend the business case and coordinate specialist delivery."
+    }
+  },
+  {
+    "page": "company",
+    "width": 1024,
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009,
+    "texts": {
+      "action": "Meet the advisors ",
+      "headline": "Experience at the decision table.",
+      "paragraph": "We start with the business problem, then curate the world for the AI-powered marketing capabilities to solve it. Former C-suite operators shape the engagement, defend the business case and coordinate specialist delivery."
+    }
+  },
+  {
+    "page": "company",
+    "width": 390,
+    "hero": {
+      "bottom": 633.484375,
+      "height": 560.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 542.6953125,
+      "height": 338,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 204.6953125,
+      "width": 507,
+      "x": -58.5,
+      "y": 204.6953125
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "Meet the advisors ",
+      "headline": "Experience at the decision table.",
+      "paragraph": "We start with the business problem, then curate the world for the AI-powered marketing capabilities to solve it. Former C-suite operators shape the engagement, defend the business case and coordinate specialist delivery."
+    }
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "hero": {
+      "bottom": 795.0390625,
+      "height": 722.0390625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 528.890625,
+      "height": 285.3359375,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 243.5546875,
+      "width": 507,
+      "x": -58.5,
+      "y": 243.5546875
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "See the working model Watch the film",
+      "headline": "We start with what matters to your business.",
+      "paragraph": "Start with your business problem. We bring validated capabilities, senior operators and a focused pilot. Full Commerce MMM puts initial findings in your hands in 2–6 weeks."
+    }
+  },
+  {
+    "page": "solutions",
+    "width": 1024,
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009,
+    "texts": {
+      "action": "See the working model Watch the film",
+      "headline": "We start with what matters to your business.",
+      "paragraph": "Start with your business problem. We bring validated capabilities, senior operators and a focused pilot. Full Commerce MMM puts initial findings in your hands in 2–6 weeks."
+    }
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "hero": {
+      "bottom": 795.0390625,
+      "height": 722.0390625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 528.890625,
+      "height": 285.3359375,
+      "left": -58.5,
+      "right": 448.5,
+      "top": 243.5546875,
+      "width": 507,
+      "x": -58.5,
+      "y": 243.5546875
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "See the working model Watch the film",
+      "headline": "We start with what matters to your business.",
+      "paragraph": "Start with your business problem. We bring validated capabilities, senior operators and a focused pilot. Full Commerce MMM puts initial findings in your hands in 2–6 weeks."
+    }
+  },
+  {
+    "page": "training",
+    "width": 390,
+    "hero": {
+      "bottom": 658.890625,
+      "height": 585.890625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 490.03125,
+      "height": 285.3359375,
+      "left": -97.5,
+      "right": 409.5,
+      "top": 204.6953125,
+      "width": 507,
+      "x": -97.5,
+      "y": 204.6953125
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "Discuss team training ↗",
+      "headline": "Put AI to work. Make it yours.",
+      "paragraph": "Practical training built around your team's work. Leave with usable tools, a shared way to evaluate the output and workflows you can run yourselves."
+    }
+  },
+  {
+    "page": "training",
+    "width": 1024,
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009,
+    "texts": {
+      "action": "Discuss team training ↗",
+      "headline": "Put AI to work. Make it yours.",
+      "paragraph": "Practical training built around your team's work. Leave with usable tools, a shared way to evaluate the output and workflows you can run yourselves."
+    }
+  },
+  {
+    "page": "training",
+    "width": 390,
+    "hero": {
+      "bottom": 658.890625,
+      "height": 585.890625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "art": {
+      "bottom": 490.03125,
+      "height": 285.3359375,
+      "left": -97.5,
+      "right": 409.5,
+      "top": 204.6953125,
+      "width": 507,
+      "x": -97.5,
+      "y": 204.6953125
+    },
+    "wrapReady": true,
+    "scrollWidth": 390,
+    "texts": {
+      "action": "Discuss team training ↗",
+      "headline": "Put AI to work. Make it yours.",
+      "paragraph": "Practical training built around your team's work. Leave with usable tools, a shared way to evaluate the output and workflows you can run yourselves."
+    }
+  }
+]

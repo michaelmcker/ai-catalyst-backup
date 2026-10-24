@@ -1,0 +1,45 @@
+/* Safari-safe phone wrapping for the three reviewed portrait openings.
+   Desktop/tablet and the approved Conversation composition are untouched. */
+@media (max-width:700px){
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]){
+  min-height:0!important;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__copy{
+  display:flow-root!important;
+  min-height:0!important;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .hero-subject-space{display:none!important}
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) h1,
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__copy>p{
+  width:100%!important;
+  min-width:0!important;
+  max-width:none!important;
+  text-wrap:wrap!important;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .hero-mobile-subject-space{
+  display:block!important;
+  float:right;
+  width:calc(100% + var(--gutter));
+  height:var(--mobile-wrap-space-height,370px);
+  margin:26px calc(-1 * var(--gutter)) 0 0;
+  shape-outside:var(--mobile-wrap-shape,polygon(100% 0,100% 100%,58% 100%,58% 0)) border-box;
+  shape-margin:10px;
+  pointer-events:none;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__art{
+  inset:var(--mobile-wrap-top,160px) auto auto var(--mobile-wrap-left,-15vw)!important;
+  top:var(--mobile-wrap-top,160px)!important;
+  left:var(--mobile-wrap-left,-15vw)!important;
+  bottom:auto!important;
+  width:var(--mobile-wrap-width,130vw)!important;
+  height:var(--mobile-wrap-height,330px)!important;
+  min-height:0!important;
+  aspect-ratio:auto!important;
+ }
+ body.subpage:not(.migration-pano) #main>.page-hero:is([data-hero-subject="company-knight"],[data-hero-subject="kneeler"],[data-hero-subject="portrait"]) .page-hero__art img{
+  object-fit:contain!important;
+  object-position:center center!important;
+ }
+}

@@ -1,0 +1,299 @@
+{
+  "method": "Complete per-character DOMRange bounds against independent approved-source dark-ink masks, with 10 CSS px clearance.",
+  "limits": "Character bounds are conservative boxes, not glyph outlines. Pale silhouette, every background detail, animation and physical iPhone Safari appearance require visual review.",
+  "results": [
+    {
+      "page": "company",
+      "width": 390,
+      "browser": "unspecified",
+      "capture_kind": "unspecified",
+      "paragraph_width": 255.0,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 233,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          0.0,
+          -0.7751479289940828
+        ],
+        "crop": [
+          1.0,
+          1.7751479289940828
+        ]
+      },
+      "collisions": [
+        {
+          "char": "a",
+          "role": "paragraph",
+          "character_rect_css": [
+            227.421875,
+            355.09375,
+            236.5546875,
+            374.59375
+          ],
+          "protected_source_region": [
+            835,
+            30,
+            925,
+            151
+          ]
+        },
+        {
+          "char": "t",
+          "role": "paragraph",
+          "character_rect_css": [
+            236.546875,
+            355.09375,
+            241.90625,
+            374.59375
+          ],
+          "protected_source_region": [
+            863,
+            30,
+            941,
+            151
+          ]
+        },
+        {
+          "char": "e",
+          "role": "paragraph",
+          "character_rect_css": [
+            241.8984375,
+            355.09375,
+            251.0390625,
+            374.59375
+          ],
+          "protected_source_region": [
+            879,
+            30,
+            969,
+            151
+          ]
+        }
+      ],
+      "failures": [
+        "paragraph is not the complete reading width; a fixed 54% column cannot pass",
+        "mobile wrap did not report ready",
+        "mobile float is not immediately after the headline",
+        "art height does not follow its fixed source aspect ratio",
+        "3 character bounds intersect protected source ink within 10px clearance"
+      ],
+      "passed": false,
+      "screenshot": null
+    },
+    {
+      "page": "solutions",
+      "width": 390,
+      "browser": "unspecified",
+      "capture_kind": "unspecified",
+      "paragraph_width": 184.6796875,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 213,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          0.0,
+          -1.172853169338087
+        ],
+        "crop": [
+          1.0,
+          2.172853169338087
+        ]
+      },
+      "collisions": [],
+      "failures": [
+        "paragraph is not the complete reading width; a fixed 54% column cannot pass",
+        "mobile wrap did not report ready",
+        "mobile float is not immediately after the headline",
+        "art height does not follow its fixed source aspect ratio"
+      ],
+      "passed": false,
+      "screenshot": null
+    },
+    {
+      "page": "training",
+      "width": 390,
+      "browser": "unspecified",
+      "capture_kind": "unspecified",
+      "paragraph_width": 342.0,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 169,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          0.0,
+          -1.0615864472970684
+        ],
+        "crop": [
+          1.0,
+          2.0615864472970684
+        ]
+      },
+      "collisions": [],
+      "failures": [
+        "mobile wrap did not report ready",
+        "mobile float is not immediately after the headline",
+        "art height does not follow its fixed source aspect ratio"
+      ],
+      "passed": false,
+      "screenshot": null
+    }
+  ],
+  "failures": [
+    "company@390: paragraph is not the complete reading width; a fixed 54% column cannot pass",
+    "company@390: mobile wrap did not report ready",
+    "company@390: mobile float is not immediately after the headline",
+    "company@390: art height does not follow its fixed source aspect ratio",
+    "company@390: 3 character bounds intersect protected source ink within 10px clearance",
+    "solutions@390: paragraph is not the complete reading width; a fixed 54% column cannot pass",
+    "solutions@390: mobile wrap did not report ready",
+    "solutions@390: mobile float is not immediately after the headline",
+    "solutions@390: art height does not follow its fixed source aspect ratio",
+    "training@390: mobile wrap did not report ready",
+    "training@390: mobile float is not immediately after the headline",
+    "training@390: art height does not follow its fixed source aspect ratio"
+  ],
+  "baseline_mode": true
+}

@@ -1,0 +1,948 @@
+{
+  "method": "Complete per-character DOMRange bounds against independent approved-source dark-ink masks, with 10 CSS px clearance.",
+  "limits": "Character bounds are conservative boxes, not glyph outlines. Pale silhouette, every background detail, animation and physical iPhone Safari appearance require visual review.",
+  "results": [
+    {
+      "page": "company",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 280.0,
+      "available_reading_width": 280.0,
+      "tested_character_boxes": 233,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        685.8359375
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -9.390200386927283e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000187804007739,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-320.png"
+    },
+    {
+      "page": "solutions",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 280.0,
+      "available_reading_width": 280.0,
+      "tested_character_boxes": 213,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        766.453125
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -1.5407698069180853e-05,
+          0.0
+        ],
+        "crop": [
+          1.0000308153961384,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-320.png"
+    },
+    {
+      "page": "training",
+      "width": 320,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 280.0,
+      "available_reading_width": 280.0,
+      "tested_character_boxes": 169,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        320.0,
+        639.796875
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -1.5407698069180853e-05,
+          0.0
+        ],
+        "crop": [
+          1.0000308153961384,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-320.png"
+    },
+    {
+      "page": "company",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 342.0,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 233,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        633.484375
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          0.0,
+          0.0
+        ],
+        "crop": [
+          1.0,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-390.png"
+    },
+    {
+      "page": "solutions",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 342.0,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 213,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        795.0390625
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -5.567704796871631e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000111354095937,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-390.png"
+    },
+    {
+      "page": "training",
+      "width": 390,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 342.0,
+      "available_reading_width": 342.0,
+      "tested_character_boxes": 169,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        390.0,
+        658.890625
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -5.567704796871631e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000111354095937,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-390.png"
+    },
+    {
+      "page": "company",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 382.0,
+      "available_reading_width": 382.0,
+      "tested_character_boxes": 233,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        668.671875
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -3.493986848623898e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000069879736972,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-430.png"
+    },
+    {
+      "page": "solutions",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 382.0,
+      "available_reading_width": 382.0,
+      "tested_character_boxes": 213,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        803.0703125
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -4.930954165871526e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000098619083317,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-430.png"
+    },
+    {
+      "page": "training",
+      "width": 430,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 382.0,
+      "available_reading_width": 382.0,
+      "tested_character_boxes": 169,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        430.0,
+        671.7265625
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -4.930954165871526e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000098619083317,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-430.png"
+    },
+    {
+      "page": "company",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 552.0,
+      "available_reading_width": 552.0,
+      "tested_character_boxes": 233,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        622.9609375
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/company-knight.webp",
+        "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 874,
+        "protected_source_pixels": 254464,
+        "roi_source": [
+          [
+            620,
+            45
+          ],
+          [
+            1515,
+            45
+          ],
+          [
+            1515,
+            945
+          ],
+          [
+            620,
+            945
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -6.975543743625856e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000139510874873,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "company-600.png"
+    },
+    {
+      "page": "solutions",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 552.0,
+      "available_reading_width": 552.0,
+      "tested_character_boxes": 213,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        655.4296875
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v3/kneeling-courtyard.webp",
+        "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 11,
+        "protected_source_pixels": 298756,
+        "roi_source": [
+          [
+            1080,
+            10
+          ],
+          [
+            1250,
+            40
+          ],
+          [
+            1390,
+            180
+          ],
+          [
+            1460,
+            470
+          ],
+          [
+            1580,
+            810
+          ],
+          [
+            1530,
+            905
+          ],
+          [
+            880,
+            905
+          ],
+          [
+            880,
+            480
+          ],
+          [
+            960,
+            280
+          ],
+          [
+            1040,
+            220
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -5.3965779054365726e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000107931558109,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "solutions-600.png"
+    },
+    {
+      "page": "training",
+      "width": 600,
+      "browser": "in-app Chromium",
+      "capture_kind": "responsive emulation",
+      "paragraph_width": 552.0,
+      "available_reading_width": 552.0,
+      "tested_character_boxes": 169,
+      "character_clip_bounds_css": [
+        0.0,
+        73.0,
+        600.0,
+        564.796875
+      ],
+      "character_clip_tolerance_css": 0.5,
+      "clearance_css_pixels": 10.0,
+      "mask": {
+        "source": "images/art-v2/portrait-halftone.webp",
+        "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "luminance_threshold": 0.82,
+        "minimum_component_source_pixels": 16,
+        "retained_components": 348,
+        "protected_source_pixels": 254717,
+        "roi_source": [
+          [
+            1340,
+            85
+          ],
+          [
+            1570,
+            110
+          ],
+          [
+            1660,
+            230
+          ],
+          [
+            1672,
+            870
+          ],
+          [
+            1450,
+            941
+          ],
+          [
+            1050,
+            941
+          ],
+          [
+            930,
+            700
+          ],
+          [
+            1130,
+            560
+          ],
+          [
+            1280,
+            490
+          ],
+          [
+            1200,
+            330
+          ],
+          [
+            1240,
+            150
+          ]
+        ]
+      },
+      "mapping": {
+        "offset": [
+          -5.3965779054365726e-06,
+          0.0
+        ],
+        "crop": [
+          1.0000107931558109,
+          1.0
+        ]
+      },
+      "collisions": [],
+      "failures": [],
+      "passed": true,
+      "screenshot": "training-600.png"
+    }
+  ],
+  "failures": [],
+  "baseline_mode": false
+}

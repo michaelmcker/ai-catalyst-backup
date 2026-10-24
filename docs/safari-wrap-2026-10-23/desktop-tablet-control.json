@@ -1,0 +1,1130 @@
+[
+  {
+    "page": "company",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 429,
+      "height": 203,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "company",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 429,
+      "height": 203,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "solutions",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 584.5,
+      "height": 503.5,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 243.5,
+      "height": 124.5,
+      "left": 40,
+      "right": 377.7265625,
+      "top": 119,
+      "width": 337.7265625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 412.5,
+      "height": 145,
+      "left": 40,
+      "right": 377.7265625,
+      "top": 267.5,
+      "width": 337.7265625,
+      "x": 40,
+      "y": 267.5
+    },
+    "art": {
+      "bottom": 584.5,
+      "height": 503.5,
+      "left": 424.3125,
+      "right": 753,
+      "top": 81,
+      "width": 328.6875,
+      "x": 424.3125,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "solutions",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 584.5,
+      "height": 503.5,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 243.5,
+      "height": 124.5,
+      "left": 40,
+      "right": 377.7265625,
+      "top": 119,
+      "width": 337.7265625,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 412.5,
+      "height": 145,
+      "left": 40,
+      "right": 377.7265625,
+      "top": 267.5,
+      "width": 337.7265625,
+      "x": 40,
+      "y": 267.5
+    },
+    "art": {
+      "bottom": 584.5,
+      "height": 503.5,
+      "left": 424.3125,
+      "right": 753,
+      "top": 81,
+      "width": 328.6875,
+      "x": 424.3125,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "training",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 371,
+      "height": 145,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "training",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 371,
+      "height": 145,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "briefing",
+    "width": 768,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 400,
+      "height": 174,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "briefing",
+    "width": 768,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 753,
+      "top": 81,
+      "width": 753,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 202,
+      "height": 83,
+      "left": 40,
+      "right": 369.4375,
+      "top": 119,
+      "width": 329.4375,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 400,
+      "height": 174,
+      "left": 40,
+      "right": 369.4375,
+      "top": 226,
+      "width": 329.4375,
+      "x": 40,
+      "y": 226
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 431.0859375,
+      "right": 753,
+      "top": 81,
+      "width": 321.9140625,
+      "x": 431.0859375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "company",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "company",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "solutions",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 284.3515625,
+      "height": 165.3515625,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 424.3515625,
+      "height": 116,
+      "left": 40,
+      "right": 503.203125,
+      "top": 308.3515625,
+      "width": 463.203125,
+      "x": 40,
+      "y": 308.3515625
+    },
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "solutions",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 284.3515625,
+      "height": 165.3515625,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 424.3515625,
+      "height": 116,
+      "left": 40,
+      "right": 503.203125,
+      "top": 308.3515625,
+      "width": 463.203125,
+      "x": 40,
+      "y": 308.3515625
+    },
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "training",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 340.234375,
+      "height": 87,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "training",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 340.234375,
+      "height": 87,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "briefing",
+    "width": 1024,
+    "version": "baseline",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "briefing",
+    "width": 1024,
+    "version": "candidate",
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "wrapReady": false,
+    "scrollWidth": 1009
+  },
+  {
+    "page": "company",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 498.5625,
+      "height": 203.484375,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "company",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 498.5625,
+      "height": 203.484375,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 345.6171875,
+      "height": 235.6171875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 509.2734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 373.6171875,
+      "width": 540,
+      "x": 79.796875,
+      "y": 373.6171875
+    },
+    "art": {
+      "bottom": 685.2734375,
+      "height": 603.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 345.6171875,
+      "height": 235.6171875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 509.2734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 373.6171875,
+      "width": 540,
+      "x": 79.796875,
+      "y": 373.6171875
+    },
+    "art": {
+      "bottom": 685.2734375,
+      "height": 603.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "training",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 430.734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "training",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 430.734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "briefing",
+    "width": 1440,
+    "version": "baseline",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 464.6484375,
+      "height": 169.5703125,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "briefing",
+    "width": 1440,
+    "version": "candidate",
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "paragraph": {
+      "bottom": 464.6484375,
+      "height": 169.5703125,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "wrapReady": false,
+    "scrollWidth": 1425
+  }
+]
