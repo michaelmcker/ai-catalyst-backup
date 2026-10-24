@@ -1,0 +1,12 @@
+{
+  "total": 104,
+  "unchanged": 103,
+  "changed": [
+    {
+      "path": "/assets/logo.svg",
+      "before": "532bccd7068650114022cecd80c2cd0c",
+      "after": "39dfb1b5259d859a15028d0e6b363306",
+      "bytes": 4041
+    }
+  ]
+}
