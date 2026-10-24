@@ -1,0 +1,48 @@
+/* The only migration-specific presentation: direct contact text and the
+   four expressly requested headline/support/image arrangements. Original
+   Home, Company, Solutions, Briefing and Training styles remain untouched. */
+.contact-email{overflow-wrap:anywhere;min-width:0;max-width:100%}
+.enquiry-contact address .contact-email{display:inline-flex;align-items:center;min-height:44px;font-size:clamp(20px,2.2vw,32px);line-height:1.3;border-bottom:1px solid currentColor}
+.home-contact .enquiry-contact address .contact-email{font-size:20px;color:white;border-color:#ffffff66}
+.subpage.migration-pano #main,.subpage.migration-pano #main:has(>.art-opening){padding-top:81px!important}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject]{display:flex!important;flex-direction:column!important;gap:0;min-height:0!important;height:auto!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;overflow:hidden!important}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,80px);width:100%!important;max-width:1600px!important;min-height:0!important;margin:0 auto!important;padding:40px var(--gutter) 32px!important;pointer-events:auto}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{width:auto!important;max-width:19ch!important;margin:0;font-size:clamp(44px,4.6vw,70px)!important;line-height:1.06!important;letter-spacing:-.04em!important;text-wrap:balance!important}
+.migration-pano .page-hero__support{min-width:0;padding-top:4px}
+.migration-pano .page-hero__support>p{width:auto;max-width:44ch;margin:0;font-size:clamp(19px,1.45vw,22px);line-height:1.5;text-wrap:pretty}
+.migration-pano .page-hero__actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .hero-link{margin:0!important;font-size:17px}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__art{order:1!important;position:relative!important;inset:auto!important;align-self:stretch!important;flex:none;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;aspect-ratio:var(--scene-ratio,2.4)!important;mask-image:none!important}
+.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:center!important}
+@media(min-width:701px) and (max-width:1000px){
+ .migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{gap:32px;padding-top:32px!important;padding-bottom:28px!important}
+ .migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(38px,5vw,50px)!important}
+ .migration-pano .page-hero__support>p{font-size:18px}
+}
+@media(max-width:700px){
+ /* Latest explicit correction: Company stays text left / knight right on
+    phones. Desktop retains the original full-stage Vercel composition. */
+ .subpage-company #main{padding-top:73px!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject]{display:block!important;min-height:440px!important;padding:0!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__copy{position:relative;width:58%!important;margin:0!important;padding:30px 12px 32px var(--gutter)!important;min-height:0!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] h1{font-size:clamp(26px,7.2vw,34px)!important;line-height:1.07!important;text-wrap:pretty!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__copy>p{width:100%!important;max-width:none!important;font-size:16px!important;line-height:1.45!important;margin-top:20px!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__art{position:absolute!important;inset:28px 0 auto auto!important;left:auto!important;width:43%!important;height:340px!important;min-height:0!important;margin:0!important;mask-image:none!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .page-hero__art img{object-fit:cover!important;object-position:78% center!important}
+ body.subpage.subpage-company .page-hero.page-hero--company[data-hero-subject] .hero-link{font-size:15px;margin-top:22px!important}
+ .subpage.migration-pano #main,.subpage.migration-pano #main:has(>.art-opening){padding-top:73px!important}
+ .migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;padding:24px var(--gutter) 28px!important}
+ .migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{font-size:clamp(24px,6.8vw,38px)!important;max-width:none!important}
+ .migration-pano .page-hero__support{padding:0}
+ .migration-pano .page-hero__support>p{font-size:clamp(15px,3.9vw,18px);line-height:1.45}
+ .migration-pano .page-hero__actions{gap:12px;margin-top:18px}
+ .migration-pano .page-hero.page-hero--stacked[data-hero-subject] .hero-link{font-size:15px;line-height:1.4}
+ /* Command Centre: keep the paragraph right, with the CTA below the headline
+    left, balancing the two columns above the flush landscape. */
+ .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .page-hero__copy{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:16px 20px}
+ .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] h1{grid-column:1;grid-row:1;font-size:clamp(26px,8.1vw,36px)!important}
+ .subpage-platform.migration-pano .page-hero__support{display:contents}
+ .subpage-platform.migration-pano .page-hero__support>p{grid-column:2;grid-row:1 / span 2;font-size:15px;line-height:1.45}
+ .subpage-platform.migration-pano .page-hero__actions{grid-column:1;grid-row:2;align-self:end;margin-top:0}
+ .subpage-platform.migration-pano .page-hero.page-hero--stacked[data-hero-subject] .hero-link{font-size:14px;line-height:1.35;gap:8px}
+}

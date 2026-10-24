@@ -1,0 +1,338 @@
+[
+  {
+    "art": {
+      "bottom": 441,
+      "height": 340,
+      "left": 182.40625,
+      "right": 320,
+      "top": 101,
+      "width": 137.59375,
+      "x": 182.40625,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 594.375,
+      "height": 521.375,
+      "left": 0,
+      "right": 185.59375,
+      "top": 73,
+      "width": 185.59375,
+      "x": 0,
+      "y": 73
+    },
+    "heading": {
+      "bottom": 186.4375,
+      "height": 83.4375,
+      "left": 20,
+      "right": 173.59375,
+      "top": 103,
+      "width": 153.59375,
+      "x": 20,
+      "y": 103
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 594.375,
+      "height": 521.375,
+      "left": 0,
+      "right": 320,
+      "top": 73,
+      "width": 320,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "url": "http://127.0.0.1:8855/current-site/company.html",
+    "width": 320
+  },
+  {
+    "actions": {
+      "bottom": 388.75,
+      "height": 103.1875,
+      "left": 20,
+      "right": 145,
+      "top": 285.5625,
+      "width": 125,
+      "x": 20,
+      "y": 285.5625
+    },
+    "art": {
+      "bottom": 524.296875,
+      "height": 107.546875,
+      "left": 0,
+      "right": 320,
+      "top": 416.75,
+      "width": 320,
+      "x": 0,
+      "y": 416.75
+    },
+    "copy": {
+      "bottom": 416.75,
+      "height": 334.75,
+      "left": 0,
+      "right": 320,
+      "top": 82,
+      "width": 320,
+      "x": 0,
+      "y": 82
+    },
+    "heading": {
+      "bottom": 259.671875,
+      "height": 153.671875,
+      "left": 20,
+      "right": 145,
+      "top": 106,
+      "width": 125,
+      "x": 20,
+      "y": 106
+    },
+    "headingOverflow": 3,
+    "hero": {
+      "bottom": 524.296875,
+      "height": 442.296875,
+      "left": 0,
+      "right": 320,
+      "top": 82,
+      "width": 320,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 388.75,
+      "height": 282.75,
+      "left": 165,
+      "right": 300,
+      "top": 106,
+      "width": 135,
+      "x": 165,
+      "y": 106
+    },
+    "url": "http://127.0.0.1:8855/current-site/platform.html",
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 441,
+      "height": 340,
+      "left": 222.3046875,
+      "right": 390,
+      "top": 101,
+      "width": 167.6953125,
+      "x": 222.3046875,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 513.03125,
+      "height": 440.03125,
+      "left": 0,
+      "right": 226.1953125,
+      "top": 73,
+      "width": 226.1953125,
+      "x": 0,
+      "y": 73
+    },
+    "heading": {
+      "bottom": 163.078125,
+      "height": 60.078125,
+      "left": 24,
+      "right": 214.1953125,
+      "top": 103,
+      "width": 190.1953125,
+      "x": 24,
+      "y": 103
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 513.03125,
+      "height": 440.03125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "url": "http://127.0.0.1:8855/current-site/company.html",
+    "width": 390
+  },
+  {
+    "actions": {
+      "bottom": 392.609375,
+      "height": 103.1875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 289.421875,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 289.421875
+    },
+    "art": {
+      "bottom": 551.6875,
+      "height": 131.078125,
+      "left": 0,
+      "right": 390,
+      "top": 420.609375,
+      "width": 390,
+      "x": 0,
+      "y": 420.609375
+    },
+    "copy": {
+      "bottom": 420.609375,
+      "height": 338.609375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "heading": {
+      "bottom": 273.421875,
+      "height": 167.421875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 106,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 106
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 551.6875,
+      "height": 469.6875,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 323.5,
+      "height": 217.5,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 106,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 106
+    },
+    "url": "http://127.0.0.1:8855/current-site/platform.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 441,
+      "height": 340,
+      "left": 245.1015625,
+      "right": 430,
+      "top": 101,
+      "width": 184.8984375,
+      "x": 245.1015625,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 496.0078125,
+      "height": 423.0078125,
+      "left": 0,
+      "right": 249.3984375,
+      "top": 73,
+      "width": 249.3984375,
+      "x": 0,
+      "y": 73
+    },
+    "heading": {
+      "bottom": 169.25,
+      "height": 66.25,
+      "left": 24,
+      "right": 237.3984375,
+      "top": 103,
+      "width": 213.3984375,
+      "x": 24,
+      "y": 103
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 513,
+      "height": 440,
+      "left": 0,
+      "right": 430,
+      "top": 73,
+      "width": 430,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "url": "http://127.0.0.1:8855/current-site/company.html",
+    "width": 430
+  },
+  {
+    "actions": {
+      "bottom": 362.1640625,
+      "height": 55.59375,
+      "left": 24,
+      "right": 198.03125,
+      "top": 306.5703125,
+      "width": 174.03125,
+      "x": 24,
+      "y": 306.5703125
+    },
+    "art": {
+      "bottom": 534.6875,
+      "height": 144.5234375,
+      "left": 0,
+      "right": 430,
+      "top": 390.1640625,
+      "width": 430,
+      "x": 0,
+      "y": 390.1640625
+    },
+    "copy": {
+      "bottom": 390.1640625,
+      "height": 308.1640625,
+      "left": 0,
+      "right": 430,
+      "top": 82,
+      "width": 430,
+      "x": 0,
+      "y": 82
+    },
+    "heading": {
+      "bottom": 290.5703125,
+      "height": 184.5703125,
+      "left": 24,
+      "right": 198.03125,
+      "top": 106,
+      "width": 174.03125,
+      "x": 24,
+      "y": 106
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 534.6875,
+      "height": 452.6875,
+      "left": 0,
+      "right": 430,
+      "top": 82,
+      "width": 430,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 301.75,
+      "height": 195.75,
+      "left": 218.03125,
+      "right": 406,
+      "top": 106,
+      "width": 187.96875,
+      "x": 218.03125,
+      "y": 106
+    },
+    "url": "http://127.0.0.1:8855/current-site/platform.html",
+    "width": 430
+  }
+]

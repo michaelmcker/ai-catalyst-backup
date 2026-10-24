@@ -1,0 +1,14 @@
+{
+  "project": "ai-catalyst",
+  "account_id": "bbbb85e86074305e7fd5623be9406076",
+  "environment": "preview",
+  "deployment_id": "47c3c835-d08a-45db-8975-7bfaecd955dd",
+  "url": "https://47c3c835.ai-catalyst-9l3.pages.dev",
+  "branch": "codex/direct-vercel-transfer",
+  "code_commit": "803176ac133a1f0905cb7a8f3053d1ba154e5f28",
+  "status": "success",
+  "files": 84,
+  "connection": "official built-in Cloudflare",
+  "production_deployment_still": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "ios_safari_status": "awaiting Michael's physical iPhone preview feedback"
+}

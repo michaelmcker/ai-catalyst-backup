@@ -1,0 +1,1633 @@
+[
+  {
+    "actions": null,
+    "art": {
+      "bottom": 514.40625,
+      "height": 378.40625,
+      "left": 216,
+      "right": 496.796875,
+      "top": 136,
+      "width": 280.796875,
+      "x": 216,
+      "y": 136
+    },
+    "copy": {
+      "bottom": 514.40625,
+      "height": 441.40625,
+      "left": 24,
+      "right": 366,
+      "top": 73,
+      "width": 342,
+      "x": 24,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 256.40625,
+      "height": 155.40625,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 514.40625,
+      "height": 441.40625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "#command-centre",
+        "text": "Explore"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How the engagement works ↗"
+      },
+      {
+        "href": "platform.html",
+        "text": "Inside the Commerce Command Centre ↗"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "See the creator intelligence ↗"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "See the shopping experience ↗"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "See the measurement ↗"
+      },
+      {
+        "href": "company.html#advisors",
+        "text": "Meet the advisors ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "Email Randy ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "#contact",
+        "text": "Start a conversation"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": null,
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/",
+    "width": 390
+  },
+  {
+    "actions": null,
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 747.8828125,
+      "height": 455.3984375,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 432.1484375,
+      "height": 121.6640625,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 747.8828125,
+      "height": 674.8828125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "#path",
+        "text": "See the working model"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 591.8828125,
+      "height": 137.734375,
+      "left": 24,
+      "right": 366,
+      "top": 454.1484375,
+      "width": 342,
+      "x": 24,
+      "y": 454.1484375
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/solutions",
+    "width": 390
+  },
+  {
+    "actions": null,
+    "art": {
+      "bottom": 441,
+      "height": 340,
+      "left": 222.3046875,
+      "right": 390,
+      "top": 101,
+      "width": 167.6953125,
+      "x": 222.3046875,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 513.03125,
+      "height": 440.03125,
+      "left": 0,
+      "right": 226.1953125,
+      "top": 73,
+      "width": 226.1953125,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 163.078125,
+      "height": 60.078125,
+      "left": 24,
+      "right": 214.1953125,
+      "top": 103,
+      "width": 190.1953125,
+      "x": 24,
+      "y": 103
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 513.03125,
+      "height": 440.03125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "#advisors",
+        "text": "Meet the advisors"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 415.03125,
+      "height": 231.953125,
+      "left": 24,
+      "right": 214.1953125,
+      "top": 183.078125,
+      "width": 190.1953125,
+      "x": 24,
+      "y": 183.078125
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/company",
+    "width": 390
+  },
+  {
+    "actions": null,
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 602.875,
+      "height": 310.390625,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 391.59375,
+      "height": 81.109375,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 602.875,
+      "height": 529.875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 578.875,
+      "height": 165.28125,
+      "left": 24,
+      "right": 366,
+      "top": 413.59375,
+      "width": 342,
+      "x": 24,
+      "y": 413.59375
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/briefing",
+    "width": 390
+  },
+  {
+    "actions": null,
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "copy": {
+      "bottom": 615.78125,
+      "height": 323.296875,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 391.59375,
+      "height": 81.109375,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 615.78125,
+      "height": 542.78125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "briefing.html?interest=training",
+        "text": "Discuss team training ↗"
+      },
+      {
+        "href": "briefing.html?interest=training",
+        "text": "Plan the training ↗"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 523.78125,
+      "height": 110.1875,
+      "left": 24,
+      "right": 366,
+      "top": 413.59375,
+      "width": 342,
+      "x": 24,
+      "y": 413.59375
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/training",
+    "width": 390
+  },
+  {
+    "actions": {
+      "bottom": 357.2578125,
+      "height": 76.8359375,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 280.421875,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 280.421875
+    },
+    "art": {
+      "bottom": 516.3359375,
+      "height": 131.078125,
+      "left": 0,
+      "right": 390,
+      "top": 385.2578125,
+      "width": 390,
+      "x": 0,
+      "y": 385.2578125
+    },
+    "copy": {
+      "bottom": 385.2578125,
+      "height": 312.2578125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 264.421875,
+      "height": 167.421875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 516.3359375,
+      "height": 443.3359375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "#command-centre",
+        "text": "See the Commerce Command Centre"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Explore this solution"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Explore this solution"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Explore this solution"
+      },
+      {
+        "href": "solutions.html",
+        "text": "See how we work"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "solutions.html",
+        "text": "See how the engagement works ↗"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 314.5,
+      "height": 217.5,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/platform",
+    "width": 390
+  },
+  {
+    "actions": {
+      "bottom": 357.90625,
+      "height": 44,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 313.90625,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 313.90625
+    },
+    "art": {
+      "bottom": 548.3671875,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 385.90625,
+      "width": 390,
+      "x": 0,
+      "y": 385.90625
+    },
+    "copy": {
+      "bottom": 385.90625,
+      "height": 312.90625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 297.90625,
+      "height": 200.90625,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 548.3671875,
+      "height": 475.3671875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "briefing.html?interest=creator-social",
+        "text": "Discuss a pilot ↗"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Tell us what you need to solve ↗"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMMSee what drives sales. Compare where your budget could work harder.Explore ↗"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligenceAnswer product questions and help shoppers make the purchase.Explore ↗"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 314.5,
+      "height": 217.5,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/creator-social",
+    "width": 390
+  },
+  {
+    "actions": {
+      "bottom": 336.25,
+      "height": 44,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 292.25,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 292.25
+    },
+    "art": {
+      "bottom": 526.7109375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 364.25,
+      "width": 390,
+      "x": 0,
+      "y": 364.25
+    },
+    "copy": {
+      "bottom": 364.25,
+      "height": 291.25,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 264.421875,
+      "height": 167.421875,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 526.7109375,
+      "height": 453.7109375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "briefing.html?interest=marketing-investment",
+        "text": "Discuss a pilot ↗"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Tell us what you need to solve ↗"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligenceFind creator opportunities and decide what to test in your market.Explore ↗"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligenceAnswer product questions and help shoppers make the purchase.Explore ↗"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 336.25,
+      "height": 239.25,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/marketing-investment",
+    "width": 390
+  },
+  {
+    "actions": {
+      "bottom": 357.90625,
+      "height": 44,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 313.90625,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 313.90625
+    },
+    "art": {
+      "bottom": 548.3671875,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 385.90625,
+      "width": 390,
+      "x": 0,
+      "y": 385.90625
+    },
+    "copy": {
+      "bottom": 385.90625,
+      "height": 312.90625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 297.90625,
+      "height": 200.90625,
+      "left": 24,
+      "right": 178.8046875,
+      "top": 97,
+      "width": 154.8046875,
+      "x": 24,
+      "y": 97
+    },
+    "headingOverflow": 0,
+    "hero": {
+      "bottom": 548.3671875,
+      "height": 475.3671875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "links": [
+      {
+        "href": "#main",
+        "text": "Skip to content"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "briefing.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "platform.html",
+        "text": "Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation"
+      },
+      {
+        "href": "briefing.html?interest=online-conversion",
+        "text": "Discuss a pilot ↗"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Tell us what you need to solve ↗"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligenceFind creator opportunities and decide what to test in your market.Explore ↗"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMMSee what drives sales. Compare where your budget could work harder.Explore ↗"
+      },
+      {
+        "href": "index.html",
+        "text": ""
+      },
+      {
+        "href": "company.html",
+        "text": "Company"
+      },
+      {
+        "href": "solutions.html",
+        "text": "How We Work"
+      },
+      {
+        "href": "training.html",
+        "text": "Training and adoption"
+      },
+      {
+        "href": "platform.html",
+        "text": "Commerce Command Centre"
+      },
+      {
+        "href": "creator-social.html",
+        "text": "Creator intelligence"
+      },
+      {
+        "href": "online-conversion.html",
+        "text": "Agentic consumer intelligence"
+      },
+      {
+        "href": "marketing-investment.html",
+        "text": "Full Commerce MMM"
+      },
+      {
+        "href": "tel:+14162700132",
+        "text": "416-270-0132"
+      },
+      {
+        "href": "briefing.html",
+        "text": "Start a conversation ↗"
+      },
+      {
+        "href": "mailto:randy@aicatalyst.biz",
+        "text": "randy@aicatalyst.biz"
+      }
+    ],
+    "opacity": "1",
+    "overflow": 0,
+    "paragraph": {
+      "bottom": 271,
+      "height": 174,
+      "left": 198.8046875,
+      "right": 366,
+      "top": 97,
+      "width": 167.1953125,
+      "x": 198.8046875,
+      "y": 97
+    },
+    "ready": true,
+    "url": "https://47c3c835.ai-catalyst-9l3.pages.dev/online-conversion",
+    "width": 390
+  }
+]

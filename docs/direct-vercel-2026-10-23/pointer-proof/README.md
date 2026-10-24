@@ -37,7 +37,9 @@ body class are reported, never overridden.
 
 Exact Vercel Company uses the time-driven `paperTone` background, whose shader
 does not read the pointer uniform. Its paper-only pointer delta may correctly be
-zero while its artwork responds to trails. Exact Vercel Home's `v1Paper` is
+zero. Its source contains an artwork trail path, but the captured phase7
+artwork ROI showed no visible pointer-only difference in either source; that
+visual response is not established by this proof. Exact Vercel Home's `v1Paper` is
 pointer-aware. Judge candidate parity against the reference; do not invent a
 Company paper response to satisfy a test. Frozen-clock proof isolates pointer
 causality and does not replace normal-clock visual or animation checks.
