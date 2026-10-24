@@ -1,0 +1,14 @@
+{
+  "menu": {
+    "heading": "Put AI to work. Make it yours.",
+    "url": "https://aicatalyst.biz/training"
+  },
+  "film": {
+    "currentTime": 17.256686,
+    "error": null,
+    "paused": false,
+    "readyState": 4,
+    "src": "https://aicatalyst.biz/assets/full-film.mp4"
+  },
+  "videoHttpStatus": 206
+}

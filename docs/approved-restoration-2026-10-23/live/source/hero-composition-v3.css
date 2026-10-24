@@ -1,0 +1,113 @@
+/* V3 subjects shape the live text flow, rather than sitting underneath it. */
+.subpage .page-hero[data-hero-subject]{display:block!important;position:relative;min-height:720px!important;padding-top:0!important;padding-bottom:0!important;border:0!important;overflow:hidden}
+.subpage .page-hero[data-hero-subject] .page-hero__copy{display:flow-root!important;width:100%!important;max-width:none!important;min-height:0!important;padding:clamp(150px,14vw,210px) 0 90px!important;pointer-events:none}
+.subpage .page-hero[data-hero-subject] .page-hero__copy a{pointer-events:auto}
+.subpage .page-hero[data-hero-subject] h1{max-width:none!important;width:auto!important;text-wrap:wrap!important;line-height:1.02!important}
+.subpage .page-hero[data-hero-subject] .page-hero__copy>p{width:43%!important;max-width:540px!important;text-wrap:pretty}
+.subpage .page-hero[data-hero-subject="tower"] h1,.subpage .page-hero[data-hero-subject="horses"] h1{font-size:clamp(64px,6.2vw,96px)!important}
+.hero-subject-space{float:right;width:60%;height:clamp(490px,43vw,650px);shape-margin:30px;shape-outside:polygon(42% 0,100% 0,100% 100%,0 100%,0 67%,12% 45%,28% 22%);pointer-events:none}
+[data-hero-subject="tower"] .hero-subject-space{width:62%;shape-outside:polygon(29% 0,100% 0,100% 100%,0 100%,0 74%,11% 45%,24% 20%)}
+[data-hero-subject="loggia"] .hero-subject-space{width:58%;shape-outside:polygon(35% 0,100% 0,100% 100%,0 100%,0 67%,20% 30%)}
+[data-hero-subject="horses"] .hero-subject-space{width:52%;shape-outside:polygon(0 0,100% 0,100% 100%,0 100%)}
+[data-hero-subject="company-knight"] .hero-subject-space{width:64%;shape-outside:polygon(35% 0,100% 0,100% 100%,0 100%,0 72%,12% 43%,23% 18%)}
+[data-hero-subject="arcade"] .hero-subject-space{width:63%;shape-outside:polygon(37% 0,100% 0,100% 100%,0 100%,0 72%,12% 45%,26% 20%)}
+[data-hero-subject="kneeler"] .hero-subject-space{width:54%;shape-outside:polygon(24% 0,100% 0,100% 100%,0 100%,0 68%,6% 42%,20% 20%)}
+.subpage .page-hero[data-hero-subject] .page-hero__art{position:absolute!important;inset:0!important;left:0!important;right:0!important;width:100%!important;height:100%!important;margin:0!important;max-width:none!important;mask-image:none!important;mask-composite:add!important;overflow:hidden!important}
+.subpage .page-hero[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:100% 48%!important;mask-image:none!important}
+.subpage .page-hero[data-hero-subject="kneeler"] .page-hero__art img{object-fit:contain!important;object-position:100% 50%!important}
+.subpage .page-hero[data-hero-subject="loggia"] .page-hero__art{width:85%!important;left:auto!important;right:-18%!important}
+.subpage .page-hero[data-hero-subject="horses"] .page-hero__art{width:85%!important;left:auto!important;right:0!important}
+.subpage .page-hero[data-hero-subject="arcade"] h1{font-size:clamp(64px,6.2vw,96px)!important}
+.hero-art{mask-image:none!important}
+.subpage .page-hero[data-hero-subject] .hero-film-button{left:auto!important;right:8%!important;bottom:34px!important}
+@media(min-width:701px) and (max-width:1000px){
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{padding-top:130px!important}
+ .hero-subject-space{shape-margin:22px;width:59%}
+ .subpage .page-hero[data-hero-subject] h1{font-size:clamp(58px,7.4vw,76px)!important}
+ .subpage .page-hero[data-hero-subject="tower"] h1,.subpage .page-hero[data-hero-subject="horses"] h1,.subpage .page-hero[data-hero-subject="arcade"] h1{font-size:clamp(52px,6.4vw,64px)!important}
+}
+@media(max-width:700px){
+ .hero-subject-space{display:none}
+ .subpage .page-hero[data-hero-subject]{display:flex!important;flex-direction:column;min-height:0!important;padding-bottom:0}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{display:block!important;width:100%!important;padding:40px 0 24px!important}
+ .subpage .page-hero[data-hero-subject] h1,.subpage .page-hero[data-hero-subject="tower"] h1,.subpage .page-hero[data-hero-subject="horses"] h1,.subpage .page-hero[data-hero-subject="arcade"] h1{font-size:clamp(39px,10vw,50px)!important;line-height:1.04!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy>p{font-size:19px!important;width:100%!important;max-width:none!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__art{position:relative!important;inset:auto!important;left:-24px!important;align-self:flex-start!important;width:calc(100% + 48px)!important;height:330px!important;min-height:330px;margin:0!important}
+ .subpage .page-hero[data-hero-subject="loggia"] .page-hero__art,.subpage .page-hero[data-hero-subject="horses"] .page-hero__art{left:-24px!important;right:auto!important;width:calc(100% + 48px)!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__art img{object-fit:cover!important;object-position:100% 45%!important}
+ .subpage .page-hero[data-hero-subject="kneeler"] .page-hero__art{height:360px!important;min-height:360px}
+ .subpage .page-hero[data-hero-subject="horses"] .page-hero__art img{object-position:100% 50%!important}
+}
+
+/* Keep the homepage image beside the copy on tablets, instead of adding a
+   second full-height frame underneath a short heading. */
+.hero-scene:has(.art-v2-sword-hand) .hero{height:auto;min-height:clamp(620px,48vw,740px);max-height:none;display:block}
+.hero-scene:has(.art-v2-sword-hand) .hero-copy{padding-top:clamp(85px,8vw,130px);padding-bottom:48px;min-height:0}
+.hero-scene:has(.art-v2-sword-hand) .hero-copy h1{width:63%;max-width:850px;font-size:clamp(62px,6.2vw,94px);line-height:1.03}
+.hero-scene:has(.art-v2-sword-hand) .hero-copy>p{width:40%;max-width:450px;font-size:clamp(21px,1.8vw,27px);margin:28px 0 0}
+.hero-scene:has(.art-v2-sword-hand) .hero-copy .text-link{margin-top:30px}
+.hero-scene:has(.art-v2-sword-hand) .hero-art{position:absolute;inset:0 -7% 0 14%!important;left:14%!important;width:93%!important;height:100%;aspect-ratio:auto;margin:0;z-index:0;pointer-events:none}
+.hero-scene:has(.art-v2-sword-hand) .hero-art img{object-fit:contain!important;object-position:100% 50%!important}
+.hero-scene:has(.art-v2-sword-hand) .hero-copy{z-index:3;position:relative}
+@media(min-width:1001px) and (max-width:1200px){.hero-scene:has(.art-v2-sword-hand) .hero-copy h1{width:55%}}
+@media(min-width:701px) and (max-width:1000px){
+ .hero-scene:has(.art-v2-sword-hand) .hero{height:auto;min-height:660px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy{padding-top:35px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy h1{width:80%;font-size:clamp(48px,6.7vw,67px)}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy>p{width:46%;font-size:21px;margin-top:24px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art{inset:auto 0 0 auto!important;left:auto!important;width:80%!important;height:510px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art img{object-fit:cover!important;object-position:right center!important}
+ .subpage .page-hero[data-hero-subject]{min-height:0!important;display:flex!important;flex-direction:column}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{padding:35px 0 24px!important}
+ .subpage .page-hero[data-hero-subject] .hero-subject-space{display:none}
+ .subpage .page-hero[data-hero-subject] h1{width:100%!important;max-width:760px!important;font-size:clamp(48px,6.5vw,65px)!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy>p{width:100%!important;max-width:610px!important;font-size:21px!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__art{position:relative!important;inset:auto!important;left:calc(-1 * var(--gutter))!important;right:auto!important;width:calc(100% + 2 * var(--gutter))!important;height:310px!important;min-height:0;margin:0!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__art img{object-fit:contain!important;object-position:right 48%!important}
+}
+@media(max-width:700px){
+ .hero-scene:has(.art-v2-sword-hand) .hero{display:flex;height:auto;min-height:0}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy{padding-top:26px;padding-bottom:8px;order:0}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy h1{width:100%;max-width:540px;font-size:clamp(38px,10.3vw,58px)}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy>p{width:100%;max-width:430px;font-size:20px;margin-top:22px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-copy .text-link{margin-top:24px}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art{position:relative;inset:auto!important;left:0!important;width:100%!important;height:300px;order:1;margin-top:0}
+ .hero-scene:has(.art-v2-sword-hand) .hero-art img{object-fit:cover!important;object-position:right 48%!important}
+}
+
+.period-scene{position:relative;width:100%;height:auto;aspect-ratio:2.4/1;max-height:640px;overflow:hidden;background:var(--paper);margin:0}
+.period-scene img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none}
+.period-scene+section{padding-top:clamp(48px,6vw,90px)}
+@media(max-width:700px){.period-scene{aspect-ratio:2.4/1;max-height:none}.period-scene img{object-position:center}}
+
+@media(min-width:1001px){
+ .subpage .page-hero[data-hero-subject]{min-height:680px!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{padding:150px 0 40px!important}
+ .subpage .page-hero[data-hero-subject] h1{font-size:clamp(56px,5.3vw,82px)!important;margin:0!important;line-height:1.04!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy>p{font-size:clamp(21px,1.7vw,25px)!important;line-height:1.4!important;margin:28px 0 0!important}
+ .subpage .page-hero[data-hero-subject] .hero-link{margin-top:28px!important}
+ .subpage .hero-subject-space{height:clamp(420px,32vw,500px)}
+ .subpage .page-hero[data-hero-subject] .page-hero__art{top:100px!important;height:calc(100% - 100px)!important}
+}
+.subpage .page-hero+section{padding-top:64px!important}
+.atlas-map.world-map{overflow:hidden}
+.subpage .page-hero[data-hero-subject] .page-hero__copy .hero-film-button{position:static!important;inset:auto!important;display:flex!important;width:max-content;max-width:100%;min-height:36px;margin:20px 0 0;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;gap:10px;pointer-events:auto}
+.subpage .page-hero[data-hero-subject] .page-hero__copy .hero-film-button .film-play-icon{width:30px;height:30px;flex:0 0 30px}
+@media(min-width:701px) and (max-width:1000px){
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{padding-top:110px!important}
+ .subpage .page-hero[data-hero-subject] h1{margin:0!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy>p{margin:22px 0 0!important}
+ .subpage .page-hero[data-hero-subject] .hero-link{margin-top:24px!important}
+}
+@media(max-width:700px){
+ .subpage .page-hero[data-hero-subject] .page-hero__copy{padding:24px 0 18px!important}
+ .subpage .page-hero[data-hero-subject] h1{margin:0!important}
+ .subpage .page-hero[data-hero-subject] .page-hero__copy>p{margin:22px 0 0!important}
+ .subpage .page-hero[data-hero-subject] .hero-link{margin-top:24px!important}
+ .subpage .page-hero+section{padding-top:48px!important}
+ .subpage .page-hero[data-hero-subject="loggia"] .page-hero__art img{object-position:55% 48%!important}
+}
+
+/* Keep the client's three headline phrases legible as the copy grows. */
+.hero-scene:has(.art-v2-sword-hand) .hero-copy h1>span{display:block;text-wrap:balance}
+@media(max-width:700px){.hero-scene:has(.art-v2-sword-hand) .hero{min-height:0}}

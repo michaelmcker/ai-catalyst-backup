@@ -3,10 +3,11 @@
 from pathlib import Path
 from PIL import Image,ImageChops
 import json,sys
+from urllib.parse import urlparse
 f=Path(sys.argv[1]);rows=json.load(open(f/'rendered-checks.json'));results=[];fail=[]
 for row in rows:
  if row['width']!=1440:continue
- name=Path(row['url']).stem;a=Image.open(f/f'motion-{name}-0.png').convert('RGB');scale=a.width/row['width'];result={'page':name}
+ name=Path(urlparse(row['url']).path).stem or 'index';a=Image.open(f/f'motion-{name}-0.png').convert('RGB');scale=a.width/row['width'];result={'page':name}
  for key,r in {'hero':row['hero'],'image':row['art']}.items():
   box=tuple(round(v*scale) for v in (max(0,r['left']+4),max(0,r['top']+4),min(row['hero']['right']-4,r['right']-4),min(990,r['bottom']-4)))
   vals=[]

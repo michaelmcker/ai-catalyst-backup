@@ -25,3 +25,13 @@ The restoration recovers the approved ordered print, image-specific continuous/e
 - Menu open/close and Training route order were exercised. The How We Work film dialog opened the approved local full-film.mp4 and closed successfully. Original interaction scripts are byte-identical to the verified reference. Public contact checks, local-resource checks, JavaScript syntax and image budgets pass. No sampled browser warnings/errors were observed.
 
 Publication and live-domain verification are recorded after deployment. No claim of physical iPhone Safari testing is made.
+
+## Published verification
+
+Code revision `2dddb3d20e9f2c6935978a03c4fc1e5567a0062f` was pushed to GitHub and published through the official built-in Cloudflare connection. Production deployment `a6445729-2263-4f62-9bf7-2347ce8a1a29` reports success and is canonical for Randy's ai-catalyst project. Both custom domains serve the restore5 renderer.
+
+The live subfolder contains actual production desktop motion sequences and retina mobile screenshots for all nine pages. Both nine-page geometry sets pass, including left/right headline/support on phones. The live motion/reduced-motion gate passes. All served application CSS/JS response bodies captured from the live pages match the checked-in public files. Rendered text on all nine pages matches the verified reference plus today's approved contact/navigation changes; the original script's seven generated map labels are verified separately. The DOM contains the correct mailto links and no LinkedIn links. Cloudflare's existing email-obfuscation script rewrites raw HTML email markup and then restores the correct rendered address/routes, so the content comparison uses the rendered DOM.
+
+No sampled console warnings/errors were observed. Physical iPhone Safari remains untested; three-times pixel-density Chromium emulation was used for the phone proof. The Vercel deployment was left intact as the reference.
+
+The published menu successfully navigated to Training. The live film dialog was verified playing the approved video (HTTP 206 video/mp4, readyState 4, advancing playback time, no media error), then closed successfully. See live/interaction-checks.json.
