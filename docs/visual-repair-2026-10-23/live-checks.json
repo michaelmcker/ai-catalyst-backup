@@ -1,0 +1,780 @@
+[
+  {
+    "art": {
+      "bottom": 511.625,
+      "height": 375.625,
+      "left": 213,
+      "right": 483,
+      "top": 136,
+      "width": 270,
+      "x": 213,
+      "y": 136
+    },
+    "copy": {
+      "bottom": 511.625,
+      "height": 438.625,
+      "left": 24,
+      "right": 351,
+      "top": 73,
+      "width": 327,
+      "x": 24,
+      "y": 73
+    },
+    "field": {
+      "bottom": 511.625,
+      "height": 438.625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 253.625,
+      "height": 152.625,
+      "left": 24,
+      "right": 351,
+      "top": 101,
+      "width": 327,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 511.625,
+      "height": 438.625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 511.625,
+      "height": 375.625,
+      "left": 213,
+      "right": 483,
+      "top": 136,
+      "width": 270,
+      "x": 213,
+      "y": 136
+    },
+    "naturalHeight": 187,
+    "naturalWidth": 280,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 72vw, 62vw",
+    "src": "https://aicatalyst.biz/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp",
+    "srcset": "images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp 640w, images/optimized/sword-hand-outpaint-v8-1280-6c043faa46.webp 1280w",
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "left": 0,
+      "right": 225,
+      "top": 73,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "left": 24,
+      "right": 209,
+      "top": 103,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 558.84375,
+      "height": 485.84375,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "naturalHeight": 87,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 52vw",
+    "src": "https://aicatalyst.biz/images/optimized/kneeling-courtyard-640-197cac4154.webp",
+    "srcset": "images/optimized/kneeling-courtyard-640-197cac4154.webp 640w, images/optimized/kneeling-courtyard-1280-4c8be997fa.webp 1280w",
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/solutions",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "left": 0,
+      "right": 225,
+      "top": 73,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "left": 24,
+      "right": 209,
+      "top": 103,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 537.640625,
+      "height": 464.640625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "naturalHeight": 104,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 52vw",
+    "src": "https://aicatalyst.biz/images/optimized/company-knight-640-54faa9a60e.webp",
+    "srcset": "images/optimized/company-knight-640-54faa9a60e.webp 640w, images/optimized/company-knight-1280-40731e0da8.webp 1280w",
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/company",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "left": 0,
+      "right": 225,
+      "top": 73,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 191.6875,
+      "height": 88.6875,
+      "left": 24,
+      "right": 209,
+      "top": 103,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 450.4453125,
+      "height": 377.4453125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "naturalHeight": 87,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 52vw",
+    "src": "https://aicatalyst.biz/images/optimized/briefing-arcade-640-e5acc71e6e.webp",
+    "srcset": "images/optimized/briefing-arcade-640-e5acc71e6e.webp 640w, images/optimized/briefing-arcade-1280-b50fb78243.webp 1280w",
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/briefing",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "copy": {
+      "bottom": 426.890625,
+      "height": 353.890625,
+      "left": 0,
+      "right": 225,
+      "top": 73,
+      "width": 225,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 433,
+      "height": 360,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 162.125,
+      "height": 59.125,
+      "left": 24,
+      "right": 209,
+      "top": 103,
+      "width": 185,
+      "x": 24,
+      "y": 103
+    },
+    "hero": {
+      "bottom": 433,
+      "height": 360,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 331.765625,
+      "height": 230.765625,
+      "left": 225,
+      "right": 375,
+      "top": 101,
+      "width": 150,
+      "x": 225,
+      "y": 101
+    },
+    "naturalHeight": 87,
+    "naturalWidth": 156,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "(max-width:700px) 40vw, 52vw",
+    "src": "https://aicatalyst.biz/images/optimized/portrait-halftone-640-22bdc13a83.webp",
+    "srcset": "images/optimized/portrait-halftone-640-22bdc13a83.webp 640w, images/optimized/portrait-halftone-1280-796c22b40d.webp 1280w",
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/training",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 620.15625,
+      "height": 126.0390625,
+      "left": 0,
+      "right": 375,
+      "top": 494.1171875,
+      "width": 375,
+      "x": 0,
+      "y": 494.1171875
+    },
+    "copy": {
+      "bottom": 494.1171875,
+      "height": 421.1171875,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 620.15625,
+      "height": 547.15625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 203.1171875,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 95,
+      "width": 327,
+      "x": 24,
+      "y": 95
+    },
+    "hero": {
+      "bottom": 620.15625,
+      "height": 547.15625,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 620.15625,
+      "height": 126.0390625,
+      "left": 0,
+      "right": 375,
+      "top": 494.1171875,
+      "width": 375,
+      "x": 0,
+      "y": 494.1171875
+    },
+    "naturalHeight": 131,
+    "naturalWidth": 390,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "100vw",
+    "src": "https://aicatalyst.biz/images/optimized/mounted-approach-panel-v1-640-ad5b2a095e.webp",
+    "srcset": "images/optimized/mounted-approach-panel-v1-640-ad5b2a095e.webp 640w, images/optimized/mounted-approach-panel-v1-1280-57daab1cf1.webp 1280w",
+    "support": {
+      "bottom": 462.1171875,
+      "height": 239,
+      "left": 24,
+      "right": 351,
+      "top": 223.1171875,
+      "width": 327,
+      "x": 24,
+      "y": 223.1171875
+    },
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/platform",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 678.828125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 522.6171875,
+      "width": 375,
+      "x": 0,
+      "y": 522.6171875
+    },
+    "copy": {
+      "bottom": 522.6171875,
+      "height": 449.6171875,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 203.1171875,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 95,
+      "width": 327,
+      "x": 24,
+      "y": 95
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 678.828125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 522.6171875,
+      "width": 375,
+      "x": 0,
+      "y": 522.6171875
+    },
+    "naturalHeight": 162,
+    "naturalWidth": 390,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "100vw",
+    "src": "https://aicatalyst.biz/images/optimized/cavalry-panel-v1-640-34345c27ef.webp",
+    "srcset": "images/optimized/cavalry-panel-v1-640-34345c27ef.webp 640w, images/optimized/cavalry-panel-v1-1280-5125d1d614.webp 1280w",
+    "support": {
+      "bottom": 490.6171875,
+      "height": 267.5,
+      "left": 24,
+      "right": 351,
+      "top": 223.1171875,
+      "width": 327,
+      "x": 24,
+      "y": 223.1171875
+    },
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/creator-social",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 678.828125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 522.6171875,
+      "width": 375,
+      "x": 0,
+      "y": 522.6171875
+    },
+    "copy": {
+      "bottom": 522.6171875,
+      "height": 449.6171875,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 203.1171875,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 95,
+      "width": 327,
+      "x": 24,
+      "y": 95
+    },
+    "hero": {
+      "bottom": 678.828125,
+      "height": 605.828125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 678.828125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 522.6171875,
+      "width": 375,
+      "x": 0,
+      "y": 522.6171875
+    },
+    "naturalHeight": 162,
+    "naturalWidth": 390,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "100vw",
+    "src": "https://aicatalyst.biz/images/optimized/river-approach-panel-v1-640-2077f55f3b.webp",
+    "srcset": "images/optimized/river-approach-panel-v1-640-2077f55f3b.webp 640w, images/optimized/river-approach-panel-v1-1280-5e67a06fd4.webp 1280w",
+    "support": {
+      "bottom": 490.6171875,
+      "height": 267.5,
+      "left": 24,
+      "right": 351,
+      "top": 223.1171875,
+      "width": 327,
+      "x": 24,
+      "y": 223.1171875
+    },
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/marketing-investment",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 650.328125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 494.1171875,
+      "width": 375,
+      "x": 0,
+      "y": 494.1171875
+    },
+    "copy": {
+      "bottom": 494.1171875,
+      "height": 421.1171875,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "field": {
+      "bottom": 650.328125,
+      "height": 577.328125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 203.1171875,
+      "height": 108.1171875,
+      "left": 24,
+      "right": 351,
+      "top": 95,
+      "width": 327,
+      "x": 24,
+      "y": 95
+    },
+    "hero": {
+      "bottom": 650.328125,
+      "height": 577.328125,
+      "left": 0,
+      "right": 375,
+      "top": 73,
+      "width": 375,
+      "x": 0,
+      "y": 73
+    },
+    "image": {
+      "bottom": 650.328125,
+      "height": 156.2109375,
+      "left": 0,
+      "right": 375,
+      "top": 494.1171875,
+      "width": 375,
+      "x": 0,
+      "y": 494.1171875
+    },
+    "naturalHeight": 162,
+    "naturalWidth": 390,
+    "overflow": 0,
+    "ready": true,
+    "sizes": "100vw",
+    "src": "https://aicatalyst.biz/images/optimized/coastal-cavalry-panel-v1-640-c0c7b62362.webp",
+    "srcset": "images/optimized/coastal-cavalry-panel-v1-640-c0c7b62362.webp 640w, images/optimized/coastal-cavalry-panel-v1-1280-df4229ecb3.webp 1280w",
+    "support": {
+      "bottom": 462.1171875,
+      "height": 239,
+      "left": 24,
+      "right": 351,
+      "top": 223.1171875,
+      "width": 327,
+      "x": 24,
+      "y": 223.1171875
+    },
+    "textureWidth": 640,
+    "url": "https://aicatalyst.biz/online-conversion",
+    "width": 390
+  }
+]

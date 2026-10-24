@@ -20,3 +20,11 @@ The print finish preserves modeled blue shading. The shared paper uses fixed one
 - Public contact/navigation checks, JavaScript syntax, responsive image budgets and source/master byte checks passed. No console warnings/errors were observed in the sampled rendered pages.
 
 Screenshots use Chromium viewport emulation, including visible desktop scrollbar behavior. Physical iPhone Safari rendering and field Core Web Vitals have not been measured. Publication and custom-domain verification are recorded separately after deployment.
+
+## Published verification
+
+Code revision `2aac3c894c1f0cd8583ec5d93d2ca3f27db7c4fe` was pushed to GitHub and published through the official built-in Cloudflare connection. Production deployment `70a17f9d-4f2a-4cbd-a651-412e8099cc42` reports success and is the project's canonical deployment. `aicatalyst.biz` and `www.aicatalyst.biz` both serve the new repair4 shader.
+
+`live-checks.json` passes the same nine-page mobile geometry and physical texture checks on the custom domain. `live-desktop-checks.json` checks Home and the four panoramas at desktop width. `live-*.png` captures the published phone compositions. No sampled console warning/error was observed.
+
+The cold-cache narrow-viewport capture transferred **169,795 bytes across 27 responses**, including the 28,223-byte hero response and Cloudflare's existing beacon. This is approximately 95% below the earlier 3,354,706-byte baseline. It is a measurement on this desktop browser/network, not an iPhone field performance or Core Web Vitals result. The source image masters remain unchanged.

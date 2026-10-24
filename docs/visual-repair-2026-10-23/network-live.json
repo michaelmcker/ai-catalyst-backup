@@ -1,0 +1,2811 @@
+{
+  "cursor": 6285,
+  "events": [
+    {
+      "sequence": 6080,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 550,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "cf-cache-status": "DYNAMIC",
+            "cf-ray": "a4f58d4afd9f5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MH9TYorrslxU1ZzDbRpeVBY7VFKoUZFzee9UFfhFvTZqKZZ%2F4oxij5R7a78b2bIP187ntvXP%2Bo89F2c3TKMEx29Rpd0vPDUGnj7zfuvu7AA9jUa1AR219J4akTnEW9wJyJPlj0iQaJNtHu9taQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=15,cfOrigin;dur=21\ncfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/html",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946335.739,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 61.243,
+            "receiveHeadersStart": 61.023,
+            "requestTime": 116303.271003,
+            "sendEnd": 0.6,
+            "sendStart": 0.458,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/"
+        },
+        "timestamp": 116303.33483,
+        "type": "Document"
+      }
+    },
+    {
+      "sequence": 6126,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 15402,
+        "requestId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "timestamp": 116303.333253
+      }
+    },
+    {
+      "sequence": 6135,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.82",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 391,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "cache-control": "public",
+            "cf-ray": "a4f58d4b7dc45a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "expires": "Mon, 26 Oct 2026 02:29:06 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=C8ktJIeN937lsvaqBPl1AkFIgbTHbSiTVpaNAt852SnIqY3O%2BWD3owaIUrDWuxRu36e9XFc%2FrGXbtQIio9RR%2BI9p4iopMmg3SsF06C4fdSM0uKp2f5FCnYm4ELk1WiOxuomf3lwLJgveSNmRZw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946382.965,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 26.727,
+            "receiveHeadersStart": 26.625,
+            "requestTime": 116303.352645,
+            "sendEnd": 6.775,
+            "sendStart": 6.737,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        "timestamp": 116303.38009,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6138,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1004,
+        "requestId": "72926.82",
+        "timestamp": 116303.379608
+      }
+    },
+    {
+      "sequence": 6140,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.81",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 531,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "accept-ranges": "bytes",
+            "access-control-allow-origin": "*",
+            "age": "4299",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=31536000, immutable",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a4f58d4b7dc65a49-YVR",
+            "content-length": "27682",
+            "content-type": "image/webp",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "\"7a4ef506cacd4c942937c6867b1177be\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=1,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WDgVhxltUwyZAnpinJIDqjp4rb4wTCuqRxPlznR7Yaf23jfnc6mKyjMlHUm5kQK%2BTA%2BdYTqGGFLx0AP4kQ7bu3rldCZjuvO%2B3SoNH5iKcdWZJtImq7YzBu%2F0ZL46fK4fsjky18ZSDMWUnWTSIw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "image/webp",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946392.022,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 35.821,
+            "receiveHeadersStart": 35.757,
+            "requestTime": 116303.352571,
+            "sendEnd": 6.148,
+            "sendStart": 6.088,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/images/optimized/sword-hand-outpaint-v8-640-baad9645b5.webp"
+        },
+        "timestamp": 116303.388742,
+        "type": "Image"
+      }
+    },
+    {
+      "sequence": 6144,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 28223,
+        "requestId": "72926.81",
+        "timestamp": 116303.39097
+      }
+    },
+    {
+      "sequence": 6146,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.83",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 522,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dc95a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"f2bd29f6466afa49e90b371e23e4cd37\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NmIMcqLGEP6rOqbkCksw33YqdyJmQRFTmj0j6QXLMzNY594T0ybktY0n7Pxi%2BESqr8XK6fqfNZySelX6ez%2Bi1YJypQd1h1C9%2FltHSQ3wRnunE6kTRs2CvTpiyd98PWiVtUA6IxX19T0xJLszAw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946400.939,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 36.308,
+            "receiveHeadersStart": 36.213,
+            "requestTime": 116303.361025,
+            "sendEnd": 2.767,
+            "sendStart": 2.717,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/site-shell.js?v=20261003-shared1"
+        },
+        "timestamp": 116303.398344,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6149,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2042,
+        "requestId": "72926.83",
+        "timestamp": 116303.397727
+      }
+    },
+    {
+      "sequence": 6152,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.74",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 542,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dbe5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"4b7629a17ec7e28ebaac1af686f295d6\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K1XWgigb%2FflFNEJS1NM6fZGOdpKqY%2Bhk79hgj9BQCsQnirlEbAtG5RTl05u5xIoRZuztENFgw5xB9lNsAXfsvDRoUwcDzzr1SCPB7heesypOfsI%2F92C5SCnIrLqa4%2FcVcU7LltnH9YZIkqEZVg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946403.634,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 48.035,
+            "receiveHeadersStart": 47.94,
+            "requestTime": 116303.351994,
+            "sendEnd": 3.705,
+            "sendStart": 3.61,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/art-direction-v2.css?v=20261002-halftone1"
+        },
+        "timestamp": 116303.40067,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6154,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.77",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 542,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc05a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"04d62a57ba5393fe241ff5a151eb7f49\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hsKo8fXEY4NT%2BPOvdxdqyzIZOT7qKrJtCcEB9bT%2FpWqpo4A7CjJZ7OONO5vGyU6mGMBBnbISH3YGxfytHashsumjz3UIMENfeb2%2BZDpCbWuyL8xym6bl9Kx6CpPTcMiluQXzdyab28ylLKOXMg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946403.74,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 47.756,
+            "receiveHeadersStart": 47.693,
+            "requestTime": 116303.35235,
+            "sendEnd": 3.515,
+            "sendStart": 3.385,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/client-layout-v3.css?v=20261003-audit1"
+        },
+        "timestamp": 116303.400757,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6157,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2013,
+        "requestId": "72926.74",
+        "timestamp": 116303.400406
+      }
+    },
+    {
+      "sequence": 6159,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 5878,
+        "requestId": "72926.77",
+        "timestamp": 116303.400448
+      }
+    },
+    {
+      "sequence": 6162,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.68",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 541,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7db75a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"5eda5ea4fac9289cb3a89c3c8afbd4ba\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=M129TQz5013M1u9z3dvZ3KY1WiN%2FDuTvdjHMtr0FXhSLSvJYLU8XlUwChsVISXtwXvqEtn6HaY25S5y3uMsyJMhO2mNnrDj1RgD%2BOHoVMYYPfKXYFW17T7wbAGBueS1mHJUQtZumB87HBy2g8A%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946416.427,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 61.606,
+            "receiveHeadersStart": 61.561,
+            "requestTime": 116303.351174,
+            "sendEnd": 2.117,
+            "sendStart": 1.93,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/local-refinements.css"
+        },
+        "timestamp": 116303.413876,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6164,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.88",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 519,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dcf5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"f9b652ee022f225c0f7b0e0b0c198b6a\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Z8qaFouL4R4kgHE0D5wFemIZ42KzhkyvzAsz1uTlw1ADiMSq1dzE1xKqVkrXX84CKVY4VxISOQhpPx2hhT1G0puRB0OljqRRopVvWotkc%2BxQWpFUPxrVqKrAKe3wzvksmqoADy7dbRq4FRuDVw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946416.363,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 51.283,
+            "receiveHeadersStart": 51.226,
+            "requestTime": 116303.361443,
+            "sendEnd": 2.814,
+            "sendStart": 2.707,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/site-assets.js?v=20261023-performance1"
+        },
+        "timestamp": 116303.414063,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6167,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 890,
+        "requestId": "72926.88",
+        "timestamp": 116303.413314
+      }
+    },
+    {
+      "sequence": 6171,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 7700,
+        "requestId": "72926.68",
+        "timestamp": 116303.415246
+      }
+    },
+    {
+      "sequence": 6183,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.72",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 546,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dba5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"0e31e9d22fa5e854cf20cecb9d12ba72\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IG38Z%2Bx0gyZbqDINvqWhl9Fd9wF8X8QDp10lVRKXvESV2PiWB%2B4gZ7qh3VBIqh7lvI95oqnngozdQw5NwJQQRsM%2FwTK6nPGVFeSrBiOYNz7iAKj%2FE5EBQ%2FNlzQ6FaCkpJLxVV1zU%2Bfeo7GeTXg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.088,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 63.718,
+            "receiveHeadersStart": 63.533,
+            "requestTime": 116303.351849,
+            "sendEnd": 3.279,
+            "sendStart": 3.117,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/entry-refinement.css?v=20260930-flow3"
+        },
+        "timestamp": 116303.419599,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6186,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2016,
+        "requestId": "72926.72",
+        "timestamp": 116303.417043
+      }
+    },
+    {
+      "sequence": 6187,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.79",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 545,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc55a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"a2657d6c1ae2bd80a9df8a41c48c7867\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MqQ4j%2FbK2zBnqMwZatMGKJ6YrvMfUSdpDMFUnxQmWvtmh9Bby3PIl19bEBj7%2BwDnfbD0Y5v%2BsYJcdU36Wt6MMPeqdQUlxp%2BIhLqug1KlIuMpasHU6R%2B%2FvT638nfC1sCp51LDkEjHipjhd8XPIg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.308,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 63.227,
+            "receiveHeadersStart": 63.099,
+            "requestTime": 116303.352488,
+            "sendEnd": 5.905,
+            "sendStart": 5.332,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/hero-layout.css?v=20261023-repair4"
+        },
+        "timestamp": 116303.419839,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6190,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2530,
+        "requestId": "72926.79",
+        "timestamp": 116303.417423
+      }
+    },
+    {
+      "sequence": 6191,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.75",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 547,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc15a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"daf04dc81384f359f14fc169c59b4677\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=I33GgVH2jxq70Se0yv1rE5c5OrwtROUNCnpUHt%2Fb9mAwRU8BXK8sQZN0UlCHnQd0VImxnpi%2BEEJZT4hIIXmo%2Fx7JcABfG6hBJYxI%2B%2B5beQ2X7%2FhBO8%2BeCJu5HOTw4nmE8p2uCpNRShgZseoYqA%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.437,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 63.799,
+            "receiveHeadersStart": 63.614,
+            "requestTime": 116303.352113,
+            "sendEnd": 3.983,
+            "sendStart": 3.906,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/chivalry-v3.css?v=20261002-texture3"
+        },
+        "timestamp": 116303.420022,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6193,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.69",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 547,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc75a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"469b69dd2c30cb232884a5e35f406f70\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Z0Nsj9g6ZZdV%2BZEtOQUjwJEkxvLDdO0nrN%2FQMjJ%2BLL2cJC8rUA9FwKKKIKykI9bpRoKNeupCXHoFxmty3fWKsaX94lQ7ylij2BVZ%2FpaqXoNRYS%2FI0ZobSMTQbU1sJf1t1ybNlHG9sUh%2Fxv59%2FQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.659,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.434,
+            "receiveHeadersStart": 64.367,
+            "requestTime": 116303.351595,
+            "sendEnd": 5.972,
+            "sendStart": 5.703,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/site-system.css?v=20261003-audit1"
+        },
+        "timestamp": 116303.420243,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6195,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.70",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 543,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dbd5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"4409cab8b9961467acf6ca6ebdffa65f\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AZ6GDRwr1fyBI9%2F4MS7BeePYs3lnqXi8jGmIZkB7rSwg0NR4Z6T5t6vKMgN%2BhDfo0d22D8GoQreFKEIlM5WOzgJelhRw468ovAGFU1Eh%2BMAklQLYHXtuVkZGgUSSVcbMZ1R7qXzkmd1TOLv8VQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.747,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.429,
+            "receiveHeadersStart": 64.346,
+            "requestTime": 116303.351695,
+            "sendEnd": 3.876,
+            "sendStart": 3.785,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/editorial-system.css?v=20260919-14"
+        },
+        "timestamp": 116303.420624,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6197,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.80",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 528,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dca5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "image/svg+xml",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"aa637668e1eb613bfaff079b31976b1e\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=h1ToQvO1RTjza5NoyjE2eW98ratSsUzfRhytn93XRmMnGNzSTvPJqGUvcLDifhgENKu4LjdIWsjHqSjsVP1pRW93Y7cP8UtkB1Plt8FoN%2FsIw4nikEMk7HQrL3UGbQCnZH9c1uqxLA1JMwIlLA%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "image/svg+xml",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.835,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 55.305,
+            "receiveHeadersStart": 55.242,
+            "requestTime": 116303.360894,
+            "sendEnd": 2.818,
+            "sendStart": 2.706,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/assets/logo.svg"
+        },
+        "timestamp": 116303.4207,
+        "type": "Image"
+      }
+    },
+    {
+      "sequence": 6199,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.73",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 544,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dbb5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"5513f033dfd29a5c3a831ce150373e19\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CFPhZu04Oi4DfORe7JuUVY8mL3jrTEC2Nic%2FH3co5pnEXY%2FQT57KvD5DNkpBcBkRglDABNxHZwv9gehfrCPF9hQcxeFKIzXGT7StFaK4B84UzUjAYclVUvvKc7SYjW2QqZYFr6N3%2FKrumd2J%2Fg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.9,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.329,
+            "receiveHeadersStart": 64.284,
+            "requestTime": 116303.351922,
+            "sendEnd": 3.305,
+            "sendStart": 3.245,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/simplified-navigation.css?v=20261002"
+        },
+        "timestamp": 116303.420818,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6202,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1474,
+        "requestId": "72926.73",
+        "timestamp": 116303.418444
+      }
+    },
+    {
+      "sequence": 6203,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.71",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 546,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dbf5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"4bb0e5c7751bb5f299ebdcbdbabe827f\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zIDpycuMEVN5eUcfTXuLnYHqW%2Bd7rdUM7t9Am04Ojj5lMkvYLAxex6DFa9DNim7u68Kv8J9BSk6YwYtX7OxdPPaYlnII%2B6zGXagEB3YlMWD%2BF2gy%2FcYQNMKSbhyD9cZDNKxbeqJ7BKpFwYbA%2Fg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946420.261,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.83,
+            "receiveHeadersStart": 64.793,
+            "requestTime": 116303.351778,
+            "sendEnd": 4.175,
+            "sendStart": 4.127,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/restored-layout.css?v=20260930-restore1"
+        },
+        "timestamp": 116303.421487,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6206,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1064,
+        "requestId": "72926.71",
+        "timestamp": 116303.419071
+      }
+    },
+    {
+      "sequence": 6209,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 3686,
+        "requestId": "72926.75",
+        "timestamp": 116303.4177
+      }
+    },
+    {
+      "sequence": 6211,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 3671,
+        "requestId": "72926.69",
+        "timestamp": 116303.41788
+      }
+    },
+    {
+      "sequence": 6213,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 7446,
+        "requestId": "72926.70",
+        "timestamp": 116303.418071
+      }
+    },
+    {
+      "sequence": 6215,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2269,
+        "requestId": "72926.80",
+        "timestamp": 116303.418278
+      }
+    },
+    {
+      "sequence": 6216,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.76",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 547,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc25a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"ab45262988e6fcc02cc27f0da4159bb6\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oWQo3PoQLPjjiYeOYg%2F9loOC3ZfVf0GQBMEnpGaQnqGQLZ3g%2FTpwFk%2FQYYSZn82WUjWg%2FcilCJMce%2B8Uk03cfyIZxUwCOehhMxqzEKjL8zJ6GMXo4TkqOePgMBOTHxIVz%2B6LMLUJgvnvgbRcEA%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946420.305,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.376,
+            "receiveHeadersStart": 64.345,
+            "requestTime": 116303.352269,
+            "sendEnd": 3.943,
+            "sendStart": 3.873,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/hero-composition-v3.css?v=20261003-client-copy1"
+        },
+        "timestamp": 116303.422807,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6219,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 2784,
+        "requestId": "72926.76",
+        "timestamp": 116303.419196
+      }
+    },
+    {
+      "sequence": 6220,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.78",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 539,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b7dc35a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/css; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"67c40a985e695fdcad8b1a1121098904\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=0,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oy6z7sRTVFdleV0LaArCzLUXNqws1altKhwNPg9nWTYp0YrLX3VCO8ahJGUXPOJJfXp10J7pBm8Li5AJexHwIig9P8iHnp2SJXI6z%2FtNSnJtnAmS4Jex6XqfxXw1DeB5EqL3%2FLlzGIJebYsvsQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/css",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946420.341,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 64.265,
+            "receiveHeadersStart": 64.228,
+            "requestTime": 116303.352422,
+            "sendEnd": 5.322,
+            "sendStart": 5.233,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/feedback-v3.css?v=20261023-contact1"
+        },
+        "timestamp": 116303.422966,
+        "type": "Stylesheet"
+      }
+    },
+    {
+      "sequence": 6223,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 4979,
+        "requestId": "72926.78",
+        "timestamp": 116303.419335
+      }
+    },
+    {
+      "sequence": 6224,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.87",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 524,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dce5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"520b9960941a1b693dfd1a5daffff3a4\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4FAPx6kGW4rKpv06yAsVbnQ63zRDmIYJF97T%2BbSKHBMvRzy6ndk6UovwjRaoXO0BdZ2N6dUVvTr8zyBTtQRNzoxO8FQQjCBfgZ1rPpL2Irjp%2B%2BaJlVDoHhdqK5KyPx49IkRHesuVhoQ%2BllxB2w%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946419.952,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 54.908,
+            "receiveHeadersStart": 54.872,
+            "requestTime": 116303.361386,
+            "sendEnd": 2.752,
+            "sendStart": 2.718,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/halftone-rendering.js?v=20261023-repair4"
+        },
+        "timestamp": 116303.423139,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6227,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 9657,
+        "requestId": "72926.87",
+        "timestamp": 116303.418748
+      }
+    },
+    {
+      "sequence": 6228,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.85",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 521,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dcc5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"fa43ddc09ccab21ee93c4fa3af813467\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4jE%2FzYDDGmo1NMLM5FWxxRqVN%2Bbi4drszVYBk5tph8dZcLcpTdcb1YX9m6ATvi8O501d0hhzyibivaHvmTa98PZi5HDTIKihXP9pnB2vk03CIWP%2BFAtfXHhyllsfnZhvtgemvE%2Ba3GW5c5aJjw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946420.205,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 55.348,
+            "receiveHeadersStart": 55.296,
+            "requestTime": 116303.361215,
+            "sendEnd": 2.828,
+            "sendStart": 2.791,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/revision-enquiry.js?v=20261023-contact1"
+        },
+        "timestamp": 116303.423214,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6231,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1425,
+        "requestId": "72926.85",
+        "timestamp": 116303.418953
+      }
+    },
+    {
+      "sequence": 6232,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.86",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 522,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dcd5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"a12488c76ccab949bf6c4c8ec79fdd3f\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Fuqb0aFJU3mSXy27Q7RV4QDlvLSWm3P3FFnl3%2F9FVtqqIyy1E6P5E5q5FzbERnOuYAZpoTcnnnm2HO904fyDvpDWTgDLkG5ZGnq%2FFiJ2fWOwwO4cBvtNbuAUelKj3hLlbywBwg9hO%2BvwzidcLw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946424.016,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 59.088,
+            "receiveHeadersStart": 59.041,
+            "requestTime": 116303.361283,
+            "sendEnd": 2.808,
+            "sendStart": 2.773,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/service-motion.js?v=20260930-pilot2"
+        },
+        "timestamp": 116303.423287,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6235,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1127,
+        "requestId": "72926.86",
+        "timestamp": 116303.421855
+      }
+    },
+    {
+      "sequence": 6239,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.84",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 520,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4b8dcb5a49-YVR",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"2515c6fb95a847fc61a3506c6524acde\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i=?0",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qT1%2F%2BmdKfLHebI%2FASHRvZnamcFveZY4bU0HiT6v%2BHqap2XWjcRiBiEl6z1hMyilQXNic7y8i190d2hZOCPOCW6t7Ya5ashitmnhEW0chnGU9Un9EfDiLeemeP78SRoFIQgwEzPodlIpfbGb3cg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "application/javascript",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946428.155,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 63.404,
+            "receiveHeadersStart": 63.351,
+            "requestTime": 116303.361112,
+            "sendEnd": 2.88,
+            "sendStart": 2.836,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/restored-home-motion.js?v=20261023-repair4"
+        },
+        "timestamp": 116303.434614,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6244,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 33112,
+        "requestId": "72926.84",
+        "timestamp": 116303.429735
+      }
+    },
+    {
+      "sequence": 6255,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.89",
+        "response": {
+          "alternateProtocolUsage": "unspecifiedReason",
+          "charset": "utf-8",
+          "connectionId": 248896,
+          "connectionReused": false,
+          "encodedDataLength": 4294,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "cache-control": "public, max-age=86400",
+            "cf-ray": "a4f58d4c0d52af9b-YVR",
+            "content-encoding": "gzip",
+            "content-type": "text/javascript;charset=UTF-8",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"2026.10.1\"",
+            "last-modified": "Thu, 15 Oct 2026 18:26:54 GMT",
+            "server": "cloudflare"
+          },
+          "mimeType": "text/javascript",
+          "protocol": "h2",
+          "remoteIPAddress": "[2606:4700::6810:5049]",
+          "remotePort": 443,
+          "responseTime": 1792808946482.723,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": false,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "TLS 1.3",
+            "sanList": [
+              "cloudflareinsights.com",
+              "*.cloudflareinsights.com"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "cloudflareinsights.com",
+            "validFrom": 1791807455,
+            "validTo": 1799587052
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": 88.364,
+            "connectStart": 33.451,
+            "dnsEnd": 33.372,
+            "dnsStart": 5.997,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 126.702,
+            "receiveHeadersStart": 126.234,
+            "requestTime": 116303.352781,
+            "sendEnd": 89.095,
+            "sendStart": 89.011,
+            "sslEnd": 88.358,
+            "sslStart": 61.528,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        "timestamp": 116303.483594,
+        "type": "Script"
+      }
+    },
+    {
+      "sequence": 6259,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 10478,
+        "requestId": "72926.89",
+        "timestamp": 116303.482315
+      }
+    },
+    {
+      "sequence": 6262,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.107",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 530,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4c0de55a49-YVR",
+            "content-encoding": "br",
+            "content-type": "image/svg+xml",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"9757e60b4531b59ab45ab9ae66bbb9c1\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rAZvgOIlQXnePuQbKLl4YcQbUgIaz0oURS8cSruWQF1zC%2BPFLeXBrOPRQncBC%2FTe7k2RBQ4IXEMw0une3Oia3iMUtaa96yWSr5SVa6fPTaUX8JAfv4pcxIjxd7zAmg0CHe8DomFGzbFRSXHLMg%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "image/svg+xml",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946486.209,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 46.862,
+            "receiveHeadersStart": 46.714,
+            "requestTime": 116303.435799,
+            "sendEnd": 4.534,
+            "sendStart": 4.31,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/images/ai-catalyst/imported-02-4a56933bfb.svg"
+        },
+        "timestamp": 116303.489328,
+        "type": "Image"
+      }
+    },
+    {
+      "sequence": 6265,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1542,
+        "requestId": "72926.107",
+        "timestamp": 116303.48335
+      }
+    },
+    {
+      "sequence": 6266,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.108",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 540,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "REVALIDATED",
+            "cf-ray": "a4f58d4c0de65a49-YVR",
+            "content-encoding": "br",
+            "content-type": "image/svg+xml",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "etag": "W/\"0b23da06492cf38d9e3d585f35dad389\"",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=3,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=kJqBrY9s0k3w%2FRTdSZU%2FsIegokXXY%2Fy8k%2BWFLcsC%2BR6kgRWKGlGxtvdI3D94x9oE8y2IVj43tUEDeNlUg8PL51ExcD%2FlTLt2bHHVdddSkUGx5guIoJ5TXvlXl%2FjZWOjTbvEtSII5xEfgI73dbA%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "image/svg+xml",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946486.403,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 44.116,
+            "receiveHeadersStart": 43.979,
+            "requestTime": 116303.438719,
+            "sendEnd": 1.91,
+            "sendStart": 1.658,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/images/ai-catalyst/imported-03-e8cf75280c.svg"
+        },
+        "timestamp": 116303.490165,
+        "type": "Image"
+      }
+    },
+    {
+      "sequence": 6269,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 1805,
+        "requestId": "72926.108",
+        "timestamp": 116303.48393
+      }
+    },
+    {
+      "sequence": 6270,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Page.loadEventFired",
+      "params": {
+        "timestamp": 116303.492939
+      }
+    },
+    {
+      "sequence": 6279,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.130",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 464,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-methods": "POST,OPTIONS",
+            "access-control-allow-origin": "https://aicatalyst.biz",
+            "access-control-max-age": "86400",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cf-ray": "a4f58d4c6dfc5a49-YVR",
+            "content-type": "text/plain",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=1,i",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=eYuq1YyOhQuK0ZbyDcaLhSRyj%2F5n%2BlpSzOxiqfs9aomVr1in6EP8izs5J3ZX4VUia5zq3zj79cNjRqtBJKwZbA4raReDxYTlfJyhYnjtuZ0nwGOBiMaOzqUiqGL4vGkt1E21c%2FXcIQBIjbFZbQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "Origin"
+          },
+          "mimeType": "text/plain",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946519.84,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 204,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 17.029,
+            "receiveHeadersStart": 16.887,
+            "requestTime": 116303.499253,
+            "sendEnd": 1.703,
+            "sendStart": 1.335,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/cdn-cgi/rum?"
+        },
+        "timestamp": 116303.516891,
+        "type": "XHR"
+      }
+    },
+    {
+      "sequence": 6280,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 464,
+        "requestId": "72926.130",
+        "timestamp": 116303.516491
+      }
+    },
+    {
+      "sequence": 6282,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C3C08ABA70F9F95A46265CEBE1545238",
+        "hasExtraInfo": true,
+        "loaderId": "FB41FD71AB06439D4F5B4DC7747ED121",
+        "requestId": "72926.131",
+        "response": {
+          "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+          "charset": "utf-8",
+          "connectionId": 248556,
+          "connectionReused": true,
+          "encodedDataLength": 512,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=14400, must-revalidate",
+            "cf-cache-status": "EXPIRED",
+            "cf-ray": "a4f58d4c6e015a49-YVR",
+            "content-encoding": "br",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "last-modified": "Sat, 24 Oct 2026 02:29:06 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "priority": "u=1,i",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JiU%2FZ9Fw1vKjcWradI7G9aMNBF5WFHjGpGxrL4FWBbpwkhtIxcznkBxK1XbMIhAcrAfaPHDLKxw4DDGxWawxiq%2FIvCJs3jg0TxXVb9NYOXkttSjV3NcxlitRVcnEYxN9PJinPIN9dDb7qCz6%2BQ%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfExtPri",
+            "vary": "accept-encoding",
+            "x-content-type-options": "nosniff"
+          },
+          "mimeType": "text/html",
+          "protocol": "h3",
+          "remoteIPAddress": "[2606:4700:3030::6815:161e]",
+          "remotePort": 443,
+          "responseTime": 1792808946570.27,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "unknown",
+            "cipher": "AES_128_GCM",
+            "encryptedClientHello": true,
+            "issuer": "WE1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519MLKEM768",
+            "protocol": "QUIC",
+            "sanList": [
+              "aicatalyst.biz"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [],
+            "subjectName": "aicatalyst.biz",
+            "validFrom": 1792782491,
+            "validTo": 1800562089
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 65.272,
+            "receiveHeadersStart": 65.168,
+            "requestTime": 116303.501406,
+            "sendEnd": 1.789,
+            "sendStart": 1.634,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://aicatalyst.biz/favicon.ico"
+        },
+        "timestamp": 116303.567274,
+        "type": "Other"
+      }
+    },
+    {
+      "sequence": 6285,
+      "source": {
+        "tabId": 17
+      },
+      "method": "Network.loadingFinished",
+      "params": {
+        "encodedDataLength": 15114,
+        "requestId": "72926.131",
+        "timestamp": 116303.567101
+      }
+    }
+  ],
+  "hasMore": false,
+  "truncated": false
+}
