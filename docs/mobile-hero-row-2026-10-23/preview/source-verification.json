@@ -1,0 +1,37 @@
+[
+  {
+    "path": "hero-responsive-fix.css",
+    "sha256": "37d6fff9723e5293e678ceed9204b9bb7adbf14009559a715d6b23a15a527358",
+    "matches_committed_source": true
+  },
+  {
+    "path": "briefing.html",
+    "sha256": "aad88736c2c805ae8dd272075d8602d4c17d4ef25c557b469f5af8e4245005a3",
+    "matches_committed_source": true
+  },
+  {
+    "path": "company.html",
+    "sha256": "31cbf63c8f23538d8d18ce899df5b702b1393dd56b07c66c842373a75cd98fb0",
+    "matches_committed_source": true
+  },
+  {
+    "path": "mobile-hero-row.css",
+    "sha256": "356f617f3fef3729b4e1396c12b03945e9e928e9ce50a3fbe6a1ad3a94bd3d40",
+    "matches_committed_source": true
+  },
+  {
+    "path": "training.html",
+    "sha256": "f42f1f01ae8287a5ee4cc59bdb7306cf3e74a16cde39389fa035f2238af9046d",
+    "matches_committed_source": true
+  },
+  {
+    "path": "halftone-rendering.js",
+    "sha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+    "matches_committed_source": true
+  },
+  {
+    "path": "solutions.html",
+    "sha256": "889cc18ecd567ee2e5d97ebf01b86e06a6b0fe1283caaceed9dc75f85b52feb3",
+    "matches_committed_source": true
+  }
+]

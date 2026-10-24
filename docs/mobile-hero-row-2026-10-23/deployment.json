@@ -1,0 +1,28 @@
+{
+  "preview": {
+    "id": "90a37db4-9b1b-4f69-9473-b3db1abeeb6b",
+    "url": "https://90a37db4.ai-catalyst-9l3.pages.dev",
+    "environment": "preview",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-24T04:46:58.896521Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "codex/direct-vercel-transfer",
+        "commit_hash": "95cda1bf91f3b40e0f265c5eff67fe24ff9037a4",
+        "commit_message": "Keep mobile hero subheads together below headline and artwork rows",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production": "f87c264b-eafd-441a-ade0-d4a03d7f02e4",
+  "codeCommit": "95cda1bf91f3b40e0f265c5eff67fe24ff9037a4",
+  "publicFileCount": 86,
+  "cacheKey": "20261023-row1",
+  "physicalIPhoneVerification": "pending user preview review",
+  "nativeSafariEvidence": "12 local native macOS Safari Responsive Design Mode screenshots; visual review only"
+}

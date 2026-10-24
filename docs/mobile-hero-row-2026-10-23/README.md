@@ -51,3 +51,7 @@ This remains a preview for the user's physical iPhone check. A screenshot and
 source pass do not establish all iOS hardware/compositor behavior. Production
 must not be promoted from this proof alone. Deployment metadata and live
 response verification are recorded separately after publication.
+
+## Published preview
+
+https://90a37db4.ai-catalyst-9l3.pages.dev/ is a successful preview deployment of code commit 95cda1bf91f3b40e0f265c5eff67fe24ff9037a4, with 86 public files. The built-in Cloudflare connection published it to Randy’s existing ai-catalyst project. All seven browser-loaded HTML/CSS/renderer responses in preview/ match source exactly; the three live 390px row captures also pass the uninterrupted-paragraph checks. Production remains f87c264b-eafd-441a-ade0-d4a03d7f02e4. Physical iPhone review is pending.
