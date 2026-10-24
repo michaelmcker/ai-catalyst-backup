@@ -20,6 +20,7 @@ RENDERER_CACHE='20261024-direct9'
 IMAGE_LOADER_CACHE='20261024-load1'
 IMAGE_LOADER_SHA256='767f07d5b0d122a1cd792a5c3dac0108d15f290ba16cc6f6e9f158b0573f044d'
 APPROVED_LOGO_SHA256='b8383198c725e7b6b7b31b21fa7b2f25062220af050ccfd6ce5d1cbcc9dc50d6'
+LOGO_URL='assets/logo.svg?v=outline-b8383198'
 DEFERRED_IMAGE_COUNTS={'index.html':2,'company.html':9,'briefing.html':2,'solutions.html':3,
                        'training.html':3,'platform.html':3,'creator-social.html':2,
                        'marketing-investment.html':3,'online-conversion.html':3}
@@ -59,6 +60,10 @@ def revise_paragraph(source,page):
         assert source.count(headline)==1,'training: original complete headline markup differs'
         source=source.replace(headline,'<h1><span class="training-headline__opening">Put AI to work.</span> <span class="training-headline__closing">Make it yours.</span></h1>',1)
     return source
+
+def version_logo_urls(source,path):
+    assert source.count('assets/logo.svg')==3 and source.count('assets/logo.svg"')==3,path+': expected exactly three unversioned logo references'
+    return source.replace('assets/logo.svg',LOGO_URL)
 
 def delivery_manifest():
     data=DELIVERY_MANIFEST.read_bytes()
@@ -203,6 +208,7 @@ def expected(path,source):
         s=re.sub(r'(halftone-rendering.js|feedback-v3.css)(?:\?[^"\s]+)?',lambda m:m[1]+'?v='+(RENDERER_CACHE if m[1]=='halftone-rendering.js' else CACHE),s)
         s=apply_image_delivery(s,path)
         s=apply_deferred_images(s,path)
+        s=version_logo_urls(s,path)
         source=s.encode()
     return source
 
@@ -456,6 +462,7 @@ def check():
     approved=approved.replace(anchor,anchor+f'<link rel="stylesheet" href="mobile-hero-row.css?v={ROW_CACHE}">',1)
     approved=apply_image_delivery(approved,'briefing.html').encode()
     approved=apply_deferred_images(approved.decode(),'briefing.html').encode()
+    approved=version_logo_urls(approved.decode(),'briefing.html').encode()
     for prefix in ('current-site/',''):
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:
             fail.append(prefix+'briefing.html: changed outside the explicit Briefing checkpoint exceptions')
