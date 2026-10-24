@@ -1,0 +1,1113 @@
+{
+  "tolerance": "max RGB channel difference <=2",
+  "comparison": "same renderer, geometry, phase and DPR; tinted/grain against transparent source",
+  "original_failure_observed": true,
+  "device_limit": "PNG comparison does not establish actual iOS execution; browser/device capture evidence is separate.",
+  "results": [
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "original-home-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 2,
+      "mean_channel_delta": 0.0010416666666666667,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "original-home-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 10,
+      "mean_channel_delta": 0.011843711843711843,
+      "fraction_above_2": 0.0013736263736263737,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "original-home-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 10,
+      "mean_channel_delta": 0.5032440476190476,
+      "fraction_above_2": 0.08071428571428571,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "original-home-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 10,
+      "mean_channel_delta": 0.15375457875457876,
+      "fraction_above_2": 0.02619047619047619,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "original-company-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 55,
+      "mean_channel_delta": 10.543531746031746,
+      "fraction_above_2": 0.7943154761904762,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "original-company-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 55,
+      "mean_channel_delta": 9.347802197802197,
+      "fraction_above_2": 0.7845238095238095,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "original-company-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 55,
+      "mean_channel_delta": 10.54186507936508,
+      "fraction_above_2": 0.7943154761904762,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "original-company-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 55,
+      "mean_channel_delta": 9.347802197802197,
+      "fraction_above_2": 0.7845238095238095,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "candidate-home-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "candidate-home-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "candidate-home-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "candidate-home-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "candidate-company-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "candidate-company-tinted-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "interior",
+      "capture": "candidate-company-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 1,
+      "roi": "left_boundary",
+      "capture": "candidate-company-grain-dpr1.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "original-home-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "original-home-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "original-home-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 9,
+      "mean_channel_delta": 0.3929761904761905,
+      "fraction_above_2": 0.06035714285714286,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "original-home-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 9,
+      "mean_channel_delta": 0.38067765567765566,
+      "fraction_above_2": 0.06895604395604396,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "original-company-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 19,
+      "mean_channel_delta": 1.7159424603174602,
+      "fraction_above_2": 0.3761309523809524,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "original-company-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 20,
+      "mean_channel_delta": 1.5646825396825397,
+      "fraction_above_2": 0.36904761904761907,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "original-company-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 19,
+      "mean_channel_delta": 1.7175198412698414,
+      "fraction_above_2": 0.3763392857142857,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "original-company-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 20,
+      "mean_channel_delta": 1.569932844932845,
+      "fraction_above_2": 0.37133699633699635,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "candidate-home-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "candidate-home-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "candidate-home-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "candidate-home-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "candidate-company-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "candidate-company-tinted-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "interior",
+      "capture": "candidate-company-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 2,
+      "roi": "left_boundary",
+      "capture": "candidate-company-grain-dpr2.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "original-home-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "original-home-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "original-home-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 9,
+      "mean_channel_delta": 0.3929761904761905,
+      "fraction_above_2": 0.06035714285714286,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "original-home-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 9,
+      "mean_channel_delta": 0.38067765567765566,
+      "fraction_above_2": 0.06895604395604396,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "original-company-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 19,
+      "mean_channel_delta": 1.7159424603174602,
+      "fraction_above_2": 0.3761309523809524,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "original-company-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 20,
+      "mean_channel_delta": 1.5646825396825397,
+      "fraction_above_2": 0.36904761904761907,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "original-company-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 19,
+      "mean_channel_delta": 1.7175198412698414,
+      "fraction_above_2": 0.3763392857142857,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "original-company-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 20,
+      "mean_channel_delta": 1.569932844932845,
+      "fraction_above_2": 0.37133699633699635,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": false
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "candidate-home-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "candidate-home-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "candidate-home-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "candidate-home-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "candidate-company-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "candidate-company-tinted-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "interior",
+      "capture": "candidate-company-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 33600,
+      "screenshot_roi": [
+        224,
+        110,
+        364,
+        350
+      ],
+      "within_tolerance": true
+    },
+    {
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "requested_dpr": 3,
+      "roi": "left_boundary",
+      "capture": "candidate-company-grain-dpr3.png",
+      "image_size": [
+        390,
+        600
+      ],
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "fraction_above_2": 0.0,
+      "pixel_count": 10920,
+      "screenshot_roi": [
+        175,
+        85,
+        214,
+        365
+      ],
+      "within_tolerance": true
+    }
+  ],
+  "failures": []
+}

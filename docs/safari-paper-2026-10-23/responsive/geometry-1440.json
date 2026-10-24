@@ -1,0 +1,856 @@
+[
+  {
+    "art": {
+      "bottom": 612,
+      "height": 530,
+      "left": 783.75,
+      "right": 1425,
+      "top": 82,
+      "width": 641.25,
+      "x": 783.75,
+      "y": 82
+    },
+    "artData": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "783.750 0.000 641.250 530.000",
+      "artDrawReady": "true",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "v1-threshold-and-wake",
+      "artTextureWidth": "1536",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".90",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1060,
+        "opacity": "1",
+        "rect": {
+          "bottom": 612,
+          "height": 530,
+          "left": 0,
+          "right": 1425,
+          "top": 82,
+          "width": 1425,
+          "x": 0,
+          "y": 82
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 602.5078125,
+      "height": 511.015625,
+      "left": 0,
+      "right": 783.75,
+      "top": 91.4921875,
+      "width": 783.75,
+      "x": 0,
+      "y": 91.4921875
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 378.5859375,
+      "height": 231.09375,
+      "left": 79.796875,
+      "right": 783.75,
+      "top": 147.4921875,
+      "width": 703.953125,
+      "x": 79.796875,
+      "y": 147.4921875
+    },
+    "hero": {
+      "bottom": 612,
+      "height": 530,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "mainPadding": "82px",
+    "paragraph": {
+      "bottom": 538.5078125,
+      "height": 131.921875,
+      "left": 79.796875,
+      "right": 629.796875,
+      "top": 406.5859375,
+      "width": 550,
+      "x": 79.796875,
+      "y": 406.5859375
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/index.html",
+    "width": 1440,
+    "page": "index"
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "artData": {
+      "artAsset": "knight",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 82.000 1425.000 598.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1536",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1360,
+        "opacity": "1",
+        "rect": {
+          "bottom": 680,
+          "height": 680,
+          "left": 0,
+          "right": 1425,
+          "top": 0,
+          "width": 1425,
+          "x": 0,
+          "y": 0
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 610.5625,
+      "height": 610.5625,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "mainPadding": "0px",
+    "paragraph": {
+      "bottom": 498.5625,
+      "height": 203.484375,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/company.html",
+    "width": 1440,
+    "page": "company"
+  },
+  {
+    "art": {
+      "bottom": 685.2734375,
+      "height": 603.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "artData": {
+      "artAsset": "kneeler",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 82.000 1425.000 603.273",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1371,
+        "opacity": "1",
+        "rect": {
+          "bottom": 685.5,
+          "height": 685.5,
+          "left": 0,
+          "right": 1425,
+          "top": 0,
+          "width": 1425,
+          "x": 0,
+          "y": 0
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 345.6171875,
+      "height": 235.6171875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "hero": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "mainPadding": "0px",
+    "paragraph": {
+      "bottom": 509.2734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 373.6171875,
+      "width": 540,
+      "x": 79.796875,
+      "y": 373.6171875
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/solutions.html",
+    "width": 1440,
+    "page": "solutions"
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "artData": {
+      "artAsset": "arcade",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 82.000 1425.000 598.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1360,
+        "opacity": "1",
+        "rect": {
+          "bottom": 680,
+          "height": 680,
+          "left": 0,
+          "right": 1425,
+          "top": 0,
+          "width": 1425,
+          "x": 0,
+          "y": 0
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 606,
+      "height": 606,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "mainPadding": "0px",
+    "paragraph": {
+      "bottom": 464.6484375,
+      "height": 169.5703125,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/briefing.html",
+    "width": 1440,
+    "page": "briefing"
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "artData": {
+      "artAsset": "portrait",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 82.000 1425.000 598.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1360,
+        "opacity": "1",
+        "rect": {
+          "bottom": 680,
+          "height": 680,
+          "left": 0,
+          "right": 1425,
+          "top": 0,
+          "width": 1425,
+          "x": 0,
+          "y": 0
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 606,
+      "height": 606,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "mainPadding": "0px",
+    "paragraph": {
+      "bottom": 430.734375,
+      "height": 135.65625,
+      "left": 79.796875,
+      "right": 619.796875,
+      "top": 295.078125,
+      "width": 540,
+      "x": 79.796875,
+      "y": 295.078125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/training.html",
+    "width": 1440,
+    "page": "training"
+  },
+  {
+    "art": {
+      "bottom": 858.90625,
+      "height": 478.9453125,
+      "left": 0,
+      "right": 1425,
+      "top": 379.9609375,
+      "width": 1425,
+      "x": 0,
+      "y": 379.9609375
+    },
+    "artData": {
+      "artAsset": "platform-scene",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 298.961 1425.000 478.945",
+      "artDrawReady": "true",
+      "artFeather": "0 0 0 0",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "scene",
+      "artTextureWidth": "2163",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 2337,
+        "opacity": "1",
+        "rect": {
+          "bottom": 1249.5,
+          "height": 1168.5,
+          "left": 0,
+          "right": 1425,
+          "top": 81,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "left": 79.796875,
+      "right": 718.53125,
+      "top": 121,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 858.90625,
+      "height": 777.90625,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 279.9609375,
+      "height": 154.9609375,
+      "left": 789.78125,
+      "right": 1295.203125,
+      "top": 125,
+      "width": 505.421875,
+      "x": 789.78125,
+      "y": 125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/platform.html",
+    "width": 1440,
+    "page": "platform"
+  },
+  {
+    "art": {
+      "bottom": 973.5859375,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 379.9609375,
+      "width": 1425,
+      "x": 0,
+      "y": 379.9609375
+    },
+    "artData": {
+      "artAsset": "creator-social-scene",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 298.961 1425.000 593.625",
+      "artDrawReady": "true",
+      "artFeather": "0 0 0 0",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artPrintPattern": "drift",
+      "artProfile": "scene",
+      "artTextureWidth": "1942",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 2730,
+        "opacity": "1",
+        "rect": {
+          "bottom": 1446,
+          "height": 1365,
+          "left": 0,
+          "right": 1425,
+          "top": 81,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "left": 79.796875,
+      "right": 718.53125,
+      "top": 121,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 973.5859375,
+      "height": 892.5859375,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 279.9609375,
+      "height": 154.9609375,
+      "left": 789.78125,
+      "right": 1295.203125,
+      "top": 125,
+      "width": 505.421875,
+      "x": 789.78125,
+      "y": 125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/creator-social.html",
+    "width": 1440,
+    "page": "creator-social"
+  },
+  {
+    "art": {
+      "bottom": 973.5859375,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 379.9609375,
+      "width": 1425,
+      "x": 0,
+      "y": 379.9609375
+    },
+    "artData": {
+      "artAsset": "marketing-investment-scene",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 298.961 1425.000 593.625",
+      "artDrawReady": "true",
+      "artFeather": "0 0 0 0",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artPrintPattern": "drift",
+      "artProfile": "scene",
+      "artTextureWidth": "1942",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 2785,
+        "opacity": "1",
+        "rect": {
+          "bottom": 1473.5,
+          "height": 1392.5,
+          "left": 0,
+          "right": 1425,
+          "top": 81,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 379.9609375,
+      "height": 298.9609375,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "left": 79.796875,
+      "right": 718.53125,
+      "top": 121,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 973.5859375,
+      "height": 892.5859375,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 279.9609375,
+      "height": 154.9609375,
+      "left": 789.78125,
+      "right": 1295.203125,
+      "top": 125,
+      "width": 505.421875,
+      "x": 789.78125,
+      "y": 125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/marketing-investment.html",
+    "width": 1440,
+    "page": "marketing-investment"
+  },
+  {
+    "art": {
+      "bottom": 955.0546875,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 361.4296875,
+      "width": 1425,
+      "x": 0,
+      "y": 361.4296875
+    },
+    "artData": {
+      "artAsset": "online-conversion-scene",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "0.000 280.430 1425.000 593.625",
+      "artDrawReady": "true",
+      "artFeather": "0 0 0 0",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "scene",
+      "artTextureWidth": "1942",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 2342,
+        "opacity": "1",
+        "rect": {
+          "bottom": 1252,
+          "height": 1171,
+          "left": 0,
+          "right": 1425,
+          "top": 81,
+          "width": 1425,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2850,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 361.4296875,
+      "height": 280.4296875,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 329.4296875,
+      "height": 208.4296875,
+      "left": 79.796875,
+      "right": 718.53125,
+      "top": 121,
+      "width": 638.734375,
+      "x": 79.796875,
+      "y": 121
+    },
+    "hero": {
+      "bottom": 955.0546875,
+      "height": 874.0546875,
+      "left": 0,
+      "right": 1425,
+      "top": 81,
+      "width": 1425,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 248.96875,
+      "height": 123.96875,
+      "left": 789.78125,
+      "right": 1295.203125,
+      "top": 125,
+      "width": 505.421875,
+      "x": 789.78125,
+      "y": 125
+    },
+    "scrollWidth": 1425,
+    "url": "http://127.0.0.1:8856/current-site/online-conversion.html",
+    "width": 1440,
+    "page": "online-conversion"
+  }
+]

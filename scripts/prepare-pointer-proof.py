@@ -148,7 +148,7 @@ def prepare(args: argparse.Namespace) -> dict:
     for key, label, source, base in sources:
         renderer = source / "halftone-rendering.js"
         renderer_bytes = renderer.read_bytes()
-        for page in ("index", "company"):
+        for page in args.pages:
             original = (source / f"{page}.html").read_bytes()
             text = original.decode("utf-8")
             if re.search(r"<base\b", text, re.I):
@@ -236,6 +236,7 @@ def main() -> None:
     parser.add_argument("--reference-url", type=server_path, default="/__vercel/")
     parser.add_argument("--candidate-url", type=server_path, default="/current-site/")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--pages", nargs="+", choices=("index","company","solutions","briefing","training","platform","creator-social","marketing-investment","online-conversion"), default=("index","company"))
     args = parser.parse_args()
     manifest = prepare(args)
     print(json.dumps({"output": str(args.output), "fixtures": len(manifest["fixtures"]),

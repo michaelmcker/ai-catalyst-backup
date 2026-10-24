@@ -1,0 +1,190 @@
+[
+  {
+    "art": {
+      "bottom": 523,
+      "height": 540,
+      "left": -21.5,
+      "right": 537.5,
+      "top": -17,
+      "width": 559,
+      "x": -21.5,
+      "y": -17
+    },
+    "artData": {
+      "artAsset": "arcade",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "-21.500 -90.000 559.000 540.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "3",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1637,
+        "opacity": "1",
+        "rect": {
+          "bottom": 618.6640625,
+          "height": 545.6640625,
+          "left": 0,
+          "right": 430,
+          "top": 73,
+          "width": 430,
+          "x": 0,
+          "y": 73
+        },
+        "width": 1290,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 618.375,
+      "height": 545.375,
+      "left": 0,
+      "right": 430,
+      "top": 73,
+      "width": 430,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "headline": {
+      "bottom": 186.6875,
+      "height": 85.6875,
+      "left": 24,
+      "right": 406,
+      "top": 101,
+      "width": 382,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 618.375,
+      "height": 545.375,
+      "left": 0,
+      "right": 430,
+      "top": 73,
+      "width": 430,
+      "x": 0,
+      "y": 73
+    },
+    "mainPadding": "73px",
+    "paragraph": {
+      "bottom": 582.375,
+      "height": 369.6875,
+      "left": 24,
+      "right": 406,
+      "top": 212.6875,
+      "width": 382,
+      "x": 24,
+      "y": 212.6875
+    },
+    "scrollWidth": 430,
+    "url": "http://127.0.0.1:8856/current-site/briefing.html",
+    "width": 430,
+    "page": "briefing"
+  },
+  {
+    "art": {
+      "bottom": 571.078125,
+      "height": 588.078125,
+      "left": -109,
+      "right": 450,
+      "top": -17,
+      "width": 559,
+      "x": -109,
+      "y": -17
+    },
+    "artData": {
+      "artAsset": "portrait",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "-109.000 -90.000 559.000 588.078",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "3",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1765,
+        "opacity": "1",
+        "rect": {
+          "bottom": 661.328125,
+          "height": 588.328125,
+          "left": 0,
+          "right": 430,
+          "top": 73,
+          "width": 430,
+          "x": 0,
+          "y": 73
+        },
+        "width": 1290,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 661.078125,
+      "height": 588.078125,
+      "left": 0,
+      "right": 430,
+      "top": 73,
+      "width": 430,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "headline": {
+      "bottom": 186.6875,
+      "height": 85.6875,
+      "left": 24,
+      "right": 406,
+      "top": 101,
+      "width": 382,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 661.078125,
+      "height": 588.078125,
+      "left": 0,
+      "right": 430,
+      "top": 73,
+      "width": 430,
+      "x": 0,
+      "y": 73
+    },
+    "mainPadding": "73px",
+    "paragraph": {
+      "bottom": 360.578125,
+      "height": 147.890625,
+      "left": 24,
+      "right": 406,
+      "top": 212.6875,
+      "width": 382,
+      "x": 24,
+      "y": 212.6875
+    },
+    "scrollWidth": 430,
+    "url": "http://127.0.0.1:8856/current-site/training.html",
+    "width": 430,
+    "page": "training"
+  }
+]

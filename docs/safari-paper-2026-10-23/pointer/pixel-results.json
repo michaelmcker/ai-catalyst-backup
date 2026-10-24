@@ -1,0 +1,311 @@
+{
+  "method": "Frozen clock uniform; stepped virtual frames; stationary pair vs real pointer movement.",
+  "claim": "Paper response is causal to pointer input in these captured regions, not ambient time.",
+  "limitations": "Does not measure FPS, every artwork pixel, or physical iOS behavior.",
+  "results": [
+    {
+      "source": "candidate",
+      "page": "index",
+      "roi_css": [
+        100,
+        350,
+        650,
+        550
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 110000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 251,
+        "pixel_count": 110000,
+        "max_channel_delta": 72,
+        "mean_channel_delta": 0.014406060606060606
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "company",
+      "roi_css": [
+        640,
+        300,
+        850,
+        500
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 20343,
+        "pixel_count": 42000,
+        "max_channel_delta": 69,
+        "mean_channel_delta": 2.521579365079365
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "solutions",
+      "roi_css": [
+        640,
+        300,
+        850,
+        500
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 20425,
+        "pixel_count": 42000,
+        "max_channel_delta": 69,
+        "mean_channel_delta": 2.5410793650793653
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "briefing",
+      "roi_css": [
+        640,
+        300,
+        850,
+        500
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 20545,
+        "pixel_count": 42000,
+        "max_channel_delta": 72,
+        "mean_channel_delta": 2.520269841269841
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "training",
+      "roi_css": [
+        640,
+        300,
+        850,
+        500
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 20343,
+        "pixel_count": 42000,
+        "max_channel_delta": 69,
+        "mean_channel_delta": 2.521579365079365
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "platform",
+      "roi_css": [
+        730,
+        150,
+        775,
+        300
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 6750,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 5006,
+        "pixel_count": 6750,
+        "max_channel_delta": 58,
+        "mean_channel_delta": 5.3769382716049385
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "creator-social",
+      "roi_css": [
+        730,
+        150,
+        775,
+        300
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 6750,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 5057,
+        "pixel_count": 6750,
+        "max_channel_delta": 58,
+        "mean_channel_delta": 5.501530864197531
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "marketing-investment",
+      "roi_css": [
+        730,
+        150,
+        775,
+        300
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 6750,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 5071,
+        "pixel_count": 6750,
+        "max_channel_delta": 58,
+        "mean_channel_delta": 5.511358024691358
+      },
+      "passed": true
+    },
+    {
+      "source": "candidate",
+      "page": "online-conversion",
+      "roi_css": [
+        730,
+        150,
+        775,
+        300
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 6750,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 5006,
+        "pixel_count": 6750,
+        "max_channel_delta": 58,
+        "mean_channel_delta": 5.3769382716049385
+      },
+      "passed": true
+    },
+    {
+      "source": "reference",
+      "page": "company",
+      "roi_css": [
+        640,
+        300,
+        850,
+        500
+      ],
+      "image_size": [
+        1440,
+        1000
+      ],
+      "phase_seconds": 7.0,
+      "stationary": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "pointer": {
+        "changed_pixels": 0,
+        "pixel_count": 42000,
+        "max_channel_delta": 0,
+        "mean_channel_delta": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "reduced_motion": {
+    "page": "company",
+    "roi_css": [
+      640,
+      300,
+      850,
+      500
+    ],
+    "stationary": {
+      "changed_pixels": 0,
+      "pixel_count": 42000,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0
+    },
+    "pointer": {
+      "changed_pixels": 0,
+      "pixel_count": 42000,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0
+    },
+    "captured_reduced_motion": "true",
+    "passed": true
+  },
+  "failures": []
+}

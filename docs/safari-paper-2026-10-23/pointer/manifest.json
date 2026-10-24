@@ -1,0 +1,208 @@
+{
+  "testOnly": true,
+  "clockUniformFrozen": true,
+  "virtualFrameMilliseconds": 41.66766666666666,
+  "framesPerStep": 2,
+  "defaultPhaseSeconds": 7,
+  "sourceFilesModified": false,
+  "fixtures": [
+    {
+      "source": "reference",
+      "page": "index",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/index.html",
+      "sourceHtmlSha256": "c5146509a8e400f6f18d24ce598f1e31fdede17928a093d44425e3d86a37d2c0",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-index.html",
+      "fixtureSha256": "e5d12a9d3721ea0ead8d63c8471eb3f03a1dfba8f85f4344d6bdfd16aed0708d"
+    },
+    {
+      "source": "reference",
+      "page": "company",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/company.html",
+      "sourceHtmlSha256": "7421f95f4d75121bed96fe011b69d030cc4aaf90d2dc2e328f30fba8eeb1e1ac",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-company.html",
+      "fixtureSha256": "ffa6b9c50a7843e930fd2b608aa92fcb780d2ac4228faa846710d50ef52c6836"
+    },
+    {
+      "source": "reference",
+      "page": "solutions",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/solutions.html",
+      "sourceHtmlSha256": "bd1fd13ff1aea827499fbfee8869ba6985d02a4816a063226c933ea50da53045",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-solutions.html",
+      "fixtureSha256": "2ebc02da1e9cc7bb7e46d9e8453771b846db782718b7a34b017e82b80cec1b0c"
+    },
+    {
+      "source": "reference",
+      "page": "briefing",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/briefing.html",
+      "sourceHtmlSha256": "7b5a9c13010c240c60c8d4a118b45523febcff4bde83570c9c22ba05224079e0",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-briefing.html",
+      "fixtureSha256": "f57f7c64358a3f7885a531e8bf9d70c7d88ed3f66ad52136aa443935e726e42e"
+    },
+    {
+      "source": "reference",
+      "page": "training",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/training.html",
+      "sourceHtmlSha256": "d93777aaee7e13f9c7feed4ad8ee2e52f3f14d1a534e4dadb0e34630d723d3f3",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-training.html",
+      "fixtureSha256": "79b034fe2be1ead0509b09f11ca5758d43d36256c327c69afa8880f87e473609"
+    },
+    {
+      "source": "reference",
+      "page": "platform",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/platform.html",
+      "sourceHtmlSha256": "8bade47721504904eba54c008dd2dcffe17c75d6add11a086c9c9625580ba012",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-platform.html",
+      "fixtureSha256": "14aa03e91314b85e8928ffb4d95ca20919c1b5076579037ed7413a0a1bd3c03a"
+    },
+    {
+      "source": "reference",
+      "page": "creator-social",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/creator-social.html",
+      "sourceHtmlSha256": "52baeced859c638bbe727f9ea312816274449644def3dd2eb38ded1e0329d6de",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-creator-social.html",
+      "fixtureSha256": "df620de4e46e871ef246f7802d887a4cf5a3806d9571429c1417520231c1e202"
+    },
+    {
+      "source": "reference",
+      "page": "marketing-investment",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/marketing-investment.html",
+      "sourceHtmlSha256": "567b4f1cc8478a55cc59dd4af83d10deb4f06b8a12e69ec05f95677465e33e62",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-marketing-investment.html",
+      "fixtureSha256": "db0dcdef797a690be2a09b6612e9fadb063a3e860a9bba97a4881cd28d6ca7f6"
+    },
+    {
+      "source": "reference",
+      "page": "online-conversion",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/online-conversion.html",
+      "sourceHtmlSha256": "8b30fa80c8766205b9d2c272dab0aac5703c57dee36a8bd1c9f7872cb770ccf0",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/reference-online-conversion.html",
+      "fixtureSha256": "d5d310b3ffe26fbee138bf07249c811976dc35c47208612959b5b563f6ee1681"
+    },
+    {
+      "source": "candidate",
+      "page": "index",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/index.html",
+      "sourceHtmlSha256": "76de932fd322422a03aa6a3f98a39fded036daa8dcfce2fc81a1eaf807d6b223",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-index.html",
+      "fixtureSha256": "c6a195e66d36ee5b0fd5153a847d9577918abb3020e1202276408f5525934890"
+    },
+    {
+      "source": "candidate",
+      "page": "company",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/company.html",
+      "sourceHtmlSha256": "3b466bc745f2ff3d19a1449f15ad44f42931ccac57b22bba0544cec8edda3403",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-company.html",
+      "fixtureSha256": "3c7959d4dc0ecdacbea901391a00c19188d7e57d81d48c8691659b42a9abb4b1"
+    },
+    {
+      "source": "candidate",
+      "page": "solutions",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/solutions.html",
+      "sourceHtmlSha256": "874ecb599c371fd9454e23d1215e49c9b7a83ae62b663e475e3987f1d547eb91",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-solutions.html",
+      "fixtureSha256": "6e44a369ec6c8a43a6e4db5dcf1089c920d7bfbecbad3b9cb25dfc2fb4ea57ed"
+    },
+    {
+      "source": "candidate",
+      "page": "briefing",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/briefing.html",
+      "sourceHtmlSha256": "aad88736c2c805ae8dd272075d8602d4c17d4ef25c557b469f5af8e4245005a3",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-briefing.html",
+      "fixtureSha256": "db5ea6274a8e236186e239e61bbc83db8cecc18911c9cb9febdac2959c56d6f2"
+    },
+    {
+      "source": "candidate",
+      "page": "training",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/training.html",
+      "sourceHtmlSha256": "9a935613aef315af5737d8cb97222470b9c8e384aa358afeaba8b049ec54783f",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-training.html",
+      "fixtureSha256": "d1af944091479247860d8533fd6a3c3a12eef41370933c6da9e78a82dcdc9c2c"
+    },
+    {
+      "source": "candidate",
+      "page": "platform",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/platform.html",
+      "sourceHtmlSha256": "915f6546aedb0c553b88e7765cbc56c26aee0904a461cb3e6322c4e626ad469d",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-platform.html",
+      "fixtureSha256": "f141c75210928c29abeb63d632f308c59312298c4b3c45268e94d1ac41d2c3b2"
+    },
+    {
+      "source": "candidate",
+      "page": "creator-social",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/creator-social.html",
+      "sourceHtmlSha256": "73b353ae7835ad63abce85293010ef5060f287999be78b5b58dad32bd978c961",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-creator-social.html",
+      "fixtureSha256": "c58b0e45c4882e2348425531020838e248f71e25ed53c7053df2a8796a1278fb"
+    },
+    {
+      "source": "candidate",
+      "page": "marketing-investment",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/marketing-investment.html",
+      "sourceHtmlSha256": "eb6c203c4624cc48137eda505e0cb5fae5be8515acd6ec9a37fdb71c9c80b3dc",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-marketing-investment.html",
+      "fixtureSha256": "bce0fe7cb41099a09136e91f92ad2fe6edae636ea919d6078a825b02a11e22a9"
+    },
+    {
+      "source": "candidate",
+      "page": "online-conversion",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/online-conversion.html",
+      "sourceHtmlSha256": "74737a99d72139224c4756f04ec59c426a5156fc7b15c6486f5c6859f6023cf7",
+      "rendererSha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/safari-paper-2026-10-23/pointer/candidate-online-conversion.html",
+      "fixtureSha256": "17a9aceebf2a2fcefa6e7b4fc40553ccf0975aa2bcf528d389d6970f49bd727c"
+    }
+  ]
+}

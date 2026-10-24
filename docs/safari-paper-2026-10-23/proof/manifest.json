@@ -1,0 +1,200 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 600
+  },
+  "requested_dprs": [
+    1,
+    2,
+    3
+  ],
+  "stage_css": {
+    "left": 180.375,
+    "top": 64.625,
+    "width": 208.25,
+    "height": 339.75
+  },
+  "paper_rgb": {
+    "home": [
+      214,
+      235,
+      252
+    ],
+    "company": [
+      234,
+      247,
+      254
+    ]
+  },
+  "grain": "alternating source pixels, RGB +/-2",
+  "rois_css": {
+    "interior": [
+      224,
+      110,
+      364,
+      350
+    ],
+    "left_boundary": [
+      175,
+      85,
+      214,
+      365
+    ]
+  },
+  "sources_at_generation": {
+    "original": {
+      "path": "/tmp/ai-catalyst-direct-vercel/halftone-rendering.js",
+      "sha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562"
+    },
+    "candidate": {
+      "path": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/halftone-rendering.js",
+      "sha256": "c8bd3c3fdb3e9b60e1730d24d009bbd1a9b3e749ca38a34af44b91c257b7204d"
+    }
+  },
+  "fixtures": [
+    {
+      "name": "original-home-tinted",
+      "renderer": "original",
+      "scene": "home",
+      "variant": "tinted",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-home-tinted.html",
+      "screenshots": {
+        "1": "original-home-tinted-dpr1.png",
+        "2": "original-home-tinted-dpr2.png",
+        "3": "original-home-tinted-dpr3.png"
+      }
+    },
+    {
+      "name": "original-home-grain",
+      "renderer": "original",
+      "scene": "home",
+      "variant": "grain",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-home-grain.html",
+      "screenshots": {
+        "1": "original-home-grain-dpr1.png",
+        "2": "original-home-grain-dpr2.png",
+        "3": "original-home-grain-dpr3.png"
+      }
+    },
+    {
+      "name": "original-home-transparent",
+      "renderer": "original",
+      "scene": "home",
+      "variant": "transparent",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-home-transparent.html",
+      "screenshots": {
+        "1": "original-home-transparent-dpr1.png",
+        "2": "original-home-transparent-dpr2.png",
+        "3": "original-home-transparent-dpr3.png"
+      }
+    },
+    {
+      "name": "original-company-tinted",
+      "renderer": "original",
+      "scene": "company",
+      "variant": "tinted",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-company-tinted.html",
+      "screenshots": {
+        "1": "original-company-tinted-dpr1.png",
+        "2": "original-company-tinted-dpr2.png",
+        "3": "original-company-tinted-dpr3.png"
+      }
+    },
+    {
+      "name": "original-company-grain",
+      "renderer": "original",
+      "scene": "company",
+      "variant": "grain",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-company-grain.html",
+      "screenshots": {
+        "1": "original-company-grain-dpr1.png",
+        "2": "original-company-grain-dpr2.png",
+        "3": "original-company-grain-dpr3.png"
+      }
+    },
+    {
+      "name": "original-company-transparent",
+      "renderer": "original",
+      "scene": "company",
+      "variant": "transparent",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/original-company-transparent.html",
+      "screenshots": {
+        "1": "original-company-transparent-dpr1.png",
+        "2": "original-company-transparent-dpr2.png",
+        "3": "original-company-transparent-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-home-tinted",
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "tinted",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-home-tinted.html",
+      "screenshots": {
+        "1": "candidate-home-tinted-dpr1.png",
+        "2": "candidate-home-tinted-dpr2.png",
+        "3": "candidate-home-tinted-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-home-grain",
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "grain",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-home-grain.html",
+      "screenshots": {
+        "1": "candidate-home-grain-dpr1.png",
+        "2": "candidate-home-grain-dpr2.png",
+        "3": "candidate-home-grain-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-home-transparent",
+      "renderer": "candidate",
+      "scene": "home",
+      "variant": "transparent",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-home-transparent.html",
+      "screenshots": {
+        "1": "candidate-home-transparent-dpr1.png",
+        "2": "candidate-home-transparent-dpr2.png",
+        "3": "candidate-home-transparent-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-company-tinted",
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "tinted",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-company-tinted.html",
+      "screenshots": {
+        "1": "candidate-company-tinted-dpr1.png",
+        "2": "candidate-company-tinted-dpr2.png",
+        "3": "candidate-company-tinted-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-company-grain",
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "grain",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-company-grain.html",
+      "screenshots": {
+        "1": "candidate-company-grain-dpr1.png",
+        "2": "candidate-company-grain-dpr2.png",
+        "3": "candidate-company-grain-dpr3.png"
+      }
+    },
+    {
+      "name": "candidate-company-transparent",
+      "renderer": "candidate",
+      "scene": "company",
+      "variant": "transparent",
+      "url_path": "/docs/safari-paper-2026-10-23/proof/candidate-company-transparent.html",
+      "screenshots": {
+        "1": "candidate-company-transparent-dpr1.png",
+        "2": "candidate-company-transparent-dpr2.png",
+        "3": "candidate-company-transparent-dpr3.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "pointerProofClockWrites": "14",
+    "pointerProofFrames": "32",
+    "pointerProofPaused": "false",
+    "pointerProofPhase": "7",
+    "pointerProofReduced": "true"
+  },
+  "canvas": [
+    {
+      "data": {
+        "artBackingRatio": "1",
+        "artDrawReady": "true",
+        "artOpaque": "true"
+      },
+      "height": 680,
+      "width": 1425
+    }
+  ],
+  "hero": {
+    "bottom": 680,
+    "height": 680,
+    "left": 0,
+    "right": 1425,
+    "top": 0,
+    "width": 1425,
+    "x": 0,
+    "y": 0
+  },
+  "status": "Frozen clock 7s; virtual frames 32; clock writes 14; reduced true; paused false",
+  "position": {
+    "x": 740,
+    "y": 400
+  },
+  "page": "company",
+  "source": "candidate"
+}

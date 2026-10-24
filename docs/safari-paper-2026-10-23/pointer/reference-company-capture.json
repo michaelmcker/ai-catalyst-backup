@@ -1,0 +1,27 @@
+{
+  "attributes": {
+    "pointerProofClockWrites": "71",
+    "pointerProofFrames": "32",
+    "pointerProofPaused": "false",
+    "pointerProofPhase": "7",
+    "pointerProofReduced": "false"
+  },
+  "canvas": [],
+  "hero": {
+    "bottom": 680,
+    "height": 680,
+    "left": 0,
+    "right": 1425,
+    "top": 0,
+    "width": 1425,
+    "x": 0,
+    "y": 0
+  },
+  "status": "Frozen clock 7s; virtual frames 32; clock writes 71; reduced false; paused false",
+  "position": {
+    "x": 740,
+    "y": 400
+  },
+  "page": "company",
+  "source": "reference"
+}

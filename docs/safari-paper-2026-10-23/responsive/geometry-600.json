@@ -1,0 +1,190 @@
+[
+  {
+    "art": {
+      "bottom": 523,
+      "height": 540,
+      "left": 150,
+      "right": 710,
+      "top": -17,
+      "width": 560,
+      "x": 150,
+      "y": -17
+    },
+    "artData": {
+      "artAsset": "arcade",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "150.000 -90.000 560.000 540.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "3",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1637,
+        "opacity": "1",
+        "rect": {
+          "bottom": 618.6640625,
+          "height": 545.6640625,
+          "left": 0,
+          "right": 600,
+          "top": 73,
+          "width": 600,
+          "x": 0,
+          "y": 73
+        },
+        "width": 1800,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 618.5078125,
+      "height": 545.5078125,
+      "left": 0,
+      "right": 600,
+      "top": 73,
+      "width": 600,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "headline": {
+      "bottom": 194.265625,
+      "height": 93.265625,
+      "left": 24,
+      "right": 576,
+      "top": 101,
+      "width": 552,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 618.5078125,
+      "height": 545.5078125,
+      "left": 0,
+      "right": 600,
+      "top": 73,
+      "width": 600,
+      "x": 0,
+      "y": 73
+    },
+    "mainPadding": "73px",
+    "paragraph": {
+      "bottom": 582.5078125,
+      "height": 362.2421875,
+      "left": 24,
+      "right": 576,
+      "top": 220.265625,
+      "width": 552,
+      "x": 24,
+      "y": 220.265625
+    },
+    "scrollWidth": 600,
+    "url": "http://127.0.0.1:8856/current-site/briefing.html",
+    "width": 600,
+    "page": "briefing"
+  },
+  {
+    "art": {
+      "bottom": 503,
+      "height": 520,
+      "left": 60,
+      "right": 620,
+      "top": -17,
+      "width": 560,
+      "x": 60,
+      "y": -17
+    },
+    "artData": {
+      "artAsset": "portrait",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "60.000 -90.000 560.000 520.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "3",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1560,
+        "opacity": "1",
+        "rect": {
+          "bottom": 593,
+          "height": 520,
+          "left": 0,
+          "right": 600,
+          "top": 73,
+          "width": 600,
+          "x": 0,
+          "y": 73
+        },
+        "width": 1800,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 593,
+      "height": 520,
+      "left": 0,
+      "right": 600,
+      "top": 73,
+      "width": 600,
+      "x": 0,
+      "y": 73
+    },
+    "dpr": 3,
+    "headline": {
+      "bottom": 147.6328125,
+      "height": 46.6328125,
+      "left": 24,
+      "right": 576,
+      "top": 101,
+      "width": 552,
+      "x": 24,
+      "y": 101
+    },
+    "hero": {
+      "bottom": 593,
+      "height": 520,
+      "left": 0,
+      "right": 600,
+      "top": 73,
+      "width": 600,
+      "x": 0,
+      "y": 73
+    },
+    "mainPadding": "73px",
+    "paragraph": {
+      "bottom": 272.2265625,
+      "height": 98.59375,
+      "left": 24,
+      "right": 576,
+      "top": 173.6328125,
+      "width": 552,
+      "x": 24,
+      "y": 173.6328125
+    },
+    "scrollWidth": 600,
+    "url": "http://127.0.0.1:8856/current-site/training.html",
+    "width": 600,
+    "page": "training"
+  }
+]

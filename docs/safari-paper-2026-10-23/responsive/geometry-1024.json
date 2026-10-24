@@ -1,0 +1,474 @@
+[
+  {
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 554.9453125,
+      "right": 1009,
+      "top": 81,
+      "width": 454.0546875,
+      "x": 554.9453125,
+      "y": 81
+    },
+    "artData": {
+      "art": "hero",
+      "artAsset": "sword-hand",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "554.945 0.000 454.055 480.000",
+      "artDrawReady": "true",
+      "artFeather": ".26 .04 .24 .22",
+      "artLayers": "base-static-moving",
+      "artMotion": "v1-threshold-and-wake",
+      "artTextureWidth": "1536",
+      "ditherCell": "1-css-px",
+      "mobileArtPrint": ".90",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 960,
+        "opacity": "1",
+        "rect": {
+          "bottom": 561,
+          "height": 480,
+          "left": 0,
+          "right": 1009,
+          "top": 81,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2018,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 554.9453125,
+      "top": 81,
+      "width": 554.9453125,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 274.1953125,
+      "height": 157.1953125,
+      "left": 40,
+      "right": 534.9453125,
+      "top": 117,
+      "width": 494.9453125,
+      "x": 40,
+      "y": 117
+    },
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 432.1953125,
+      "height": 130,
+      "left": 40,
+      "right": 534.9453125,
+      "top": 302.1953125,
+      "width": 494.9453125,
+      "x": 40,
+      "y": 302.1953125
+    },
+    "scrollWidth": 1009,
+    "url": "http://127.0.0.1:8856/current-site/index.html",
+    "width": 1024,
+    "page": "index"
+  },
+  {
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "artData": {
+      "artAsset": "knight",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "577.648 0.000 431.344 480.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1536",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 960,
+        "opacity": "1",
+        "rect": {
+          "bottom": 561,
+          "height": 480,
+          "left": 0,
+          "right": 1009,
+          "top": 81,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2018,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 527.203125,
+      "top": 81,
+      "width": 527.203125,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "scrollWidth": 1009,
+    "url": "http://127.0.0.1:8856/current-site/company.html",
+    "width": 1024,
+    "page": "company"
+  },
+  {
+    "art": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "artData": {
+      "artAsset": "kneeler",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "577.648 0.000 431.344 519.352",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 1039,
+        "opacity": "1",
+        "rect": {
+          "bottom": 600.5,
+          "height": 519.5,
+          "left": 0,
+          "right": 1009,
+          "top": 81,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2018,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 527.203125,
+      "top": 81,
+      "width": 527.203125,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 284.3515625,
+      "height": 165.3515625,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "hero": {
+      "bottom": 600.3515625,
+      "height": 519.3515625,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 424.3515625,
+      "height": 116,
+      "left": 40,
+      "right": 503.203125,
+      "top": 308.3515625,
+      "width": 463.203125,
+      "x": 40,
+      "y": 308.3515625
+    },
+    "scrollWidth": 1009,
+    "url": "http://127.0.0.1:8856/current-site/solutions.html",
+    "width": 1024,
+    "page": "solutions"
+  },
+  {
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "artData": {
+      "artAsset": "arcade",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "577.648 0.000 431.344 480.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 960,
+        "opacity": "1",
+        "rect": {
+          "bottom": 561,
+          "height": 480,
+          "left": 0,
+          "right": 1009,
+          "top": 81,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2018,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 527.203125,
+      "top": 81,
+      "width": 527.203125,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 398.234375,
+      "height": 145,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "scrollWidth": 1009,
+    "url": "http://127.0.0.1:8856/current-site/briefing.html",
+    "width": 1024,
+    "page": "briefing"
+  },
+  {
+    "art": {
+      "bottom": 561,
+      "height": 480,
+      "left": 577.6484375,
+      "right": 1008.9921875,
+      "top": 81,
+      "width": 431.34375,
+      "x": 577.6484375,
+      "y": 81
+    },
+    "artData": {
+      "artAsset": "portrait",
+      "artComposite": "single-opaque-surface",
+      "artCompositeRect": "577.648 0.000 431.344 480.000",
+      "artDrawReady": "true",
+      "artLayers": "base-static-moving",
+      "artMotion": "luminance-edge-aware-tone",
+      "artProfile": "close",
+      "artTextureWidth": "1672",
+      "ditherCell": "1-css-px",
+      "siteArt": "hero"
+    },
+    "canvases": [
+      {
+        "blend": "normal",
+        "data": {
+          "artBackingRatio": "2",
+          "artDrawReady": "true",
+          "artOpaque": "true"
+        },
+        "height": 960,
+        "opacity": "1",
+        "rect": {
+          "bottom": 561,
+          "height": 480,
+          "left": 0,
+          "right": 1009,
+          "top": 81,
+          "width": 1009,
+          "x": 0,
+          "y": 81
+        },
+        "width": 2018,
+        "z": "0"
+      }
+    ],
+    "copy": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 527.203125,
+      "top": 81,
+      "width": 527.203125,
+      "x": 0,
+      "y": 81
+    },
+    "dpr": 2,
+    "headline": {
+      "bottom": 229.234375,
+      "height": 110.234375,
+      "left": 40,
+      "right": 503.203125,
+      "top": 119,
+      "width": 463.203125,
+      "x": 40,
+      "y": 119
+    },
+    "hero": {
+      "bottom": 561,
+      "height": 480,
+      "left": 0,
+      "right": 1009,
+      "top": 81,
+      "width": 1009,
+      "x": 0,
+      "y": 81
+    },
+    "mainPadding": "81px",
+    "paragraph": {
+      "bottom": 340.234375,
+      "height": 87,
+      "left": 40,
+      "right": 503.203125,
+      "top": 253.234375,
+      "width": 463.203125,
+      "x": 40,
+      "y": 253.234375
+    },
+    "scrollWidth": 1009,
+    "url": "http://127.0.0.1:8856/current-site/training.html",
+    "width": 1024,
+    "page": "training"
+  }
+]

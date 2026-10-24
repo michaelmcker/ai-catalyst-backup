@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><base href="/current-site/">
+
+<script data-pointer-proof-bootstrap>
+(() => {
+  'use strict';
+  const params = new URLSearchParams(location.search);
+  const requestedPhase = Number(params.get('phase') || '7');
+  const phase = Number.isFinite(requestedPhase) ? requestedPhase : 7;
+  const uniformNames = new WeakMap();
+  let clockWrites = 0;
+  const contexts = [window.WebGLRenderingContext, window.WebGL2RenderingContext]
+    .filter(Boolean);
+  for (const Context of contexts) {
+    const proto = Context.prototype;
+    const getUniformLocation = proto.getUniformLocation;
+    const uniform1f = proto.uniform1f;
+    proto.getUniformLocation = function(program, name) {
+      const location = getUniformLocation.call(this, program, name);
+      if (location) uniformNames.set(location, name);
+      return location;
+    };
+    proto.uniform1f = function(location, value) {
+      if (location && uniformNames.get(location) === 'clock') {
+        value = phase;
+        clockWrites++;
+      }
+      return uniform1f.call(this, location, value);
+    };
+  }
+  let nextId = 1;
+  let virtualTime = 1000;
+  let frameCount = 0;
+  let pending = new Map();
+  window.requestAnimationFrame = callback => {
+    const id = nextId++;
+    pending.set(id, callback);
+    return id;
+  };
+  window.cancelAnimationFrame = id => pending.delete(id);
+
+  function status() {
+    const root = document.documentElement;
+    root.dataset.pointerProofFrames = String(frameCount);
+    root.dataset.pointerProofPhase = String(phase);
+    root.dataset.pointerProofClockWrites = String(clockWrites);
+    root.dataset.pointerProofReduced = String(
+      matchMedia('(prefers-reduced-motion: reduce)').matches);
+    root.dataset.pointerProofPaused = String(
+      document.body?.classList.contains('motion-paused') || false);
+    const output = document.getElementById('pointer-proof-status');
+    if (output) output.textContent =
+      `Frozen clock ${phase}s; virtual frames ${frameCount}; ` +
+      `clock writes ${clockWrites}; reduced ${root.dataset.pointerProofReduced}; ` +
+      `paused ${root.dataset.pointerProofPaused}`;
+  }
+  function step() {
+    // Two nominal 24fps frames let the original 18fps trail update run once.
+    // A 0.001ms epsilon avoids its strict elapsed-time threshold rounding down.
+    for (let i = 0; i < 2; i++) {
+      virtualTime += 1000 / 24 + 0.001;
+      const callbacks = pending;
+      pending = new Map();
+      for (const callback of callbacks.values()) callback(virtualTime);
+      frameCount++;
+    }
+    status();
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const controls = document.createElement('aside');
+    controls.id = 'pointer-proof-controls';
+    controls.setAttribute('aria-label', 'Local pointer proof controls');
+    controls.innerHTML =
+      '<strong>Current site source / marketing-investment — local diagnostic fixture</strong>' +
+      '<button type="button" id="pointer-proof-step">Step frames</button>' +
+      '<span>Move the pointer over paper, then press N to step without moving it away.</span>' +
+      '<output id="pointer-proof-status" aria-live="polite"></output>';
+    document.body.append(controls);
+    controls.querySelector('button').addEventListener('click', step);
+    document.addEventListener('keydown', event => {
+      if (event.code === 'KeyN' && !event.altKey && !event.ctrlKey &&
+          !event.metaKey && !event.repeat &&
+          !event.target.matches('input,textarea,select,[contenteditable]')) {
+        event.preventDefault();
+        step();
+      }
+    });
+    status();
+  });
+})();
+</script>
+<style data-pointer-proof-controls>
+#pointer-proof-controls{position:fixed!important;inset:auto 10px 10px auto!important;
+ z-index:2147483647!important;display:grid!important;gap:6px!important;
+ width:min(560px,calc(100vw - 20px))!important;padding:12px!important;
+ color:#111!important;background:#fff!important;border:1px solid #444!important;
+ font:12px/1.4 system-ui,sans-serif!important;box-shadow:0 2px 12px #0003!important}
+#pointer-proof-controls button{justify-self:start!important;padding:6px 12px!important;
+ color:#fff!important;background:#12347a!important;font:14px system-ui,sans-serif!important}
+#pointer-proof-controls output{font-variant-numeric:tabular-nums!important}
+</style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Full Commerce MMM | AI Catalyst</title><link rel="stylesheet" href="subpages.css"><link rel="stylesheet" href="local-refinements.css"><link rel="stylesheet" href="platform-command.css"><link rel="stylesheet" href="site-system.css?v=20261003-audit1"><link rel="stylesheet" href="editorial-system.css?v=20260919-14"><script src="platform-motion.js?v=20261014-1" defer></script><script src="site-shell.js?v=20261003-shared1" defer></script><script src="site-story.js?v=20260930-entry1" defer></script><link rel="stylesheet" href="quality-site.css?v=20260930-oci1"><meta name="description" content="Leapfrog legacy tools with Full Commerce MMM. Measure the full commerce mix, simulate investment decisions and get findings in 2–6 weeks."><link rel="stylesheet" href="entry-refinement.css?v=20260930-flow3"><link rel="stylesheet" href="simplified-navigation.css?v=20261002"><link rel="stylesheet" href="art-direction-v2.css?v=20261002-halftone1"><link rel="stylesheet" href="chivalry-v3.css?v=20261002-wrap3"><link rel="stylesheet" href="hero-composition-v3.css?v=20261003-client-copy1">
+<link rel="stylesheet" href="client-layout-v3.css?v=20261003-audit1">
+<link rel="stylesheet" href="feedback-v3.css?v=20261023-direct8">
+<link rel="stylesheet" href="partner-neutral.css?v=20261020-2">
+<link rel="stylesheet" href="migration-changes.css?v=20261023-direct8"><link rel="stylesheet" href="hero-responsive-fix.css?v=20261023-direct8"></head>
+<body class="subpage migration-pano subpage-platform solution-page commerce quality-site">
+<div id="top" class="page-top-anchor"></div>
+<a class="skip" href="#main">Skip to content</a><header class="masthead" aria-label="Site header">
+<a class="masthead-logo" href="index.html" aria-label="AI Catalyst home"><img src="assets/logo.svg" alt="AI Catalyst" width="200" height="40" decoding="async"></a>
+<nav class="masthead-links" aria-label="Main navigation" hidden></nav>
+<div class="masthead-actions"><button class="masthead-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span>Menu</span><i aria-hidden="true"></i></button><a class="masthead-contact" href="briefing.html" aria-label="Start a conversation"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M6 5h13v13"></path></svg></a></div>
+<div class="masthead-scrim" hidden></div>
+<div class="masthead-panel" id="site-menu" hidden><nav aria-label="Expanded navigation"><ul class="masthead-menu-list"><li><a href="company.html">Company</a></li><li class="masthead-command"><a href="platform.html">Command Centre</a><ul class="masthead-capabilities" aria-label="Command Centre engines"><li><a href="creator-social.html" class="menu-capability">Creator intelligence</a></li><li><a href="marketing-investment.html" class="menu-capability">Full Commerce MMM</a></li><li><a href="online-conversion.html" class="menu-capability">Agentic consumer intelligence</a></li></ul></li><li><a href="solutions.html">How We Work</a></li><li><a href="training.html">Training and adoption</a></li><li><a href="briefing.html">Start a conversation</a></li></ul></nav><div class="masthead-panel-footer"><p>Curate. Advise. Accelerate.</p></div></div>
+</header>
+<main id="main"><div class="art-opening"><section class="page-hero page-hero--stacked page-hero--platform page-hero--editorial wrap" data-hero-subject="scene" style="--scene-ratio:1942/809;--scene-focus:90% 50%"><canvas class="platform-atmosphere" aria-hidden="true"></canvas><div class="page-hero__copy"><h1>Your MMM was built for a world that no longer exists.</h1><div class="page-hero__support"><p>Legacy MMM was built for marketing: TV, print, social, digital, search, radio, OOH and shopper. It delivers insights in 8–12 weeks, after the market has moved. It wasn’t built for retail media, creators, TikTok Shop, LTK and Amazon.</p><div class="page-hero__actions"><a class="hero-link" href="briefing.html?interest=marketing-investment">Discuss a pilot ↗</a></div></div></div><div class="page-hero__art art-scene" data-site-art="hero" data-art-asset="marketing-investment-scene" data-art-print-pattern="drift" data-art-profile="scene" data-art-feather="0 0 0 0"><img src="images/art-v4/river-approach-panel-v1.webp" alt="Helmeted riders approaching a riverside town" width="1942" height="809" fetchpriority="high" decoding="async"></div></section><section class="wrap platform-command engine-story uncontrolled-visual"><article class="capability" id="measurement">
+<div class="cap-copy reveal"><h2>Full Commerce MMM</h2><p>See what drives sales across the full commerce mix. Compare the next allocation before you commit.</p><div class="capability-depth"></div></div>
+<figure class="graphic"><canvas id="allocation" width="720" height="390" role="img" aria-label="Commerce investment allocation across brand, retail media, trade and creator channels"></canvas><figcaption class="mix-legend"><span>Current mix</span><span>Scenario mix</span></figcaption></figure>
+</article></section></div><section class="page-section wrap commerce-coverage" aria-labelledby="coverage-title"><div class="section-intro"><h2 id="coverage-title">Full commerce. Every investment.</h2><p>Retail media, creators and new shopping platforms have changed the mix. Full Commerce MMM brings media, trade, pricing and distribution into one view, while keeping each investment visible.</p></div><ul class="coverage-list"><li>Brand media</li><li>Performance media</li><li>Social media</li><li>Shopper marketing</li><li>Creators and influencers</li><li>Retail media</li><li>Trade promotions</li><li>Trade displays</li><li>Shelf price and distribution</li><li>Fixed trade spend</li></ul></section>
+<section class="page-section wrap case-study case-study--text" id="mmm-demo" aria-labelledby="mmm-demo-title"><div class="case-copy"><h2 id="mmm-demo-title">Assess. Recommend. Simulate.</h2><div class="case-description"><p>Ask what happens if you move $500k into retail media. Use an agentic interface to assess the findings, compare a scenario and examine the recommended allocation.</p><p>Get the explanation alongside the analysis, so your team can challenge the recommendation and decide what to do next.</p></div></div></section><section class="engagement-details wrap client-engine-copy"><h2>The questions your board is asking now.</h2><ol class="commercial-questions"><li>If I move $1M from trade promotion to retail media and creators, what happens to revenue and share?</li><li>What is the true ROI of creators, TV, shopper and retail media, in the same currency?</li><li>Are TikTok Shop, LTK and Amazon incremental or cannibalising?</li><li>Loblaw Advance, Walmart Connect or loyalty: where should the next dollar go?</li></ol><h2 class="engine-difference-title">Built to leapfrog, not band-aid.</h2><article class="quality-detail-row"><h3>Built for the full commerce mix.</h3><div class="quality-detail-copy"><p>Built in the last seven years, with no legacy platform to patch. Model the investments that shape commerce today, with each spend line visible in one commercial view.</p></div></article><article class="quality-detail-row"><h3>A new level of granularity.</h3><div class="quality-detail-copy"><p>Model media, trade, price and distribution at the level of detail your data supports. See how the full commerce mix works together before deciding where to invest.</p></div></article><article class="quality-detail-row"><h3>The first agentic interface for MMM.</h3><div class="quality-detail-copy"><p>Assess. Recommend. Simulate. Ask “Simulate moving $500k to retail media” and get an answer today. Move from the model to execution without waiting for another presentation.</p></div></article><div class="engine-comparison"><p><strong>Legacy MMM</strong>Marketing mix only. Insights in 8–12 weeks.</p><p><strong>Full Commerce MMM</strong>Full commerce mix. Insights in 2–6 weeks. 5–10x return on your MMM investment.</p></div></section>
+<section class="buyer-questions wrap"><h2>Before we start</h2><details><summary>What data does the model need?</summary><p>Typically sales, investment and activity history, plus relevant commercial factors such as price, promotions or distribution. We review availability, quality and the level of detail before agreeing the model scope.</p></details><details><summary>Does the recommendation replace our judgment?</summary><p>No. The analysis makes trade-offs visible. Your team sets the objectives and constraints, challenges the assumptions and approves the spending decision.</p></details><details><summary>How quickly will we have findings?</summary><p>Full Commerce MMM delivers initial findings in 2–6 weeks. We review your data, agree the commercial question and build the model around it.</p></details></section><section class="scene-feature" id="investment-choice"><div class="period-scene" data-site-art="landscape" aria-label="A clearer choice" data-art-profile="scene" data-art-feather="0 0 0 0" style="--panel-ratio:1942/809"><img src="images/art-v4/tournament-panel-v1.webp" alt="Two adult helmeted knights riding at a Renaissance tournament beside a stone arcade, rendered in blue" width="1942" height="809" loading="lazy" decoding="async"></div><section class="scene-feature__copy solution-pilot wrap"><h2>Where should your next dollar go?</h2><p>Bring the allocation you need to defend. We connect the full commerce mix to a decision your marketing and finance teams can act on.</p><a class="hero-link" href="briefing.html">Tell us what you need to solve ↗</a></section></section><section class="offer-routes wrap" id="solutions"><h2>Explore the other solutions</h2><div class="route-grid"><a class="route-card route-card--social" href="creator-social.html"><h3>Creator intelligence</h3><p>Find creator opportunities and decide what to test in your market.</p><span>Explore <b aria-hidden="true">↗</b></span></a><a class="route-card route-card--conversion" href="online-conversion.html"><h3>Agentic consumer intelligence</h3><p>Answer product questions and help shoppers make the purchase.</p><span>Explore <b aria-hidden="true">↗</b></span></a></div></section></main>
+<footer class="site-footer site-footer--shared">
+<div class="footer-main wrap">
+<div class="footer-signature"><a href="index.html" aria-label="AI Catalyst home"><img src="assets/logo.svg" alt="AI Catalyst" width="200" height="40" decoding="async" loading="lazy"></a><p class="footer-mantra">Keep Up. Stay Sharp.<br>Have Fun Winning.</p></div>
+<div class="footer-directory">
+<nav aria-label="Company and approach"><a href="company.html">Company</a><a href="solutions.html">How We Work</a><a href="training.html">Training and adoption</a></nav>
+<nav aria-label="Commerce Command Centre"><a href="platform.html">Commerce Command Centre</a><a href="creator-social.html">Creator intelligence</a><a href="online-conversion.html">Agentic consumer intelligence</a><a href="marketing-investment.html">Full Commerce MMM</a></nav>
+<nav aria-label="Connect"><a href="tel:+14162700132">416-270-0132</a><a href="briefing.html">Start a conversation <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:randy@aicatalyst.biz">randy@aicatalyst.biz</a></nav>
+</div></div>
+<div class="footer-art" data-site-art="landscape" data-art-profile="footer"><img src="images/art-v2/bridge-halftone.webp" alt="A Renaissance stone bridge crossing quiet water, rendered in pale blue" width="1774" height="887" loading="lazy" decoding="async"></div>
+<div class="footer-bottom wrap"><span>© 2026 AI Catalyst.</span><span>Toronto, Canada</span><span>Built globally.</span></div>
+</footer>
+<script></script>
+<script src="quality-motion.js?v=20260929-quality1" defer></script><script src="revision-enquiry.js?v=20261003-audit1" defer></script><script src="halftone-rendering.js?v=20261023-direct8" defer></script></body></html>

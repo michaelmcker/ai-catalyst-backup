@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "pointerProofClockWrites": "44",
+    "pointerProofFrames": "32",
+    "pointerProofPaused": "false",
+    "pointerProofPhase": "7",
+    "pointerProofReduced": "false"
+  },
+  "canvas": [
+    {
+      "data": {
+        "artBackingRatio": "1",
+        "artDrawReady": "true",
+        "artOpaque": "true"
+      },
+      "height": 1173,
+      "width": 1425
+    }
+  ],
+  "hero": {
+    "bottom": 957.2578125,
+    "height": 876.2578125,
+    "left": 0,
+    "right": 1425,
+    "top": 81,
+    "width": 1425,
+    "x": 0,
+    "y": 81
+  },
+  "status": "Frozen clock 7s; virtual frames 32; clock writes 44; reduced false; paused false",
+  "position": {
+    "x": 750,
+    "y": 220
+  },
+  "page": "online-conversion",
+  "source": "candidate"
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper proof: original / company / transparent</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:#fff}
+body{overflow:hidden}#main{padding:0!important}
+.hero-scene,.hero,.page-hero{position:relative;isolation:isolate;width:100vw;height:600px;margin:0;padding:0;overflow:hidden;background:#fff}
+.hero{background:transparent}
+.hero-art,.page-hero__art{position:absolute;left:180.375px;top:64.625px;width:208.25px;height:339.75px;z-index:0;background:transparent}
+[data-site-art]>img,[data-site-art]>.site-art-tones{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+[data-site-art].site-art-ready>img{visibility:hidden}
+.site-art-tones{z-index:1;pointer-events:none}
+.site-hero-field,.site-hero-composite{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;display:block!important;pointer-events:none!important;z-index:-1!important;mix-blend-mode:normal!important}
+.hero-scene[data-art-surface="white-flow"] .site-hero-field{z-index:1!important;mix-blend-mode:multiply!important}
+.hero-scene[data-art-surface="white-flow"] .site-hero-composite{z-index:0!important;mix-blend-mode:normal!important}
+</style></head>
+<body class="motion-paused subpage" data-proof-renderer="original" data-proof-scene="company" data-proof-variant="transparent">
+<main id="main"><section class="page-hero"><div class="page-hero__art" data-site-art="hero" data-art-asset="knight" data-art-profile="close"><img src="paper-company-transparent.png" alt="" width="384" height="512" decoding="sync"></div></section></main><script src="/__vercel/halftone-rendering.js?paper-proof=1"></script>
+<script>
+(() => {
+  const observer = new MutationObserver(record);
+  function record() {
+    const art = document.querySelector('[data-site-art]');
+    if (!art.classList.contains('site-art-ready')) return;
+    observer.disconnect();
+    const output = document.createElement('script');
+    output.type = 'application/json'; output.id = 'paper-proof-capture-state';
+    output.textContent = JSON.stringify({
+      userAgent:navigator.userAgent, devicePixelRatio, innerWidth, innerHeight,
+      paused:document.body.classList.contains('motion-paused'),
+      reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches,
+      canvases:Array.from(document.querySelectorAll('canvas')).map(canvas => {
+        const gl = canvas.getContext('webgl'); const r = canvas.getBoundingClientRect();
+        return {className:canvas.className, bitmap:[canvas.width,canvas.height],
+          rect:{x:r.x,y:r.y,width:r.width,height:r.height},
+          attributes:gl ? gl.getContextAttributes() : null,
+          drawingBufferColorSpace:gl?.drawingBufferColorSpace ?? null};
+      })
+    });
+    document.body.append(output);
+    document.documentElement.dataset.paperProofReady = 'true';
+  }
+  observer.observe(document.body,{subtree:true,attributes:true,childList:true});
+  record();
+})();
+</script>
+</body></html>
