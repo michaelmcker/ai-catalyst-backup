@@ -1,0 +1,76 @@
+[
+  {
+    "source": "reference",
+    "page": "index",
+    "roi": [
+      100,
+      375,
+      650,
+      407
+    ],
+    "stationary_changed_pixels": 0,
+    "pointer_changed_pixels": [
+      2134,
+      73,
+      693,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "source": "candidate",
+    "page": "index",
+    "roi": [
+      100,
+      375,
+      650,
+      407
+    ],
+    "stationary_changed_pixels": 0,
+    "pointer_changed_pixels": [
+      2134,
+      73,
+      693,
+      0
+    ]
+  },
+  {
+    "source": "reference",
+    "page": "company",
+    "roi": [
+      640,
+      300,
+      850,
+      500
+    ],
+    "stationary_changed_pixels": 0,
+    "pointer_changed_pixels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "source": "candidate",
+    "page": "company",
+    "roi": [
+      640,
+      300,
+      850,
+      500
+    ],
+    "stationary_changed_pixels": 0,
+    "pointer_changed_pixels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

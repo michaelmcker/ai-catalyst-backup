@@ -1,5 +1,13 @@
 # AI Catalyst website guidance
 
+## Latest instruction: direct Vercel transfer
+
+- The earlier paper6/custom restoration is rejected. The active source is a direct download of all83 files served by ai-catalyst-wheat.vercel.app, verified byte-identical to68dbb96. Preserve the exact original renderer, image masters and CSS/interaction scripts; do not restore the custom shader, 42% paper strength or blanket hero-layout.css overrides.
+- Apply only the deterministic approved content patch in scripts/apply-approved-content.py and the isolated migration-changes.css. The four panoramic pages retain headline left/support right/image below on all widths. Latest user correction: Company mobile is text left/knight right; its desktop remains Vercel. Balance the Command Centre phone row with the link beneath the left headline and paragraph right.
+- Verify with scripts/check-direct-vercel.py and check-public-site.py. Previous motion/contrast scripts encode rejected implementations and are historical. pointer-proof contains a causal frozen-clock reference comparison, kept outside deployment.
+- Michael will check the stable preview on his iPhone. Do not claim Chromium phone sizing or desktop Safari is actual iOS testing. Do not replace production until that preview feedback is addressed. See docs/direct-vercel-2026-10-23/README.md.
+- These latest instructions supersede conflicting restoration/rendering instructions below. Preserve DNS/mail configuration and all authorized contact/navigation changes.
+
 - Do not use eyebrows except for the homepage engine labels Michael explicitly requested on 30 September: Engine 1 for Creator Intelligence, Engine 2 for Consumer Intelligence, Engine 3 for Full Commerce MMM. Other small category captions above headings remain excluded.
 - Keep partner attribution within meaningful body copy rather than using it as an eyebrow.
 - Lead the engagement message with “We start with what matters to your business.”

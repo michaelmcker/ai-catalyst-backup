@@ -1,0 +1,1406 @@
+[
+  {
+    "art": {
+      "bottom": 612,
+      "height": 530,
+      "left": 783.75,
+      "right": 1425,
+      "top": 82,
+      "width": 641.25,
+      "x": 783.75,
+      "y": 82
+    },
+    "bodyClass": "restored-home refined-entry js-motion",
+    "copy": {
+      "bottom": 602.5078125,
+      "height": 511.015625,
+      "left": 0,
+      "right": 783.75,
+      "top": 91.4921875,
+      "width": 783.75,
+      "x": 0,
+      "y": 91.4921875
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 612,
+      "height": 530,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "fieldStyle": {
+      "blend": "multiply",
+      "z": "1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 378.5859375,
+      "height": 231.09375,
+      "left": 79.796875,
+      "right": 783.75,
+      "top": 147.4921875,
+      "width": 703.953125,
+      "x": 79.796875,
+      "y": 147.4921875
+    },
+    "headingStyle": {
+      "line": "77.0355px",
+      "size": "72.675px"
+    },
+    "hero": {
+      "bottom": 612,
+      "height": 530,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/sword-hand-outpaint-v8.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/index.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 685.2734375,
+      "height": 603.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-solutions restored-subpage",
+    "copy": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 345.6171875,
+      "height": 235.6171875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "headingStyle": {
+      "line": "78.546px",
+      "size": "75.525px"
+    },
+    "hero": {
+      "bottom": 685.2734375,
+      "height": 685.2734375,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/kneeling-courtyard.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/solutions.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-company restored-subpage",
+    "copy": {
+      "bottom": 610.5625,
+      "height": 610.5625,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "headingStyle": {
+      "line": "78.546px",
+      "size": "75.525px"
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/company-knight.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/company.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-briefing restored-subpage",
+    "copy": {
+      "bottom": 606,
+      "height": 606,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "headingStyle": {
+      "line": "78.546px",
+      "size": "75.525px"
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/briefing-arcade.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/briefing.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 680,
+      "height": 598,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform solution-page restored-subpage",
+    "copy": {
+      "bottom": 606,
+      "height": 606,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 0,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 0
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 267.078125,
+      "height": 157.078125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 110,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 110
+    },
+    "headingStyle": {
+      "line": "78.546px",
+      "size": "75.525px"
+    },
+    "hero": {
+      "bottom": 680,
+      "height": 680,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v2/portrait-halftone.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/training.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 560.9453125,
+      "height": 478.9453125,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform restored-subpage",
+    "copy": {
+      "bottom": 975.109375,
+      "height": 414.1640625,
+      "left": 0,
+      "right": 1425,
+      "top": 560.9453125,
+      "width": 1425,
+      "x": 0,
+      "y": 560.9453125
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 1365.3828125,
+      "height": 1365.3828125,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 748.1015625,
+      "height": 169.15625,
+      "left": 79.796875,
+      "right": 1279.796875,
+      "top": 578.9453125,
+      "width": 1200,
+      "x": 79.796875,
+      "y": 578.9453125
+    },
+    "headingStyle": {
+      "line": "84.588px",
+      "size": "79.8px"
+    },
+    "hero": {
+      "bottom": 975.109375,
+      "height": 893.109375,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/mounted-approach-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/platform.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 1126.125,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 532.5,
+      "width": 1425,
+      "x": 0,
+      "y": 532.5
+    },
+    "bodyClass": "subpage subpage-platform solution-page social quality-site",
+    "copy": {
+      "bottom": 532.5,
+      "height": 450.5,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 1598.4140625,
+      "height": 1598.4140625,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 269.15625,
+      "height": 169.15625,
+      "left": 79.796875,
+      "right": 1279.796875,
+      "top": 100,
+      "width": 1200,
+      "x": 79.796875,
+      "y": 100
+    },
+    "headingStyle": {
+      "line": "84.588px",
+      "size": "79.8px"
+    },
+    "hero": {
+      "bottom": 1126.125,
+      "height": 1044.125,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cavalry-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/creator-social.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 1126.125,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 532.5,
+      "width": 1425,
+      "x": 0,
+      "y": 532.5
+    },
+    "bodyClass": "subpage subpage-platform solution-page commerce quality-site",
+    "copy": {
+      "bottom": 532.5,
+      "height": 450.5,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 1625.9140625,
+      "height": 1625.9140625,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 269.15625,
+      "height": 169.15625,
+      "left": 79.796875,
+      "right": 1279.796875,
+      "top": 100,
+      "width": 1200,
+      "x": 79.796875,
+      "y": 100
+    },
+    "headingStyle": {
+      "line": "84.588px",
+      "size": "79.8px"
+    },
+    "hero": {
+      "bottom": 1126.125,
+      "height": 1044.125,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/river-approach-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/marketing-investment.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 675.625,
+      "height": 593.625,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform solution-page conversion quality-site",
+    "copy": {
+      "bottom": 1089.7890625,
+      "height": 414.1640625,
+      "left": 0,
+      "right": 1425,
+      "top": 675.625,
+      "width": 1425,
+      "x": 0,
+      "y": 675.625
+    },
+    "dpr": 1,
+    "field": {
+      "bottom": 1386.3671875,
+      "height": 1386.3671875,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 81,
+      "height": 81,
+      "left": 0,
+      "right": 1425,
+      "top": 0,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 862.78125,
+      "height": 169.15625,
+      "left": 79.796875,
+      "right": 1279.796875,
+      "top": 693.625,
+      "width": 1200,
+      "x": 79.796875,
+      "y": 693.625
+    },
+    "headingStyle": {
+      "line": "84.588px",
+      "size": "79.8px"
+    },
+    "hero": {
+      "bottom": 1089.7890625,
+      "height": 1007.7890625,
+      "left": 0,
+      "right": 1425,
+      "top": 82,
+      "width": 1425,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/coastal-cavalry-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/online-conversion.html",
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 514.40625,
+      "height": 378.40625,
+      "left": 216,
+      "right": 496.796875,
+      "top": 136,
+      "width": 280.796875,
+      "x": 216,
+      "y": 136
+    },
+    "bodyClass": "restored-home refined-entry js-motion",
+    "copy": {
+      "bottom": 514.40625,
+      "height": 441.40625,
+      "left": 24,
+      "right": 366,
+      "top": 73,
+      "width": 342,
+      "x": 24,
+      "y": 73
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 514.40625,
+      "height": 441.40625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "fieldStyle": {
+      "blend": "multiply",
+      "z": "1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 256.40625,
+      "height": 155.40625,
+      "left": 24,
+      "right": 366,
+      "top": 101,
+      "width": 342,
+      "x": 24,
+      "y": 101
+    },
+    "headingStyle": {
+      "line": "38.8596px",
+      "size": "36.66px"
+    },
+    "hero": {
+      "bottom": 514.40625,
+      "height": 441.40625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/sword-hand-outpaint-v8.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/index.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "bodyClass": "subpage subpage-solutions restored-subpage",
+    "copy": {
+      "bottom": 747.8828125,
+      "height": 455.3984375,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 747.8828125,
+      "height": 747.8828125,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 432.1484375,
+      "height": 121.6640625,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingStyle": {
+      "line": "40.56px",
+      "size": "39px"
+    },
+    "hero": {
+      "bottom": 747.8828125,
+      "height": 674.8828125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/kneeling-courtyard.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/solutions.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 333,
+      "height": 260,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "bodyClass": "subpage subpage-company restored-subpage",
+    "copy": {
+      "bottom": 711.390625,
+      "height": 378.390625,
+      "left": 24,
+      "right": 366,
+      "top": 333,
+      "width": 342,
+      "x": 24,
+      "y": 333
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 711.390625,
+      "height": 711.390625,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 432.109375,
+      "height": 81.109375,
+      "left": 24,
+      "right": 366,
+      "top": 351,
+      "width": 342,
+      "x": 24,
+      "y": 351
+    },
+    "headingStyle": {
+      "line": "40.56px",
+      "size": "39px"
+    },
+    "hero": {
+      "bottom": 711.390625,
+      "height": 638.390625,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/company-knight.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/company.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "bodyClass": "subpage subpage-briefing restored-subpage",
+    "copy": {
+      "bottom": 602.875,
+      "height": 310.390625,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 602.875,
+      "height": 602.875,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 391.59375,
+      "height": 81.109375,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingStyle": {
+      "line": "40.56px",
+      "size": "39px"
+    },
+    "hero": {
+      "bottom": 602.875,
+      "height": 529.875,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v3/briefing-arcade.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/briefing.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 292.484375,
+      "height": 219.484375,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "bodyClass": "subpage subpage-platform solution-page restored-subpage",
+    "copy": {
+      "bottom": 615.78125,
+      "height": 323.296875,
+      "left": 24,
+      "right": 366,
+      "top": 292.484375,
+      "width": 342,
+      "x": 24,
+      "y": 292.484375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 615.78125,
+      "height": 615.78125,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 391.59375,
+      "height": 81.109375,
+      "left": 24,
+      "right": 366,
+      "top": 310.484375,
+      "width": 342,
+      "x": 24,
+      "y": 310.484375
+    },
+    "headingStyle": {
+      "line": "40.56px",
+      "size": "39px"
+    },
+    "hero": {
+      "bottom": 615.78125,
+      "height": 542.78125,
+      "left": 0,
+      "right": 390,
+      "top": 73,
+      "width": 390,
+      "x": 0,
+      "y": 73
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v2/portrait-halftone.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/training.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 213.078125,
+      "height": 131.078125,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform restored-subpage",
+    "copy": {
+      "bottom": 630.703125,
+      "height": 417.625,
+      "left": 0,
+      "right": 390,
+      "top": 213.078125,
+      "width": 390,
+      "x": 0,
+      "y": 213.078125
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 1103.8828125,
+      "height": 1103.8828125,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 347.703125,
+      "height": 116.625,
+      "left": 24,
+      "right": 366,
+      "top": 231.078125,
+      "width": 342,
+      "x": 24,
+      "y": 231.078125
+    },
+    "headingStyle": {
+      "line": "38.88px",
+      "size": "36px"
+    },
+    "hero": {
+      "bottom": 630.703125,
+      "height": 548.703125,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/mounted-approach-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/platform.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 244.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform solution-page social quality-site",
+    "copy": {
+      "bottom": 662.0859375,
+      "height": 417.625,
+      "left": 0,
+      "right": 390,
+      "top": 244.4609375,
+      "width": 390,
+      "x": 0,
+      "y": 244.4609375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 1251.4296875,
+      "height": 1251.4296875,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 379.0859375,
+      "height": 116.625,
+      "left": 24,
+      "right": 366,
+      "top": 262.4609375,
+      "width": 342,
+      "x": 24,
+      "y": 262.4609375
+    },
+    "headingStyle": {
+      "line": "38.88px",
+      "size": "36px"
+    },
+    "hero": {
+      "bottom": 662.0859375,
+      "height": 580.0859375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cavalry-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/creator-social.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 244.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform solution-page commerce quality-site",
+    "copy": {
+      "bottom": 690.5859375,
+      "height": 446.125,
+      "left": 0,
+      "right": 390,
+      "top": 244.4609375,
+      "width": 390,
+      "x": 0,
+      "y": 244.4609375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 1265.6328125,
+      "height": 1265.6328125,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 379.0859375,
+      "height": 116.625,
+      "left": 24,
+      "right": 366,
+      "top": 262.4609375,
+      "width": 342,
+      "x": 24,
+      "y": 262.4609375
+    },
+    "headingStyle": {
+      "line": "38.88px",
+      "size": "36px"
+    },
+    "hero": {
+      "bottom": 690.5859375,
+      "height": 608.5859375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/river-approach-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/marketing-investment.html",
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 244.4609375,
+      "height": 162.4609375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "bodyClass": "subpage subpage-platform solution-page conversion quality-site",
+    "copy": {
+      "bottom": 633.5859375,
+      "height": 389.125,
+      "left": 0,
+      "right": 390,
+      "top": 244.4609375,
+      "width": 390,
+      "x": 0,
+      "y": 244.4609375
+    },
+    "dpr": 3,
+    "field": {
+      "bottom": 1119.0078125,
+      "height": 1119.0078125,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "fieldStyle": {
+      "blend": "normal",
+      "z": "-1"
+    },
+    "header": {
+      "bottom": 73,
+      "height": 73,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 379.0859375,
+      "height": 116.625,
+      "left": 24,
+      "right": 366,
+      "top": 262.4609375,
+      "width": 342,
+      "x": 24,
+      "y": 262.4609375
+    },
+    "headingStyle": {
+      "line": "38.88px",
+      "size": "36px"
+    },
+    "hero": {
+      "bottom": 633.5859375,
+      "height": 551.5859375,
+      "left": 0,
+      "right": 390,
+      "top": 82,
+      "width": 390,
+      "x": 0,
+      "y": 82
+    },
+    "overflow": 0,
+    "ready": true,
+    "src": "https://ai-catalyst-wheat.vercel.app/images/art-v4/coastal-cavalry-panel-v1.webp",
+    "support": null,
+    "url": "https://ai-catalyst-wheat.vercel.app/online-conversion.html",
+    "width": 390
+  }
+]

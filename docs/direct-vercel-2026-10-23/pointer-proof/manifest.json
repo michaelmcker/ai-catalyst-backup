@@ -1,0 +1,54 @@
+{
+  "testOnly": true,
+  "clockUniformFrozen": true,
+  "virtualFrameMilliseconds": 41.66766666666666,
+  "framesPerStep": 2,
+  "defaultPhaseSeconds": 7,
+  "sourceFilesModified": false,
+  "fixtures": [
+    {
+      "source": "reference",
+      "page": "index",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/index.html",
+      "sourceHtmlSha256": "c5146509a8e400f6f18d24ce598f1e31fdede17928a093d44425e3d86a37d2c0",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/direct-vercel-2026-10-23/pointer-proof/reference-index.html",
+      "fixtureSha256": "e5d12a9d3721ea0ead8d63c8471eb3f03a1dfba8f85f4344d6bdfd16aed0708d"
+    },
+    {
+      "source": "reference",
+      "page": "company",
+      "sourceHtml": "/tmp/ai-catalyst-direct-vercel/company.html",
+      "sourceHtmlSha256": "7421f95f4d75121bed96fe011b69d030cc4aaf90d2dc2e328f30fba8eeb1e1ac",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/__vercel/halftone-rendering.js",
+      "assetBase": "/__vercel/",
+      "fixture": "docs/direct-vercel-2026-10-23/pointer-proof/reference-company.html",
+      "fixtureSha256": "ffa6b9c50a7843e930fd2b608aa92fcb780d2ac4228faa846710d50ef52c6836"
+    },
+    {
+      "source": "candidate",
+      "page": "index",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/index.html",
+      "sourceHtmlSha256": "b86873e17a2765aff7124680ebe73cd593a57c92764260cc8f93cbde8bf49ee4",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/direct-vercel-2026-10-23/pointer-proof/candidate-index.html",
+      "fixtureSha256": "baa77de14d962b94d63fecd6e961383475575d5a1abae0051fef88f48a3e3260"
+    },
+    {
+      "source": "candidate",
+      "page": "company",
+      "sourceHtml": "/Users/michaelmckerracher/portfolio-publishing/work/ai-catalyst/ai-catalyst-backup/current-site/company.html",
+      "sourceHtmlSha256": "3aba09c287b055d0c5e9f17fdf58716c6da19f9f63c37e13e1f14d233df4d2f1",
+      "rendererSha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+      "rendererUrl": "/current-site/halftone-rendering.js",
+      "assetBase": "/current-site/",
+      "fixture": "docs/direct-vercel-2026-10-23/pointer-proof/candidate-company.html",
+      "fixtureSha256": "ac31586e79a41be3c868d08db473602015bbc61fa32181b3ccb1c1712b0a2303"
+    }
+  ]
+}

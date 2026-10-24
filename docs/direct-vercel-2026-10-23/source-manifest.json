@@ -1,0 +1,666 @@
+[
+  {
+    "path": "advisor-portraits.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/advisor-portraits.js",
+    "bytes": 2262,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "a1528374108ce9a4f7600eddc38d9ba07d2bae9445a858aeddba57b3bbbac089",
+    "matches_git_reference": true
+  },
+  {
+    "path": "art-direction-v2.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/art-direction-v2.css",
+    "bytes": 6550,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "cd3d9e1f7e02737d314a792d78e4af4435acf0aeae9beedfc4c0f91a29a0b079",
+    "matches_git_reference": true
+  },
+  {
+    "path": "art-direction-v2.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/art-direction-v2.js",
+    "bytes": 9094,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "30ef430f0214248f1f17c8f6f5fa4630c9a7f6eff7743d7d474ab8170971ac4f",
+    "matches_git_reference": true
+  },
+  {
+    "path": "assets/brand-logos/edelman.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/assets/brand-logos/edelman.svg",
+    "bytes": 2278,
+    "mime": "image/svg+xml",
+    "sha256": "6ce38b91f274b4bc1c81f417f878f269bd1f76ddb33bbe9e4056bdc2f0142ebb",
+    "matches_git_reference": true
+  },
+  {
+    "path": "assets/brand-logos/four-seasons.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/assets/brand-logos/four-seasons.svg",
+    "bytes": 29370,
+    "mime": "image/svg+xml",
+    "sha256": "7b0bf8d52adf641fcc437f600c28f9a592f409b772a6b9aa0211f6a3118f743b",
+    "matches_git_reference": true
+  },
+  {
+    "path": "assets/full-film.mp4",
+    "url": "https://ai-catalyst-wheat.vercel.app/assets/full-film.mp4",
+    "bytes": 6572520,
+    "mime": "video/mp4",
+    "sha256": "58306955b54e7a6db8453a6231049bc89ba48c67fba05134c2f30ab431b4eb9d",
+    "matches_git_reference": true
+  },
+  {
+    "path": "assets/logo.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/assets/logo.svg",
+    "bytes": 5262,
+    "mime": "image/svg+xml",
+    "sha256": "f5772bef61619a19c07043810c6057c05d81d9eb5e795ce14d5b0ac8dcc83cec",
+    "matches_git_reference": true
+  },
+  {
+    "path": "assets/maps/blaeu-1630-cartography-framed-v3.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/assets/maps/blaeu-1630-cartography-framed-v3.svg",
+    "bytes": 7506222,
+    "mime": "image/svg+xml",
+    "sha256": "aa58d876f8b2f60248dfd2871cd6ac38a078e810889c4b99d9c313eb73494fe0",
+    "matches_git_reference": true
+  },
+  {
+    "path": "briefing.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/briefing.html",
+    "bytes": 7160,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "7b5a9c13010c240c60c8d4a118b45523febcff4bde83570c9c22ba05224079e0",
+    "matches_git_reference": true
+  },
+  {
+    "path": "chivalry-v3.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/chivalry-v3.css",
+    "bytes": 12113,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "79672ecbce53351b432036a0a333ab2c3ca28bd9d96339e5b8bedb2bf729ef62",
+    "matches_git_reference": true
+  },
+  {
+    "path": "client-layout-v3.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/client-layout-v3.css",
+    "bytes": 23952,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "3405d53de166f70f9fddc4b582dfb87dd48e64adfaa1f85653d51de53e297af6",
+    "matches_git_reference": true
+  },
+  {
+    "path": "company.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/company.html",
+    "bytes": 13311,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "7421f95f4d75121bed96fe011b69d030cc4aaf90d2dc2e328f30fba8eeb1e1ac",
+    "matches_git_reference": true
+  },
+  {
+    "path": "creator-social.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/creator-social.html",
+    "bytes": 9873,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "52baeced859c638bbe727f9ea312816274449644def3dd2eb38ded1e0329d6de",
+    "matches_git_reference": true
+  },
+  {
+    "path": "editorial-system.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/editorial-system.css",
+    "bytes": 29176,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "ebc85fab324bd7c143b20df27a7702b2bb19b21f08554ab6c12dc09fcb440aa9",
+    "matches_git_reference": true
+  },
+  {
+    "path": "entry-refinement.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/entry-refinement.css",
+    "bytes": 5598,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "c298cc8ec0815bd78b266526d570261691bbda1c2db9af549a339181da1e8186",
+    "matches_git_reference": true
+  },
+  {
+    "path": "feedback-v3.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/feedback-v3.css",
+    "bytes": 18108,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "56b36114005cce6ceea107fc4372b7187499cd03f3567ba7ddb5babeb1bca645",
+    "matches_git_reference": true
+  },
+  {
+    "path": "film-preview.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/film-preview.js",
+    "bytes": 3303,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "ec9549973a2c0f825c01f5d4e9edc94a1e044ae22758b175a8d99fc3d2460d11",
+    "matches_git_reference": true
+  },
+  {
+    "path": "halftone-rendering.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/halftone-rendering.js",
+    "bytes": 23955,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "f634ede2e8c281f5f412e44142bcd9e1effa94ea237f2311b401ce5bd1454562",
+    "matches_git_reference": true
+  },
+  {
+    "path": "hero-composition-v3.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/hero-composition-v3.css",
+    "bytes": 11381,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "67cea4976f77a858bb7e26dafaf1b11a0c27aaaa583ad9b670be5800e534a749",
+    "matches_git_reference": true
+  },
+  {
+    "path": "home-base.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/home-base.css",
+    "bytes": 33003,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "969b44a6025cac76174358201d843054e924d4f39b4a0d3880f62de14b700033",
+    "matches_git_reference": true
+  },
+  {
+    "path": "home-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/home-motion.js",
+    "bytes": 166790,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "37eca77a5f5ea115417c39a93c38f11cb14aaf5db8a1af93d20808a0590b10aa",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/adun-abiodun-source.jpg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/adun-abiodun-source.jpg",
+    "bytes": 79251,
+    "mime": "image/jpeg",
+    "sha256": "4aaab3e6aac06d02c21b245c83c854f0c662fe76d5f0a2871767cf584c3542d1",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/andrew-ryder-source.jpg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/andrew-ryder-source.jpg",
+    "bytes": 135471,
+    "mime": "image/jpeg",
+    "sha256": "73e1ad41a30ceb06716c88537cd8210e5334f42effb683108e6ced1c9b9248ea",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/bill-langlois-source.jpg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/bill-langlois-source.jpg",
+    "bytes": 383944,
+    "mime": "image/jpeg",
+    "sha256": "b36f9ea92f47b067e2285c9bcfa9e18aa4bbafc3cc1e6efe8d9d5a64383d483b",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/megan-page-source.jpg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/megan-page-source.jpg",
+    "bytes": 569526,
+    "mime": "image/jpeg",
+    "sha256": "e41e9eb9614fb18fcf1a6da5aedb34dc11a6ed1f6f26734c3850ca145784083a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/nick-bobrow-source.jpg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/nick-bobrow-source.jpg",
+    "bytes": 13906,
+    "mime": "image/jpeg",
+    "sha256": "fa1899c177f11f75f80a54cd29389745dd77f1876e4e9aa08555a54f7896255e",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/advisors/randy-earlier-portrait.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/advisors/randy-earlier-portrait.webp",
+    "bytes": 2707472,
+    "mime": "image/webp",
+    "sha256": "1ebf8adff576a0b8a021dbb9d86e64e02bdfd6b5bc000639976ea75ee6d0a847",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-02-4a56933bfb.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-02-4a56933bfb.svg",
+    "bytes": 2446,
+    "mime": "image/svg+xml",
+    "sha256": "4a56933bfbc481229a212e9ad0ff25312988b9ef0e012512a9d6d50b00766342",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-03-e8cf75280c.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-03-e8cf75280c.svg",
+    "bytes": 3735,
+    "mime": "image/svg+xml",
+    "sha256": "e8cf75280cbf46bf015f59859182ecec0c83c1b3d3d03323e151c6e91d4c339c",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-04-54bb728904.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-04-54bb728904.svg",
+    "bytes": 966,
+    "mime": "image/svg+xml",
+    "sha256": "54bb728904e14583753fcde786a9901b53ca9c8401ac207fb516841f9863c55a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-05-61326893f7.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-05-61326893f7.svg",
+    "bytes": 18427,
+    "mime": "image/svg+xml",
+    "sha256": "61326893f7f6809a0e499915b552b2a42fa9001b4396f4d0006a6dc0b4c7b380",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-06-f54038ef51.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-06-f54038ef51.svg",
+    "bytes": 3083,
+    "mime": "image/svg+xml",
+    "sha256": "f54038ef510158d10f318aa6da6677e7d8e23e585d616a4dd5c30347499ab626",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-07-6088e6bad3.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-07-6088e6bad3.svg",
+    "bytes": 808,
+    "mime": "image/svg+xml",
+    "sha256": "6088e6bad329d958f33dcdd5119d2d45a0231269f45ba303560cc37e6db0f557",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-08-77f467f735.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-08-77f467f735.svg",
+    "bytes": 2268,
+    "mime": "image/svg+xml",
+    "sha256": "77f467f73598d354fcd27e11c2a4183cd254f06d6fac76799756794c7c8292ec",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-09-aead6200f7.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-09-aead6200f7.svg",
+    "bytes": 2810,
+    "mime": "image/svg+xml",
+    "sha256": "aead6200f73b67a61f262eee12594c9ea79f6007e3c0f7def14913902719ca0a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-10-5b1aad3cc8.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-10-5b1aad3cc8.svg",
+    "bytes": 4121,
+    "mime": "image/svg+xml",
+    "sha256": "5b1aad3cc8f8a4f054b07154a53fe9b95ed07720432e3d8c27d8401fa116ddcf",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-11-0e3ce8eba2.svg",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-11-0e3ce8eba2.svg",
+    "bytes": 4947,
+    "mime": "image/svg+xml",
+    "sha256": "0e3ce8eba23f061da3cd02594d3b31763e16cefc600df2d80ee19123604b9c3c",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-12-36916e45b6.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-12-36916e45b6.webp",
+    "bytes": 391626,
+    "mime": "image/webp",
+    "sha256": "36916e45b6f45c331ba4de1615584922696024bb78ecbae0f218a168c490034a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-13-2e7ec4d4ce.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-13-2e7ec4d4ce.webp",
+    "bytes": 675826,
+    "mime": "image/webp",
+    "sha256": "2e7ec4d4ce52eade7caffc2a70814523c37b99912ff0c087ab40602d6c06e2d7",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/ai-catalyst/imported-14-046af0d744.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/ai-catalyst/imported-14-046af0d744.webp",
+    "bytes": 417230,
+    "mime": "image/webp",
+    "sha256": "046af0d744266ad604d3325a8409edc801762d9212ef3369d76d305a33d9b2f8",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v2/bridge-halftone.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v2/bridge-halftone.webp",
+    "bytes": 1559348,
+    "mime": "image/webp",
+    "sha256": "c6af6c2d172b9820dbccd0a698962faa24868cc9f0ae4104caa4d3610d426368",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v2/portrait-halftone.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v2/portrait-halftone.webp",
+    "bytes": 1638592,
+    "mime": "image/webp",
+    "sha256": "6056115204b9e708985d36c1a5dde8ead4c2e917e57c8c22ac31faf78b20ee9a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v3/briefing-arcade.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/briefing-arcade.webp",
+    "bytes": 1677348,
+    "mime": "image/webp",
+    "sha256": "6f0295b9d5e67123ced68a5a9d4ee6fa164b1c5294297d4384fa48cd68379e02",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v3/company-knight.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/company-knight.webp",
+    "bytes": 1336716,
+    "mime": "image/webp",
+    "sha256": "fc73173d521c91700e0dd460372a0607d6da154c1478d64902427047ba33fba7",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v3/kneeling-courtyard.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/kneeling-courtyard.webp",
+    "bytes": 1505028,
+    "mime": "image/webp",
+    "sha256": "defcca2ce905dc744726554327f095fe7fca32fcbda526ef91b9cb80a420d83f",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v3/sword-hand-outpaint-v8.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v3/sword-hand-outpaint-v8.webp",
+    "bytes": 1733460,
+    "mime": "image/webp",
+    "sha256": "0188ba5dfd3a61c7693adada80bebbd59a9acd9c6d9f499dec0df3d3d623d33e",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/ambassadors-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/ambassadors-panel-v1.webp",
+    "bytes": 2296344,
+    "mime": "image/webp",
+    "sha256": "f79fba644e28979ab38655c8b4a24f42903937ebcd63717b0f673cb34853dcaa",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/arthurian-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/arthurian-panel-v1.webp",
+    "bytes": 2094168,
+    "mime": "image/webp",
+    "sha256": "210283f43a65f5ccffb8100d5b8d46c433a81b6587e3c8c4a97f044bc7e49855",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/cavalry-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cavalry-panel-v1.webp",
+    "bytes": 1975410,
+    "mime": "image/webp",
+    "sha256": "abf9a739d3b1c2ca5255d6a58b4c35fc08042a7360967195c25e9f76769c5751",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/cloister-capitals-halftone-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cloister-capitals-halftone-v1.webp",
+    "bytes": 2081956,
+    "mime": "image/webp",
+    "sha256": "8d6e32469d0f2502bd2e4887dd5767e0da0be3a23f654100517ba710cd0a6cc8",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/cloister-garden-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/cloister-garden-panel-v1.webp",
+    "bytes": 2270702,
+    "mime": "image/webp",
+    "sha256": "ce8050db9d5dbde5dae2b27ae4be5edbd3910b1d85517fcf4d300bf2449dbd98",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/coastal-cavalry-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/coastal-cavalry-panel-v1.webp",
+    "bytes": 2084926,
+    "mime": "image/webp",
+    "sha256": "6cc441df17fc175963bdbcca80f1e85d0bdeb7e5edea109be3921805224a5942",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/mounted-approach-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/mounted-approach-panel-v1.webp",
+    "bytes": 2167644,
+    "mime": "image/webp",
+    "sha256": "ae0b4de89f703f4d1ff8502941f4b09a95dc65194580746f4271a05236a15f77",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/river-approach-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/river-approach-panel-v1.webp",
+    "bytes": 2177216,
+    "mime": "image/webp",
+    "sha256": "7464094dd1e79a470f9088a1f5f48ac874c0c9a68d248fb8b9f379a8ae93f4bb",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/secular-geographers-halftone-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/secular-geographers-halftone-v1.webp",
+    "bytes": 1982318,
+    "mime": "image/webp",
+    "sha256": "5a30f4aef3c65a7baff371f3c21dd86e2c2f3bd4846a59baa08aa30d16b86bfd",
+    "matches_git_reference": true
+  },
+  {
+    "path": "images/art-v4/tournament-panel-v1.webp",
+    "url": "https://ai-catalyst-wheat.vercel.app/images/art-v4/tournament-panel-v1.webp",
+    "bytes": 1954270,
+    "mime": "image/webp",
+    "sha256": "a4da55423c5754833cb302ca209b62f924b9eef8fc634491dcb599562a0b6aa3",
+    "matches_git_reference": true
+  },
+  {
+    "path": "index.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/index.html",
+    "bytes": 50672,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "c5146509a8e400f6f18d24ce598f1e31fdede17928a093d44425e3d86a37d2c0",
+    "matches_git_reference": true
+  },
+  {
+    "path": "local-refinements.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/local-refinements.css",
+    "bytes": 27231,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "0ee63c05a03c23ae9370ddca0564a818d9b2ca024d9e65427db6c464f07285cd",
+    "matches_git_reference": true
+  },
+  {
+    "path": "marketing-investment.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/marketing-investment.html",
+    "bytes": 11715,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "567b4f1cc8478a55cc59dd4af83d10deb4f06b8a12e69ec05f95677465e33e62",
+    "matches_git_reference": true
+  },
+  {
+    "path": "online-conversion.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/online-conversion.html",
+    "bytes": 12652,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "8b30fa80c8766205b9d2c272dab0aac5703c57dee36a8bd1c9f7872cb770ccf0",
+    "matches_git_reference": true
+  },
+  {
+    "path": "partner-neutral.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/partner-neutral.css",
+    "bytes": 637,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "bd21c646e233a141e52a17792b068aeb742d0a62f8033be261c97fa6fbfad31a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "platform-command.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/platform-command.css",
+    "bytes": 8674,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "ba58d13a91bbf959ae1a5202653b7a1eb356a5dd07ddb13cf3771d536bb46397",
+    "matches_git_reference": true
+  },
+  {
+    "path": "platform-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/platform-motion.js",
+    "bytes": 11722,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "3990cbb0532bbd0254598a79fdacc0de2d031ebcb4bd0443e9ea0e8b9f8ef03a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "platform.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/platform.html",
+    "bytes": 43323,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "8bade47721504904eba54c008dd2dcffe17c75d6add11a086c9c9625580ba012",
+    "matches_git_reference": true
+  },
+  {
+    "path": "quality-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/quality-motion.js",
+    "bytes": 2915,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "10e577420921b1580c108ea0bedc9c51369a96aae85d595d0137ab01ad10668d",
+    "matches_git_reference": true
+  },
+  {
+    "path": "quality-site.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/quality-site.css",
+    "bytes": 39063,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "ff7211880d2a3c683e7b00b12e590c3e8fe86651b32e3c035f69852b4fc42c1c",
+    "matches_git_reference": true
+  },
+  {
+    "path": "restored-content.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/restored-content.css",
+    "bytes": 18659,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "92d3dc974093c15df13b5f3bad5e2b7d068c94b72764fba52f1832ddceb4a97c",
+    "matches_git_reference": true
+  },
+  {
+    "path": "restored-home-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/restored-home-motion.js",
+    "bytes": 85978,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "161a22122d0ab45d2f8c5c0e3e21147531755900154c6023baea4cce035c37c0",
+    "matches_git_reference": true
+  },
+  {
+    "path": "restored-layout.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/restored-layout.css",
+    "bytes": 1488,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "57d68ff99959db6dd6ecc92e0cf973ce88c7e2e7e55d3a5e555acdbde2977721",
+    "matches_git_reference": true
+  },
+  {
+    "path": "restored-platform-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/restored-platform-motion.js",
+    "bytes": 10598,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "1dddcfb22667f1d8c28e5c5d032fcbbd5cde3d14997f679c376b13dbec0fee53",
+    "matches_git_reference": true
+  },
+  {
+    "path": "restored-subpage-hero.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/restored-subpage-hero.js",
+    "bytes": 6314,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "19f7b830d7c9c7b97575a7419cae4e54e59cd0ef2d2ce635e2cdbc2808ba033a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "revision-content.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/revision-content.css",
+    "bytes": 18659,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "92d3dc974093c15df13b5f3bad5e2b7d068c94b72764fba52f1832ddceb4a97c",
+    "matches_git_reference": true
+  },
+  {
+    "path": "revision-enquiry.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/revision-enquiry.js",
+    "bytes": 1881,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "05531b2463e1fb72339ce119665d7394bc10f4d89002b5c49ce3f126c09f608b",
+    "matches_git_reference": true
+  },
+  {
+    "path": "service-motion.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/service-motion.js",
+    "bytes": 1274,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "41af7e62bc56d93d803c036461ce8220cac1b8baaf5b29545412e775f4540b43",
+    "matches_git_reference": true
+  },
+  {
+    "path": "simplified-navigation.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/simplified-navigation.css",
+    "bytes": 3024,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "b056ca8b13a253213939f6e5aa6cbe9647c3c2108028876bbce1431ac18cabc5",
+    "matches_git_reference": true
+  },
+  {
+    "path": "site-shell.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/site-shell.js",
+    "bytes": 4378,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "be05576cb635fc507b80a7caeace3b59bbf2eebdace61cbcaa7e1fcbf309d39f",
+    "matches_git_reference": true
+  },
+  {
+    "path": "site-story.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/site-story.js",
+    "bytes": 2750,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "32625ee7b87524308d08485f672796e404999605fec65513bc5f6d47c8491d11",
+    "matches_git_reference": true
+  },
+  {
+    "path": "site-system.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/site-system.css",
+    "bytes": 11154,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "559cf1d14f3e2c24c5307c79b3b32410b335e2ba7ca3950cfd6492c45894407a",
+    "matches_git_reference": true
+  },
+  {
+    "path": "solutions-overrides.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/solutions-overrides.css",
+    "bytes": 1804,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "6e1d7206472bd5bb1e00685ae33303d06f412e6674b4df0bd8761c5beb796af8",
+    "matches_git_reference": true
+  },
+  {
+    "path": "solutions.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/solutions.html",
+    "bytes": 10694,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "bd1fd13ff1aea827499fbfee8869ba6985d02a4816a063226c933ea50da53045",
+    "matches_git_reference": true
+  },
+  {
+    "path": "subpage-hero.js",
+    "url": "https://ai-catalyst-wheat.vercel.app/subpage-hero.js",
+    "bytes": 6313,
+    "mime": "application/javascript; charset=utf-8",
+    "sha256": "19ed4f5ad65602282157a8f8e1399785afb5f9625ef1702f8eb8b13cbb383412",
+    "matches_git_reference": true
+  },
+  {
+    "path": "subpages.css",
+    "url": "https://ai-catalyst-wheat.vercel.app/subpages.css",
+    "bytes": 33296,
+    "mime": "text/css; charset=utf-8",
+    "sha256": "b10293c221698c9d79ae0e1f8831956e09e57d2f501e123ad413a99dbc07b773",
+    "matches_git_reference": true
+  },
+  {
+    "path": "training.html",
+    "url": "https://ai-catalyst-wheat.vercel.app/training.html",
+    "bytes": 8727,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "d93777aaee7e13f9c7feed4ad8ee2e52f3f14d1a534e4dadb0e34630d723d3f3",
+    "matches_git_reference": true
+  }
+]
