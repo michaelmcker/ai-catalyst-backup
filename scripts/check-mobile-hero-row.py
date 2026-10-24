@@ -132,6 +132,7 @@ def load_baseline(path):
                         'paragraph':APPROVED_PARAGRAPHS['briefing'],'action':''}
     for page,paragraph in APPROVED_PARAGRAPHS.items():
         result[page]=dict(result[page],paragraph=paragraph)
+    result['training']=dict(result['training'],headline='Put AI to work.')
     for page in PAGES:
         result[page]=dict(result[page],action=result[page].get('action','').replace('↗',''))
     return result

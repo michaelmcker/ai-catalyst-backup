@@ -52,7 +52,12 @@ def replace_literal_arrows(source,path):
 def revise_paragraph(source,page):
     before,after=PARAGRAPH_REVISIONS[page]
     assert source.count('<p>'+before+'</p>')==1,page+': approved paragraph exception does not match its source'
-    return source.replace('<p>'+before+'</p>','<p>'+after+'</p>',1)
+    source=source.replace('<p>'+before+'</p>','<p>'+after+'</p>',1)
+    if page=='training':
+        headline='<h1>Put AI to work. Make it yours.</h1>'
+        assert source.count(headline)==1,'training: approved shorter headline does not match its source'
+        source=source.replace(headline,'<h1>Put AI to work.</h1>',1)
+    return source
 
 def delivery_manifest():
     data=DELIVERY_MANIFEST.read_bytes()
