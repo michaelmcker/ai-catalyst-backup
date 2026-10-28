@@ -1,0 +1,32 @@
+[
+  {
+    "page": "marketing-investment",
+    "copy": "Full Commerce MMM\n\nSee what drives sales across the full commerce mix. Compare the next allocation before you commit.",
+    "css": "service-films.css?v=20261027-film2",
+    "heading": "Full Commerce MMM",
+    "headingCount": 1,
+    "introAboveVideo": true,
+    "overflow": false,
+    "youtube": "Tu0k3DwfSoU"
+  },
+  {
+    "page": "training",
+    "copy": "Build the tools your team will use.\n\nBrief builders, brand guidance and decision workflows, developed around real work.",
+    "css": "service-films.css?v=20261027-film2",
+    "heading": "Build the tools your team will use.",
+    "headingCount": 1,
+    "introAboveVideo": true,
+    "overflow": false,
+    "youtube": "aMTtgMEdvO4"
+  },
+  {
+    "page": "online-conversion",
+    "copy": "Conversation.\nAt the point of purchase.\n\nAn AI jewellery expert brings product guidance into Analucia’s online shopping experience.\n\nThe host explains the jewellery, helps shoppers find the right piece and guides them towards a purchase. Every conversation reveals the questions behind the choice.",
+    "css": "service-films.css?v=20261027-film2",
+    "heading": "Conversation.\nAt the point of purchase.",
+    "headingCount": 1,
+    "introAboveVideo": true,
+    "overflow": false,
+    "youtube": "MzZwU48xdvE"
+  }
+]

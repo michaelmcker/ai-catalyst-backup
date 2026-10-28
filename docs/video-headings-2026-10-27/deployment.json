@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/Vancouver",
+  "project": "ai-catalyst",
+  "environment": "production",
+  "deploymentId": "8290babd-6e50-4d2e-99f0-324839f4b966",
+  "deploymentUrl": "https://8290babd.ai-catalyst-9l3.pages.dev",
+  "previousProduction": "ce68cdf5-4aee-4a02-8347-13ca7ca948bc",
+  "canonicalReadBack": true,
+  "status": "success",
+  "codeCommit": "59bfe1323b684d01c5cc4389d8f72833564e22d3",
+  "githubMainUpdated": true,
+  "assets": 109,
+  "changedAssets": 4,
+  "preservedAssets": 105,
+  "livePages": [
+    "https://aicatalyst.biz/marketing-investment#mmm-film",
+    "https://aicatalyst.biz/training#training-film",
+    "https://aicatalyst.biz/online-conversion#agentic-selling-film"
+  ],
+  "verified": {
+    "existingHeadlineAndSubheadAboveEachVideo": true,
+    "eachHeadlineAppearsOnce": true,
+    "videoIdsUnchanged": true,
+    "desktopAndMobileLayouts": true,
+    "noHorizontalOverflow": true,
+    "repositoryTestsPassedBefore": 171,
+    "repositoryTestsPassedAfter": 171,
+    "strictOriginalSourcePreservation": true
+  }
+}
