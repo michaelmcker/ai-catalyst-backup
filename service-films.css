@@ -1,0 +1,16 @@
+/* Service-page films: a quiet blue poster, normal YouTube playback on demand. */
+.service-film-section{position:relative;z-index:2;padding-top:48px;padding-bottom:48px;scroll-margin-top:96px}
+.service-film{position:relative;width:100%;aspect-ratio:16/9;margin:0;overflow:hidden;background:#edf7ff}
+.service-film__play{position:absolute;inset:0;display:block;width:100%;height:100%;color:white;background:#edf7ff}
+.service-film__poster{position:absolute;inset:0;display:block;background:#edf7ff;filter:url(#service-film-blue-tone)}
+.service-film__poster img{display:block;width:100%;height:100%;object-fit:cover}
+.service-film__icon{position:absolute;z-index:2;left:50%;top:50%;display:grid;place-items:center;width:88px;height:88px;border-radius:50%;transform:translate(-50%,-50%);background:#061b74;color:white;box-shadow:0 0 0 1px #ffffff80,0 5px 28px #061b7430;transition:transform .2s}
+.service-film__icon svg{width:31px;height:31px;margin-left:5px;fill:currentColor}
+.service-film__play:hover .service-film__icon{transform:translate(-50%,-50%) scale(1.07)}
+.service-film__play:focus-visible{outline:4px solid #1a55f4;outline-offset:-4px}
+.service-film__duration{position:absolute;z-index:2;right:20px;bottom:20px;padding:4px 7px;background:#061b74;color:white;font-size:13px;font-weight:400}
+.service-film iframe{display:block;position:absolute;inset:0;width:100%;height:100%;border:0;background:#061b74}
+.service-film [hidden]{display:none!important}
+.service-film-filter{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
+@media(max-width:700px){.service-film-section{padding-top:24px;padding-bottom:24px}.service-film__icon{width:62px;height:62px}.service-film__icon svg{width:24px;height:24px}.service-film__duration{right:12px;bottom:12px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){.service-film__icon{transition:none}}

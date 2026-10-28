@@ -209,6 +209,17 @@ def expected(path,source):
         s=apply_image_delivery(s,path)
         s=apply_deferred_images(s,path)
         s=version_logo_urls(s,path)
+        # October 27: the three authorized service films sit after each complete
+        # hero. Keep the exact additions separate so every original byte still
+        # passes the existing source-preservation comparison.
+        films=json.loads((ROOT/'scripts/service-films-markup.json').read_text())
+        if path in films['sections']:
+            hero=s.index('<section class="page-hero ')
+            end=s.index('</section>',hero)+len('</section>')
+            s=s[:end]+films['sections'][path]+s[end:]
+            s=s.replace('<main id="main">','<main id="main">'+films['filter'],1)
+            s=s.replace('</head>',films['stylesheet']+'</head>',1)
+            s=s.replace('</body>',films['script']+'</body>',1)
         source=s.encode()
     return source
 

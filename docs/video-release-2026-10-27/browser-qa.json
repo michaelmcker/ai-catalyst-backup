@@ -1,0 +1,62 @@
+[
+  {
+    "page": "marketing-investment",
+    "viewport": 1280,
+    "followsHero": true,
+    "height": 639.359375,
+    "iframeCount": 1,
+    "overflow": false,
+    "posterReady": true,
+    "width": 1136.640625,
+    "youtube": "Tu0k3DwfSoU"
+  },
+  {
+    "page": "training",
+    "viewport": 1280,
+    "followsHero": true,
+    "height": 639.359375,
+    "iframeCount": 0,
+    "overflow": false,
+    "posterReady": true,
+    "width": 1136.640625,
+    "youtube": "aMTtgMEdvO4"
+  },
+  {
+    "page": "online-conversion",
+    "viewport": 1280,
+    "followsHero": true,
+    "height": 639.359375,
+    "iframeCount": 0,
+    "overflow": false,
+    "posterReady": true,
+    "width": 1136.640625,
+    "youtube": "MzZwU48xdvE"
+  },
+  {
+    "page": "marketing-investment",
+    "viewport": 390,
+    "height": 192.375,
+    "iframeCount": 0,
+    "overflow": false,
+    "width": 342,
+    "youtube": "Tu0k3DwfSoU"
+  },
+  {
+    "page": "training",
+    "viewport": 390,
+    "height": 192.375,
+    "iframeCount": 0,
+    "overflow": false,
+    "width": 342,
+    "youtube": "aMTtgMEdvO4"
+  },
+  {
+    "page": "online-conversion",
+    "viewport": 390,
+    "height": 192.375,
+    "iframeCount": 0,
+    "overflow": false,
+    "width": 342,
+    "youtube": "MzZwU48xdvE"
+  }
+]

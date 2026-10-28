@@ -1,0 +1,55 @@
+{
+  "baseDeployment": "1c1a2107-18ae-4ba9-9105-f943b5354ea2",
+  "total": 109,
+  "unchanged": 101,
+  "changes": [
+    {
+      "path": "/marketing-investment.html",
+      "before": "57cd24e47efe69aa2547f5857a463444",
+      "after": "a22a0391f6dd3bf2d73a839919f8222a",
+      "bytes": 14784
+    },
+    {
+      "path": "/training.html",
+      "before": "d41edea35b131d67080dc206ed37fb87",
+      "after": "a5cc26d96065b7abb2459fcdd473542c",
+      "bytes": 11569
+    },
+    {
+      "path": "/online-conversion.html",
+      "before": "3d296bfe1f80395f4bb87445f7ca5753",
+      "after": "fad1ce67ce438459bc455c30a154685e",
+      "bytes": 15748
+    },
+    {
+      "path": "/service-films.css",
+      "before": null,
+      "after": "46caf501563b239d80de02a47846245c",
+      "bytes": 1864
+    },
+    {
+      "path": "/service-films.js",
+      "before": null,
+      "after": "9bba77a61fc499629ea703429dcb439a",
+      "bytes": 887
+    },
+    {
+      "path": "/assets/video-posters/mmm-20261027.jpg",
+      "before": null,
+      "after": "66d78bf696559a921fff9211f098e7a1",
+      "bytes": 90766
+    },
+    {
+      "path": "/assets/video-posters/training-20261027.jpg",
+      "before": null,
+      "after": "7bdc63854ddd68372875a65dff0f93d3",
+      "bytes": 84885
+    },
+    {
+      "path": "/assets/video-posters/agentic-selling-20261027.jpg",
+      "before": null,
+      "after": "66a39ce54e7a820efb715919b28e248c",
+      "bytes": 79609
+    }
+  ]
+}
