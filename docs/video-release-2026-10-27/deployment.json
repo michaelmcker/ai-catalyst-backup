@@ -34,7 +34,17 @@
     "trainingAndAgenticEmbeddedPlayback": "observed on hosted preview"
   },
   "supersededYoutubeUploads": {
-    "ids": ["nG7MoPceUaw", "ra0zG9IOgpQ"],
-    "status": "awaiting permanent-delete action-time confirmation"
+    "ids": [
+      "nG7MoPceUaw",
+      "ra0zG9IOgpQ"
+    ],
+    "status": "permanently deleted after explicit user confirmation",
+    "verifiedAbsentAfterChannelReload": true,
+    "remainingVideoIds": [
+      "aMTtgMEdvO4",
+      "MzZwU48xdvE",
+      "Tu0k3DwfSoU",
+      "q0T5rtU1VG8"
+    ]
   }
 }
