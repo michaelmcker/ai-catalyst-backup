@@ -1,0 +1,26 @@
+[
+  {
+    "page": "training",
+    "heroFollowedByFilm": true,
+    "overflow": false,
+    "posterLoaded": true,
+    "script": "service-films.js?v=20261027-film1",
+    "youtube": "aMTtgMEdvO4"
+  },
+  {
+    "page": "marketing-investment",
+    "heroFollowedByFilm": true,
+    "overflow": false,
+    "posterLoaded": true,
+    "script": "service-films.js?v=20261027-film1",
+    "youtube": "Tu0k3DwfSoU"
+  },
+  {
+    "page": "online-conversion",
+    "heroFollowedByFilm": true,
+    "overflow": false,
+    "posterLoaded": true,
+    "script": "service-films.js?v=20261027-film1",
+    "youtube": "MzZwU48xdvE"
+  }
+]

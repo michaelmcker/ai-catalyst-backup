@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/Vancouver",
+  "project": "ai-catalyst",
+  "environment": "production",
+  "deploymentId": "ce68cdf5-4aee-4a02-8347-13ca7ca948bc",
+  "deploymentUrl": "https://ce68cdf5.ai-catalyst-9l3.pages.dev",
+  "previewDeploymentId": "a9c72006-1850-40cb-b357-5faa8de9bcc4",
+  "previousProduction": "1c1a2107-18ae-4ba9-9105-f943b5354ea2",
+  "status": "success",
+  "canonicalReadBack": true,
+  "codeCommit": "226cfa56da89fb285da1818359b7a1bb10dc362c",
+  "githubMainUpdated": true,
+  "githubExistingBranchUpdated": "codex/direct-vercel-transfer",
+  "assets": 109,
+  "changedAssets": 8,
+  "preservedAssets": 101,
+  "livePages": {
+    "https://aicatalyst.biz/marketing-investment": "Tu0k3DwfSoU",
+    "https://aicatalyst.biz/training": "aMTtgMEdvO4",
+    "https://aicatalyst.biz/online-conversion": "MzZwU48xdvE"
+  },
+  "checks": {
+    "baselineRepositoryTestsPassed": 171,
+    "finalRepositoryTestsPassed": 171,
+    "publicSite": "passed",
+    "strictSourcePreservationWithAuthorizedFilmAdditions": "passed",
+    "compositorAndSchedulerNegativeControls": "passed",
+    "deferredRenderer": "passed",
+    "imageLoader": "passed",
+    "desktopAndPhoneLayouts": "passed",
+    "livePageIdsAndPlacement": "verified",
+    "mmmEmbeddedPlayback": "observed locally",
+    "trainingAndAgenticEmbeddedPlayback": "observed on hosted preview"
+  },
+  "supersededYoutubeUploads": {
+    "ids": ["nG7MoPceUaw", "ra0zG9IOgpQ"],
+    "status": "awaiting permanent-delete action-time confirmation"
+  }
+}
