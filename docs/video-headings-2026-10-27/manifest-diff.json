@@ -1,0 +1,32 @@
+{
+  "baseDeployment": "ce68cdf5-4aee-4a02-8347-13ca7ca948bc",
+  "total": 109,
+  "changed": 4,
+  "unchanged": 105,
+  "changes": [
+    {
+      "path": "/marketing-investment.html",
+      "before": "a22a0391f6dd3bf2d73a839919f8222a",
+      "after": "0721aa63d56eecb35b7852d345d5a07b",
+      "bytes": 14794
+    },
+    {
+      "path": "/training.html",
+      "before": "a5cc26d96065b7abb2459fcdd473542c",
+      "after": "24b6c8c102efd1ccdeb75b4cdff3456b",
+      "bytes": 11609
+    },
+    {
+      "path": "/online-conversion.html",
+      "before": "fad1ce67ce438459bc455c30a154685e",
+      "after": "a471412f4496b597596e31640210def8",
+      "bytes": 15652
+    },
+    {
+      "path": "/service-films.css",
+      "before": "46caf501563b239d80de02a47846245c",
+      "after": "205e0b20a646c14b0ddb55b033809105",
+      "bytes": 2557
+    }
+  ]
+}

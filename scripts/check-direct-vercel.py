@@ -214,6 +214,14 @@ def expected(path,source):
         # passes the existing source-preservation comparison.
         films=json.loads((ROOT/'scripts/service-films-markup.json').read_text())
         if path in films['sections']:
+            # Move the exact existing introduction above its film, with no
+            # duplicate copy or changes to the remaining page narrative.
+            move=films['moves'][path]
+            assert s.count(move['remove'])==1,path+': original film introduction differs'
+            s=s.replace(move['remove'],'',1)
+            for before,after in move['replacements']:
+                assert s.count(before)==1,path+': film follow-up section differs'
+                s=s.replace(before,after,1)
             hero=s.index('<section class="page-hero ')
             end=s.index('</section>',hero)+len('</section>')
             s=s[:end]+films['sections'][path]+s[end:]

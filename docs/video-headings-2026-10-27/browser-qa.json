@@ -1,0 +1,62 @@
+[
+  {
+    "page": "marketing-investment",
+    "width": 1280,
+    "copy": "Full Commerce MMM\n\nSee what drives sales across the full commerce mix. Compare the next allocation before you commit.",
+    "heading": "Full Commerce MMM",
+    "introAboveVideo": true,
+    "matchingHeadingCount": 1,
+    "overflow": false,
+    "videoHeight": 639.359375,
+    "videoWidth": 1136.640625
+  },
+  {
+    "page": "training",
+    "width": 1280,
+    "copy": "Build the tools your team will use.\n\nBrief builders, brand guidance and decision workflows, developed around real work.",
+    "heading": "Build the tools your team will use.",
+    "introAboveVideo": true,
+    "matchingHeadingCount": 1,
+    "overflow": false,
+    "videoHeight": 639.359375,
+    "videoWidth": 1136.640625
+  },
+  {
+    "page": "online-conversion",
+    "width": 1280,
+    "copy": "Conversation.\nAt the point of purchase.\n\nAn AI jewellery expert brings product guidance into Analucia’s online shopping experience.\n\nThe host explains the jewellery, helps shoppers find the right piece and guides them towards a purchase. Every conversation reveals the questions behind the choice.",
+    "heading": "Conversation.At the point of purchase.",
+    "introAboveVideo": true,
+    "matchingHeadingCount": 1,
+    "overflow": false,
+    "videoHeight": 639.359375,
+    "videoWidth": 1136.640625
+  },
+  {
+    "page": "marketing-investment",
+    "width": 390,
+    "heading": "Full Commerce MMM",
+    "introAboveVideo": true,
+    "overflow": false,
+    "videoHeight": 192.375,
+    "videoWidth": 342
+  },
+  {
+    "page": "training",
+    "width": 390,
+    "heading": "Build the tools your team will use.",
+    "introAboveVideo": true,
+    "overflow": false,
+    "videoHeight": 192.375,
+    "videoWidth": 342
+  },
+  {
+    "page": "online-conversion",
+    "width": 390,
+    "heading": "Conversation.\nAt the point of purchase.",
+    "introAboveVideo": true,
+    "overflow": false,
+    "videoHeight": 192.375,
+    "videoWidth": 342
+  }
+]
