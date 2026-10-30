@@ -2,6 +2,8 @@
 
 ## Latest instruction — 30 October 2026
 
+- Revised October 30 films replace the three service embeds and the local overview-film references. Use the current IDs and settings in `docs/video-refresh-2026-10-30/uploads.json`. Homepage and Command Centre engine rows use MMM for Creator Intelligence and Full Commerce MMM, and Agentic Live Selling for Agentic Consumer Intelligence. Preserve the contextual copy and on-demand playback.
+- Navigation now begins How We Work, Training and adoption, Command Centre, Company, Case studies, Start a conversation. This supersedes the former Company-first order; Training still immediately follows How We Work.
 - Case studies are a static tile index and detail pages, with no CMS, admin, login or database dependency. Edit `content/case-studies.json` and run `python3 scripts/build-case-studies.py`; use `--check` for exact generated-output verification. Preserve the link-only homepage. The old CMS source is retained in Git history; its Worker routes and scheduler are retired.
 - Every public footer loads `footer-refinement.css?v=20261030-footer1`: 160px desktop / 140px phone logo, contained bridge art up to 880px wide and 240px high (140px high on phones), and a footer-only `data-art-print="0.34"` override. Preserve the bridge source file and the renderer/shaders.
 

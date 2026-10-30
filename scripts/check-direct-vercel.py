@@ -230,6 +230,7 @@ def expected(path,source):
             s=s.replace('</body>',films['script']+'</body>',1)
         s=add_case_study(s,path)
         s=add_footer_refinement(s,path)
+        s=add_video_refresh(s,path)
         source=s.encode()
     return source
 
@@ -250,6 +251,14 @@ def add_footer_refinement(s,path):
     assert s.count(marker)==1,path+': expected one footer artwork profile'
     s=s.replace(marker,marker+' data-art-print="0.34"',1)
     return s.replace('</head>','<link rel="stylesheet" href="footer-refinement.css?v=20261030-footer1"></head>',1)
+
+def add_video_refresh(s,path):
+    """Apply only the exact October 30 film-placement and menu edits."""
+    patches=json.loads((ROOT/'scripts/video-refresh-markup.json').read_text())
+    for before,after in patches.get(path,[]):
+        assert s.count(before)==1,path+': October 30 film/menu source anchor differs'
+        s=s.replace(before,after,1)
+    return s
 
 def capture(source,pattern,label):
     result=re.search(pattern,source)
@@ -503,7 +512,7 @@ def check():
     approved=apply_deferred_images(approved.decode(),'briefing.html').encode()
     approved=version_logo_urls(approved.decode(),'briefing.html').encode()
     approved=add_case_study(approved.decode(),'briefing.html').encode()
-    approved=add_footer_refinement(approved.decode(),'briefing.html').encode()
+    approved=add_video_refresh(add_footer_refinement(approved.decode(),'briefing.html'),'briefing.html').encode()
     for prefix in ('current-site/',''):
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:
             fail.append(prefix+'briefing.html: changed outside the explicit Briefing checkpoint exceptions')

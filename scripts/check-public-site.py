@@ -50,6 +50,8 @@ for page in pages:
     menu_doc = Links()
     menu_doc.feed(menu[1] if menu else '')
     routes = [a['href'].lstrip('/') for a in menu_doc.links]
+    if routes[:2] != ['solutions.html','training.html'] or routes.index('company.html') < routes.index('platform.html'):
+        failures.append(f'{page.name}: How We Work and Training must lead the menu, with Company below Command Centre')
     if 'solutions.html' not in routes or routes[routes.index('solutions.html') + 1:][:1] != ['training.html']:
         failures.append(f'{page.name}: Training must follow How We Work')
     if sum(a['text'].strip() == 'Training and adoption' for a in menu_doc.links) != 1:

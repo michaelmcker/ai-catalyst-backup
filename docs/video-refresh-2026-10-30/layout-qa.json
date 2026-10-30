@@ -1,0 +1,1322 @@
+[
+  {
+    "films": [
+      {
+        "height": 149.0625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 265
+      },
+      {
+        "height": 149.0625,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 265
+      },
+      {
+        "height": 149.0625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 265
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 4191.048828125,
+          "height": 381.2109375,
+          "left": 20,
+          "right": 285,
+          "top": 3809.837890625,
+          "width": 265,
+          "x": 20,
+          "y": 3809.837890625
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 4380.5546875,
+          "height": 149.0625,
+          "left": 20,
+          "right": 285,
+          "top": 4231.4921875,
+          "width": 265,
+          "x": 20,
+          "y": 4231.4921875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4938.962890625,
+          "height": 431.8515625,
+          "left": 20,
+          "right": 285,
+          "top": 4507.111328125,
+          "width": 265,
+          "x": 20,
+          "y": 4507.111328125
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 5128.46875,
+          "height": 149.0625,
+          "left": 20,
+          "right": 285,
+          "top": 4979.40625,
+          "width": 265,
+          "x": 20,
+          "y": 4979.40625
+        }
+      },
+      {
+        "copy": {
+          "bottom": 5607.681640625,
+          "height": 352.65625,
+          "left": 20,
+          "right": 285,
+          "top": 5255.025390625,
+          "width": 265,
+          "x": 20,
+          "y": 5255.025390625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 5797.1875,
+          "height": 149.0625,
+          "left": 20,
+          "right": 285,
+          "top": 5648.125,
+          "width": 265,
+          "x": 20,
+          "y": 5648.125
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/index.html",
+    "width": 320
+  },
+  {
+    "films": [
+      {
+        "height": 144.5625,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 257
+      },
+      {
+        "height": 144.5625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 257
+      },
+      {
+        "height": 144.5625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 257
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3654.84375,
+          "height": 661.4453125,
+          "left": 24,
+          "right": 281,
+          "top": 2993.3984375,
+          "width": 257,
+          "x": 24,
+          "y": 2993.3984375
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 3841.40625,
+          "height": 144.5625,
+          "left": 24,
+          "right": 281,
+          "top": 3696.84375,
+          "width": 257,
+          "x": 24,
+          "y": 3696.84375
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4628.8515625,
+          "height": 634.4453125,
+          "left": 24,
+          "right": 281,
+          "top": 3994.40625,
+          "width": 257,
+          "x": 24,
+          "y": 3994.40625
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 4815.4140625,
+          "height": 144.5625,
+          "left": 24,
+          "right": 281,
+          "top": 4670.8515625,
+          "width": 257,
+          "x": 24,
+          "y": 4670.8515625
+        }
+      },
+      {
+        "copy": {
+          "bottom": 5561.6875,
+          "height": 593.2734375,
+          "left": 24,
+          "right": 281,
+          "top": 4968.4140625,
+          "width": 257,
+          "x": 24,
+          "y": 4968.4140625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 5748.25,
+          "height": 144.5625,
+          "left": 24,
+          "right": 281,
+          "top": 5603.6875,
+          "width": 257,
+          "x": 24,
+          "y": 5603.6875
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/platform.html",
+    "width": 320
+  },
+  {
+    "films": [
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 327
+      },
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 327
+      },
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 327
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3941.9189453125,
+          "height": 313.8125,
+          "left": 24,
+          "right": 351,
+          "top": 3628.1064453125,
+          "width": 327,
+          "x": 24,
+          "y": 3628.1064453125
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 4166.3828125,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 3982.4453125,
+          "width": 327,
+          "x": 24,
+          "y": 3982.4453125
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4645.5126953125,
+          "height": 352.65625,
+          "left": 24,
+          "right": 351,
+          "top": 4292.8564453125,
+          "width": 327,
+          "x": 24,
+          "y": 4292.8564453125
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 4869.9765625,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 4686.0390625,
+          "width": 327,
+          "x": 24,
+          "y": 4686.0390625
+        }
+      },
+      {
+        "copy": {
+          "bottom": 5320.5517578125,
+          "height": 324.1015625,
+          "left": 24,
+          "right": 351,
+          "top": 4996.4501953125,
+          "width": 327,
+          "x": 24,
+          "y": 4996.4501953125
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 5545.015625,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 5361.078125,
+          "width": 327,
+          "x": 24,
+          "y": 5361.078125
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/index.html",
+    "width": 390
+  },
+  {
+    "films": [
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 327
+      },
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 327
+      },
+      {
+        "height": 183.9375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 327
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3376.1171875,
+          "height": 539.5234375,
+          "left": 24,
+          "right": 351,
+          "top": 2836.59375,
+          "width": 327,
+          "x": 24,
+          "y": 2836.59375
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 3602.0546875,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 3418.1171875,
+          "width": 327,
+          "x": 24,
+          "y": 3418.1171875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4294.578125,
+          "height": 539.5234375,
+          "left": 24,
+          "right": 351,
+          "top": 3755.0546875,
+          "width": 327,
+          "x": 24,
+          "y": 3755.0546875
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 4520.515625,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 4336.578125,
+          "width": 327,
+          "x": 24,
+          "y": 4336.578125
+        }
+      },
+      {
+        "copy": {
+          "bottom": 5211.0625,
+          "height": 537.546875,
+          "left": 24,
+          "right": 351,
+          "top": 4673.515625,
+          "width": 327,
+          "x": 24,
+          "y": 4673.515625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 5437,
+          "height": 183.9375,
+          "left": 24,
+          "right": 351,
+          "top": 5253.0625,
+          "width": 327,
+          "x": 24,
+          "y": 5253.0625
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/platform.html",
+    "width": 390
+  },
+  {
+    "films": [
+      {
+        "height": 200.640625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 356.6953125
+      },
+      {
+        "height": 200.640625,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 356.6953125
+      },
+      {
+        "height": 200.640625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 356.6953125
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3665.61083984375,
+          "height": 307.84375,
+          "left": 40,
+          "right": 309.1953125,
+          "top": 3357.76708984375,
+          "width": 269.1953125,
+          "x": 40,
+          "y": 3357.76708984375
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 3610.453125,
+          "height": 200.640625,
+          "left": 356.3046875,
+          "right": 713,
+          "top": 3409.8125,
+          "width": 356.6953125,
+          "x": 356.3046875,
+          "y": 3409.8125
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4223.52490234375,
+          "height": 380.9140625,
+          "left": 443.8046875,
+          "right": 713,
+          "top": 3842.61083984375,
+          "width": 269.1953125,
+          "x": 443.8046875,
+          "y": 3842.61083984375
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 4131.828125,
+          "height": 200.640625,
+          "left": 40,
+          "right": 396.6953125,
+          "top": 3931.1875,
+          "width": 356.6953125,
+          "x": 40,
+          "y": 3931.1875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4758.04833984375,
+          "height": 342.5234375,
+          "left": 40,
+          "right": 309.1953125,
+          "top": 4415.52490234375,
+          "width": 269.1953125,
+          "x": 40,
+          "y": 4415.52490234375
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4685.546875,
+          "height": 200.640625,
+          "left": 356.3046875,
+          "right": 713,
+          "top": 4484.90625,
+          "width": 356.6953125,
+          "x": 356.3046875,
+          "y": 4484.90625
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/index.html",
+    "width": 768
+  },
+  {
+    "films": [
+      {
+        "height": 196.8515625,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 349.96875
+      },
+      {
+        "height": 196.8515625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 349.96875
+      },
+      {
+        "height": 196.8515625,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 349.96875
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 2992.4375,
+          "height": 669.53125,
+          "left": 40,
+          "right": 309.1953125,
+          "top": 2322.90625,
+          "width": 269.1953125,
+          "x": 40,
+          "y": 2322.90625
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 2756.09375,
+          "height": 196.8515625,
+          "left": 363.03125,
+          "right": 713,
+          "top": 2559.2421875,
+          "width": 349.96875,
+          "x": 363.03125,
+          "y": 2559.2421875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 3854.46875,
+          "height": 641.03125,
+          "left": 443.8046875,
+          "right": 713,
+          "top": 3213.4375,
+          "width": 269.1953125,
+          "x": 443.8046875,
+          "y": 3213.4375
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 3632.375,
+          "height": 196.8515625,
+          "left": 40,
+          "right": 389.96875,
+          "top": 3435.5234375,
+          "width": 349.96875,
+          "x": 40,
+          "y": 3435.5234375
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4676.25,
+          "height": 600.78125,
+          "left": 40,
+          "right": 309.1953125,
+          "top": 4075.46875,
+          "width": 269.1953125,
+          "x": 40,
+          "y": 4075.46875
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4474.28125,
+          "height": 196.8515625,
+          "left": 363.03125,
+          "right": 713,
+          "top": 4277.4296875,
+          "width": 349.96875,
+          "x": 363.03125,
+          "y": 4277.4296875
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/platform.html",
+    "width": 768
+  },
+  {
+    "films": [
+      {
+        "height": 276.9609375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 492.3828125
+      },
+      {
+        "height": 276.9609375,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 492.3828125
+      },
+      {
+        "height": 276.9609375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 492.3828125
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3487.84228515625,
+          "height": 291.2734375,
+          "left": 40,
+          "right": 411.59375,
+          "top": 3196.56884765625,
+          "width": 371.59375,
+          "x": 40,
+          "y": 3196.56884765625
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 3479.203125,
+          "height": 276.9609375,
+          "left": 476.6171875,
+          "right": 969,
+          "top": 3202.2421875,
+          "width": 492.3828125,
+          "x": 476.6171875,
+          "y": 3202.2421875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 3995.06103515625,
+          "height": 329.3515625,
+          "left": 597.40625,
+          "right": 969,
+          "top": 3665.70947265625,
+          "width": 371.59375,
+          "x": 597.40625,
+          "y": 3665.70947265625
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 3967.3828125,
+          "height": 276.9609375,
+          "left": 40,
+          "right": 532.3828125,
+          "top": 3690.421875,
+          "width": 492.3828125,
+          "x": 40,
+          "y": 3690.421875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4479.19384765625,
+          "height": 291.2734375,
+          "left": 40,
+          "right": 411.59375,
+          "top": 4187.92041015625,
+          "width": 371.59375,
+          "x": 40,
+          "y": 4187.92041015625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4470.5546875,
+          "height": 276.9609375,
+          "left": 476.6171875,
+          "right": 969,
+          "top": 4193.59375,
+          "width": 492.3828125,
+          "x": 476.6171875,
+          "y": 4193.59375
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/index.html",
+    "width": 1024
+  },
+  {
+    "films": [
+      {
+        "height": 271.734375,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 483.09375
+      },
+      {
+        "height": 271.734375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 483.09375
+      },
+      {
+        "height": 271.734375,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 483.09375
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 2921.984375,
+          "height": 517.921875,
+          "left": 40,
+          "right": 411.59375,
+          "top": 2404.0625,
+          "width": 371.59375,
+          "x": 40,
+          "y": 2404.0625
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 2798.890625,
+          "height": 271.734375,
+          "left": 485.90625,
+          "right": 969,
+          "top": 2527.15625,
+          "width": 483.09375,
+          "x": 485.90625,
+          "y": 2527.15625
+        }
+      },
+      {
+        "copy": {
+          "bottom": 3632.40625,
+          "height": 489.421875,
+          "left": 597.40625,
+          "right": 969,
+          "top": 3142.984375,
+          "width": 371.59375,
+          "x": 597.40625,
+          "y": 3142.984375
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 3523.5625,
+          "height": 271.734375,
+          "left": 40,
+          "right": 523.09375,
+          "top": 3251.828125,
+          "width": 483.09375,
+          "x": 40,
+          "y": 3251.828125
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4399.828125,
+          "height": 546.421875,
+          "left": 40,
+          "right": 411.59375,
+          "top": 3853.40625,
+          "width": 371.59375,
+          "x": 40,
+          "y": 3853.40625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4262.484375,
+          "height": 271.734375,
+          "left": 485.90625,
+          "right": 969,
+          "top": 3990.75,
+          "width": 483.09375,
+          "x": 485.90625,
+          "y": 3990.75
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/platform.html",
+    "width": 1024
+  },
+  {
+    "films": [
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 658.0234375
+      },
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 658.0234375
+      },
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 658.0234375
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3713.076171875,
+          "height": 320.0859375,
+          "left": 79.796875,
+          "right": 585.953125,
+          "top": 3392.990234375,
+          "width": 506.15625,
+          "x": 79.796875,
+          "y": 3392.990234375
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 3734.9921875,
+          "height": 370.1328125,
+          "left": 687.1796875,
+          "right": 1345.203125,
+          "top": 3364.859375,
+          "width": 658.0234375,
+          "x": 687.1796875,
+          "y": 3364.859375
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4297.826171875,
+          "height": 367.3203125,
+          "left": 839.046875,
+          "right": 1345.203125,
+          "top": 3930.505859375,
+          "width": 506.15625,
+          "x": 839.046875,
+          "y": 3930.505859375
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 4296.125,
+          "height": 370.1328125,
+          "left": 79.796875,
+          "right": 737.8203125,
+          "top": 3925.9921875,
+          "width": 658.0234375,
+          "x": 79.796875,
+          "y": 3925.9921875
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4850.341796875,
+          "height": 320.0859375,
+          "left": 79.796875,
+          "right": 585.953125,
+          "top": 4530.255859375,
+          "width": 506.15625,
+          "x": 79.796875,
+          "y": 4530.255859375
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4872.2578125,
+          "height": 370.1328125,
+          "left": 687.1796875,
+          "right": 1345.203125,
+          "top": 4502.125,
+          "width": 658.0234375,
+          "x": 687.1796875,
+          "y": 4502.125
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/index.html",
+    "width": 1440
+  },
+  {
+    "films": [
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/VMMg0PrHeC4",
+        "width": 658.0234375
+      },
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 658.0234375
+      },
+      {
+        "height": 370.1328125,
+        "link": "https://youtu.be/Dvc4KLY2ma4",
+        "width": 658.0234375
+      }
+    ],
+    "geometry": [
+      {
+        "copy": {
+          "bottom": 3423.75,
+          "height": 551.3125,
+          "left": 79.796875,
+          "right": 585.953125,
+          "top": 2872.4375,
+          "width": 506.15625,
+          "x": 79.796875,
+          "y": 2872.4375
+        },
+        "id": "consumer",
+        "media": {
+          "bottom": 3333.15625,
+          "height": 370.1328125,
+          "left": 687.1796875,
+          "right": 1345.203125,
+          "top": 2963.0234375,
+          "width": 658.0234375,
+          "x": 687.1796875,
+          "y": 2963.0234375
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4167.5625,
+          "height": 522.8125,
+          "left": 839.046875,
+          "right": 1345.203125,
+          "top": 3644.75,
+          "width": 506.15625,
+          "x": 839.046875,
+          "y": 3644.75
+        },
+        "id": "creator",
+        "media": {
+          "bottom": 4091.21875,
+          "height": 370.1328125,
+          "left": 79.796875,
+          "right": 737.8203125,
+          "top": 3721.0859375,
+          "width": 658.0234375,
+          "x": 79.796875,
+          "y": 3721.0859375
+        }
+      },
+      {
+        "copy": {
+          "bottom": 4939.875,
+          "height": 551.3125,
+          "left": 79.796875,
+          "right": 585.953125,
+          "top": 4388.5625,
+          "width": 506.15625,
+          "x": 79.796875,
+          "y": 4388.5625
+        },
+        "id": "measurement",
+        "media": {
+          "bottom": 4849.28125,
+          "height": 370.1328125,
+          "left": 687.1796875,
+          "right": 1345.203125,
+          "top": 4479.1484375,
+          "width": 658.0234375,
+          "x": 687.1796875,
+          "y": 4479.1484375
+        }
+      }
+    ],
+    "overflow": -15,
+    "page": "/platform.html",
+    "width": 1440
+  },
+  {
+    "film": {
+      "bottom": 981.8671875,
+      "height": 144.5625,
+      "left": 24,
+      "right": 281,
+      "top": 837.3046875,
+      "width": 257,
+      "x": 24,
+      "y": 837.3046875
+    },
+    "intro": {
+      "bottom": 811.3046875,
+      "height": 205.75,
+      "left": 24,
+      "right": 281,
+      "top": 605.5546875,
+      "width": 257,
+      "x": 24,
+      "y": 605.5546875
+    },
+    "overflow": -15,
+    "page": "/marketing-investment.html",
+    "video": "Dvc4KLY2ma4",
+    "width": 320
+  },
+  {
+    "film": {
+      "bottom": 986.4453125,
+      "height": 144.5625,
+      "left": 24,
+      "right": 281,
+      "top": 841.8828125,
+      "width": 257,
+      "x": 24,
+      "y": 841.8828125
+    },
+    "intro": {
+      "bottom": 815.8828125,
+      "height": 214.9296875,
+      "left": 24,
+      "right": 281,
+      "top": 600.953125,
+      "width": 257,
+      "x": 24,
+      "y": 600.953125
+    },
+    "overflow": -15,
+    "page": "/training.html",
+    "video": "4iN03Y53z1Q",
+    "width": 320
+  },
+  {
+    "film": {
+      "bottom": 1141.0859375,
+      "height": 144.5625,
+      "left": 24,
+      "right": 281,
+      "top": 996.5234375,
+      "width": 257,
+      "x": 24,
+      "y": 996.5234375
+    },
+    "intro": {
+      "bottom": 970.5234375,
+      "height": 430.21875,
+      "left": 24,
+      "right": 281,
+      "top": 540.3046875,
+      "width": 257,
+      "x": 24,
+      "y": 540.3046875
+    },
+    "overflow": -15,
+    "page": "/online-conversion.html",
+    "video": "VMMg0PrHeC4",
+    "width": 320
+  },
+  {
+    "film": {
+      "bottom": 920.171875,
+      "height": 183.9375,
+      "left": 24,
+      "right": 351,
+      "top": 736.234375,
+      "width": 327,
+      "x": 24,
+      "y": 736.234375
+    },
+    "intro": {
+      "bottom": 710.234375,
+      "height": 140.7734375,
+      "left": 24,
+      "right": 351,
+      "top": 569.4609375,
+      "width": 327,
+      "x": 24,
+      "y": 569.4609375
+    },
+    "overflow": -15,
+    "page": "/marketing-investment.html",
+    "video": "Dvc4KLY2ma4",
+    "width": 390
+  },
+  {
+    "film": {
+      "bottom": 1013.34375,
+      "height": 183.9375,
+      "left": 24,
+      "right": 351,
+      "top": 829.40625,
+      "width": 327,
+      "x": 24,
+      "y": 829.40625
+    },
+    "intro": {
+      "bottom": 803.40625,
+      "height": 177.8515625,
+      "left": 24,
+      "right": 351,
+      "top": 625.5546875,
+      "width": 327,
+      "x": 24,
+      "y": 625.5546875
+    },
+    "overflow": -15,
+    "page": "/training.html",
+    "video": "4iN03Y53z1Q",
+    "width": 390
+  },
+  {
+    "film": {
+      "bottom": 1167.7421875,
+      "height": 183.9375,
+      "left": 24,
+      "right": 351,
+      "top": 983.8046875,
+      "width": 327,
+      "x": 24,
+      "y": 983.8046875
+    },
+    "intro": {
+      "bottom": 957.8046875,
+      "height": 374.421875,
+      "left": 24,
+      "right": 351,
+      "top": 583.3828125,
+      "width": 327,
+      "x": 24,
+      "y": 583.3828125
+    },
+    "overflow": -15,
+    "page": "/online-conversion.html",
+    "video": "VMMg0PrHeC4",
+    "width": 390
+  },
+  {
+    "film": {
+      "bottom": 1258.9375,
+      "height": 378.5625,
+      "left": 40,
+      "right": 713,
+      "top": 880.375,
+      "width": 673,
+      "x": 40,
+      "y": 880.375
+    },
+    "intro": {
+      "bottom": 848.375,
+      "height": 83.6953125,
+      "left": 40,
+      "right": 713,
+      "top": 764.6796875,
+      "width": 673,
+      "x": 40,
+      "y": 764.6796875
+    },
+    "overflow": -15,
+    "page": "/marketing-investment.html",
+    "video": "Dvc4KLY2ma4",
+    "width": 768
+  },
+  {
+    "film": {
+      "bottom": 1109.71875,
+      "height": 378.5625,
+      "left": 40,
+      "right": 713,
+      "top": 731.15625,
+      "width": 673,
+      "x": 40,
+      "y": 731.15625
+    },
+    "intro": {
+      "bottom": 699.15625,
+      "height": 74.15625,
+      "left": 40,
+      "right": 713,
+      "top": 625,
+      "width": 673,
+      "x": 40,
+      "y": 625
+    },
+    "overflow": -15,
+    "page": "/training.html",
+    "video": "4iN03Y53z1Q",
+    "width": 768
+  },
+  {
+    "film": {
+      "bottom": 1391.4296875,
+      "height": 378.5625,
+      "left": 40,
+      "right": 713,
+      "top": 1012.8671875,
+      "width": 673,
+      "x": 40,
+      "y": 1012.8671875
+    },
+    "intro": {
+      "bottom": 980.8671875,
+      "height": 243.1875,
+      "left": 40,
+      "right": 713,
+      "top": 737.6796875,
+      "width": 673,
+      "x": 40,
+      "y": 737.6796875
+    },
+    "overflow": -15,
+    "page": "/online-conversion.html",
+    "video": "VMMg0PrHeC4",
+    "width": 768
+  },
+  {
+    "film": {
+      "bottom": 1487,
+      "height": 522.5625,
+      "left": 40,
+      "right": 969,
+      "top": 964.4375,
+      "width": 929,
+      "x": 40,
+      "y": 964.4375
+    },
+    "intro": {
+      "bottom": 932.4375,
+      "height": 95.609375,
+      "left": 40,
+      "right": 969,
+      "top": 836.828125,
+      "width": 929,
+      "x": 40,
+      "y": 836.828125
+    },
+    "overflow": -15,
+    "page": "/marketing-investment.html",
+    "video": "Dvc4KLY2ma4",
+    "width": 1024
+  },
+  {
+    "film": {
+      "bottom": 1275.171875,
+      "height": 522.5625,
+      "left": 40,
+      "right": 969,
+      "top": 752.609375,
+      "width": 929,
+      "x": 40,
+      "y": 752.609375
+    },
+    "intro": {
+      "bottom": 720.609375,
+      "height": 95.609375,
+      "left": 40,
+      "right": 969,
+      "top": 625,
+      "width": 929,
+      "x": 40,
+      "y": 625
+    },
+    "overflow": -15,
+    "page": "/training.html",
+    "video": "4iN03Y53z1Q",
+    "width": 1024
+  },
+  {
+    "film": {
+      "bottom": 1522.3828125,
+      "height": 522.5625,
+      "left": 40,
+      "right": 969,
+      "top": 999.8203125,
+      "width": 929,
+      "x": 40,
+      "y": 999.8203125
+    },
+    "intro": {
+      "bottom": 967.8203125,
+      "height": 159.4921875,
+      "left": 40,
+      "right": 969,
+      "top": 808.328125,
+      "width": 929,
+      "x": 40,
+      "y": 808.328125
+    },
+    "overflow": -15,
+    "page": "/online-conversion.html",
+    "video": "VMMg0PrHeC4",
+    "width": 1024
+  },
+  {
+    "film": {
+      "bottom": 1894.09375,
+      "height": 711.7890625,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 1182.3046875,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 1182.3046875
+    },
+    "intro": {
+      "bottom": 1150.3046875,
+      "height": 127.71875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 1022.5859375,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 1022.5859375
+    },
+    "overflow": -15,
+    "page": "/marketing-investment.html",
+    "video": "Dvc4KLY2ma4",
+    "width": 1440
+  },
+  {
+    "film": {
+      "bottom": 1615.5078125,
+      "height": 711.7890625,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 903.71875,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 903.71875
+    },
+    "intro": {
+      "bottom": 871.71875,
+      "height": 127.71875,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 744,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 744
+    },
+    "overflow": -15,
+    "page": "/training.html",
+    "video": "4iN03Y53z1Q",
+    "width": 1440
+  },
+  {
+    "film": {
+      "bottom": 1939.421875,
+      "height": 711.7890625,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 1227.6328125,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 1227.6328125
+    },
+    "intro": {
+      "bottom": 1195.6328125,
+      "height": 191.578125,
+      "left": 79.796875,
+      "right": 1345.203125,
+      "top": 1004.0546875,
+      "width": 1265.40625,
+      "x": 79.796875,
+      "y": 1004.0546875
+    },
+    "overflow": -15,
+    "page": "/online-conversion.html",
+    "video": "VMMg0PrHeC4",
+    "width": 1440
+  }
+]

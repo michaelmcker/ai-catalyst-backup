@@ -1,0 +1,82 @@
+[
+  {
+    "source": "/Users/michaelmckerracher/Downloads/MMM 2026-10-30 08.44.mp4",
+    "bytes": 123399895,
+    "sha256": "825d16b1618ab3ff8180e41f2eb80702371704593ddc90c44ca18860944fa57b",
+    "duration": "129.640000",
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  {
+    "source": "/Users/michaelmckerracher/Downloads/AI Catalyst Overview Randy Close 2026-10-30 08.36.mp4",
+    "bytes": 71142736,
+    "sha256": "ceb069844ce711dee1e9a66d56f5fa989c4bf8affa006d2248b1a9d5f81b7a7c",
+    "duration": "62.966667",
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  {
+    "source": "/Users/michaelmckerracher/Downloads/ai training 2026-10-30 08.29.mp4",
+    "bytes": 125396439,
+    "sha256": "22f67f4dd89de666f477c0dd4c24b01cf1d7e3ce6566ec60b8f2394922a13200",
+    "duration": "104.271000",
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  {
+    "source": "/Users/michaelmckerracher/Downloads/Agentic Selling 2026-10-30 08.23.mp4",
+    "bytes": 131508253,
+    "sha256": "50c59d722ee4809ae0f0f9ec0c6121d1c1c7df1e25e473fe93fbade72f6a07a6",
+    "duration": "150.240000",
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ]
+  }
+]
