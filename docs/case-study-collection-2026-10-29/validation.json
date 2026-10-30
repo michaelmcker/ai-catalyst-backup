@@ -1,0 +1,34 @@
+{
+  "cmsSeed": "valid",
+  "cmsBuild": "passed",
+  "cmsTypecheck": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "staticSiteChecks": "passed",
+  "sourcePreservationAndNegativeControls": "passed",
+  "loaderAndRenderer": "passed",
+  "liveCollection": "https://aicatalyst.biz/case-studies/",
+  "liveStudy": "https://aicatalyst.biz/case-studies/analucia-sofia/",
+  "filmId": "q0T5rtU1VG8",
+  "filmPlaying": "verified",
+  "viewportWidths": [
+    1280,
+    390,
+    320
+  ],
+  "horizontalOverflow": false,
+  "draftVisibility": "excluded from index and direct route in local production preview",
+  "productionPreviewDevBypassHttpStatus": 403,
+  "ownerPasskey": "pending owner registration; private native invitation prepared",
+  "portfolioBefore": {
+    "pass": 170,
+    "fail": 1
+  },
+  "portfolioAfter": {
+    "pass": 170,
+    "fail": 1
+  },
+  "unrelatedFailure": "resources.test.mjs article completeness"
+}

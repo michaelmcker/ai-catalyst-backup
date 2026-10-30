@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /case-studies/
+Disallow: /_emdash/
+Sitemap: https://aicatalyst.biz/case-studies/sitemap.xml

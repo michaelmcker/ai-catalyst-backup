@@ -1,0 +1,2 @@
+import {getEmDashCollection} from "emdash";
+export async function GET(){const {entries}=await getEmDashCollection('case_studies',{limit:100});const urls=['https://aicatalyst.biz/case-studies/',...entries.map(e=>`https://aicatalyst.biz/case-studies/${e.id}/`)];return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(url=>`<url><loc>${url}</loc></url>`).join('')}</urlset>`,{headers:{'Content-Type':'application/xml; charset=utf-8'}});}

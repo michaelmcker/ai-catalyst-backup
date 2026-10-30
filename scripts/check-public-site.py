@@ -57,6 +57,8 @@ for page in pages:
         if url.scheme or url.netloc or not url.path:
             continue
         target = ROOT / unquote(url.path).lstrip('/') if url.path.startswith('/') else page.parent / unquote(url.path)
+        if url.path == "/case-studies/" and (ROOT.parent / "case-studies-cms/src/pages/case-studies/index.astro").exists():
+            continue
         if not target.exists():
             failures.append(f'{page.name}: missing {ref}')
 for script in ROOT.glob('*.js'):

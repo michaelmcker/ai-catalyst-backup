@@ -1,0 +1,57 @@
+{
+  "baseDeployment": "c6fe8304-2141-44a9-9b21-55f0dd11eca3",
+  "assets": 111,
+  "changed": [
+    {
+      "path": "/briefing.html",
+      "previous": "90eb7343a964c27606aff017b6fcdcca",
+      "hash": "263690aa7798b234e6117a943b05830c"
+    },
+    {
+      "path": "/company.html",
+      "previous": "9e5a41153540e22328d89d3f183e7401",
+      "hash": "2c0c9ab58c2b7415d614bfb58b74e610"
+    },
+    {
+      "path": "/creator-social.html",
+      "previous": "5453efc802005ab60978c5a0f90c393b",
+      "hash": "22baaacff98db3e05b1d9b6805043f2c"
+    },
+    {
+      "path": "/index.html",
+      "previous": "ee0156de696194dd069a364e94d26f1f",
+      "hash": "0676917a798a172c9dd69270c0352868"
+    },
+    {
+      "path": "/marketing-investment.html",
+      "previous": "f9cd61fe9c2edc269df7700c0af5cf8e",
+      "hash": "8433e59123b38b381df03973178b68c7"
+    },
+    {
+      "path": "/online-conversion.html",
+      "previous": "c3774219537a8c80dc70cbac6a76b9e4",
+      "hash": "f1a3a4b780ffb97400c57707dec7e8de"
+    },
+    {
+      "path": "/platform.html",
+      "previous": "4cfe914c74a122853650aefa35aaf9b8",
+      "hash": "43bd1ef9c33b4bdb82a7d8a17d75ee7e"
+    },
+    {
+      "path": "/solutions.html",
+      "previous": "77b38fe7883fb4c1adb70fc430ea68d4",
+      "hash": "49827568238287e9973817d3999a1c31"
+    },
+    {
+      "path": "/training.html",
+      "previous": "5dceaec548e4b231bccd24b75ec4bf7f",
+      "hash": "8bacd04902ecfdb5c663c5aec00025c6"
+    },
+    {
+      "path": "/case-studies.css",
+      "previous": "28b3f6963891b97f0b8017dc4429e137",
+      "hash": "bc50b264b4df9f8f20b77d3c6032aeec"
+    }
+  ],
+  "preserved": 101
+}

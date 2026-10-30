@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/Toronto",
+  "worker": "ai-catalyst-case-studies",
+  "version": "d0085dc4a3324321bf96dec3c71927f0",
+  "etag": "c725ea7d8d6a80528dc0c3435d62396b2840fe21bb195fc8633d68c8a40e60d0",
+  "databaseId": "48e6db1f-f92b-4580-965b-aa9ba2d5394c",
+  "sessionId": "7a633abae36f4c79aa6e6f2ac16dfad7",
+  "assets": 69,
+  "modules": 604,
+  "routeIds": [
+    "90519c955f5c4d5489caf29500c1cfdb",
+    "9d2091db2af4458c8ce6cce549c2d5f8",
+    "4db3bb2019574bda8cb18bae1870837b"
+  ],
+  "routes": [
+    "aicatalyst.biz/case-studies*",
+    "aicatalyst.biz/_emdash/*",
+    "aicatalyst.biz/_astro/*"
+  ],
+  "schedule": "native minute maintenance handler",
+  "publicCollectionVerified": true,
+  "ownerInvitation": "private, not checked in"
+}

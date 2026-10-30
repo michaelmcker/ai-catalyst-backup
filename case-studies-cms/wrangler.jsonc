@@ -1,0 +1,44 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-catalyst-case-studies",
+  "account_id": "bbbb85e86074305e7fd5623be9406076",
+  "main": "./src/worker.ts",
+  "compatibility_date": "2026-10-29",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ai-catalyst-case-studies",
+      "database_id": "48e6db1f-f92b-4580-965b-aa9ba2d5394c"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "* * * * *"
+    ]
+  },
+  "routes": [
+    {
+      "pattern": "aicatalyst.biz/case-studies*",
+      "zone_name": "aicatalyst.biz"
+    },
+    {
+      "pattern": "aicatalyst.biz/_emdash/*",
+      "zone_name": "aicatalyst.biz"
+    },
+    {
+      "pattern": "aicatalyst.biz/_astro/*",
+      "zone_name": "aicatalyst.biz"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "SESSION",
+      "id": "7a633abae36f4c79aa6e6f2ac16dfad7"
+    }
+  ]
+}

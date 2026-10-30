@@ -1,0 +1,8 @@
+---
+import {getEmDashCollection} from "emdash";
+
+import Base from "../../layouts/Base.astro";
+const {entries,cacheHint}=await getEmDashCollection("case_studies",{orderBy:{published_at:"desc"},limit:100});
+if(Astro.cache?.enabled)Astro.cache.set(cacheHint);
+---
+<Base title="Case studies" description="Explore AI Catalyst’s work, starting with Analucia’s Sofia shopping concierge."><h1>Case studies</h1><div class="study-list">{entries.map(study=><article class="study-card"><a href={`/case-studies/${study.id}/`} class="study-cover" aria-label={`Read ${study.data.title}`}><img src={study.data.poster_url} alt={study.data.poster_alt||""} width="1280" height="720" loading="lazy" decoding="async"/></a><div><h2><a href={`/case-studies/${study.id}/`} {...study.edit.title}>{study.data.title}</a></h2><p {...study.edit.summary}>{study.data.summary}</p><a class="study-link" href={`/case-studies/${study.id}/`}>View case study <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M7 4h9v9"/></svg></a></div></article>)}</div></Base>
