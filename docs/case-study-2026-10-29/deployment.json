@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/Toronto",
+  "project": "ai-catalyst",
+  "environment": "production",
+  "deploymentId": "c6fe8304-2141-44a9-9b21-55f0dd11eca3",
+  "deploymentUrl": "https://c6fe8304.ai-catalyst-9l3.pages.dev",
+  "previousProduction": "8290babd-6e50-4d2e-99f0-324839f4b966",
+  "status": "success",
+  "canonicalReadBack": true,
+  "codeCommit": "2343535ce492229d90c7b7e5657070c79d9e1b6d",
+  "githubMainUpdated": true,
+  "assets": 111,
+  "changedAssets": 11,
+  "preservedAssets": 100,
+  "headersUnchanged": true,
+  "livePage": "https://aicatalyst.biz/#case-studies",
+  "verified": {
+    "sectionAndPosterVisible": true,
+    "menuNavigation": true,
+    "inlineSofiaFilmPlaying": true,
+    "mobile390NoHorizontalOverflow": true
+  }
+}
