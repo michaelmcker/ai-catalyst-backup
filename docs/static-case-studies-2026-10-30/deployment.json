@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Toronto",
+  "project": "ai-catalyst",
+  "deploymentId": "14ff8689-24d5-4b6b-a7ea-4fd6ff9c6b82",
+  "deploymentUrl": "https://14ff8689.ai-catalyst-9l3.pages.dev",
+  "previousProduction": "4367657a-40a7-46be-8075-eef4131b6f91",
+  "replacedIntermediateDeployment": "aaf13902-8fad-4033-b117-7e4617dd5978",
+  "status": "success",
+  "canonicalReadBack": true,
+  "codeCommit": "c562b43c4322746191a590b5b5f1ff781391ace6",
+  "githubMainUpdated": true,
+  "assets": 116,
+  "changedAssets": 14,
+  "preservedAssets": 102,
+  "configurationFiles": "_headers and _redirects uploaded as named multipart files",
+  "cmsRetirement": {
+    "removedRoutes": [
+      {
+        "id": "90519c955f5c4d5489caf29500c1cfdb",
+        "pattern": "aicatalyst.biz/case-studies*",
+        "script": "ai-catalyst-case-studies",
+        "request_limit_fail_open": false
+      },
+      {
+        "id": "9d2091db2af4458c8ce6cce549c2d5f8",
+        "pattern": "aicatalyst.biz/_emdash/*",
+        "script": "ai-catalyst-case-studies",
+        "request_limit_fail_open": false
+      },
+      {
+        "id": "4db3bb2019574bda8cb18bae1870837b",
+        "pattern": "aicatalyst.biz/_astro/*",
+        "script": "ai-catalyst-case-studies",
+        "request_limit_fail_open": false
+      }
+    ],
+    "previousSchedule": {
+      "schedules": [
+        {
+          "cron": "* * * * *",
+          "created_on": "2026-10-30T01:58:59.879155Z",
+          "modified_on": "2026-10-30T01:58:59.879155Z"
+        }
+      ]
+    },
+    "schedulerStopped": true,
+    "ownerInvitationExpired": true,
+    "retainedForRollback": [
+      "Worker code",
+      "D1 content",
+      "KV state"
+    ],
+    "readBackRoutes": [],
+    "readBackSchedules": [],
+    "workersDevEnabled": false,
+    "previewUrlsEnabled": false
+  },
+  "liveVerification": {
+    "staticDashboard": true,
+    "inlineSofiaPlayback": true,
+    "homepageFooterLogoDesktop160": true,
+    "homepageFooterLogoPhone140": true,
+    "bridgeWidthDesktop880": true,
+    "bridgeHeightPhone140": true,
+    "footerPrint": 0.34,
+    "noHorizontalOverflowAt": [
+      1280,
+      390,
+      320
+    ],
+    "legacyEditorRedirect": "https://aicatalyst.biz/case-studies/"
+  }
+}
