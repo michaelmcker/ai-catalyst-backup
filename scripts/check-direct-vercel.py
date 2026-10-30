@@ -228,8 +228,21 @@ def expected(path,source):
             s=s.replace('<main id="main">','<main id="main">'+films['filter'],1)
             s=s.replace('</head>',films['stylesheet']+'</head>',1)
             s=s.replace('</body>',films['script']+'</body>',1)
+        s=add_case_study(s,path)
         source=s.encode()
     return source
+
+def add_case_study(s,path):
+    case=json.loads((ROOT/'scripts/case-study-markup.json').read_text())
+    for key in ('menu','footer'):
+        assert s.count(case[key+'Before'])==1,path+': original case-study navigation anchor differs'
+        s=s.replace(case[key+'Before'],case[key+'After'],1)
+    if path=='index.html':
+        assert s.count(case['anchor'])==1,'homepage case-study anchor differs'
+        s=s.replace(case['anchor'],case['section']+case['anchor'],1)
+        s=s.replace('</head>',case['imports']+'</head>',1)
+        s=s.replace('</body>',case['script']+'</body>',1)
+    return s
 
 def capture(source,pattern,label):
     result=re.search(pattern,source)
@@ -482,6 +495,7 @@ def check():
     approved=apply_image_delivery(approved,'briefing.html').encode()
     approved=apply_deferred_images(approved.decode(),'briefing.html').encode()
     approved=version_logo_urls(approved.decode(),'briefing.html').encode()
+    approved=add_case_study(approved.decode(),'briefing.html').encode()
     for prefix in ('current-site/',''):
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:
             fail.append(prefix+'briefing.html: changed outside the explicit Briefing checkpoint exceptions')

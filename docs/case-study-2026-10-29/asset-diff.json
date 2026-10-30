@@ -1,0 +1,62 @@
+{
+  "baseDeployment": "8290babd-6e50-4d2e-99f0-324839f4b966",
+  "assets": 111,
+  "changed": [
+    {
+      "path": "/briefing.html",
+      "previous": "0be7e93c59c282cc8c29da6c8f46a4bf",
+      "hash": "90eb7343a964c27606aff017b6fcdcca"
+    },
+    {
+      "path": "/company.html",
+      "previous": "e118661333530d24c4a18c46c502e99a",
+      "hash": "9e5a41153540e22328d89d3f183e7401"
+    },
+    {
+      "path": "/creator-social.html",
+      "previous": "e079402b0b96e3b4311c979eeb43764f",
+      "hash": "5453efc802005ab60978c5a0f90c393b"
+    },
+    {
+      "path": "/index.html",
+      "previous": "b3adedcc8f0b5f51e26a3adac6047533",
+      "hash": "ee0156de696194dd069a364e94d26f1f"
+    },
+    {
+      "path": "/marketing-investment.html",
+      "previous": "0721aa63d56eecb35b7852d345d5a07b",
+      "hash": "f9cd61fe9c2edc269df7700c0af5cf8e"
+    },
+    {
+      "path": "/online-conversion.html",
+      "previous": "a471412f4496b597596e31640210def8",
+      "hash": "c3774219537a8c80dc70cbac6a76b9e4"
+    },
+    {
+      "path": "/platform.html",
+      "previous": "0125f13093b2045f51586e9191c41580",
+      "hash": "4cfe914c74a122853650aefa35aaf9b8"
+    },
+    {
+      "path": "/solutions.html",
+      "previous": "73ef539a9fa2a6efc0ed7e9a3d6cb1e2",
+      "hash": "77b38fe7883fb4c1adb70fc430ea68d4"
+    },
+    {
+      "path": "/training.html",
+      "previous": "24b6c8c102efd1ccdeb75b4cdff3456b",
+      "hash": "5dceaec548e4b231bccd24b75ec4bf7f"
+    },
+    {
+      "path": "/case-studies.css",
+      "previous": null,
+      "hash": "28b3f6963891b97f0b8017dc4429e137"
+    },
+    {
+      "path": "/assets/case-studies/analucia-sofia.jpg",
+      "previous": null,
+      "hash": "d704990af5eb18d8551da5d50d475c8c"
+    }
+  ],
+  "preserved": 100
+}

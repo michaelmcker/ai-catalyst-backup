@@ -1,0 +1,23 @@
+{
+  "siteChecks": "passed",
+  "sourcePreservation": "passed",
+  "negativeControls": "passed",
+  "loaderAndRenderer": "passed",
+  "viewportWidths": [
+    1280,
+    390,
+    320
+  ],
+  "horizontalOverflow": false,
+  "menuNavigation": "verified",
+  "inlineVideo": "verified playing q0T5rtU1VG8",
+  "portfolioTestsBefore": {
+    "pass": 170,
+    "fail": 1
+  },
+  "portfolioTestsAfter": {
+    "pass": 170,
+    "fail": 1
+  },
+  "unrelatedFailure": "resources.test.mjs article completeness"
+}
