@@ -1,5 +1,10 @@
 # AI Catalyst website guidance
 
+## Latest instruction — 30 October 2026
+
+- Case studies are a static tile index and detail pages, with no CMS, admin, login or database dependency. Edit `content/case-studies.json` and run `python3 scripts/build-case-studies.py`; use `--check` for exact generated-output verification. Preserve the link-only homepage. The old CMS source is retained in Git history; its Worker routes and scheduler are retired.
+- Every public footer loads `footer-refinement.css?v=20261030-footer1`: 160px desktop / 140px phone logo, contained bridge art up to 880px wide and 240px high (140px high on phones), and a footer-only `data-art-print="0.34"` override. Preserve the bridge source file and the renderer/shaders.
+
 ## Latest instruction: preserve Vercel artwork and the requested mobile/performance repairs
 
 - Michael requested the filled dark-blue pill on live for comparison, superseding the outlined website treatment below. Use exact filled SVG SHA25660a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84 with assets/logo.svg?v=filled-60a31d37 in all27 page logo references. Preserve sizing/CSS/all other public content. Both SVG variants remain in brand/. Current production1c1a2107-18ae-4ba9-9105-f943b5354ea2 serves this filled variant, verified after a normal page reload. See docs/logo-filled-review-2026-10-24/.

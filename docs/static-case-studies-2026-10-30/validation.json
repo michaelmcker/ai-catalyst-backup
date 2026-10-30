@@ -1,0 +1,29 @@
+{
+  "staticOutputParity": "passed",
+  "publicPages": 11,
+  "sourcePreservation": "passed",
+  "negativeControls": "passed",
+  "loaderAndRenderer": "passed",
+  "inlineVideo": "playing q0T5rtU1VG8",
+  "desktopFooter": {
+    "logoWidth": 160,
+    "bridgeMaxWidth": 880
+  },
+  "phoneFooter": {
+    "logoWidth": 140,
+    "bridgeHeight": 140
+  },
+  "footerPrint": 0.34,
+  "horizontalOverflow": false,
+  "nativeSafari": "attempt interrupted; not verified",
+  "physicalIPhone": "not tested",
+  "portfolioTestsBefore": {
+    "pass": 170,
+    "fail": 1
+  },
+  "portfolioTestsAfter": {
+    "pass": 170,
+    "fail": 1
+  },
+  "unrelatedFailure": "resources.test.mjs article completeness"
+}

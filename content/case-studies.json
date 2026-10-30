@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "analucia-sofia",
+    "name": "Analucia / Sofia",
+    "title": "A personal diamond expert for Analucia.",
+    "summary": "AI Catalyst brought together specialist partners to put Sofia, an AI jewellery expert, inside Analucia’s online shopping experience.",
+    "thumbnail": "/assets/case-studies/analucia-sofia.jpg",
+    "thumbnailAlt": "Sofia’s jewellery guidance interface in the Analucia shopping experience",
+    "youtubeId": "q0T5rtU1VG8",
+    "duration": "1:46",
+    "sections": [
+      {
+        "heading": "The challenge",
+        "body": "Bring expert product guidance into online jewellery shopping, where customers need help comparing pieces and choosing what suits them."
+      },
+      {
+        "heading": "What shipped",
+        "body": "A digital host integrated into the shopping experience, giving customers a way to ask product questions while exploring the jewellery."
+      },
+      {
+        "heading": "What shoppers can do",
+        "body": "Ask about pieces, explore matching jewellery and get guidance towards a purchase. The film shows the experience in action."
+      }
+    ]
+  }
+]

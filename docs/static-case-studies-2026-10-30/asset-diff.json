@@ -1,0 +1,77 @@
+{
+  "baseDeployment": "4367657a-40a7-46be-8075-eef4131b6f91",
+  "assets": 116,
+  "changed": [
+    {
+      "path": "/briefing.html",
+      "previous": "263690aa7798b234e6117a943b05830c",
+      "hash": "b2cb90136d9805e4d09e973dde65eb74"
+    },
+    {
+      "path": "/company.html",
+      "previous": "2c0c9ab58c2b7415d614bfb58b74e610",
+      "hash": "b45b56004a571d50206d056263acc3bb"
+    },
+    {
+      "path": "/creator-social.html",
+      "previous": "22baaacff98db3e05b1d9b6805043f2c",
+      "hash": "b201314936dc0510608f8efadd3ef9f7"
+    },
+    {
+      "path": "/index.html",
+      "previous": "0676917a798a172c9dd69270c0352868",
+      "hash": "2da4dad245f452c0764a54da35409fcd"
+    },
+    {
+      "path": "/marketing-investment.html",
+      "previous": "8433e59123b38b381df03973178b68c7",
+      "hash": "c1afff7bfb23b612cc7fb89aa63a9614"
+    },
+    {
+      "path": "/online-conversion.html",
+      "previous": "f1a3a4b780ffb97400c57707dec7e8de",
+      "hash": "527ee82c5d61fbc6660586a47f6b5d3f"
+    },
+    {
+      "path": "/platform.html",
+      "previous": "43bd1ef9c33b4bdb82a7d8a17d75ee7e",
+      "hash": "182c5240169556a460105aa299603e2b"
+    },
+    {
+      "path": "/solutions.html",
+      "previous": "49827568238287e9973817d3999a1c31",
+      "hash": "d124b424596d04bc0b52a8d6c13894b0"
+    },
+    {
+      "path": "/training.html",
+      "previous": "8bacd04902ecfdb5c663c5aec00025c6",
+      "hash": "d845e858155cf294cc07abb34e1859ee"
+    },
+    {
+      "path": "/footer-refinement.css",
+      "previous": null,
+      "hash": "645c8cc59bb63e5cf1aaadd96ac1e1a6"
+    },
+    {
+      "path": "/case-studies-library.css",
+      "previous": null,
+      "hash": "d77c6cc78904851a4f589040f86fae24"
+    },
+    {
+      "path": "/case-studies/index.html",
+      "previous": null,
+      "hash": "3ebe324450d0b61fe4ea7f3a75ade309"
+    },
+    {
+      "path": "/case-studies/analucia-sofia/index.html",
+      "previous": null,
+      "hash": "1ab38c5be9c26719b7d0cdc42be43b08"
+    },
+    {
+      "path": "/case-studies/sitemap.xml",
+      "previous": null,
+      "hash": "44e1bf6a32fc11ec1d9b9c59cf5cfecb"
+    }
+  ],
+  "preserved": 102
+}

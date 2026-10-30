@@ -1,2 +1,5 @@
 .vercel
 .env*
+
+# Retired CMS local state; historical source remains in Git.
+/case-studies-cms/

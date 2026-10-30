@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import re
+import json
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1] / 'current-site'
@@ -31,8 +32,9 @@ class Links(HTMLParser):
             self.current['text'] += data
 
 failures = []
-pages = sorted(ROOT.glob('*.html'))
-assert len(pages) == 9
+pages = sorted(ROOT.rglob('*.html'))
+assert len(list(ROOT.glob('*.html'))) == 9
+assert len(pages) == 10 + len(json.loads((ROOT.parent / 'content/case-studies.json').read_text()))
 for page in pages:
     source = page.read_text()
     doc = Links()
@@ -47,7 +49,7 @@ for page in pages:
     menu = re.search(r'<nav aria-label="Expanded navigation">(.*?)</nav>', source, re.S)
     menu_doc = Links()
     menu_doc.feed(menu[1] if menu else '')
-    routes = [a['href'] for a in menu_doc.links]
+    routes = [a['href'].lstrip('/') for a in menu_doc.links]
     if 'solutions.html' not in routes or routes[routes.index('solutions.html') + 1:][:1] != ['training.html']:
         failures.append(f'{page.name}: Training must follow How We Work')
     if sum(a['text'].strip() == 'Training and adoption' for a in menu_doc.links) != 1:
@@ -57,10 +59,14 @@ for page in pages:
         if url.scheme or url.netloc or not url.path:
             continue
         target = ROOT / unquote(url.path).lstrip('/') if url.path.startswith('/') else page.parent / unquote(url.path)
-        if url.path == "/case-studies/" and (ROOT.parent / "case-studies-cms/src/pages/case-studies/index.astro").exists():
-            continue
         if not target.exists():
             failures.append(f'{page.name}: missing {ref}')
+for page in ROOT.glob('case-studies/**/*.html'):
+    source=page.read_text()
+    if re.search(r'_emdash|/_astro/|data-emdash|astro-island',source):
+        failures.append(f'{page}: runtime CMS markup remains')
+    if (ROOT.parent / page.relative_to(ROOT)).read_bytes()!=page.read_bytes():
+        failures.append(f'{page}: root mirror differs')
 for script in ROOT.glob('*.js'):
     if re.search(r'linkedin|catalyst\s*retail\s*solutions', script.read_text(), re.I):
         failures.append(f'{script.name}: retired contact fallback remains')
