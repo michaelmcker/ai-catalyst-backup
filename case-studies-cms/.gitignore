@@ -15,3 +15,11 @@ data.db-*
 .dev.vars.*
 
 .emdash/owner-invite.json
+
+# Optional scaffolder editor configs and generated local schema hints
+.claude/
+.cursor/
+.vscode/
+.mcp.json
+pnpm-workspace.yaml
+schema.json

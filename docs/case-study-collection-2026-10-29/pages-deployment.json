@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/Toronto",
+  "deploymentId": "4367657a-40a7-46be-8075-eef4131b6f91",
+  "deploymentUrl": "https://4367657a.ai-catalyst-9l3.pages.dev",
+  "previousProduction": "c6fe8304-2141-44a9-9b21-55f0dd11eca3",
+  "status": "success",
+  "canonicalReadBack": true,
+  "codeCommit": "3ca6e0d951048e5609ea843cea51e7ea1ffb9af0",
+  "assets": 111,
+  "changedAssets": 10,
+  "preservedAssets": 101,
+  "liveHomepageVerified": {
+    "caseStudySectionText": "View case studies",
+    "target": "/case-studies/",
+    "mediaOrArticleCount": 0,
+    "linkNavigation": "verified to public collection"
+  },
+  "ownerInvitationPage": "native Accept Invite page verified; registration requires owner passkey; no credential created"
+}
