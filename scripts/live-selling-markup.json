@@ -1,0 +1,64 @@
+{
+  "briefing.html": {
+    "Agentic consumer intelligence": {
+      "count": 3,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "company.html": {
+    "Agentic consumer intelligence": {
+      "count": 2,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "creator-social.html": {
+    "Agentic consumer intelligence": {
+      "count": 3,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "index.html": {
+    "Agentic consumer intelligence": {
+      "count": 3,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "marketing-investment.html": {
+    "Agentic consumer intelligence": {
+      "count": 3,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "online-conversion.html": {
+    "Agentic consumer intelligence": {
+      "count": 3,
+      "replacement": "Agentic live selling"
+    },
+    "Agentic Consumer Intelligence": {
+      "count": 2,
+      "replacement": "Agentic Live Selling"
+    }
+  },
+  "platform.html": {
+    "Agentic consumer intelligence": {
+      "count": 4,
+      "replacement": "Agentic live selling"
+    },
+    "_poster": {
+      "before": "<span class=\"service-film__poster\" data-site-art=\"landscape\" data-art-profile=\"scene\" data-art-print=\"0.16\" data-art-softness=\"0.5\" data-art-feather=\"0 0 0 0\"><img src=\"assets/video-posters/agentic-selling-20261030.jpg\" width=\"1280\" height=\"720\" alt=\"AI Catalyst | Agentic Live Selling film\" loading=\"lazy\" decoding=\"async\"></span>",
+      "after": "<span class=\"service-film__poster\" data-site-art=\"landscape\" data-art-profile=\"scene\" data-art-print=\"0.08\" data-art-softness=\"0.35\" data-art-feather=\"0 0 0 0\"><img src=\"assets/video-posters/agentic-live-selling-preview-20261030.jpg\" width=\"1280\" height=\"720\" alt=\"An AI live host answers shopper questions and connects the conversation to a product purchase\" loading=\"lazy\" decoding=\"async\"></span>"
+    }
+  },
+  "solutions.html": {
+    "Agentic consumer intelligence": {
+      "count": 2,
+      "replacement": "Agentic live selling"
+    }
+  },
+  "training.html": {
+    "Agentic consumer intelligence": {
+      "count": 2,
+      "replacement": "Agentic live selling"
+    }
+  }
+}

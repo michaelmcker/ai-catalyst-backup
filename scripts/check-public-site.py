@@ -37,6 +37,8 @@ assert len(list(ROOT.glob('*.html'))) == 9
 assert len(pages) == 10 + len(json.loads((ROOT.parent / 'content/case-studies.json').read_text()))
 for page in pages:
     source = page.read_text()
+    if re.search(r'agentic consumer intelligence',source,re.I):
+        failures.append(f'{page.name}: superseded Agentic Consumer Intelligence label remains')
     doc = Links()
     doc.feed(source)
     if re.search(r'linkedin|catalyst\s*retail\s*solutions', source, re.I):

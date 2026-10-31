@@ -2,6 +2,8 @@
 
 ## Latest instruction — 30 October 2026
 
+- Use “Agentic live selling” consistently in public navigation, headings, metadata and the operating-layer label. The homepage keeps its original three graphics and View video actions. Command Centre inline embeds remain; its live-selling poster uses the 92-second “Ask. Answer. Shop.” frame with footer-independent print .08 and softness .35. Current browser prohibition: use MCP for Cloudflare operations; do not resume browser control.
+
 - Revised October 30 films replace the three service embeds and the local overview-film references. Use the current IDs and settings in `docs/video-refresh-2026-10-30/uploads.json`. The homepage retains its original three animated engine graphics, with a View video button beside each existing engine-page link; films open in a dismissible modal. The Command Centre retains inline engine films. Both use MMM for Creator Intelligence and Full Commerce MMM, and Agentic Live Selling for Agentic Consumer Intelligence. Preserve the contextual copy and on-demand playback.
 - Navigation now begins How We Work, Training and adoption, Command Centre, Company, Case studies, Start a conversation. This supersedes the former Company-first order; Training still immediately follows How We Work.
 - Case studies are a static tile index and detail pages, with no CMS, admin, login or database dependency. Edit `content/case-studies.json` and run `python3 scripts/build-case-studies.py`; use `--check` for exact generated-output verification. Preserve the link-only homepage. The old CMS source is retained in Git history; its Worker routes and scheduler are retired.

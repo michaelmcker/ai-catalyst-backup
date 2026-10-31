@@ -170,6 +170,9 @@ def original(path):
     return subprocess.check_output(['git','show','68dbb96:current-site/'+path],cwd=ROOT)
 
 def expected(path,source):
+    if path=='site-system.css':
+        assert source.count(b'Agentic consumer intelligence')==1,'site-system.css: operating-layer label differs'
+        source=source.replace(b'Agentic consumer intelligence',b'Agentic live selling',1)
     if path in CONTENT['FILES']:
         source=CONTENT['patch'](source,path)
         CONTENT['validate_result'](source,path)
@@ -231,6 +234,7 @@ def expected(path,source):
         s=add_case_study(s,path)
         s=add_footer_refinement(s,path)
         s=add_video_refresh(s,path)
+        s=add_live_selling_revision(s,path)
         source=s.encode()
     return source
 
@@ -258,6 +262,19 @@ def add_video_refresh(s,path):
     for before,after in patches.get(path,[]):
         assert s.count(before)==1,path+': October 30 film/menu source anchor differs'
         s=s.replace(before,after,1)
+    return s
+
+def add_live_selling_revision(s,path):
+    assert s.count('site-system.css?v=20261003-audit1')==1,path+': shared system stylesheet cache key differs'
+    s=s.replace('site-system.css?v=20261003-audit1','site-system.css?v=20261030-live-selling1',1)
+    changes=json.loads((ROOT/'scripts/live-selling-markup.json').read_text())
+    for before,change in changes.get(path,{}).items():
+        if before=='_poster':
+            assert s.count(change['before'])==1,path+': live-selling poster anchor differs'
+            s=s.replace(change['before'],change['after'],1)
+        else:
+            assert s.count(before)==change['count'],path+': live-selling label count differs'
+            s=s.replace(before,change['replacement'])
     return s
 
 def capture(source,pattern,label):
@@ -512,7 +529,7 @@ def check():
     approved=apply_deferred_images(approved.decode(),'briefing.html').encode()
     approved=version_logo_urls(approved.decode(),'briefing.html').encode()
     approved=add_case_study(approved.decode(),'briefing.html').encode()
-    approved=add_video_refresh(add_footer_refinement(approved.decode(),'briefing.html'),'briefing.html').encode()
+    approved=add_live_selling_revision(add_video_refresh(add_footer_refinement(approved.decode(),'briefing.html'),'briefing.html'),'briefing.html').encode()
     for prefix in ('current-site/',''):
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:
             fail.append(prefix+'briefing.html: changed outside the explicit Briefing checkpoint exceptions')

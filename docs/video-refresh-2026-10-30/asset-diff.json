@@ -1,6 +1,7 @@
 {
-  "total": 124,
+  "total": 125,
   "changed": [
+    "/assets/video-posters/agentic-live-selling-preview-20261030.jpg",
     "/assets/video-posters/agentic-selling-20261030.jpg",
     "/assets/video-posters/mmm-20261030.jpg",
     "/assets/video-posters/overview-20261030.jpg",
@@ -18,6 +19,7 @@
     "/online-conversion.html",
     "/overview-film.js",
     "/platform.html",
+    "/site-system.css",
     "/solutions.html",
     "/training.html"
   ],
@@ -113,7 +115,6 @@
     "/simplified-navigation.css",
     "/site-shell.js",
     "/site-story.js",
-    "/site-system.css",
     "/solutions-overrides.css",
     "/subpage-hero.js",
     "/subpages.css",
@@ -127,5 +128,20 @@
     "/footer-refinement.css",
     "/case-studies-library.css",
     "/case-studies/sitemap.xml"
+  ],
+  "pendingAgainstLive": [
+    "/assets/video-posters/agentic-live-selling-preview-20261030.jpg",
+    "/briefing.html",
+    "/case-studies/analucia-sofia/index.html",
+    "/case-studies/index.html",
+    "/company.html",
+    "/creator-social.html",
+    "/index.html",
+    "/marketing-investment.html",
+    "/online-conversion.html",
+    "/platform.html",
+    "/site-system.css",
+    "/solutions.html",
+    "/training.html"
   ]
 }

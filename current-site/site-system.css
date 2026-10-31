@@ -30,7 +30,7 @@ html{scroll-padding-top:110px}
 /* Give the decision layer a named place in the Company narrative. */
 .operating-layer{position:relative;display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:clamp(42px,9vw,150px);padding-top:clamp(96px,12vw,170px);padding-bottom:clamp(96px,12vw,170px);border-top:1px solid var(--rule)}
 .operating-layer h2{font-size:clamp(48px,5.4vw,86px);line-height:.97;letter-spacing:-.052em}.operating-layer p{font-size:clamp(22px,2.2vw,34px);line-height:1.22;letter-spacing:-.035em;max-width:730px}.operating-layer small{display:block;margin-top:30px;max-width:560px;font-size:18px;line-height:1.42;color:var(--mid)}
-.operating-layer:after{content:"Creator intelligence\A Agentic consumer intelligence\A Commerce mix modeling\A\A Your GTM plan + competitor moves\A\A GTM Decision Engine";white-space:pre-line;grid-column:2;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:20px 0;font-size:15px;line-height:1.55;color:#315caa}
+.operating-layer:after{content:"Creator intelligence\A Agentic live selling\A Commerce mix modeling\A\A Your GTM plan + competitor moves\A\A GTM Decision Engine";white-space:pre-line;grid-column:2;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:20px 0;font-size:15px;line-height:1.55;color:#315caa}
 
 @media(max-width:900px){
  .approach-principles{gap:44px!important}.problem-heading .how-heading{font-size:clamp(48px,6.2vw,67px)!important}.approach-card{grid-template-columns:56px minmax(0,1fr)!important}
