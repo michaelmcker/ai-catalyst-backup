@@ -1,5 +1,5 @@
 {
-  "status": "prepared-awaiting-cloudflare-sign-in-confirmation",
+  "status": "prepared-awaiting-dashboard-fallback-approval",
   "codeCommit": "08476fad7dd629104aeadfd1b818851ba2821b12",
   "githubBranches": [
     "main",
@@ -11,12 +11,22 @@
   "preservedAssets": 105,
   "youtubeReplacements": "all four published Unlisted",
   "oldUploads": "retained until the live website switches",
-  "blocker": "Automatic review rejected serializing the scoped upload JWT in shell or stdin tool arguments. Local Wrangler authentication is expired. Dashboard sign-in displays Cloudflare terms; confirmation requested before continuing.",
+  "blocker": "The signed-in Cloudflare MCP can read/manage the correct project, but its GlobalOutbound injects the connection API credential into every request, conflicting with the separate Pages upload JWT. Asset-check requests fail 403/8000013 even when the fresh JWT is obtained and used entirely inside one MCP call. The shell credential-export route was rejected by automatic review; local Wrangler login is expired. Michael approved Cloudflare terms but requested MCP; dashboard fallback permission is pending.",
   "pendingActions": [
     "Complete confirmed Cloudflare dashboard sign-in",
     "Upload cloudflare-public-release.zip to the existing project as production",
     "Verify live film IDs, menu order and playback",
     "Make the three superseded YouTube uploads Private",
     "Record final deployment and retirement evidence"
-  ]
+  ],
+  "mcpVerification": {
+    "profile": "michael.mckerracher@gmail.com",
+    "account": "bbbb85e86074305e7fd5623be9406076",
+    "projectRead": "success",
+    "canonicalUnchanged": "14ff8689-24d5-4b6b-a7ea-4fd6ff9c6b82",
+    "assetCheckStatus": 403,
+    "assetCheckError": 8000013,
+    "source": "https://github.com/cloudflare/mcp/blob/main/src/tools/execute.ts#L55",
+    "temporaryCredentialExported": false
+  }
 }
