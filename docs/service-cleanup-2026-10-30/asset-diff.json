@@ -1,0 +1,86 @@
+{
+  "assets": 127,
+  "changed": [
+    {
+      "path": "/assets/video-posters/agentic-live-selling-preview-20261030.jpg",
+      "hash": "c1bdcc5c6329a50e58ba3026ab4cae7a",
+      "previous": null
+    },
+    {
+      "path": "/assets/video-posters/mmm-preview-20261030.jpg",
+      "hash": "921ef8da369d765a56a3f58c115c43bb",
+      "previous": null
+    },
+    {
+      "path": "/briefing.html",
+      "hash": "03cd61b25091a838f5a78776aaab2ae1",
+      "previous": "29d63e7f215e543d7fa674b9a17cb8de"
+    },
+    {
+      "path": "/case-studies/analucia-sofia/index.html",
+      "hash": "966a6816beeaa08a94321fe02601962a",
+      "previous": "e959b2af1d5a436ced8140107f76a985"
+    },
+    {
+      "path": "/case-studies/index.html",
+      "hash": "2754cba4f6a90c0490cb60f1eafa075f",
+      "previous": "d970c24f88212e799710a453307825e6"
+    },
+    {
+      "path": "/company.html",
+      "hash": "54832500fe3e4d1d2fa91ee3838a9c80",
+      "previous": "b29ad578971e86c83ad528f08dd195b5"
+    },
+    {
+      "path": "/creator-social.html",
+      "hash": "2f818dfff377de2d8d85450adcf76f34",
+      "previous": "87cd782b579ebef92f73a6e8bd458d82"
+    },
+    {
+      "path": "/footer-refinement.css",
+      "hash": "f07379ec7c2ae80f2f455ec98499ccc3",
+      "previous": "645c8cc59bb63e5cf1aaadd96ac1e1a6"
+    },
+    {
+      "path": "/index.html",
+      "hash": "85c89b0ae7b0073d69c8628ce64582f3",
+      "previous": "d34b7ecec1f1e7444df74874199ef12f"
+    },
+    {
+      "path": "/marketing-investment.html",
+      "hash": "14657555e6f3383b562666377b460e7d",
+      "previous": "1c33fa6bb4660d166031723b96505924"
+    },
+    {
+      "path": "/online-conversion.html",
+      "hash": "81bc690ba866d3702b534a617d1acd17",
+      "previous": "61f80b2913b4fa8b80e13f297c137f8a"
+    },
+    {
+      "path": "/platform.html",
+      "hash": "9068f5fa745bf95be8b134a61d260266",
+      "previous": "281ce8ca4d51c4fe6d7c2f0eac6d20d5"
+    },
+    {
+      "path": "/service-suite.css",
+      "hash": "24e48e1a49aea84aede95393e352a960",
+      "previous": null
+    },
+    {
+      "path": "/site-system.css",
+      "hash": "74de09efed2ef158649e4dd18d40f9e6",
+      "previous": "469b69dd2c30cb232884a5e35f406f70"
+    },
+    {
+      "path": "/solutions.html",
+      "hash": "4eee242ebaab6b837e7b5ab67d8b36f7",
+      "previous": "6b3c8b3d3523d556d3bf4f51c4a8ef20"
+    },
+    {
+      "path": "/training.html",
+      "hash": "61179b437d65d8da48ef98555c9f3c3d",
+      "previous": "52a91f76c0abff8a5008f3cea1d11d8a"
+    }
+  ],
+  "retained": 111
+}

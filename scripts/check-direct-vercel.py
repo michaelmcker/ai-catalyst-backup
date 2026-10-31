@@ -235,6 +235,7 @@ def expected(path,source):
         s=add_footer_refinement(s,path)
         s=add_video_refresh(s,path)
         s=add_live_selling_revision(s,path)
+        s=add_service_cleanup(s,path)
         source=s.encode()
     return source
 
@@ -275,6 +276,18 @@ def add_live_selling_revision(s,path):
         else:
             assert s.count(before)==change['count'],path+': live-selling label count differs'
             s=s.replace(before,change['replacement'])
+    return s
+
+def add_service_cleanup(s,path):
+    changes=json.loads((ROOT/'scripts/service-cleanup-markup.json').read_text())
+    for change in changes.get(path,[]):
+        if isinstance(change,dict):
+            before,after,count=change['before'],change['after'],change['count']
+        else:
+            before,after=change
+            count=1
+        assert s.count(before)==count,path+': service cleanup source anchor differs'
+        s=s.replace(before,after,count)
     return s
 
 def capture(source,pattern,label):
@@ -529,7 +542,7 @@ def check():
     approved=apply_deferred_images(approved.decode(),'briefing.html').encode()
     approved=version_logo_urls(approved.decode(),'briefing.html').encode()
     approved=add_case_study(approved.decode(),'briefing.html').encode()
-    approved=add_live_selling_revision(add_video_refresh(add_footer_refinement(approved.decode(),'briefing.html'),'briefing.html'),'briefing.html').encode()
+    approved=add_service_cleanup(add_live_selling_revision(add_video_refresh(add_footer_refinement(approved.decode(),'briefing.html'),'briefing.html'),'briefing.html'),'briefing.html').encode()
     for prefix in ('current-site/',''):
         if (ROOT/(prefix+'briefing.html')).read_bytes()!=approved:
             fail.append(prefix+'briefing.html: changed outside the explicit Briefing checkpoint exceptions')

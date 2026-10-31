@@ -1,0 +1,44 @@
+/* The service pages borrow the homepage's white cards, type and thin blue edges. */
+.service-suite .service-film-section{max-width:1040px;padding-top:48px;padding-bottom:64px}
+.service-suite .service-film__intro{max-width:880px;grid-template-columns:minmax(0,1fr);gap:18px;margin-bottom:24px}
+.service-suite .service-film__intro h2{font-size:clamp(34px,3.8vw,50px);line-height:1.08;max-width:22ch}
+.service-suite .service-film__intro p{font-size:19px;line-height:1.55;max-width:64ch}
+.service-suite .service-film{max-width:880px;margin:0}
+.service-suite .engine-story{padding-top:48px;padding-bottom:48px}
+.service-suite .engine-story .capability{min-height:0;padding-top:20px;padding-bottom:20px}
+.service-suite .suite-reading{padding-top:64px;padding-bottom:64px;border-top:1px solid var(--rule);background:#fff}
+.service-suite .suite-questions{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.08fr);gap:8%;align-items:start}
+.service-suite .question-intro h2{font-size:clamp(38px,4.2vw,60px);font-weight:300;line-height:1.08;letter-spacing:-.045em;max-width:14ch;margin:0}
+.service-suite .question-intro .scenario-note{font-size:15px;line-height:1.45;margin-top:20px}
+.service-suite .commercial-questions.question-stack{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin:0;padding:0;list-style:none;counter-reset:none}
+.service-suite .commercial-questions .question-card{display:block;min-width:0;padding:28px;background:#fff;border:1px solid #d7e3f2;box-shadow:0 6px 24px #183b6610;counter-increment:none}
+.service-suite .commercial-questions .question-card::before{content:none}
+.service-suite .question-card p{font-size:clamp(23px,2.1vw,29px);line-height:1.27;letter-spacing:-.025em;color:var(--ink);margin:0;max-width:none;text-wrap:pretty;overflow-wrap:break-word}
+.service-suite .suite-benefits{margin-top:64px}
+.service-suite .suite-benefits .engine-difference-title{font-size:clamp(32px,3.2vw,46px);line-height:1.12;max-width:28ch;margin-bottom:28px!important}
+.service-suite .benefit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch}
+.service-suite .benefit-grid .benefit-card{display:block;min-width:0;margin:0;padding:28px;border:1px solid #d7e3f2;background:#fff;box-shadow:0 6px 24px #183b6610}
+.service-suite .benefit-card h3{font-size:clamp(25px,2.2vw,32px);line-height:1.16;max-width:none;padding-bottom:16px;margin:0 0 18px;border-bottom:1px solid #b9cbe6}
+.service-suite .benefit-card .quality-detail-copy p{font-size:19px;line-height:1.55;margin:0;max-width:none}
+.service-suite .benefit-card .quality-detail-copy p+p{margin-top:16px}
+.service-suite .benefit-card .scenario-note{font-size:14px!important}
+.service-suite .engine-comparison{margin-top:32px;padding-top:28px;padding-bottom:0}
+.service-suite .engine-comparison p{font-size:19px;line-height:1.5;margin:0}
+.service-suite .commerce-coverage{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.08fr);gap:8%;align-items:center;padding-top:64px;padding-bottom:64px}
+.service-suite .commerce-coverage .section-intro{display:block;margin:0}
+.service-suite .commerce-coverage h2,.service-suite .case-study--text h2{font-size:clamp(34px,3.5vw,48px);line-height:1.1;max-width:18ch;margin:0 0 22px}
+.service-suite .commerce-coverage p{font-size:19px;line-height:1.55;max-width:58ch;margin:0}
+.service-suite .coverage-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px;list-style:none;margin:24px 0 0;padding:0}
+.service-suite .coverage-list li{font-size:17px;line-height:1.4;margin:0;padding:0;border:0}
+.service-suite .coverage-list li::before,.service-suite .coverage-list li::after{content:none}
+.service-suite .coverage-proof{min-width:0;width:100%}
+.service-suite .coverage-proof .graphic{width:100%;margin:0}
+.service-suite .coverage-proof canvas{display:block;width:100%;height:auto;aspect-ratio:720/390}
+.service-suite .coverage-proof .mix-legend{display:flex;justify-content:flex-start;gap:24px;font-size:14px;margin-top:16px}
+.service-suite .case-study--text{padding-top:56px;padding-bottom:56px}
+.service-suite .case-study--text .case-copy{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.08fr);gap:8%;align-items:start}
+.service-suite .case-description p{font-size:19px;line-height:1.55;max-width:64ch}
+.service-suite .buyer-questions,.service-suite .solution-pilot,.service-suite .offer-routes{padding-top:56px;padding-bottom:56px}
+@media(max-width:1000px){.service-suite .benefit-grid{grid-template-columns:minmax(0,1fr)}.service-suite .benefit-card h3{max-width:30ch}.service-suite .benefit-card .quality-detail-copy p{max-width:65ch}}
+@media(max-width:800px){.service-suite .suite-questions,.service-suite .commerce-coverage,.service-suite .case-study--text .case-copy{grid-template-columns:minmax(0,1fr);gap:28px}.service-suite .question-intro h2{max-width:22ch}.service-suite .suite-reading{padding-top:44px;padding-bottom:44px}.service-suite .question-card p{font-size:24px}.service-suite .suite-benefits{margin-top:48px}.service-suite .commerce-coverage{padding-top:48px;padding-bottom:48px}}
+@media(max-width:700px){.service-suite .service-film-section{padding-top:32px;padding-bottom:40px}.service-suite .commercial-questions .question-card,.service-suite .benefit-grid .benefit-card{padding:24px}.service-suite .question-card p{font-size:22px}.service-suite .service-film__intro p,.service-suite .benefit-card .quality-detail-copy p,.service-suite .case-description p{font-size:18px}.service-suite .coverage-list{gap:12px 16px}.service-suite .coverage-list li{font-size:16px}.service-suite .buyer-questions,.service-suite .solution-pilot,.service-suite .offer-routes{padding-top:44px;padding-bottom:44px}}
