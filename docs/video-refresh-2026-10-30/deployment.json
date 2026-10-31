@@ -1,0 +1,22 @@
+{
+  "status": "prepared-awaiting-cloudflare-sign-in-confirmation",
+  "codeCommit": "08476fad7dd629104aeadfd1b818851ba2821b12",
+  "githubBranches": [
+    "main",
+    "codex/direct-vercel-transfer"
+  ],
+  "canonicalDeploymentBefore": "14ff8689-24d5-4b6b-a7ea-4fd6ff9c6b82",
+  "publicAssets": 122,
+  "changedOrNewAssets": 17,
+  "preservedAssets": 105,
+  "youtubeReplacements": "all four published Unlisted",
+  "oldUploads": "retained until the live website switches",
+  "blocker": "Automatic review rejected serializing the scoped upload JWT in shell or stdin tool arguments. Local Wrangler authentication is expired. Dashboard sign-in displays Cloudflare terms; confirmation requested before continuing.",
+  "pendingActions": [
+    "Complete confirmed Cloudflare dashboard sign-in",
+    "Upload cloudflare-public-release.zip to the existing project as production",
+    "Verify live film IDs, menu order and playback",
+    "Make the three superseded YouTube uploads Private",
+    "Record final deployment and retirement evidence"
+  ]
+}
