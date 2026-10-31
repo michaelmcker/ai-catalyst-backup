@@ -2,6 +2,8 @@
 
 ## Latest instruction — 30 October 2026
 
+- Production release `50b8b6c7-a1da-4589-b5bd-2d84ac614497` publishes the service-card cleanup, original left-anchored footer bridge, new film previews and Agentic live selling rename. All eleven pages and twelve exact assets were HTTP-verified without browser control. For future Pages uploads, use the encrypted short-lived project-token bridge in `docs/service-cleanup-2026-10-30/authentication.md`; do not expose plaintext JWTs in tool arguments or output. The hosted MCP Authorization injector remains unchanged; browser prohibition remains in force.
+
 - Use “Agentic live selling” consistently in public navigation, headings, metadata and the operating-layer label. The homepage keeps its original three graphics and View video actions. Command Centre inline embeds remain; its live-selling poster uses the 92-second “Ask. Answer. Shop.” frame with footer-independent print .08 and softness .35. Current browser prohibition: use MCP for Cloudflare operations; do not resume browser control.
 
 - Revised October 30 films replace the three service embeds and the local overview-film references. Use the current IDs and settings in `docs/video-refresh-2026-10-30/uploads.json`. The homepage retains its original three animated engine graphics, with a View video button beside each existing engine-page link; films open in a dismissible modal. The Command Centre retains inline engine films. Both use MMM for Creator Intelligence and Full Commerce MMM, and Agentic Live Selling for Agentic Consumer Intelligence. Preserve the contextual copy and on-demand playback.

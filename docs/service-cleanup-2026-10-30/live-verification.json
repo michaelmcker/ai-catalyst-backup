@@ -1,0 +1,135 @@
+{
+  "deployment": "50b8b6c7-a1da-4589-b5bd-2d84ac614497",
+  "baseUrl": "https://aicatalyst.biz",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/creator-social",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/online-conversion",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/marketing-investment",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/platform",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/training",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/solutions",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/company",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/briefing",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/case-studies/",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/case-studies/analucia-sofia/",
+      "status": 200,
+      "contentChecks": "pass"
+    },
+    {
+      "path": "/service-suite.css",
+      "status": 200,
+      "sha256": "ddfa45c56fe6be2c8e6d24ce9bc4592aee87c2d27196ae087ecdf29f92d968f4",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/footer-refinement.css",
+      "status": 200,
+      "sha256": "6f33ce20132b71d92a4b5592bc9e331e9ddb589237f38356bb63c97e694f4f08",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/site-system.css",
+      "status": 200,
+      "sha256": "2db5e74abb76330c3cdfe787199160aad0b2a3f987c1c590f7f4aa10e76747b9",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/halftone-rendering.js",
+      "status": 200,
+      "sha256": "21ce5aea190586dfd311246b67114dd011300255766962cc44f6c4795c9e7e4b",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/platform-motion.js",
+      "status": 200,
+      "sha256": "3990cbb0532bbd0254598a79fdacc0de2d031ebcb4bd0443e9ea0e8b9f8ef03a",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/quality-motion.js",
+      "status": 200,
+      "sha256": "10e577420921b1580c108ea0bedc9c51369a96aae85d595d0137ab01ad10668d",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/service-films.js",
+      "status": 200,
+      "sha256": "1d0553ceda1d801b58d4be3039fa0aeae2c0d6ddce2e37e4eef2f7cee17a7dc3",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/engine-film-modal.js",
+      "status": 200,
+      "sha256": "e88ea384931883f91f08e8c13ef85ee10025fddf6c3a38e4198c2e384927a07a",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/assets/video-posters/mmm-preview-20261030.jpg",
+      "status": 200,
+      "sha256": "3206e151fa8c0e5392a455c9ef1828518311b1c8ac8b610865ef225c7310814d",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/assets/video-posters/agentic-live-selling-preview-20261030.jpg",
+      "status": 200,
+      "sha256": "e327b0d976588ce7bc109c7ee5151a7c873a9db88db0d224798fa00212972bee",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/assets/logo.svg",
+      "status": 200,
+      "sha256": "60a31d37e3e7c084fc973861df45d81b9763e327a02afd4699b4bdd881393c84",
+      "exactBytes": "pass"
+    },
+    {
+      "path": "/images/delivery-v1/bridge-halftone-2619ec40e2c1.webp",
+      "status": 200,
+      "sha256": "2619ec40e2c123168ef97d802e10ef89eb2e8fb2deb60099936f3945dc4a57d7",
+      "exactBytes": "pass"
+    }
+  ],
+  "renderedVisualReview": false,
+  "browserControlUsed": false
+}

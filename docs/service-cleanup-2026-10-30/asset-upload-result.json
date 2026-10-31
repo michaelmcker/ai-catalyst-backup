@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "uploaded": 18,
+  "missingAfter": 0,
+  "authentication": "Encrypted project-scoped short-lived Pages token; general API credential stayed in MCP",
+  "checkedAt": "2026-10-31T03:23:25.074Z",
+  "uniqueAssets": 126,
+  "manifestPaths": 127,
+  "temporaryKeyFilesRemoved": true
+}

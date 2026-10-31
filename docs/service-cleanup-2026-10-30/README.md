@@ -1,6 +1,6 @@
 # Service-page and footer cleanup — 30 October 2026
 
-Status: prepared locally for publication; not live. Browser control was not used.
+Status: live at https://aicatalyst.biz/ on production deployment `50b8b6c7-a1da-4589-b5bd-2d84ac614497`. Code commit: `ede8c7ee498dc761877e37c82741c98e0f982e09`. Browser control was not used.
 
 The three service pages (Creator Intelligence, Full Commerce MMM, Agentic Live Selling) now have a hero-only art-opening wrapper. The moving paper field previously inherited the full opening wrapper, including film and supporting sections. The renderer and shader source remain unchanged.
 
@@ -20,10 +20,12 @@ MMM previews use the updated film's 104-second planning scene. Live-selling prev
 - Enclosing portfolio `npm test`, before and after — 168/170 pass both times. Same pre-existing failures: resources article parity and `tests/v2-about-mobile.test.mjs`. This nested static site has no npm test script.
 - Rendered viewport/visual proof has not been performed because browser control is prohibited.
 
-## Release boundary
+## Published release
 
-Signed-in Cloudflare MCP confirms canonical deployment `620f198f-ff3d-4d98-a8bd-f642ddea8073` succeeded and this is a direct-upload Pages project. That release contains the restored homepage graphics. It does not contain this cleanup or the previously prepared naming and preview revision.
+Cloudflare MCP confirms production deployment `50b8b6c7-a1da-4589-b5bd-2d84ac614497` succeeded and is canonical for aicatalyst.biz and www.aicatalyst.biz. It supersedes `620f198f-ff3d-4d98-a8bd-f642ddea8073` and includes the previously pending naming and thumbnail changes.
 
-`manifest.json` contains 127 public assets, recomputed from current local bytes. `asset-diff.json` identifies 16 new or changed assets against the last published manifest and 111 reusable assets. Headers/redirects must accompany the complete manifest at publication. Instructions, proof images and release records are excluded.
+The 127-path manifest contains 126 unique asset hashes. Eighteen hashes needed uploading (the remote asset store's missing check also included two older assets); all hashes were confirmed present before publication. MCP created the complete deployment with the retained headers and redirects.
 
-Publication remains blocked by the connector: it forces its connection Authorization onto all requests, conflicting with the separate Pages asset-upload JWT. Automatic approval review rejected exporting that JWT into tool arguments. No new deployment was created with missing asset hashes, no credential workaround was attempted, and no browser upload was used.
+`live-verification.json` records successful HTTP checks of all eleven public pages and exact byte comparisons for twelve assets, including CSS, posters, bridge, logo and motion scripts. This is source/delivery proof, not rendered viewport approval.
+
+The hosted MCP's automatic Authorization injection remains an upstream limitation. A secure, encrypted handoff of only the short-lived project upload token resolved the deployment path without browser use or exposing plaintext credentials. See [authentication.md](authentication.md) and `asset-upload-result.json`. Temporary key/token files were removed.
