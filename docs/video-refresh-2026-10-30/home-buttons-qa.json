@@ -1,0 +1,652 @@
+[
+  {
+    "inlinePlayers": 0,
+    "overflow": 0,
+    "rows": [
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 942.4609375,
+              "height": 44,
+              "left": 20,
+              "right": 278.6875,
+              "top": 898.4609375,
+              "width": 258.6875,
+              "x": 20,
+              "y": 898.4609375
+            },
+            "text": "See the creator intelligence"
+          },
+          {
+            "rect": {
+              "bottom": 1004.4609375,
+              "height": 44,
+              "left": 20,
+              "right": 152.03125,
+              "top": 960.4609375,
+              "width": 132.03125,
+              "x": 20,
+              "y": 960.4609375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1198.125,
+          "height": 151.6640625,
+          "left": 20,
+          "right": 300,
+          "top": 1046.4609375,
+          "width": 280,
+          "x": 20,
+          "y": 1046.4609375
+        },
+        "id": "creator"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1714.1673583984375,
+              "height": 44,
+              "left": 20,
+              "right": 294.703125,
+              "top": 1670.1673583984375,
+              "width": 274.703125,
+              "x": 20,
+              "y": 1670.1673583984375
+            },
+            "text": "See the shopping experience"
+          },
+          {
+            "rect": {
+              "bottom": 1776.1673583984375,
+              "height": 44,
+              "left": 20,
+              "right": 152.03125,
+              "top": 1732.1673583984375,
+              "width": 132.03125,
+              "x": 20,
+              "y": 1732.1673583984375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1993.4921875,
+          "height": 185.15625,
+          "left": 20,
+          "right": 300,
+          "top": 1808.3359375,
+          "width": 280,
+          "x": 20,
+          "y": 1808.3359375
+        },
+        "id": "consumer"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 2480.97998046875,
+              "height": 44,
+              "left": 20,
+              "right": 236.078125,
+              "top": 2436.97998046875,
+              "width": 216.078125,
+              "x": 20,
+              "y": 2436.97998046875
+            },
+            "text": "See the measurement"
+          },
+          {
+            "rect": {
+              "bottom": 2542.97998046875,
+              "height": 44,
+              "left": 20,
+              "right": 152.03125,
+              "top": 2498.97998046875,
+              "width": 132.03125,
+              "x": 20,
+              "y": 2498.97998046875
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 2726.8125,
+          "height": 151.6640625,
+          "left": 20,
+          "right": 300,
+          "top": 2575.1484375,
+          "width": 280,
+          "x": 20,
+          "y": 2575.1484375
+        },
+        "id": "measurement"
+      }
+    ],
+    "width": 320
+  },
+  {
+    "inlinePlayers": 0,
+    "overflow": 0,
+    "rows": [
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 662.984375,
+              "height": 44,
+              "left": 24,
+              "right": 282.6875,
+              "top": 618.984375,
+              "width": 258.6875,
+              "x": 24,
+              "y": 618.984375
+            },
+            "text": "See the creator intelligence"
+          },
+          {
+            "rect": {
+              "bottom": 724.984375,
+              "height": 44,
+              "left": 24,
+              "right": 156.03125,
+              "top": 680.984375,
+              "width": 132.03125,
+              "x": 24,
+              "y": 680.984375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 952.234375,
+          "height": 185.25,
+          "left": 24,
+          "right": 366,
+          "top": 766.984375,
+          "width": 342,
+          "x": 24,
+          "y": 766.984375
+        },
+        "id": "creator"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1432.8687744140625,
+              "height": 44,
+              "left": 24,
+              "right": 298.703125,
+              "top": 1388.8687744140625,
+              "width": 274.703125,
+              "x": 24,
+              "y": 1388.8687744140625
+            },
+            "text": "See the shopping experience"
+          },
+          {
+            "rect": {
+              "bottom": 1494.8687744140625,
+              "height": 44,
+              "left": 24,
+              "right": 156.03125,
+              "top": 1450.8687744140625,
+              "width": 132.03125,
+              "x": 24,
+              "y": 1450.8687744140625
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1760.046875,
+          "height": 226.15625,
+          "left": 24,
+          "right": 366,
+          "top": 1533.890625,
+          "width": 342,
+          "x": 24,
+          "y": 1533.890625
+        },
+        "id": "consumer"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 2173.28271484375,
+              "height": 44,
+              "left": 24,
+              "right": 240.078125,
+              "top": 2129.28271484375,
+              "width": 216.078125,
+              "x": 24,
+              "y": 2129.28271484375
+            },
+            "text": "See the measurement"
+          },
+          {
+            "rect": {
+              "bottom": 2235.28271484375,
+              "height": 44,
+              "left": 24,
+              "right": 156.03125,
+              "top": 2191.28271484375,
+              "width": 132.03125,
+              "x": 24,
+              "y": 2191.28271484375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 2459.5546875,
+          "height": 185.25,
+          "left": 24,
+          "right": 366,
+          "top": 2274.3046875,
+          "width": 342,
+          "x": 24,
+          "y": 2274.3046875
+        },
+        "id": "measurement"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "inlinePlayers": 0,
+    "overflow": 0,
+    "rows": [
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 524.4609375,
+              "height": 44,
+              "left": 40,
+              "right": 298.6875,
+              "top": 480.4609375,
+              "width": 258.6875,
+              "x": 40,
+              "y": 480.4609375
+            },
+            "text": "See the creator intelligence"
+          },
+          {
+            "rect": {
+              "bottom": 584.4609375,
+              "height": 44,
+              "left": 40,
+              "right": 172.03125,
+              "top": 540.4609375,
+              "width": 132.03125,
+              "x": 40,
+              "y": 540.4609375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 496.296875,
+          "height": 197.515625,
+          "left": 363.3515625,
+          "right": 728,
+          "top": 298.78125,
+          "width": 364.6484375,
+          "x": 363.3515625,
+          "y": 298.78125
+        },
+        "id": "creator"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1136.578125,
+              "height": 44,
+              "left": 452.8046875,
+              "right": 727.5078125,
+              "top": 1092.578125,
+              "width": 274.703125,
+              "x": 452.8046875,
+              "y": 1092.578125
+            },
+            "text": "See the shopping experience"
+          },
+          {
+            "rect": {
+              "bottom": 1196.578125,
+              "height": 44,
+              "left": 452.8046875,
+              "right": 584.8359375,
+              "top": 1152.578125,
+              "width": 132.03125,
+              "x": 452.8046875,
+              "y": 1152.578125
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1099.5859375,
+          "height": 241.1328125,
+          "left": 40,
+          "right": 404.6484375,
+          "top": 858.453125,
+          "width": 364.6484375,
+          "x": 40,
+          "y": 858.453125
+        },
+        "id": "consumer"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1740.1358642578125,
+              "height": 44,
+              "left": 40,
+              "right": 256.078125,
+              "top": 1696.1358642578125,
+              "width": 216.078125,
+              "x": 40,
+              "y": 1696.1358642578125
+            },
+            "text": "See the measurement"
+          },
+          {
+            "rect": {
+              "bottom": 1800.1358642578125,
+              "height": 44,
+              "left": 40,
+              "right": 172.03125,
+              "top": 1756.1358642578125,
+              "width": 132.03125,
+              "x": 40,
+              "y": 1756.1358642578125
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1691.59375,
+          "height": 197.515625,
+          "left": 363.3515625,
+          "right": 728,
+          "top": 1494.078125,
+          "width": 364.6484375,
+          "x": 363.3515625,
+          "y": 1494.078125
+        },
+        "id": "measurement"
+      }
+    ],
+    "width": 768
+  },
+  {
+    "inlinePlayers": 0,
+    "overflow": 0,
+    "rows": [
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 349.7578125,
+              "height": 44,
+              "left": 40,
+              "right": 298.6875,
+              "top": 305.7578125,
+              "width": 258.6875,
+              "x": 40,
+              "y": 305.7578125
+            },
+            "text": "See the creator intelligence"
+          },
+          {
+            "rect": {
+              "bottom": 409.7578125,
+              "height": 44,
+              "left": 40,
+              "right": 172.03125,
+              "top": 365.7578125,
+              "width": 132.03125,
+              "x": 40,
+              "y": 365.7578125
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 365.5078125,
+          "height": 271.0078125,
+          "left": 483.671875,
+          "right": 984,
+          "top": 94.5,
+          "width": 500.328125,
+          "x": 483.671875,
+          "y": 94.5
+        },
+        "id": "creator"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 924.90625,
+              "height": 44,
+              "left": 606.40625,
+              "right": 881.109375,
+              "top": 880.90625,
+              "width": 274.703125,
+              "x": 606.40625,
+              "y": 880.90625
+            },
+            "text": "See the shopping experience"
+          },
+          {
+            "rect": {
+              "bottom": 984.90625,
+              "height": 44,
+              "left": 606.40625,
+              "right": 738.4375,
+              "top": 940.90625,
+              "width": 132.03125,
+              "x": 606.40625,
+              "y": 940.90625
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 951.2578125,
+          "height": 330.859375,
+          "left": 40,
+          "right": 540.328125,
+          "top": 620.3984375,
+          "width": 500.328125,
+          "x": 40,
+          "y": 620.3984375
+        },
+        "id": "consumer"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1477.9632568359375,
+              "height": 44,
+              "left": 40,
+              "right": 256.078125,
+              "top": 1433.9632568359375,
+              "width": 216.078125,
+              "x": 40,
+              "y": 1433.9632568359375
+            },
+            "text": "See the measurement"
+          },
+          {
+            "rect": {
+              "bottom": 1477.9632568359375,
+              "height": 44,
+              "left": 280.078125,
+              "right": 412.109375,
+              "top": 1433.9632568359375,
+              "width": 132.03125,
+              "x": 280.078125,
+              "y": 1433.9632568359375
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1462.15625,
+          "height": 271.0078125,
+          "left": 483.671875,
+          "right": 984,
+          "top": 1191.1484375,
+          "width": 500.328125,
+          "x": 483.671875,
+          "y": 1191.1484375
+        },
+        "id": "measurement"
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "inlinePlayers": 0,
+    "overflow": 0,
+    "rows": [
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 567.265625,
+              "height": 44,
+              "left": 80.6328125,
+              "right": 339.3203125,
+              "top": 523.265625,
+              "width": 258.6875,
+              "x": 80.6328125,
+              "y": 523.265625
+            },
+            "text": "See the creator intelligence"
+          },
+          {
+            "rect": {
+              "bottom": 567.265625,
+              "height": 44,
+              "left": 363.3203125,
+              "right": 495.3515625,
+              "top": 523.265625,
+              "width": 132.03125,
+              "x": 363.3203125,
+              "y": 523.265625
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 583.34375,
+          "height": 360.171875,
+          "left": 694.421875,
+          "right": 1359.3671875,
+          "top": 223.171875,
+          "width": 664.9453125,
+          "x": 694.421875,
+          "y": 223.171875
+        },
+        "id": "creator"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1182.0703125,
+              "height": 44,
+              "left": 847.875,
+              "right": 1122.578125,
+              "top": 1138.0703125,
+              "width": 274.703125,
+              "x": 847.875,
+              "y": 1138.0703125
+            },
+            "text": "See the shopping experience"
+          },
+          {
+            "rect": {
+              "bottom": 1182.0703125,
+              "height": 44,
+              "left": 1146.578125,
+              "right": 1278.609375,
+              "top": 1138.0703125,
+              "width": 132.03125,
+              "x": 1146.578125,
+              "y": 1138.0703125
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1214.0625,
+          "height": 439.71875,
+          "left": 80.6328125,
+          "right": 745.578125,
+          "top": 774.34375,
+          "width": 664.9453125,
+          "x": 80.6328125,
+          "y": 774.34375
+        },
+        "id": "consumer"
+      },
+      {
+        "actions": [
+          {
+            "rect": {
+              "bottom": 1767.219482421875,
+              "height": 44,
+              "left": 80.6328125,
+              "right": 296.7109375,
+              "top": 1723.219482421875,
+              "width": 216.078125,
+              "x": 80.6328125,
+              "y": 1723.219482421875
+            },
+            "text": "See the measurement"
+          },
+          {
+            "rect": {
+              "bottom": 1767.219482421875,
+              "height": 44,
+              "left": 320.7109375,
+              "right": 452.7421875,
+              "top": 1723.219482421875,
+              "width": 132.03125,
+              "x": 320.7109375,
+              "y": 1723.219482421875
+            },
+            "text": "View video"
+          }
+        ],
+        "graphic": {
+          "bottom": 1780.234375,
+          "height": 360.171875,
+          "left": 694.421875,
+          "right": 1359.3671875,
+          "top": 1420.0625,
+          "width": 664.9453125,
+          "x": 694.421875,
+          "y": 1420.0625
+        },
+        "id": "measurement"
+      }
+    ],
+    "width": 1440
+  }
+]

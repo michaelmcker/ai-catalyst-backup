@@ -1,5 +1,5 @@
 {
-  "total": 122,
+  "total": 124,
   "changed": [
     "/assets/video-posters/agentic-selling-20261030.jpg",
     "/assets/video-posters/mmm-20261030.jpg",
@@ -10,6 +10,8 @@
     "/case-studies/index.html",
     "/company.html",
     "/creator-social.html",
+    "/engine-film-buttons.css",
+    "/engine-film-modal.js",
     "/engine-films.css",
     "/index.html",
     "/marketing-investment.html",
