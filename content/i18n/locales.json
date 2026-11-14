@@ -1,0 +1,22 @@
+{
+  "en": [
+    "",
+    "English",
+    "ltr"
+  ],
+  "fr-CA": [
+    "fr-ca",
+    "Français (Québec)",
+    "ltr"
+  ],
+  "fr-FR": [
+    "fr-fr",
+    "Français (France)",
+    "ltr"
+  ],
+  "ar": [
+    "ar",
+    "العربية",
+    "rtl"
+  ]
+}

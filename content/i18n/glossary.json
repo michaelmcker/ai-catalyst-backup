@@ -1,0 +1,24 @@
+{
+  "fr-CA": {
+    "email": "courriel",
+    "go-to-market": "mise en marché"
+  },
+  "fr-FR": {
+    "email": "e-mail",
+    "go-to-market": "commercialisation"
+  },
+  "ar": {
+    "register": "Modern Standard Arabic",
+    "AI": "الذكاء الاصطناعي"
+  },
+  "review": "Model editorial review and source parity checks; no certified native-speaker review. External films and HopShop speech are not translated by the site switcher.",
+  "officialNames": [
+    "AI Catalyst",
+    "Commerce Command Centre",
+    "Full Commerce MMM",
+    "GTM Decision Engine",
+    "Analucia",
+    "Sofia"
+  ],
+  "namePolicy": "Retain proper names and official product names when used in English; clear explanatory Arabic equivalents are permitted. Do not invent product capabilities."
+}

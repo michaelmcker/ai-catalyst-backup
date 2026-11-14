@@ -1,0 +1,68 @@
+{
+  "briefing.html": {
+    "en": "/briefing.html",
+    "fr-CA": "/fr-ca/briefing.html",
+    "fr-FR": "/fr-fr/briefing.html",
+    "ar": "/ar/briefing.html"
+  },
+  "case-studies/analucia-sofia/index.html": {
+    "en": "/case-studies/analucia-sofia/",
+    "fr-CA": "/fr-ca/case-studies/analucia-sofia/",
+    "fr-FR": "/fr-fr/case-studies/analucia-sofia/",
+    "ar": "/ar/case-studies/analucia-sofia/"
+  },
+  "case-studies/index.html": {
+    "en": "/case-studies/",
+    "fr-CA": "/fr-ca/case-studies/",
+    "fr-FR": "/fr-fr/case-studies/",
+    "ar": "/ar/case-studies/"
+  },
+  "company.html": {
+    "en": "/company.html",
+    "fr-CA": "/fr-ca/company.html",
+    "fr-FR": "/fr-fr/company.html",
+    "ar": "/ar/company.html"
+  },
+  "creator-social.html": {
+    "en": "/creator-social.html",
+    "fr-CA": "/fr-ca/creator-social.html",
+    "fr-FR": "/fr-fr/creator-social.html",
+    "ar": "/ar/creator-social.html"
+  },
+  "index.html": {
+    "en": "/",
+    "fr-CA": "/fr-ca/",
+    "fr-FR": "/fr-fr/",
+    "ar": "/ar/"
+  },
+  "marketing-investment.html": {
+    "en": "/marketing-investment.html",
+    "fr-CA": "/fr-ca/marketing-investment.html",
+    "fr-FR": "/fr-fr/marketing-investment.html",
+    "ar": "/ar/marketing-investment.html"
+  },
+  "online-conversion.html": {
+    "en": "/online-conversion.html",
+    "fr-CA": "/fr-ca/online-conversion.html",
+    "fr-FR": "/fr-fr/online-conversion.html",
+    "ar": "/ar/online-conversion.html"
+  },
+  "platform.html": {
+    "en": "/platform.html",
+    "fr-CA": "/fr-ca/platform.html",
+    "fr-FR": "/fr-fr/platform.html",
+    "ar": "/ar/platform.html"
+  },
+  "solutions.html": {
+    "en": "/solutions.html",
+    "fr-CA": "/fr-ca/solutions.html",
+    "fr-FR": "/fr-fr/solutions.html",
+    "ar": "/ar/solutions.html"
+  },
+  "training.html": {
+    "en": "/training.html",
+    "fr-CA": "/fr-ca/training.html",
+    "fr-FR": "/fr-fr/training.html",
+    "ar": "/ar/training.html"
+  }
+}

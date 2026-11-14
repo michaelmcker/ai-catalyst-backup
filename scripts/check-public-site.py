@@ -32,9 +32,15 @@ class Links(HTMLParser):
             self.current['text'] += data
 
 failures = []
-pages = sorted(ROOT.rglob('*.html'))
-assert len(list(ROOT.glob('*.html'))) == 9
-assert len(pages) == 10 + len(json.loads((ROOT.parent / 'content/case-studies.json').read_text()))
+all_pages = sorted(ROOT.rglob('*.html'))
+pages = [p for p in all_pages if '<html lang="en"' in p.read_text()]
+if (ROOT.parent/'content/i18n/locales.json').exists():
+    assert len(all_pages) == len(pages) * len(json.loads((ROOT.parent/'content/i18n/locales.json').read_text()))
+if (ROOT.parent/'content/i18n/source-manifest.json').exists():
+    assert {str(p.relative_to(ROOT)) for p in pages} == set(json.loads((ROOT.parent/'content/i18n/source-manifest.json').read_text()))
+else:
+    assert len(list(ROOT.glob('*.html'))) == 9
+    assert len(pages) == 10 + len(json.loads((ROOT.parent / 'content/case-studies.json').read_text()))
 for page in pages:
     source = page.read_text()
     if re.search(r'agentic consumer intelligence',source,re.I):

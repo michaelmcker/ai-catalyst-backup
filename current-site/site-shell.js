@@ -8,7 +8,7 @@
   const links = header.querySelector('.masthead-links');
   const currentPage = location.pathname.split('/').pop() || 'index.html';
   header.querySelectorAll('.masthead-panel a').forEach(link => {
-    if (link.getAttribute('href') === currentPage) link.setAttribute('aria-current', 'page');
+    if (new URL(link.href).pathname.replace(/(?:index)?\.html$/, '').replace(/\/$/, '') === location.pathname.replace(/(?:index)?\.html$/, '').replace(/\/$/, '')) link.setAttribute('aria-current', 'page');
   });
   const compact = matchMedia('(max-width: 1000px)');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
@@ -25,7 +25,8 @@
     clearTimeout(closeTimer);
     isOpen = open;
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.firstElementChild.textContent = open ? 'Close' : 'Menu';
+    const menuLabels = {'en':['Menu','Close'],'fr-CA':['Menu','Fermer'],'fr-FR':['Menu','Fermer'],'ar':['القائمة','إغلاق']}[document.documentElement.lang] || ['Menu','Close'];
+    toggle.firstElementChild.textContent = menuLabels[open ? 1 : 0];
     if (open) {
       returnFocus = document.activeElement;
       panel.hidden = false; scrim.hidden = false;
@@ -54,7 +55,7 @@
     if (!isOpen) return;
     if (event.key === 'Escape') { event.preventDefault(); setOpen(false); }
     if (event.key === 'Tab') {
-      const focusable = [...header.querySelectorAll('.masthead-logo, .masthead-toggle, .masthead-contact, .masthead-panel a')];
+      const focusable = [...header.querySelectorAll('.masthead-logo, .language-picker summary, .language-picker[open] a, .masthead-toggle, .masthead-contact, .masthead-panel a')];
       const first = focusable[0], last = focusable[focusable.length - 1];
       if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
       else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
