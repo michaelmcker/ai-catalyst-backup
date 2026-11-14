@@ -1,5 +1,5 @@
 /* Locale controls use the existing navy/white material and native HTML disclosure. */
-.language-picker{position:relative;font-size:14px;line-height:1.4;letter-spacing:normal;flex-shrink:0}
+.language-picker{pointer-events:auto;position:relative;font-size:14px;line-height:1.4;letter-spacing:normal;flex-shrink:0}
 .language-picker summary{cursor:pointer;list-style:none;padding:10px 7px;white-space:nowrap;border-radius:3px}
 .language-picker summary::-webkit-details-marker{display:none}
 .language-picker summary::after{content:'⌄';margin-inline-start:6px}

@@ -69,7 +69,7 @@ class Renderer(HTMLParser):
   discovery=f'<link rel="canonical" href="{ORIGIN}{route(self.name,self.locale)}">'
   for loc in LOCALES:discovery+=f'<link rel="alternate" hreflang="{loc}" href="{ORIGIN}{route(self.name,loc)}">'
   discovery+=f'<link rel="alternate" hreflang="x-default" href="{ORIGIN}{route(self.name,"en")}">'
-  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261113-1"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
+  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261113-2"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
   label,choose,close,_,notice=UI[self.locale]
   links=''.join(f'<a href="{route(self.name,l)}" lang="{l}" hreflang="{l}" data-language="{l}"'+(' aria-current="true"' if l==self.locale else '')+f'>{html.escape(info[1])}</a>' for l,info in LOCALES.items())
   switch=f'<details class="language-picker"><summary aria-label="{choose}">{ {'en':'EN','fr-CA':'FR·CA','fr-FR':'FR','ar':'العربية'}[self.locale] }</summary><nav aria-label="{choose}">{links}</nav></details>'
