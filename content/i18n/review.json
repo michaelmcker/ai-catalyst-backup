@@ -1,0 +1,22 @@
+{
+  "en": {
+    "catalog_sha256": "1511d56b0e234b6cb7ce0ccd88b120906397b49db12db645e9119b9d07064d32",
+    "source_sha256": "eb53da134b73cedacfaf2081eaa4e0b7944de4c6d255228e0041cf537106e1c9",
+    "review": "source-completeness and model editorial review; not certified native-speaker review"
+  },
+  "fr-CA": {
+    "catalog_sha256": "df0f36056b0a6acc44bea680fd7dfb428396f98dbda6438992d4a0af67fb3057",
+    "source_sha256": "eb53da134b73cedacfaf2081eaa4e0b7944de4c6d255228e0041cf537106e1c9",
+    "review": "source-completeness and model editorial review; not certified native-speaker review"
+  },
+  "fr-FR": {
+    "catalog_sha256": "815de9d3412cfc2ec24a6d0627059f9f11dc9dbef0cd28a6ebe690127c68866f",
+    "source_sha256": "eb53da134b73cedacfaf2081eaa4e0b7944de4c6d255228e0041cf537106e1c9",
+    "review": "source-completeness and model editorial review; not certified native-speaker review"
+  },
+  "ar": {
+    "catalog_sha256": "d7a9b7cd643305d8c927fe685561ef959fd6a5ce379f69eeb09c910dda398532",
+    "source_sha256": "eb53da134b73cedacfaf2081eaa4e0b7944de4c6d255228e0041cf537106e1c9",
+    "review": "source-completeness and model editorial review; not certified native-speaker review"
+  }
+}

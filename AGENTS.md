@@ -1,5 +1,18 @@
 # AI Catalyst website guidance
 
+## Mandatory multilingual page contract — 13 November 2026
+
+- Every new public page and every material content change must ship in all four editions: English (`en`), Quebec French (`fr-CA`), France French (`fr-FR`), and Modern Standard Arabic (`ar`). New pages are incomplete until all four equivalents are built and checked.
+- English source templates live under `templates/i18n/`. Translation catalogs, source hashes, equivalent routes, glossary and review evidence live under `content/i18n/`. Never hand-edit generated locale HTML.
+- Keep existing English URLs. Generate `/fr-ca/`, `/fr-fr/` and `/ar/` equivalents with `python3 scripts/build-localized-site.py`; use `--check` to detect stale generated output. Keep `current-site/` and root mirrors identical. Case-study source remains generated through `scripts/build-case-studies.py` into the i18n template pipeline.
+- If a source template changes, run `python3 scripts/refresh-localization-source.py` to refresh its source hash and extracted English catalog, update every affected translation, and record an honest editorial review using `python3 scripts/build-localized-site.py --record-review` after the review is finished. Never change hashes merely to bypass a missing translation. The glossary controls terminology; preserve factual claims, qualifications, names and contact destinations.
+- Every edition needs complete visible and accessibility copy, runtime UI/error messages, correct `lang`/`dir`, a self-canonical URL, reciprocal `hreflang` links plus `x-default`, a sitemap entry and equivalent-page language links. Translation is static HTML, not a client-side translation overlay.
+- The switcher must preserve the equivalent page. Explicit URLs and user choices win; browser language offers a nonblocking suggestion and must never force geolocation or redirect users away from a chosen language. Store only the explicit language preference, with safe fallbacks if browser storage is unavailable.
+- Arabic requires locally served Arabic fonts, RTL reading order, logical spacing, correct shaping and isolated LTR phone/email strings. Preserve artwork/map orientation. Review French expansion and Arabic layout at 1440, 1024, 768, 390 and 320px.
+- Preserve one standalone AI Catalyst Analytics tag and one approved HopShop embed per edition. Do not invent HopShop locale parameters or claim that films, captions, or the twin's speech are localized by changing the page language. The French/Arabic page notice explains this limitation.
+- Run `python3 tests/localization/check.py`, `python3 scripts/build-localized-site.py --check`, the case-study source check and the public-site check before release. Review viewport evidence and all locale/page routes on preview, then verify the full live release. Model review must never be described as native-speaker certification.
+
+
 ## Latest instruction — 30 October 2026
 
 - Production release `50b8b6c7-a1da-4589-b5bd-2d84ac614497` publishes the service-card cleanup, original left-anchored footer bridge, new film previews and Agentic live selling rename. All eleven pages and twelve exact assets were HTTP-verified without browser control. For future Pages uploads, use the encrypted short-lived project-token bridge in `docs/service-cleanup-2026-10-30/authentication.md`; do not expose plaintext JWTs in tool arguments or output. The hosted MCP Authorization injector remains unchanged; browser prohibition remains in force.

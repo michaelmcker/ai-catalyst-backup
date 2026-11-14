@@ -1,4 +1,19 @@
 (() => {
+// Runtime diagrams share the document's written edition; artwork coordinates stay intact.
+const motionLocale = document.documentElement.lang;
+const motionCopy = ({
+ 'fr-CA': {signals:['Créateurs','Vidéo','Social','En direct','Avis','Communautés'],bars:['Marque','Médias de détail','Commerce','Créateurs'],cities:{Toronto:'Toronto',Halifax:'Halifax',Prague:'Prague','Tel Aviv':'Tel-Aviv',Bengaluru:'Bengaluru','San Francisco':'San Francisco',Lithuania:'Lituanie'},motion:['Activer les animations','Mettre les animations en pause']},
+ 'fr-FR': {signals:['Créateurs','Vidéo','Réseaux','En direct','Avis','Communautés'],bars:['Marque','Retail media','Commerce','Créateurs'],cities:{Toronto:'Toronto',Halifax:'Halifax',Prague:'Prague','Tel Aviv':'Tel-Aviv',Bengaluru:'Bengaluru','San Francisco':'San Francisco',Lithuania:'Lituanie'},motion:['Activer les animations','Mettre les animations en pause']},
+ ar: {signals:['صُنّاع المحتوى','الفيديو','التواصل','البث المباشر','المراجعات','المجتمعات'],bars:['العلامة التجارية','إعلانات التجزئة','التجارة','صُنّاع المحتوى'],cities:{Toronto:'تورونتو',Halifax:'هاليفاكس',Prague:'براغ','Tel Aviv':'تل أبيب',Bengaluru:'بنغالورو','San Francisco':'سان فرانسيسكو',Lithuania:'ليتوانيا'},motion:['تفعيل الحركة','إيقاف الحركة مؤقتًا']}
+})[motionLocale] || {signals:['Creators','Video','Social','Live','Reviews','Communities'],bars:['Brand','Retail media','Trade','Creator'],cities:{},motion:['Enable motion','Pause motion']};
+const motionFontReady = motionLocale === 'ar' && document.fonts ? document.fonts.load('16px "Noto Sans Arabic"').catch(() => []) : Promise.resolve();
+function motionLabel(ctx, text, x, y, maxWidth) {
+ if (motionLocale === 'en' || !['ar','fr-CA','fr-FR'].includes(motionLocale)) { ctx.fillText(text,x,y); return; }
+ ctx.save();
+ if (motionLocale === 'ar') {ctx.font=ctx.font.replace(/px .+$/, 'px "Noto Sans Arabic",sans-serif');ctx.direction='rtl';}
+ ctx.fillText(text,x,y,maxWidth);ctx.restore();
+}
+
 'use strict';
 // Local design preview. No tracking, form transport or persistent client data.
 const $ = s => document.querySelector(s);
@@ -10,7 +25,7 @@ function setMotion(value) {
   paused = value;
   document.body.classList.toggle('motion-paused', paused);
   document.body.classList.toggle('js-motion', !paused);
-  if(toggle) toggle.innerHTML = paused ? 'Enable motion <span aria-hidden="true">▷</span>' : 'Pause motion <span aria-hidden="true">Ⅱ</span>';
+  if(toggle) toggle.innerHTML = `${motionCopy.motion[paused ? 0 : 1]} <span aria-hidden="true">${paused ? '▷' : 'Ⅱ'}</span>`;
   toggle?.setAttribute('aria-pressed', String(paused));
   if (paused) $$('.reveal').forEach(el => el.classList.add('seen'));
   wake();
@@ -33,7 +48,7 @@ $$('.intro .reveal:not(.approach-card)').forEach(el=>{
 const revealObserver = new IntersectionObserver(entries => entries.forEach(e => {if(e.isIntersecting&&e.intersectionRatio>=.03){e.target.classList.add('seen');revealObserver.unobserve(e.target)}}),{rootMargin:'0px 0px 12% 0px',threshold:.03});
 $$('.reveal:not(.approach-card)').forEach(el=>revealObserver.observe(el));
 // Process entrances share the same timing and viewport trigger in site-shell.js.
-$$('details').forEach(el=>el.addEventListener('toggle',()=>{if(el.open&&!paused)el.querySelector('.detail-copy').animate([{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'none'}],{duration:300,easing:'ease-out'})}));
+$$('details').filter(el=>el.querySelector('.detail-copy')).forEach(el=>el.addEventListener('toggle',()=>{if(el.open&&!paused)el.querySelector('.detail-copy').animate([{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'none'}],{duration:300,easing:'ease-out'})}));
 $$('.topic-link').forEach(link=>link.addEventListener('click',()=>{const field=$('[name="priority"]');if(field&&!field.value)field.value=`I’d like to discuss ${link.dataset.topic.toLowerCase()}. `}));
 function openDialog(id){const d=$(id);d.showModal();document.body.classList.add('modal-open');}
 if ($('#people-open')) $('#people-open').onclick=()=>openDialog('#people-dialog');
@@ -68,7 +83,7 @@ function canvasContext(canvas,w,h){const ctx=canvas.getContext('2d');function si
 // Layered creator signals: stable reference curves, flowing foreground points,
 // and slower, smaller background particles at several depths.
 const signalCanvas=$('#signals'), sx=canvasContext(signalCanvas,720,390);
-const signalNames=['Creators','Video','Social','Live','Reviews','Communities'];
+const signalNames=motionCopy.signals;
 const peakX=[.55,.62,.43,.49,.55,.47],peakAmp=[-38,-28,18,-27,-21,-32];
 function signalPeak(row,t){return peakX[row]+.022*Math.sin(t*Math.PI*2/18+row*.65)}
 function signalY(x,row,t=0){
@@ -90,7 +105,7 @@ function drawSignals(t){
  const left=108,width=596,anchors=[];
  for(const p of signalCloud){const x=((p.x-t/48)%1+1)%1;const edge=Math.min(clamp(x*12),clamp((1-x)*12));sx.globalAlpha=p.alpha*edge;sx.fillStyle='#4d83e9';sx.beginPath();sx.arc(left+x*width,p.y+6*Math.sin(p.x*12),p.radius,0,tau);sx.fill();}sx.globalAlpha=1;
  for(let row=0;row<6;row++){
-  const base=55+row*55;sx.fillStyle='#5279c6';sx.fillText(signalNames[row],0,base);
+  const base=55+row*55;sx.fillStyle='#5279c6';motionLabel(sx,signalNames[row],0,base,100);
   // Faint far-field dots extend through the whole composition, not just the right edge.
   for(const p of signalParticles[row]){if(p.depth===2)continue;const x=(p.phase+t*p.speed)%1;const edge=Math.min(clamp(x*18),clamp((1-x)*12));
    const settle=p.offset*(.7+.3*Math.sin(x*Math.PI));sx.globalAlpha=p.alpha*edge;sx.fillStyle='#3777ed';sx.beginPath();sx.arc(left+x*width,signalY(x,row,t)+settle,p.radius,0,tau);sx.fill();}
@@ -102,7 +117,7 @@ function drawSignals(t){
  sx.strokeStyle='#3d6cff';sx.lineWidth=1;sx.setLineDash([2,5]);sx.beginPath();anchors.forEach(([x,y],i)=>{if(i){sx.lineTo(x,anchors[i-1][1]);sx.lineTo(x,y)}else sx.moveTo(x,y)});sx.stroke();sx.setLineDash([]);
  for(const[x,y]of anchors){sx.fillStyle='#edf7ff';sx.strokeStyle='#103fea';sx.lineWidth=1.8;sx.beginPath();sx.arc(x,y,7,0,tau);sx.fill();sx.stroke();sx.fillStyle='#245aff';sx.beginPath();sx.arc(x,y,2,0,tau);sx.fill();}
 }
-drawSignals(1.5);addAnimation(signalCanvas,drawSignals,1.5);
+drawSignals(1.5);addAnimation(signalCanvas,drawSignals,1.5);if(motionLocale==='ar')motionFontReady.then(()=>{drawSignals(1.5);wake();});
 
 // One background field crosses both capability rows, moving right to left.
 const wall=$('.signal-wall'),wx=wall.getContext('2d');
@@ -122,9 +137,9 @@ drawChat(4.5,0,true);chatAnimation=addAnimation(chat,drawChat,4.5);
 }
 // Allocation bars expand once on entry. Periodic ordered stipple lives only at the tips.
 const barCanvas=$('#allocation');
-if(barCanvas){const bx=canvasContext(barCanvas,720,390);const allocations=[[.91,.78],[.55,.41],[.73,.6],[.37,.24]];const barLabels=['Brand','Retail media','Trade','Creator'];
-function drawBars(t,dt,staticMode){bx.clearRect(0,0,720,390);bx.font='17px "Helvetica Neue",Arial';bx.textAlign='right';bx.textBaseline='middle';const left=128,max=553;bx.strokeStyle='#6388e2';bx.lineWidth=1;bx.beginPath();bx.moveTo(left,14);bx.lineTo(left,348);bx.stroke();for(let row=0;row<4;row++){let y=39+row*82;bx.fillStyle='#4b73c0';bx.fillText(barLabels[row],left-21,y+15);for(let k=0;k<2;k++){let p=staticMode?1:ease((t-row*.14-k*.08)/1.7);const len=max*allocations[row][k]*p;const yy=y+k*27;const col=k?'#88b2f2':'#1c59ef';const solid=Math.max(0,len-57);bx.fillStyle=col;bx.fillRect(left,yy,solid,20);for(let x=0;x<63;x+=4){let density=clamp(1-x/63);for(let dotY=0;dotY<20;dotY+=4){const wave=.5+.5*Math.sin(x*.24+dotY*.61+t*tau/5);const alpha=clamp(density*.9+wave*.23-.08);const radius=(.38+1.4*density)*Math.min(1,p*3);bx.globalAlpha=alpha;bx.beginPath();bx.arc(left+solid+x,yy+dotY+2,radius,0,tau);bx.fill();}}bx.globalAlpha=1;}}bx.textAlign='left';}
-drawBars(4,0,true);addAnimation(barCanvas,drawBars,4);
+if(barCanvas){const bx=canvasContext(barCanvas,720,390);const allocations=[[.91,.78],[.55,.41],[.73,.6],[.37,.24]];const barLabels=motionCopy.bars;
+function drawBars(t,dt,staticMode){bx.clearRect(0,0,720,390);bx.font='17px "Helvetica Neue",Arial';bx.textAlign='right';bx.textBaseline='middle';const left=128,max=553;bx.strokeStyle='#6388e2';bx.lineWidth=1;bx.beginPath();bx.moveTo(left,14);bx.lineTo(left,348);bx.stroke();for(let row=0;row<4;row++){let y=39+row*82;bx.fillStyle='#4b73c0';motionLabel(bx,barLabels[row],left-21,y+15,left-28);for(let k=0;k<2;k++){let p=staticMode?1:ease((t-row*.14-k*.08)/1.7);const len=max*allocations[row][k]*p;const yy=y+k*27;const col=k?'#88b2f2':'#1c59ef';const solid=Math.max(0,len-57);bx.fillStyle=col;bx.fillRect(left,yy,solid,20);for(let x=0;x<63;x+=4){let density=clamp(1-x/63);for(let dotY=0;dotY<20;dotY+=4){const wave=.5+.5*Math.sin(x*.24+dotY*.61+t*tau/5);const alpha=clamp(density*.9+wave*.23-.08);const radius=(.38+1.4*density)*Math.min(1,p*3);bx.globalAlpha=alpha;bx.beginPath();bx.arc(left+solid+x,yy+dotY+2,radius,0,tau);bx.fill();}}bx.globalAlpha=1;}}bx.textAlign='left';}
+drawBars(4,0,true);addAnimation(barCanvas,drawBars,4);if(motionLocale==='ar')motionFontReady.then(()=>{drawBars(4,0,true);wake();});
 
 }
 // Chart line draw on entry, with a complete static alternative.
@@ -166,7 +181,7 @@ function sizeMapLabels(){
  locations.forEach(location=>{
   const[x,y]=project(location.coords),[tx,ty,anchor]=(compact?phoneLabels:desktopLabels)[location.slug],line=document.createElementNS(ns,'path'),label=document.createElementNS(ns,'text');
   line.setAttribute('d',`M${x},${y} L${tx},${ty-font*.7}`);labels.append(line);
-  label.setAttribute('x',tx);label.setAttribute('y',ty);label.setAttribute('text-anchor',anchor);label.setAttribute('font-size',font);label.textContent=location.name;labels.append(label);
+  label.setAttribute('x',tx);label.setAttribute('y',ty);label.setAttribute('text-anchor',anchor);label.setAttribute('font-size',font);label.textContent=motionCopy.cities[location.name]||location.name;labels.append(label);
  });
  $$('#map-markers circle').forEach(dot=>dot.setAttribute('r',String(3/scale)));
 }

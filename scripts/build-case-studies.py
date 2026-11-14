@@ -28,6 +28,12 @@ def build():
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args();output=build()
  for path,source in output.items():
+  if (ROOT/'content/i18n/source-manifest.json').exists():
+   if not path.endswith('.html'):continue
+   target=ROOT/'templates/i18n'/path
+   if args.check:assert target.exists() and target.read_text()==source,'Case-study translation source differs: '+str(target)
+   else:target.parent.mkdir(parents=True,exist_ok=True);target.write_text(source)
+   continue
   for prefix in ('current-site/',''):
    target=ROOT/(prefix+path)
    if args.check:assert target.exists() and target.read_text()==source,'Static output differs: '+str(target)

@@ -1,5 +1,12 @@
 # AI Catalyst website and backup
 
+## Multilingual production — 13 November 2026
+
+The live website has English, Quebec French, France French and Modern Standard Arabic editions. Every new public page must ship in all four, as required by `AGENTS.md`. English templates are under `templates/i18n/`; complete locale catalogs and review hashes are under `content/i18n/`. `current-site/` and matching root files are generated public outputs. Do not hand-edit generated pages. Build with `python3 scripts/build-localized-site.py` and verify with `--check`.
+
+Read [the multilingual release and source-maintenance guide](docs/localization/2026-11-13/README.md) before changing content. It documents the 44-page release, 220 viewport checks, native-review limitation and English-only external media/twin limitations. The production domain remains https://aicatalyst.biz/ . Earlier production notes below are historical.
+
+
 ## Current production — 23 October 2026
 
 The editable production site is `current-site/`, served from Randy's Cloudflare Pages project `ai-catalyst` at https://aicatalyst.biz/ and https://www.aicatalyst.biz/. The Pages address https://ai-catalyst-9l3.pages.dev/ also remains available. Matching root public files are kept in sync.

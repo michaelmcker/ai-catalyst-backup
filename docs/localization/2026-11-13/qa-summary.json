@@ -1,0 +1,28 @@
+{
+  "scope": "11 pages x 4 languages x 5 widths",
+  "pageEditions": 44,
+  "viewportChecks": 220,
+  "widths": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "detectedHorizontalOverflow": 0,
+  "clippedTextContainers": 0,
+  "method": "In-app browser; document scroll width and heading/paragraph/header bounding boxes; representative screenshots and keyboard interactions",
+  "interactionChecks": [
+    "equivalent-page switch French/Arabic",
+    "native language disclosure",
+    "Escape returns focus",
+    "browser-language priority and saved/dismissed preference",
+    "blocked storage fallback"
+  ],
+  "limitations": [
+    "Not physical iPhone/Safari testing",
+    "No live twin conversation or speech test",
+    "No certified native-speaker review",
+    "External films and HopShop UI/speech can remain English"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "deployment": "f7b9f16a-29a2-44ec-876a-d15182f4bf25",
+  "comparison": "Cloudflare email protection decoded; all other bytes compared exactly",
+  "pages": [
+    {
+      "path": "ar/briefing.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "27094c9f79a1fbc80fa9d27e97129450247dbff9ffa917528880205620f65119"
+    },
+    {
+      "path": "ar/case-studies/analucia-sofia/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "85fb6b2a5a14fe0fabd6a998b1a7bb5a328bf401698341863cc23fd2b28f93d3"
+    },
+    {
+      "path": "ar/case-studies/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "82a468d65b9e81b9aa987ba59126ee6dc626b7479bbc30f3980c6a89617ee7d5"
+    },
+    {
+      "path": "ar/company.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "1e4613fc0811e853d26f4590860027e6983fc16d762795068a341e6d3d96d81f"
+    },
+    {
+      "path": "ar/creator-social.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "49cc4423601c42b08799b326873d8519836fa28c7f190c3206760fa60a783f39"
+    },
+    {
+      "path": "ar/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "3a3b6cafcd7f7fcfb221bb27bd4e0c7043c59d6880042367a0250cc99a5f4e86"
+    },
+    {
+      "path": "ar/marketing-investment.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "88b94a5802fab5634d9f49c0a9cfb675af0938a3f7f63e766abe24d80a2dd1f5"
+    },
+    {
+      "path": "ar/online-conversion.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "02eadc67f1f6d6e8e5b32967554d1aec412dcb9ace24e803f1fe0148b8dc2d90"
+    },
+    {
+      "path": "ar/platform.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "e8446971c751935c9f4e16d7718c60fb0ce195d3968f661f7f775d1394dd5e67"
+    },
+    {
+      "path": "ar/solutions.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "27879291aa04caa7e431df1cd57b7a39803385aed8d0bb4c55269d71d916706c"
+    },
+    {
+      "path": "ar/training.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "4e2ba898586aa23a536d69aff6056172aa124b16df749c99ddcc44dee7d0c3dd"
+    },
+    {
+      "path": "briefing.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "9fba27537380106cb01a108bf182d8854d1fe678cbc2bd395b4a9cfcb77d228d"
+    },
+    {
+      "path": "case-studies/analucia-sofia/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "10685331dbdc918d0e7f356dcaff09961e3b4fd5bc9713444702dc793abf396d"
+    },
+    {
+      "path": "case-studies/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "71ba4bf2c5645d6aa55c85a9dc2266fdd0680a1fffbac463ecf28eae809e73b7"
+    },
+    {
+      "path": "company.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "6b2be927a73570536fbb44372b1210b12c1738442e71bd877d308d47b5604e1b"
+    },
+    {
+      "path": "creator-social.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "ea74b38706d8c20959674c56ff1fee945955c6291e6299a5b36b573a6a55d414"
+    },
+    {
+      "path": "fr-ca/briefing.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "beb8b78fb61571c95632bf820b44a9ea5f52f476a39167e3c9961e60310a571c"
+    },
+    {
+      "path": "fr-ca/case-studies/analucia-sofia/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "cf398e8816a6a1efab52a0343e26bbf1a1c7dd2f68487e7a99a991561e1c5c34"
+    },
+    {
+      "path": "fr-ca/case-studies/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "bef81e5ae0a98ce338e7ea274b28d0629451789d6917da306067876adc7a1d66"
+    },
+    {
+      "path": "fr-ca/company.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "6b56f7a83a0ed6f41355e7dd4685aa868b87863867b9df9f719d2f2876258986"
+    },
+    {
+      "path": "fr-ca/creator-social.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "b3b3750ef78a73dc486d83afdfcbde4ebe7dfb418fa062070eb94bdf441693aa"
+    },
+    {
+      "path": "fr-ca/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "ecf4a4ee33d933c1fe5ae541068eb7f0b1d33a9199280f0f58fa62f422963f2e"
+    },
+    {
+      "path": "fr-ca/marketing-investment.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "63f9bf7788d45708b7cd47b68de977a794c0addb2e42e1bfe7210ddfb15dbe66"
+    },
+    {
+      "path": "fr-ca/online-conversion.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "e56189d4a5aa80ed97e2f9b5d40b608a516c0839eec09d25b88e386e61e61909"
+    },
+    {
+      "path": "fr-ca/platform.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "dd9a2a99c9b0c3384f0e0f7c1c43655c5763d5f899c82180c236c52c0b89ebf0"
+    },
+    {
+      "path": "fr-ca/solutions.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "5fab1d9ea5d0f52d40af914c3548788240409531f733306525fec254ea42cecd"
+    },
+    {
+      "path": "fr-ca/training.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "b3a3c7a9e73997a4b17b0f712569f7e803fe2412520d6d1ec782c37412eb2088"
+    },
+    {
+      "path": "fr-fr/briefing.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "853ae6419ada50ceeef8c561d8eeb5ac6a02a1a416af595a1ceee31007b30a8a"
+    },
+    {
+      "path": "fr-fr/case-studies/analucia-sofia/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "043bdcab84e0a04e52af1058a254b8f123c88f72b3b90759279a11abe1cf4bfd"
+    },
+    {
+      "path": "fr-fr/case-studies/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "dfa455e1f069fff8d283b07bc22e82c6672422b539f18b3e9193ec19516c6843"
+    },
+    {
+      "path": "fr-fr/company.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "95383cd87202946a423e945d88c795cb778c275197a3f39fbd2594d5fb197424"
+    },
+    {
+      "path": "fr-fr/creator-social.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "abb96af69436a9f9e01f5607cfd6ceb949b7da342e656f76bcc34a43de101611"
+    },
+    {
+      "path": "fr-fr/index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "9ba5e46444331057c7b8ee23ba4714cd30791004cf4e80de4def2c2f21c48b3c"
+    },
+    {
+      "path": "fr-fr/marketing-investment.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "4648162f1f06fff6a01bf94850970c6dc18ed8a4accf9c017c795c2c20bd3ffa"
+    },
+    {
+      "path": "fr-fr/online-conversion.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "1c8c1d30ff4678ab3418c3ec2c2b04953258bdd57f74be7d2e20cba926ec75b0"
+    },
+    {
+      "path": "fr-fr/platform.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "865145246783beeb4cad4a8fe2f5e49225c86940c2d34f5744d50bbd9a66f01e"
+    },
+    {
+      "path": "fr-fr/solutions.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "40b36796edaf8c0fe1ff98df20c4a8fcb61f2b450b284670d2ecfa6abfc87b94"
+    },
+    {
+      "path": "fr-fr/training.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "ba039c9e4ed50c859f0541c33f277e19d40baf76215a43735da274d1a84fd0b1"
+    },
+    {
+      "path": "index.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "97deabb20527169f5a2ce1985b41cfe9d39fd7df58e764c03a43c859b286cf57"
+    },
+    {
+      "path": "marketing-investment.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "d1d8209ef89e0c0a0236c337f838dc5202279246b941ab3ed8f4398353de4683"
+    },
+    {
+      "path": "online-conversion.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "a32eb6cc2b9422abc6835259c23a9ec0d21fe49d4acf31cb39cf86f90c1adff9"
+    },
+    {
+      "path": "platform.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "1ce1ede63d89eea380a0a8001cf4002e5a20dd1e111bc3db9966190eb215c0d4"
+    },
+    {
+      "path": "solutions.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "d025b6aa520b7a15fdef7adfa38ce6aef74983dcf542ce3db9b2a4a660082bd0"
+    },
+    {
+      "path": "training.html",
+      "matchesLocalAfterEdgeEmailDecode": true,
+      "edgeEmailObfuscation": true,
+      "sha256": "a32e7ff67be2528349b74707e3809547679ebb139635fe1f9abb7ed82753513d"
+    }
+  ]
+}
