@@ -53,7 +53,7 @@ html[lang='ar'] .operating-layer:after{line-height:1.9}
 }
 @media(max-width:700px){html:not([lang='en']) body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-description{width:100%!important;max-width:100%!important;display:block!important;min-height:0!important}html:not([lang='en']) body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-description p{width:100%!important;max-width:100%!important}}
 @media(max-width:700px){html:not([lang='en']) .experience-grid{grid-template-columns:minmax(0,1fr)!important}html:not([lang='en']) .experience-grid>*{min-width:0;max-width:100%}html:not([lang='en']) #experience-title{font-size:clamp(34px,9vw,48px)!important}html:not([lang='en']) #experience-title span{white-space:normal!important}}
-@media(max-width:360px){html:not([lang='en']) .masthead .masthead-contact{display:none!important}}
+@media(max-width:360px){.masthead .masthead-contact{display:none!important}}
 /* Side-hero artwork stays in authored coordinates; Arabic copy stays in its own column. */
 html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{display:flex!important;flex-direction:column!important;align-items:flex-start!important;direction:ltr!important}
 html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .hero-subject-space{display:none!important;float:none!important}

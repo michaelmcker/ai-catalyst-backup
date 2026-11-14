@@ -9,6 +9,8 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 ROOT=Path(__file__).resolve().parents[1]
 ORIGIN='https://aicatalyst.biz'
 LOCALES={'en':('','English','ltr'),'fr-CA':('fr-ca','Français (Québec)','ltr'),'fr-FR':('fr-fr','Français (France)','ltr'),'ar':('ar','العربية','rtl')}
+SHORT_LABELS={'en':'CAN EN','fr-CA':'CAN FR','fr-FR':'FRA FR','ar':'AR'}
+LANGUAGE_NAMES={'en':'English (Canada)','fr-CA':'Français (Québec, Canada)','fr-FR':'Français (France)','ar':'العربية'}
 UI={
 'en':('Language','Choose language','Close','Read this page in English','Video and the external twin may remain in English.'),
 'fr-CA':('Langue','Choisir la langue','Fermer','Lire cette page en français québécois','Les vidéos et le jumeau numérique externe peuvent rester en anglais.'),
@@ -69,10 +71,11 @@ class Renderer(HTMLParser):
   discovery=f'<link rel="canonical" href="{ORIGIN}{route(self.name,self.locale)}">'
   for loc in LOCALES:discovery+=f'<link rel="alternate" hreflang="{loc}" href="{ORIGIN}{route(self.name,loc)}">'
   discovery+=f'<link rel="alternate" hreflang="x-default" href="{ORIGIN}{route(self.name,"en")}">'
-  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261113-2"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
+  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261114-1"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
   label,choose,close,_,notice=UI[self.locale]
-  links=''.join(f'<a href="{route(self.name,l)}" lang="{l}" hreflang="{l}" data-language="{l}"'+(' aria-current="true"' if l==self.locale else '')+f'>{html.escape(info[1])}</a>' for l,info in LOCALES.items())
-  switch=f'<details class="language-picker"><summary aria-label="{choose}">{ {'en':'EN','fr-CA':'FR·CA','fr-FR':'FR','ar':'العربية'}[self.locale] }</summary><nav aria-label="{choose}">{links}</nav></details>'
+  links=''.join(f'<a href="{route(self.name,l)}" lang="{l}" hreflang="{l}" data-language="{l}" title="{html.escape(LANGUAGE_NAMES[l],quote=True)}" aria-label="{SHORT_LABELS[l]} — {html.escape(LANGUAGE_NAMES[l],quote=True)}"'+(' aria-current="true"' if l==self.locale else '')+f'>{SHORT_LABELS[l]}</a>' for l in LOCALES)
+  current_name=html.escape(LANGUAGE_NAMES[self.locale],quote=True)
+  switch=f'<details class="language-picker"><summary title="{current_name}" aria-label="{choose}: {SHORT_LABELS[self.locale]} — {current_name}">{SHORT_LABELS[self.locale]}</summary><nav aria-label="{choose}">{links}</nav></details>'
   s=s.replace('<div class="masthead-actions">','<div class="masthead-actions">'+switch,1)
   if self.locale!='en':s=s.replace('<footer class="site-footer',f'<p class="locale-media-note wrap">{notice}</p><footer class="site-footer',1)
   # CSS-generated content must be localized as well.

@@ -26,6 +26,14 @@ for locale,(prefix,label,direction) in mod.LOCALES.items():
   nav_paths=[urlsplit(a.get('href','')).path for t,a in doc.tags if t=='a']
   assert all(mod.route(n,locale) in nav_paths for n in ['solutions.html','training.html','company.html','platform.html'])
   assert sum('language-picker' in a.get('class','').split() for _,a in doc.tags)==1
+  summary=next(a for t,a in doc.tags if t=='summary' and a.get('title')==mod.LANGUAGE_NAMES[locale])
+  assert mod.SHORT_LABELS[locale] in summary['aria-label'] and mod.LANGUAGE_NAMES[locale] in summary['aria-label']
+  options=[a for t,a in doc.tags if t=='a' and 'data-language' in a]
+  assert len(options)==4
+  for a in options:
+   loc=a['data-language'];assert a['href']==mod.route(name,loc) and a['title']==mod.LANGUAGE_NAMES[loc]
+   assert a['aria-label']==mod.SHORT_LABELS[loc]+' — '+mod.LANGUAGE_NAMES[loc]
+   assert re.search(r'aria-label="'+re.escape(a['aria-label'])+r'"[^>]*>'+re.escape(mod.SHORT_LABELS[loc])+r'</a>',s)
   for t,a in doc.tags:
    for key in ('src','href','poster','data-deferred-src'):
     v=a.get(key,'');parts=urlsplit(v)
