@@ -54,9 +54,35 @@ html[lang='ar'] .operating-layer:after{line-height:1.9}
 @media(max-width:700px){html:not([lang='en']) body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-description{width:100%!important;max-width:100%!important;display:block!important;min-height:0!important}html:not([lang='en']) body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero-copy .hero-description p{width:100%!important;max-width:100%!important}}
 @media(max-width:700px){html:not([lang='en']) .experience-grid{grid-template-columns:minmax(0,1fr)!important}html:not([lang='en']) .experience-grid>*{min-width:0;max-width:100%}html:not([lang='en']) #experience-title{font-size:clamp(34px,9vw,48px)!important}html:not([lang='en']) #experience-title span{white-space:normal!important}}
 @media(max-width:360px){.masthead .masthead-contact{display:none!important}}
-/* Side-hero artwork stays in authored coordinates; Arabic copy stays in its own column. */
-html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{display:flex!important;flex-direction:column!important;align-items:flex-start!important;direction:ltr!important}
+/* Arabic hero composition: copy reads from the right; only approved artwork
+   layers are mirrored. Canvas and image fallback share the same art parent. */
+html[lang='ar'] body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero{direction:rtl}
+html[lang='ar'] body.restored-home #main .hero-scene .hero-art[data-art-asset='sword-hand'],
+html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__art:is([data-art-asset='knight'],[data-art-asset='kneeler'],[data-art-asset='portrait']){scale:-1 1}
+html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{display:flex!important;flex-direction:column!important;align-items:flex-start!important;direction:rtl!important}
 html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .hero-subject-space{display:none!important;float:none!important}
-html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row){width:55%!important;max-width:55%!important;float:none!important;clear:none!important;margin-left:0!important;margin-right:auto!important;direction:rtl;text-align:right}
-@media(max-width:700px){html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row){width:100%!important;max-width:100%!important}html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{padding-top:20px!important}.hero-actions-row{flex-wrap:wrap}}
-@media(max-width:700px){html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{width:100%!important;max-width:100%!important;grid-column:1/-1!important;padding-inline:0!important;box-sizing:border-box}html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row){padding-inline:0!important;box-sizing:border-box}}
+html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row){width:55%!important;max-width:55%!important;float:none!important;clear:none!important;margin-left:auto!important;margin-right:0!important;direction:rtl;text-align:right}
+html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>.hero-link{align-self:flex-start;direction:rtl;max-width:55%!important}
+@media(min-width:701px){
+ html[lang='ar'] body.restored-home #main .hero-scene:has(.art-v2-sword-hand) .hero-copy{padding-left:0!important;padding-right:var(--gutter)!important}
+}
+/* Tablet columns swap positions, while copy retains the full column width. */
+@media(min-width:701px) and (max-width:1199px){
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero{direction:rtl!important}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy{padding:38px var(--gutter) 40px 24px!important}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row,.hero-link){width:100%!important;max-width:100%!important}
+}
+/* Architecture keeps its true orientation: crop it into the left art column. */
+@media(min-width:1200px){
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject='arcade'] .page-hero__art{left:0!important;right:auto!important;width:43%!important;overflow:hidden}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject='arcade'] .page-hero__art img{object-fit:cover!important;object-position:right center!important}
+}
+/* Phone: full-width artwork above full-width Arabic copy, without negative
+   art margins or the old English minimum copy height. */
+@media(max-width:700px){
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject]{display:flex!important;flex-direction:column!important;gap:0!important;padding:0 var(--gutter) 36px!important}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject] .page-hero__art{order:0!important;position:relative!important;inset:auto!important;align-self:center!important;width:calc(100% + 2 * var(--gutter))!important;max-width:none!important;height:auto!important;min-height:0!important;aspect-ratio:var(--hero-art-ratio,1.6)!important;margin:0!important;transform:none!important}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero[data-hero-subject] .page-hero__copy{order:1!important;min-height:0!important;width:100%!important;max-width:none!important;padding:20px 0 0!important;box-sizing:border-box}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row,.hero-link){width:100%!important;max-width:100%!important;padding-inline:0!important;box-sizing:border-box}
+ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy .hero-actions-row{flex-wrap:wrap}
+}

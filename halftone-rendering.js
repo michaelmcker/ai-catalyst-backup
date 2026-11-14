@@ -343,6 +343,12 @@
     const cx=r.width/(img.naturalWidth*scale),cy=r.height/(img.naturalHeight*scale);
     art.rect=r;art.crop=[cx,cy];art.offset=[(1-cx)*position(values[0],.5),(1-cy)*position(values[1],.5)];
     if(stage.dataset.artCrop){const [x,y,w,h]=stage.dataset.artCrop.split(' ').map(Number);art.crop=[w,h];art.offset=[x,y];}
+    // The opaque hero canvas is a sibling of the art stage, so CSS mirroring
+    // alone only flips the fallback. Mirror the measured crop in texture space
+    // as well; paper, live copy and the authored shader remain unmodified.
+    const mirrored=getComputedStyle(stage).scale.split(' ')[0]==='-1';
+    if(mirrored){art.offset[0]+=art.crop[0];art.crop[0]*=-1;}
+    stage.dataset.artMirrored=String(mirrored);
     stage.dataset.artCompositeRect=[r.left-field.rect.left,r.top-field.rect.top,r.width,r.height].map(value=>value.toFixed(3)).join(' ');
     return true;
   }
