@@ -86,3 +86,17 @@ html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__c
  html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy>:is(h1,p,.hero-actions-row,.hero-link){width:100%!important;max-width:100%!important;padding-inline:0!important;box-sizing:border-box}
  html[lang='ar'] body.subpage:not(.migration-pano) #main>.page-hero .page-hero__copy .hero-actions-row{flex-wrap:wrap}
 }
+
+/* Keep the complete navigation, including Blog, visible at ordinary viewport
+   heights. Retain scrolling as a fallback for zoom and unusually short views. */
+.masthead .masthead-panel,.quality-site .masthead .masthead-panel{padding:14px 24px!important;max-height:calc(100dvh - 100px)!important}
+.masthead .masthead-panel .masthead-menu-list>li>a{font-size:24px!important;line-height:1.25!important;letter-spacing:-.02em!important;padding:6px 0!important;min-height:42px;display:flex;align-items:center}
+.masthead .masthead-panel .masthead-capabilities{margin-block:4px!important}
+.masthead .masthead-panel .masthead-capabilities a{font-size:16px!important;line-height:1.35!important;padding:5px 0!important;min-height:38px!important}
+.masthead .masthead-panel-footer{font-size:12px!important;margin-top:8px!important}
+@media(max-width:700px){.masthead .masthead-panel .masthead-menu-list>li>a{font-size:20px!important;min-height:40px}.masthead .masthead-panel,.quality-site .masthead .masthead-panel{padding:12px 20px!important}}
+@media(max-height:760px){
+ .masthead .masthead-panel,.quality-site .masthead .masthead-panel{padding:10px 20px!important}
+ .masthead .masthead-panel .masthead-menu-list>li>a{font-size:18px!important;line-height:1.25!important;padding:4px 0!important;min-height:32px}
+ .masthead .masthead-panel .masthead-capabilities a{font-size:14px!important;line-height:1.3!important;padding:4px 0!important;min-height:32px!important}
+}

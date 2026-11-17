@@ -71,7 +71,7 @@ class Renderer(HTMLParser):
   discovery=f'<link rel="canonical" href="{ORIGIN}{route(self.name,self.locale)}">'
   for loc in LOCALES:discovery+=f'<link rel="alternate" hreflang="{loc}" href="{ORIGIN}{route(self.name,loc)}">'
   discovery+=f'<link rel="alternate" hreflang="x-default" href="{ORIGIN}{route(self.name,"en")}">'
-  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261114-2"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
+  s=s.replace('</head>',discovery+'<link rel="stylesheet" href="/localization.css?v=20261117-menu1"><script src="/language-switcher.js?v=20261113-1" defer></script></head>')
   if self.locale=='ar':s=s.replace('halftone-rendering.js?v=20261024-direct9','halftone-rendering.js?v=20261114-ar1')
   label,choose,close,_,notice=UI[self.locale]
   links=''.join(f'<a href="{route(self.name,l)}" lang="{l}" hreflang="{l}" data-language="{l}" title="{html.escape(LANGUAGE_NAMES[l],quote=True)}" aria-label="{SHORT_LABELS[l]} — {html.escape(LANGUAGE_NAMES[l],quote=True)}"'+(' aria-current="true"' if l==self.locale else '')+f'>{SHORT_LABELS[l]}</a>' for l in LOCALES)
