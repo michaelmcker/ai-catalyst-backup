@@ -83,6 +83,15 @@ class Renderer(HTMLParser):
   if self.locale!='en':
    labels={'fr-CA':'Intelligence des créateurs\\A Vente en direct agentique\\A Modélisation du mix commercial\\A\\A Votre plan de mise en marché + les initiatives de la concurrence\\A\\A Moteur de décision de mise en marché','fr-FR':'Intelligence des créateurs\\A Vente en direct agentique\\A Modélisation du mix commercial\\A\\A Votre plan de commercialisation + les initiatives concurrentes\\A\\A Moteur de décision de commercialisation','ar':'تحليل نشاط صناع المحتوى\\A البيع المباشر بالوكلاء الذكيين\\A نمذجة المزيج التجاري\\A\\A خطتك لدخول السوق وتحركات المنافسين\\A\\A محرك قرارات دخول السوق'}
    s=s.replace('</head>','<style>.operating-layer:after{content:"'+labels[self.locale]+'"}</style></head>')
+  if self.name.startswith('blog/'):
+   def paragraphs(m):
+    sentences=re.split(r'(?<=[.!?؟])\s+',m[1]);groups=[];chunk=[]
+    for sentence in sentences:
+     chunk.append(sentence)
+     if len(' '.join(chunk).split())>=65:groups.append(' '.join(chunk));chunk=[]
+    if chunk:groups.append(' '.join(chunk))
+    return '<div class="transcript-text">'+''.join('<p>'+g+'</p>' for g in groups)+'</div>'
+   s=re.sub(r'<div class="transcript-text">(.*?)</div>',paragraphs,s,flags=re.S)
   return s
 PAGES=sorted(read_json('source-manifest.json'))
 def build(check=False,record_review=False):

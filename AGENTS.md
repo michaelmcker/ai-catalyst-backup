@@ -1,5 +1,13 @@
 # AI Catalyst website guidance
 
+## Blog publishing contract — 17 November 2026
+
+- Blog source content lives in `content/blog/posts.json`; preserve raw published-video caption evidence in `content/blog/youtube-source.json`. A source script supports terminology review but is not proof of the final spoken wording.
+- Run `python3 scripts/build-case-studies.py` then `python3 scripts/build-blog.py` to build English source templates. Follow the localization/catalog review workflow below and ship all four editions. Do not hand-edit generated public HTML.
+- Keep the blog index, header menu, footer links, equivalent-page language links and sitemap current. Blog pages retain shared Analytics and HopShop integrations.
+- Embed the supplied video with a responsive, titled YouTube privacy-enhanced iframe, lazy loading, no autoplay, a referrer policy that permits player verification, and a direct YouTube fallback link. Keep transcripts readable as HTML and identify automatic-caption corrections and translated text honestly. Do not pass off a script as a verified recording transcript or silently rewrite the speaker’s claims.
+- Run `python3 scripts/build-blog.py --check`, `node tests/localization/blog.cjs`, localization and public-site checks, and review desktop/tablet/phone layouts and hosted players before release.
+
 ## Mandatory multilingual page contract — 13 November 2026
 
 - Every new public page and every material content change must ship in all four editions: English (`en`), Quebec French (`fr-CA`), France French (`fr-FR`), and Modern Standard Arabic (`ar`). New pages are incomplete until all four equivalents are built and checked.

@@ -1,0 +1,552 @@
+{
+  "retrieved": "2026-11-16",
+  "source": "YouTube automatic English captions via Firecrawl",
+  "videos": [
+    {
+      "available_tracks": [
+        {
+          "is_translatable": true,
+          "kind": "asr",
+          "language_code": "en",
+          "name": "English (auto-generated)"
+        }
+      ],
+      "full_text": "Every CMO knows this meeting. The CFO slides the budget across the table and asks one question. Prove it or lose it. My own budget was cut twice in 10 years. Once for CO, once for a measurement battle we frankly got wrong. What's helped me since is checking whether the measurement covers the same ground as the budget. Creator spend, influencer packages, retail media, the deals that never touch a dashboard. If those are missing from the picture, it's harder to explain what the whole investment is doing. So, I come back to three questions. Can you see every spend line? Can you compare what each one contributed? And does the answer arrive in time to help with the next decision? The thing I wish I'd had then back when I had legacy MM is what we have today. Full commerce MM. The real full picture of gotomarket investments. all 10 spend lines in one picture. And the third question is where most enterprises fall down. The insight arrives, but the action doesn't. Not in time to change the next decision. This is a whole new world, though. Um, an AI interface that's learned on 10 years of MM expert context, not just clawed or chat GPT. Ask the question in plain language, run a live simulation in the meeting, and act on it while the market is still there. That's what keeps me engaged. what's possible. Now, I've sat in that chair for 20 plus years as a CMO. These days, I'm focused on paying it forward, sharing what I learned with the next generation of leaders. The shift that helped me most is being able to sit down with finance and say, \"Here's what we're seeing. Here's what we've learned, and here's where the next dollar could help us grow. Faster, smarter, better decisions.\" If that's you, let's chat or start with my AI twin on a catalyst. It knows how I think about this.",
+      "has_transcript": true,
+      "kind": "asr",
+      "language_code": "en",
+      "observed_at_ms": 1794891678225,
+      "segment_count": 49,
+      "segments": [
+        {
+          "duration_ms": 4240,
+          "start_ms": 240,
+          "text": "Every CMO knows this meeting. The CFO"
+        },
+        {
+          "duration_ms": 4800,
+          "start_ms": 2720,
+          "text": "slides the budget across the table and"
+        },
+        {
+          "duration_ms": 5520,
+          "start_ms": 4480,
+          "text": "asks one question. Prove it or lose it."
+        },
+        {
+          "duration_ms": 4880,
+          "start_ms": 7520,
+          "text": "My own budget was cut twice in 10 years."
+        },
+        {
+          "duration_ms": 4559,
+          "start_ms": 10000,
+          "text": "Once for CO, once for a measurement"
+        },
+        {
+          "duration_ms": 4000,
+          "start_ms": 12400,
+          "text": "battle we frankly got wrong. What's"
+        },
+        {
+          "duration_ms": 3681,
+          "start_ms": 14559,
+          "text": "helped me since is checking whether the"
+        },
+        {
+          "duration_ms": 3760,
+          "start_ms": 16400,
+          "text": "measurement covers the same ground as"
+        },
+        {
+          "duration_ms": 5039,
+          "start_ms": 18240,
+          "text": "the budget."
+        },
+        {
+          "duration_ms": 5840,
+          "start_ms": 20160,
+          "text": "Creator spend, influencer packages,"
+        },
+        {
+          "duration_ms": 5121,
+          "start_ms": 23279,
+          "text": "retail media, the deals that never touch"
+        },
+        {
+          "duration_ms": 4640,
+          "start_ms": 26000,
+          "text": "a dashboard. If those are missing from"
+        },
+        {
+          "duration_ms": 4319,
+          "start_ms": 28400,
+          "text": "the picture, it's harder to explain what"
+        },
+        {
+          "duration_ms": 4640,
+          "start_ms": 30640,
+          "text": "the whole investment is doing. So, I"
+        },
+        {
+          "duration_ms": 5520,
+          "start_ms": 32719,
+          "text": "come back to three questions. Can you"
+        },
+        {
+          "duration_ms": 5680,
+          "start_ms": 35280,
+          "text": "see every spend line? Can you compare"
+        },
+        {
+          "duration_ms": 4881,
+          "start_ms": 38239,
+          "text": "what each one contributed?"
+        },
+        {
+          "duration_ms": 4800,
+          "start_ms": 40960,
+          "text": "And does the answer arrive in time to"
+        },
+        {
+          "duration_ms": 4880,
+          "start_ms": 43120,
+          "text": "help with the next decision?"
+        },
+        {
+          "duration_ms": 5279,
+          "start_ms": 45760,
+          "text": "The thing I wish I'd had then back when"
+        },
+        {
+          "duration_ms": 6320,
+          "start_ms": 48000,
+          "text": "I had legacy MM is what we have today."
+        },
+        {
+          "duration_ms": 6000,
+          "start_ms": 51039,
+          "text": "Full commerce MM. The real full picture"
+        },
+        {
+          "duration_ms": 5360,
+          "start_ms": 54320,
+          "text": "of gotomarket investments. all 10 spend"
+        },
+        {
+          "duration_ms": 4641,
+          "start_ms": 57039,
+          "text": "lines in one picture."
+        },
+        {
+          "duration_ms": 4000,
+          "start_ms": 59680,
+          "text": "And the third question is where most"
+        },
+        {
+          "duration_ms": 4320,
+          "start_ms": 61680,
+          "text": "enterprises fall down. The insight"
+        },
+        {
+          "duration_ms": 4479,
+          "start_ms": 63680,
+          "text": "arrives, but the action doesn't. Not in"
+        },
+        {
+          "duration_ms": 4720,
+          "start_ms": 66000,
+          "text": "time to change the next decision. This"
+        },
+        {
+          "duration_ms": 4640,
+          "start_ms": 68159,
+          "text": "is a whole new world, though. Um, an AI"
+        },
+        {
+          "duration_ms": 4800,
+          "start_ms": 70720,
+          "text": "interface that's learned on 10 years of"
+        },
+        {
+          "duration_ms": 5360,
+          "start_ms": 72799,
+          "text": "MM expert context, not just clawed or"
+        },
+        {
+          "duration_ms": 4880,
+          "start_ms": 75520,
+          "text": "chat GPT. Ask the question in plain"
+        },
+        {
+          "duration_ms": 4161,
+          "start_ms": 78159,
+          "text": "language, run a live simulation in the"
+        },
+        {
+          "duration_ms": 3520,
+          "start_ms": 80400,
+          "text": "meeting, and act on it while the market"
+        },
+        {
+          "duration_ms": 4320,
+          "start_ms": 82320,
+          "text": "is still there. That's what keeps me"
+        },
+        {
+          "duration_ms": 4800,
+          "start_ms": 83920,
+          "text": "engaged. what's possible. Now, I've sat"
+        },
+        {
+          "duration_ms": 4479,
+          "start_ms": 86640,
+          "text": "in that chair for 20 plus years as a"
+        },
+        {
+          "duration_ms": 4320,
+          "start_ms": 88720,
+          "text": "CMO. These days, I'm focused on paying"
+        },
+        {
+          "duration_ms": 3921,
+          "start_ms": 91119,
+          "text": "it forward, sharing what I learned with"
+        },
+        {
+          "duration_ms": 3759,
+          "start_ms": 93040,
+          "text": "the next generation of leaders. The"
+        },
+        {
+          "duration_ms": 3920,
+          "start_ms": 95040,
+          "text": "shift that helped me most is being able"
+        },
+        {
+          "duration_ms": 3841,
+          "start_ms": 96799,
+          "text": "to sit down with finance and say,"
+        },
+        {
+          "duration_ms": 3920,
+          "start_ms": 98960,
+          "text": "\"Here's what we're seeing. Here's what"
+        },
+        {
+          "duration_ms": 5360,
+          "start_ms": 100640,
+          "text": "we've learned, and here's where the next"
+        },
+        {
+          "duration_ms": 5360,
+          "start_ms": 102880,
+          "text": "dollar could help us grow. Faster,"
+        },
+        {
+          "duration_ms": 5119,
+          "start_ms": 106000,
+          "text": "smarter, better decisions.\" If that's"
+        },
+        {
+          "duration_ms": 5280,
+          "start_ms": 108240,
+          "text": "you, let's chat or start with my AI twin"
+        },
+        {
+          "duration_ms": 6601,
+          "start_ms": 111119,
+          "text": "on a catalyst."
+        },
+        {
+          "duration_ms": 4200,
+          "start_ms": 113520,
+          "text": "It knows how I think about this."
+        }
+      ],
+      "title": "Prove It or Lose It",
+      "track_name": "English (auto-generated)",
+      "translated_to": null,
+      "url": "https://www.youtube.com/watch?v=qabmU8E7dCg",
+      "video_id": "qabmU8E7dCg"
+    },
+    {
+      "available_tracks": [
+        {
+          "is_translatable": true,
+          "kind": "asr",
+          "language_code": "en",
+          "name": "English (auto-generated)"
+        }
+      ],
+      "full_text": "You proved it. The budget's yours. Now comes the harder question. Where does the next dollar go? Search, the front door of the internet for 20 years, is shifting. Your customer doesn't search anymore. Their agent does. 10 million people set up Meta's Muse in 6 weeks in the US and Canada alone. Amazon blocked it. Walmart and Shopify opened the door. And look at Google. Half a trillion dollars gone in a single day. It's worst day ever. Its own AI answers are eating its search ads. That's the market pricing in the end of the search box. So when your customer's agent comes knocking, who meets them? The way I look at it, the next dollar doesn't go to the search box. It goes to a brand agent on your own storefront, a digital human, your best salesperson, onetoone around the clock, connected to your real inventory, your bundles, your margin. The experience hasn't changed in 25 years. Search box, scroll, click, the death scroll. The agent ends that. Just a conversation. And a conversation qualifies, guides, and converts. So the traffic you get is better traffic. More of what we buy happens online every year. If no one's there to meet that agent, the opportunity is gone. There's a second way in, one to many. a live show at a set time for a special launch, your brand agent hosting it, or even an influencers's twin as your brand agent. Real people joining in. Folks love being part of an exclusive event. When the conversation happens, onetoone or one to many, it's built around the customer. That's what drives higher consideration. The brands that build this now are the ones the agents recommend first. That's Agentic Commerce. I've spent 20 plus years as a CMO. These days, I'm focused on paying it forward, sharing what I learned with the next generation of leaders. Faster, smarter, better decisions. If that's you, let's chat or start with my AI twin on AI catalyst.biz. It knows how I think about this.",
+      "has_transcript": true,
+      "kind": "asr",
+      "language_code": "en",
+      "observed_at_ms": 1794891678228,
+      "segment_count": 51,
+      "segments": [
+        {
+          "duration_ms": 4800,
+          "start_ms": 240,
+          "text": "You proved it. The budget's yours. Now"
+        },
+        {
+          "duration_ms": 4879,
+          "start_ms": 2960,
+          "text": "comes the harder question. Where does"
+        },
+        {
+          "duration_ms": 5280,
+          "start_ms": 5040,
+          "text": "the next dollar go? Search, the front"
+        },
+        {
+          "duration_ms": 4561,
+          "start_ms": 7839,
+          "text": "door of the internet for 20 years, is"
+        },
+        {
+          "duration_ms": 5279,
+          "start_ms": 10320,
+          "text": "shifting. Your customer doesn't search"
+        },
+        {
+          "duration_ms": 5920,
+          "start_ms": 12400,
+          "text": "anymore. Their agent does. 10 million"
+        },
+        {
+          "duration_ms": 5840,
+          "start_ms": 15599,
+          "text": "people set up Meta's Muse in 6 weeks in"
+        },
+        {
+          "duration_ms": 5680,
+          "start_ms": 18320,
+          "text": "the US and Canada alone. Amazon blocked"
+        },
+        {
+          "duration_ms": 5041,
+          "start_ms": 21439,
+          "text": "it. Walmart and Shopify opened the door."
+        },
+        {
+          "duration_ms": 5119,
+          "start_ms": 24000,
+          "text": "And look at Google. Half a trillion"
+        },
+        {
+          "duration_ms": 5680,
+          "start_ms": 26480,
+          "text": "dollars gone in a single day. It's worst"
+        },
+        {
+          "duration_ms": 4960,
+          "start_ms": 29119,
+          "text": "day ever. Its own AI answers are eating"
+        },
+        {
+          "duration_ms": 4160,
+          "start_ms": 32160,
+          "text": "its search ads. That's the market"
+        },
+        {
+          "duration_ms": 3681,
+          "start_ms": 34079,
+          "text": "pricing in the end of the search box. So"
+        },
+        {
+          "duration_ms": 3759,
+          "start_ms": 36320,
+          "text": "when your customer's agent comes"
+        },
+        {
+          "duration_ms": 4400,
+          "start_ms": 37760,
+          "text": "knocking, who meets them? The way I look"
+        },
+        {
+          "duration_ms": 4640,
+          "start_ms": 40079,
+          "text": "at it, the next dollar doesn't go to the"
+        },
+        {
+          "duration_ms": 5280,
+          "start_ms": 42160,
+          "text": "search box. It goes to a brand agent on"
+        },
+        {
+          "duration_ms": 5680,
+          "start_ms": 44719,
+          "text": "your own storefront, a digital human,"
+        },
+        {
+          "duration_ms": 5279,
+          "start_ms": 47440,
+          "text": "your best salesperson, onetoone around"
+        },
+        {
+          "duration_ms": 5601,
+          "start_ms": 50399,
+          "text": "the clock, connected to your real"
+        },
+        {
+          "duration_ms": 5601,
+          "start_ms": 52719,
+          "text": "inventory, your bundles, your margin."
+        },
+        {
+          "duration_ms": 6000,
+          "start_ms": 56000,
+          "text": "The experience hasn't changed in 25"
+        },
+        {
+          "duration_ms": 6400,
+          "start_ms": 58320,
+          "text": "years. Search box, scroll, click, the"
+        },
+        {
+          "duration_ms": 4799,
+          "start_ms": 62000,
+          "text": "death scroll. The agent ends that. Just"
+        },
+        {
+          "duration_ms": 6000,
+          "start_ms": 64720,
+          "text": "a conversation. And a conversation"
+        },
+        {
+          "duration_ms": 5761,
+          "start_ms": 66799,
+          "text": "qualifies, guides, and converts."
+        },
+        {
+          "duration_ms": 4399,
+          "start_ms": 70720,
+          "text": "So the traffic you get is better"
+        },
+        {
+          "duration_ms": 5280,
+          "start_ms": 72560,
+          "text": "traffic. More of what we buy happens"
+        },
+        {
+          "duration_ms": 4561,
+          "start_ms": 75119,
+          "text": "online every year. If no one's there to"
+        },
+        {
+          "duration_ms": 4080,
+          "start_ms": 77840,
+          "text": "meet that agent, the opportunity is"
+        },
+        {
+          "duration_ms": 5439,
+          "start_ms": 79680,
+          "text": "gone. There's a second way in, one to"
+        },
+        {
+          "duration_ms": 5519,
+          "start_ms": 81920,
+          "text": "many. a live show at a set time for a"
+        },
+        {
+          "duration_ms": 4561,
+          "start_ms": 85119,
+          "text": "special launch, your brand agent hosting"
+        },
+        {
+          "duration_ms": 4561,
+          "start_ms": 87439,
+          "text": "it, or even an influencers's twin as"
+        },
+        {
+          "duration_ms": 4399,
+          "start_ms": 89680,
+          "text": "your brand agent. Real people joining"
+        },
+        {
+          "duration_ms": 4240,
+          "start_ms": 92000,
+          "text": "in. Folks love being part of an"
+        },
+        {
+          "duration_ms": 5841,
+          "start_ms": 94079,
+          "text": "exclusive event. When the conversation"
+        },
+        {
+          "duration_ms": 6239,
+          "start_ms": 96240,
+          "text": "happens, onetoone or one to many, it's"
+        },
+        {
+          "duration_ms": 5040,
+          "start_ms": 99920,
+          "text": "built around the customer. That's what"
+        },
+        {
+          "duration_ms": 4320,
+          "start_ms": 102479,
+          "text": "drives higher consideration. The brands"
+        },
+        {
+          "duration_ms": 4479,
+          "start_ms": 104960,
+          "text": "that build this now are the ones the"
+        },
+        {
+          "duration_ms": 5201,
+          "start_ms": 106799,
+          "text": "agents recommend first. That's Agentic"
+        },
+        {
+          "duration_ms": 5360,
+          "start_ms": 109439,
+          "text": "Commerce. I've spent 20 plus years as a"
+        },
+        {
+          "duration_ms": 4880,
+          "start_ms": 112000,
+          "text": "CMO. These days, I'm focused on paying"
+        },
+        {
+          "duration_ms": 4881,
+          "start_ms": 114799,
+          "text": "it forward, sharing what I learned with"
+        },
+        {
+          "duration_ms": 5120,
+          "start_ms": 116880,
+          "text": "the next generation of leaders. Faster,"
+        },
+        {
+          "duration_ms": 5119,
+          "start_ms": 119680,
+          "text": "smarter, better decisions. If that's"
+        },
+        {
+          "duration_ms": 5920,
+          "start_ms": 122000,
+          "text": "you, let's chat or start with my AI twin"
+        },
+        {
+          "duration_ms": 6361,
+          "start_ms": 124799,
+          "text": "on AI catalyst.biz. It knows how I think"
+        },
+        {
+          "duration_ms": 3240,
+          "start_ms": 127920,
+          "text": "about this."
+        }
+      ],
+      "title": "Coffee Chats on Agenetic Live Selling -",
+      "track_name": "English (auto-generated)",
+      "translated_to": null,
+      "url": "https://www.youtube.com/watch?v=m7w5cVsCj5k",
+      "video_id": "m7w5cVsCj5k"
+    }
+  ]
+}

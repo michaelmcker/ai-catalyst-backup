@@ -49,4 +49,4 @@ mod.build(check=True)
 base=mod.read_json('en.json');missing=dict(base);missing.pop(next(iter(base)))
 try:mod.Renderer('Test unknown sentence', 'index.html','fr-CA',missing,base).render();raise AssertionError('unregistered text accepted')
 except ValueError:pass
-print('PASS: 44 page editions; complete equivalents, valid assets, telemetry/embed, RTL, discovery, mirrors and stale-source guards.')
+print(f'PASS: {count} page editions; complete equivalents, valid assets, telemetry/embed, RTL, discovery, mirrors and stale-source guards.')

@@ -1,4 +1,22 @@
 {
+  "blog/index.html": {
+    "en": "/blog/",
+    "fr-CA": "/fr-ca/blog/",
+    "fr-FR": "/fr-fr/blog/",
+    "ar": "/ar/blog/"
+  },
+  "blog/prove-it-or-lose-it/index.html": {
+    "en": "/blog/prove-it-or-lose-it/",
+    "fr-CA": "/fr-ca/blog/prove-it-or-lose-it/",
+    "fr-FR": "/fr-fr/blog/prove-it-or-lose-it/",
+    "ar": "/ar/blog/prove-it-or-lose-it/"
+  },
+  "blog/where-does-the-next-dollar-go/index.html": {
+    "en": "/blog/where-does-the-next-dollar-go/",
+    "fr-CA": "/fr-ca/blog/where-does-the-next-dollar-go/",
+    "fr-FR": "/fr-fr/blog/where-does-the-next-dollar-go/",
+    "ar": "/ar/blog/where-does-the-next-dollar-go/"
+  },
   "briefing.html": {
     "en": "/briefing.html",
     "fr-CA": "/fr-ca/briefing.html",
