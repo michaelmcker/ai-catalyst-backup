@@ -4,6 +4,8 @@ for(const prefix of ['', 'fr-ca/','fr-fr/','ar/']){
  const index=fs.readFileSync(path.join(root,'current-site',prefix,'blog/index.html'),'utf8');
  for(const p of posts){
   assert(index.includes(`href="/${prefix}blog/${p.slug}/"`));
+  assert(index.includes(`src="${p.thumbnail}"`));assert(fs.existsSync(path.join(root,"current-site",p.thumbnail)));
+  if(!prefix)assert(index.includes(p.title));
   const page=fs.readFileSync(path.join(root,'current-site',prefix,'blog',p.slug,'index.html'),'utf8');
   assert.equal((page.match(/<iframe /g)||[]).length,1);
   assert(page.includes(`https://www.youtube-nocookie.com/embed/${p.video}`));assert(!page.includes('autoplay=1'));
