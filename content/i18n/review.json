@@ -1,22 +1,22 @@
 {
   "en": {
-    "catalog_sha256": "a6e7bc286da78d9124134cc1200ffb8d71ffe0408c4024a4ee5094ded4acb542",
-    "source_sha256": "db12545d4dc232c32a149aef529e4b9d52612309cdc2aedba9058c672070e856",
+    "catalog_sha256": "f57c9bdfb56c24c36107cd435d148fef5985b500cdc10fef40a7c9399695d5bc",
+    "source_sha256": "19463b38a35e2050c7934936e247256a7c187439971cb0b088abe1098bb45c6c",
     "review": "source-completeness and model editorial review; not certified native-speaker review"
   },
   "fr-CA": {
-    "catalog_sha256": "d0561ecba923b71e73f23c4459e2f09c76fccb734422c73c0acba4f91d7eea0a",
-    "source_sha256": "db12545d4dc232c32a149aef529e4b9d52612309cdc2aedba9058c672070e856",
+    "catalog_sha256": "46860b3bce287237e7b3ab81dd774e877f771609ce0e7cddf5a6706a5c51cfcb",
+    "source_sha256": "19463b38a35e2050c7934936e247256a7c187439971cb0b088abe1098bb45c6c",
     "review": "source-completeness and model editorial review; not certified native-speaker review"
   },
   "fr-FR": {
-    "catalog_sha256": "6cbeb5bfd9d15da49be1ea315a389c8e020ce13ee1f1763317e6c36e1b2aefe3",
-    "source_sha256": "db12545d4dc232c32a149aef529e4b9d52612309cdc2aedba9058c672070e856",
+    "catalog_sha256": "e6f11f69b5f0a18635bd1c59c284ca3431c018e525067fcffd31be5c76c35ef5",
+    "source_sha256": "19463b38a35e2050c7934936e247256a7c187439971cb0b088abe1098bb45c6c",
     "review": "source-completeness and model editorial review; not certified native-speaker review"
   },
   "ar": {
-    "catalog_sha256": "5d16ae0a745807027c9e03d352448c653779b2bb0ac2a7935955c6928973b2fd",
-    "source_sha256": "db12545d4dc232c32a149aef529e4b9d52612309cdc2aedba9058c672070e856",
+    "catalog_sha256": "41d8f52335ba41f2447d054af1f5e00e5bbc513a357a9eb3ee536fc63ddcb7e3",
+    "source_sha256": "19463b38a35e2050c7934936e247256a7c187439971cb0b088abe1098bb45c6c",
     "review": "source-completeness and model editorial review; not certified native-speaker review"
   }
 }
