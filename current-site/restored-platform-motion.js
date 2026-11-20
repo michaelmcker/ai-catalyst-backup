@@ -22,7 +22,7 @@ function motionLabel(ctx, text, x, y, maxWidth) {
   const running = new WeakMap();
   function canvasContext(canvas, w, h) {
     const ctx = canvas.getContext('2d');
-    const resize = () => { const css = canvas.getBoundingClientRect(); const dpr = Math.min(devicePixelRatio || 1, 2); canvas.width = Math.max(1, Math.round(css.width * dpr)); canvas.height = Math.max(1, Math.round(css.width * h / w * dpr)); ctx.setTransform(canvas.width / w, 0, 0, canvas.height / (h + 32), 0, canvas.height * 16 / (h + 32)); };
+    const resize = () => { const css = canvas.getBoundingClientRect(); const dpr = Math.min(devicePixelRatio || 1, 2); canvas.width = Math.max(1, Math.round(css.width * dpr)); canvas.height = Math.max(1, Math.round(css.width * h / w * dpr)); ctx.setTransform(canvas.width / w, 0, 0, canvas.height / (h + 32), 0, canvas.height * 16 / (h + 32)); /* Resizing clears the bitmap; repaint static diagrams too. */ if (reduce) canvas.dispatchEvent(new Event("storychange")); };
     new ResizeObserver(resize).observe(canvas); resize(); return ctx;
   }
   function animate(el, draw, duration = 5, options = {}) {
