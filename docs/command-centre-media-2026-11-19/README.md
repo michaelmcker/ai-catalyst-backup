@@ -27,4 +27,4 @@ Known unrelated failures: enclosing portfolio `npm test` remains 168/170 before 
 
 Public release uses the complete previous 206-path manifest plus the one new poster (207 paths). Only the four platform editions, shared platform CSS, reduced-motion renderer and poster change in the deployed manifest. `_headers` and `_redirects` are retained as separate named deployment parts.
 
-Deployment and HTTP readback evidence will be recorded alongside this file after publication.
+Production deployment `1b8c2af0-669c-494f-9578-bb52c560d4ba` succeeded and was confirmed canonical through Cloudflare. Live readback verified all 60 HTML editions plus seven shared assets/discovery files against release source, normalizing only the existing Cloudflare email-protection markup in HTML. See `deployment.json` and `live-verification.json`. Implementation is backed up on the existing `codex/multilingual-site-20261113` GitHub branch.

@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "id": "1b8c2af0-669c-494f-9578-bb52c560d4ba",
+  "url": "https://1b8c2af0.ai-catalyst-9l3.pages.dev",
+  "environment": "production",
+  "latest_stage": {
+    "name": "deploy",
+    "status": "success"
+  },
+  "canonicalConfirmed": true
+}

@@ -1,0 +1,610 @@
+{
+  "deployment": "1b8c2af0-669c-494f-9578-bb52c560d4ba",
+  "verified": 67,
+  "pages": 60,
+  "results": [
+    {
+      "path": "creator-social.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/creator-social",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "12fa7aae930e809d74f9fd57cf87efc40cef9fed8a416b991cf26da3c739f225",
+      "bytes": 14919,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3d8d4a611a55416708a45d302c830a2028fa7c2c98e03c8d791191666e20da91",
+      "bytes": 56813,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "marketing-investment.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/marketing-investment",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "5e61d0bf947c215c0f4db6ad085d1460a0aae3d0e3bf4932e4e261a1c8a8ff43",
+      "bytes": 18382,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "briefing.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/briefing",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e0d7c1b0fc74a04857b1e1ddd4754d63f6970c0d1bd505e0f5c76aa610452896",
+      "bytes": 11185,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "platform.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/platform",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f5f57bf3425fd5ce59511487caa77355b6964a80aaa32d33e1ead90540380888",
+      "bytes": 49186,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "online-conversion.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/online-conversion",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "bad1d0f8efb8d7c5b46468ecf9f8af88b27492a0b3c7993f5b0791509ca826e3",
+      "bytes": 19288,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "company.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/company",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f98854fe1b2b47ef28afc2dbba55b1c695058e4b65d8f7d4f88036dda27ccbaf",
+      "bytes": 17520,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "training.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/training",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4dd5542f4299792b219873b3b2317381553b78a025d16a4d9ff5971719a65d25",
+      "bytes": 14667,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "solutions.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/solutions",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "13aaf84364492e97c6a2c57a96617367549bdef6b1726200e4461a1107936974",
+      "bytes": 15565,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/creator-social.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/creator-social",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4641ee76b37e2bab6587bd822e63ab50c69ba14399b4d32f9bf7ec5c11c5ea52",
+      "bytes": 16885,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "0f8d845ab537cbb3105570088e598f69a1ce57429244d7ff5eadbed533af5403",
+      "bytes": 58721,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/marketing-investment.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/marketing-investment",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "226111051fec6b243dbacb2c69dd173b7b7e6f76eef724026f911011fcbd781d",
+      "bytes": 20655,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/briefing.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/briefing",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "15cc50cb1881f8f6a9889d0e3edb1decef82c87552e9e51ccfffc5fb55f7725b",
+      "bytes": 12134,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/platform.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/platform",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7c8bf2cbb538c55215d84eeae7924fcff1e70fb7aff5b87271f0851ffb97205a",
+      "bytes": 51570,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/online-conversion.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/online-conversion",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "88374640f86aae0da4b75ae70025a4b07d863a588638fb5432139a6e8b38e55e",
+      "bytes": 21160,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/company.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/company",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f7485dee2a4367352c9b56b58cb0edcad7b8b679c1dec808eb665e1df076182b",
+      "bytes": 19358,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/training.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/training",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "efadcf6bfefda310b98e31b501a08eb18b0bf14d5c5eb596d46e3a1480db66f0",
+      "bytes": 16330,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/solutions.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/solutions",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7c4fa950983b32911bdfeb0cbe360d1b0aaaacfcf72398ee3108f8d4404c2650",
+      "bytes": 16963,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "blog/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/blog/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7f6936e887a72fc5d85a18a74f4f8a14c4248b7563c115dfa3a7c5293cde57b6",
+      "bytes": 9903,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "case-studies/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/case-studies/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e9da81d9cb8b6ae634407fe98b84469bd5063747407dfd114a1713bacec132a3",
+      "bytes": 8545,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/creator-social.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/creator-social",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "bd7b76ace494234c7573cffa8ebb8664506e8c1338906c9b2974c9679522d722",
+      "bytes": 16966,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3bcd1435cba480d1a2f4eaea2060abdabdfb4c35e35ebda3e7a10a656849523c",
+      "bytes": 58867,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/marketing-investment.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/marketing-investment",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "16a888c0526f6ace41d2186778a9fce272069224b88361434429bedbc53ad3db",
+      "bytes": 20802,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/briefing.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/briefing",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "89ac2e2cb22e63396af8ef2de357c6560d89377283d4722d7fc7a7b787e7e7b8",
+      "bytes": 12211,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/platform.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/platform",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "36575f743d7b94d1b6fca56359b146325e7b923f7e4afa532c4ce3045eaceb19",
+      "bytes": 51623,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/online-conversion.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/online-conversion",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e4fb337d594c26660063457ba54b8a463ab9c54835e1027f446fc4021dbfff67",
+      "bytes": 21398,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/company.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/company",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3bd9f802f866521656f5ac0e0a58f652bba1cc0a6afd53217a990947213c52a6",
+      "bytes": 19312,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/training.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/training",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6cc9dac2a7fd42eb6c5299464e5438695a328f8a1c52f6ce41c2bc49d57b40c2",
+      "bytes": 16600,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/solutions.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/solutions",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3c77e421745869508eb4a2b68cd13df223f188c1128af28011aa835109de6d5c",
+      "bytes": 17033,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/creator-social.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/creator-social",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "85d25dbed520678fef1955170019aa3168d5f96814202e8beb68cb570aaaefc7",
+      "bytes": 18565,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "628c36b87553257a8f3802eaf744545067f6fb50f59dbd686393f892a54c497e",
+      "bytes": 60251,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/marketing-investment.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/marketing-investment",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "2bf8e8533b5ffab681ba0d4e5e861fe198f98bf33e08b60390ceed737231562b",
+      "bytes": 22829,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/briefing.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/briefing",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "1bb0aabcda213aa5bba2aadea18b73e18f4edce2df3b83c8a992753e15612329",
+      "bytes": 12809,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/platform.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/platform",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "75467aaa23c96e4f4081a3e89cfc70094a8daa6fe5c8bfa4f849fabdb8cc5b60",
+      "bytes": 53709,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/online-conversion.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/online-conversion",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "5bc05a37ad82ddf54d19ef5345d24dc33865eb6f9808e996f41cd7106f7aa2df",
+      "bytes": 23064,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/company.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/company",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "28c98527d134a7af7b5221f7388decb3290db29a6c9b94de4fde926cebf57e4f",
+      "bytes": 20433,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/training.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/training",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "19a15e17796ad607def215e761c9c147cc43ced05dd9cfaadb740ce397fdc253",
+      "bytes": 17772,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/solutions.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/solutions",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "58d677b53440dbc978593a77f5b5a2ccb41e16e2386c1e494cce446738ec364a",
+      "bytes": 17819,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/blog/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/blog/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "c9374fbdb7e405afa51dbce3738de3eb4982fb57f3aa29c5153bcf53604894d1",
+      "bytes": 11705,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/case-studies/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/case-studies/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6f23a05dfe114dcf447876bb270330d986b6ba01f65eceb40a8d96360cde2c76",
+      "bytes": 9850,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/case-studies/analucia-sofia/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/case-studies/analucia-sofia/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "a7f6e6b5207e0e5a5366e8ee62604d8be5b0480dd9ed705962cb1570d65a77a2",
+      "bytes": 11562,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/blog/ai-training/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/blog/ai-training/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e69691ee235264a92a586a23e19c52c428921e14cc664fde40714b373f252b0e",
+      "bytes": 22141,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/blog/prove-it-or-lose-it/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/blog/prove-it-or-lose-it/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "a75eea136181a28923adddfe8f43dd08114e3a37031a54b9629a06d6dcb5a622",
+      "bytes": 20856,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "ar/blog/where-does-the-next-dollar-go/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/ar/blog/where-does-the-next-dollar-go/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "784edfb5dda98a04c0c916a3a10f58569e2ef7df96e3d06dcd1dbb8098abb0b2",
+      "bytes": 22134,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/blog/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/blog/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "65cf3eac3b4369fb97330820cf85f20bd5fdc7d3c58e420b5b6690e5de4263ea",
+      "bytes": 11018,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/case-studies/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/case-studies/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "1d0f6bc95e2e6960dfb448150ddca248f405c2b8213fef1a890259b1cb83d38a",
+      "bytes": 9435,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/case-studies/analucia-sofia/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/case-studies/analucia-sofia/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "27969934a0ddfa34f24d7dc3906250408cf8035a44b5d7e7f963d16b674c16f2",
+      "bytes": 10967,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/blog/ai-training/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/blog/ai-training/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "33405eff1233459aebd18af789a77be7bfa11464f3566b4c18b33629d14f8322",
+      "bytes": 20107,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/blog/prove-it-or-lose-it/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/blog/prove-it-or-lose-it/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "95681dd2e0647deaccc93c48e3c0f6ca29dd413c2865d2fcf01ef9d8ae31d4d8",
+      "bytes": 19281,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-ca/blog/where-does-the-next-dollar-go/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-ca/blog/where-does-the-next-dollar-go/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4a5fc056d644f53756c4509ab9d57738d481e68649e0e918aa382efdeee12416",
+      "bytes": 20072,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "case-studies/analucia-sofia/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/case-studies/analucia-sofia/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "fdbcd325a4046abf3d8e2c2c0c2d216c66ad942ce52c04f217e6306de06228ce",
+      "bytes": 9867,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "blog/ai-training/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/blog/ai-training/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "a674129670682a5e7a55c460b9fd03c1e3918a2592f9188effcb29b963a40dbd",
+      "bytes": 18078,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "blog/prove-it-or-lose-it/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/blog/prove-it-or-lose-it/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f1dfbdff7ad6245eb6400a037a5dcb2956581e68c13b6efae4f740b4fdec6b9b",
+      "bytes": 17308,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "blog/where-does-the-next-dollar-go/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/blog/where-does-the-next-dollar-go/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "69886a43308baeee661997d9ab9b855c3aa99ff8d949ab964db8f19aea2c1058",
+      "bytes": 18122,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/blog/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/blog/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "179c0c6a8c121e6361f4c4d9d7cb4d77395b142d477cba790589450d1c454983",
+      "bytes": 10948,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/case-studies/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/case-studies/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "56268f5232840bd9e65714b7ec703193b4f18ac7f775142164b11e5a0e86c878",
+      "bytes": 9346,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/case-studies/analucia-sofia/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/case-studies/analucia-sofia/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "213bb96e7d402dc5ca906b934c7482c9de928dd54d051314ffea467e09b1be42",
+      "bytes": 10850,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/blog/ai-training/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/blog/ai-training/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "ad5b2e47dc0ab30733188de9ee411bf9eaf911c28809fd5fc37dcc67b9b0d1be",
+      "bytes": 20020,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/blog/prove-it-or-lose-it/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/blog/prove-it-or-lose-it/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "066be9dd7f341bb7483d3178cfc0a3d4dcdc6af19a0639e19a1490c25f594b9a",
+      "bytes": 19267,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "fr-fr/blog/where-does-the-next-dollar-go/index.html",
+      "status": 200,
+      "url": "https://aicatalyst.biz/fr-fr/blog/where-does-the-next-dollar-go/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6b95c6f64a47c0d7c79ac51001cae1f6ec20ae17afae15bd57bc26b8b66778f3",
+      "bytes": 20000,
+      "emailProtectionNormalized": true
+    },
+    {
+      "path": "platform-command.css",
+      "status": 200,
+      "url": "https://aicatalyst.biz/platform-command.css",
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "0278441ec7c492ca3c158fa077b53af0cea261ed682c5f0d9596f642e8edbd70",
+      "bytes": 9615,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "restored-platform-motion.js",
+      "status": 200,
+      "url": "https://aicatalyst.biz/restored-platform-motion.js",
+      "contentType": "application/javascript",
+      "sha256": "b55afe21b854ed9376f96960629b52b98d1f940c8469ef23a6ef4caef80f24ce",
+      "bytes": 12947,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "assets/video-posters/command-centre-overview-20261119.jpg",
+      "status": 200,
+      "url": "https://aicatalyst.biz/assets/video-posters/command-centre-overview-20261119.jpg",
+      "contentType": "image/jpeg",
+      "sha256": "74a15eab218b62a238e2effe9ebb51b69667ad5290b9e90f0081476e038fe53f",
+      "bytes": 85401,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "url": "https://aicatalyst.biz/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "sha256": "d1d92017f70a619c5f5c55ba3fdb46d619831a7695a089a05117d8e7ce849303",
+      "bytes": 163,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "llms.txt",
+      "status": 200,
+      "url": "https://aicatalyst.biz/llms.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "sha256": "146804152deea7a26e533270b4c9f474190ab43e806022150b285f627015ab37",
+      "bytes": 3433,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "llms-full.txt",
+      "status": 200,
+      "url": "https://aicatalyst.biz/llms-full.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "sha256": "bf675d96d9ba73df740cf1b4897dabd8a9c1db4ce528fe03872862f3efad08d6",
+      "bytes": 48728,
+      "emailProtectionNormalized": false
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "url": "https://aicatalyst.biz/sitemap.xml",
+      "contentType": "application/xml",
+      "sha256": "7025989990887808d736cd77fdfaefc0a4a970f7f4ce76ae052956c962766714",
+      "bytes": 4050,
+      "emailProtectionNormalized": false
+    }
+  ]
+}
