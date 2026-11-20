@@ -1,0 +1,26 @@
+[
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 163
+  },
+  {
+    "path": "llms.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 3323
+  },
+  {
+    "path": "llms-full.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 41449
+  },
+  {
+    "path": "blog/ai-training/index.md",
+    "status": 200,
+    "type": "text/markdown; charset=utf-8",
+    "bytes": 3269
+  }
+]

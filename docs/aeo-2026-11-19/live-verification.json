@@ -1,0 +1,87 @@
+[
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8"
+  },
+  {
+    "path": "llms.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8"
+  },
+  {
+    "path": "llms-full.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8"
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "type": "application/xml"
+  },
+  {
+    "path": "blog/ai-training/index.md",
+    "status": 200,
+    "type": "text/markdown; charset=utf-8"
+  },
+  {
+    "path": "blog/ai-training/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "blog/prove-it-or-lose-it/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "blog/where-does-the-next-dollar-go/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-ca/blog/ai-training/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-ca/blog/prove-it-or-lose-it/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-ca/blog/where-does-the-next-dollar-go/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-fr/blog/ai-training/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-fr/blog/prove-it-or-lose-it/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "fr-fr/blog/where-does-the-next-dollar-go/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "ar/blog/ai-training/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "ar/blog/prove-it-or-lose-it/",
+    "status": 200,
+    "faqs": 3
+  },
+  {
+    "path": "ar/blog/where-does-the-next-dollar-go/",
+    "status": 200,
+    "faqs": 3
+  }
+]

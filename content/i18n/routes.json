@@ -1,4 +1,10 @@
 {
+  "blog/ai-training/index.html": {
+    "en": "/blog/ai-training/",
+    "fr-CA": "/fr-ca/blog/ai-training/",
+    "fr-FR": "/fr-fr/blog/ai-training/",
+    "ar": "/ar/blog/ai-training/"
+  },
   "blog/index.html": {
     "en": "/blog/",
     "fr-CA": "/fr-ca/blog/",

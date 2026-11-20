@@ -1,0 +1,37 @@
+# AI Catalyst
+
+> Senior commercial judgment, AI capabilities and practical workflows, with Coffee Chats by Randy Weyersberg.
+
+Canonical website: https://aicatalyst.biz/. English, Quebec French, France French and Arabic editions are linked below. Videos remain English.
+
+## Main pages
+- [The right capability. The right decision. | AI Catalyst](https://aicatalyst.biz/)
+- [How We Work | AI Catalyst](https://aicatalyst.biz/solutions.html)
+- [Training & Adoption | AI Catalyst](https://aicatalyst.biz/training.html)
+- [Commerce Command Centre | AI Catalyst](https://aicatalyst.biz/platform.html)
+- [Company | AI Catalyst](https://aicatalyst.biz/company.html)
+- [Briefing | AI Catalyst](https://aicatalyst.biz/briefing.html)
+- [Case studies | AI Catalyst](https://aicatalyst.biz/case-studies/)
+
+## Coffee Chats and language editions
+- [Coffee Chat on AI Training](https://aicatalyst.biz/blog/ai-training/index.md): https://aicatalyst.biz/blog/ai-training/
+- [Coffee Chats with Randy](https://aicatalyst.biz/blog/index.md): https://aicatalyst.biz/blog/
+- [Coffee Chat on MMM](https://aicatalyst.biz/blog/prove-it-or-lose-it/index.md): https://aicatalyst.biz/blog/prove-it-or-lose-it/
+- [Coffee Chat on Agentic Live Selling](https://aicatalyst.biz/blog/where-does-the-next-dollar-go/index.md): https://aicatalyst.biz/blog/where-does-the-next-dollar-go/
+- [Café-discussion sur la formation en IA](https://aicatalyst.biz/fr-ca/blog/ai-training/index.md): https://aicatalyst.biz/fr-ca/blog/ai-training/
+- [Cafés-discussions avec Randy](https://aicatalyst.biz/fr-ca/blog/index.md): https://aicatalyst.biz/fr-ca/blog/
+- [Café-discussion sur la MMM](https://aicatalyst.biz/fr-ca/blog/prove-it-or-lose-it/index.md): https://aicatalyst.biz/fr-ca/blog/prove-it-or-lose-it/
+- [Café-discussion sur la vente en direct agentique](https://aicatalyst.biz/fr-ca/blog/where-does-the-next-dollar-go/index.md): https://aicatalyst.biz/fr-ca/blog/where-does-the-next-dollar-go/
+- [Conversation café sur la formation en IA](https://aicatalyst.biz/fr-fr/blog/ai-training/index.md): https://aicatalyst.biz/fr-fr/blog/ai-training/
+- [Conversations café avec Randy](https://aicatalyst.biz/fr-fr/blog/index.md): https://aicatalyst.biz/fr-fr/blog/
+- [Conversation café sur la MMM](https://aicatalyst.biz/fr-fr/blog/prove-it-or-lose-it/index.md): https://aicatalyst.biz/fr-fr/blog/prove-it-or-lose-it/
+- [Conversation café sur la vente en direct agentique](https://aicatalyst.biz/fr-fr/blog/where-does-the-next-dollar-go/index.md): https://aicatalyst.biz/fr-fr/blog/where-does-the-next-dollar-go/
+- [حديث قهوة عن التدريب على الذكاء الاصطناعي](https://aicatalyst.biz/ar/blog/ai-training/index.md): https://aicatalyst.biz/ar/blog/ai-training/
+- [أحاديث القهوة مع Randy](https://aicatalyst.biz/ar/blog/index.md): https://aicatalyst.biz/ar/blog/
+- [حديث قهوة عن MMM](https://aicatalyst.biz/ar/blog/prove-it-or-lose-it/index.md): https://aicatalyst.biz/ar/blog/prove-it-or-lose-it/
+- [حديث قهوة عن البيع المباشر بوكلاء الذكاء الاصطناعي](https://aicatalyst.biz/ar/blog/where-does-the-next-dollar-go/index.md): https://aicatalyst.biz/ar/blog/where-does-the-next-dollar-go/
+
+## Full Coffee Chats text
+- [Full text of all Coffee Chat language editions](https://aicatalyst.biz/llms-full.txt)
+
+For the complete public URL list, use https://aicatalyst.biz/sitemap.xml.

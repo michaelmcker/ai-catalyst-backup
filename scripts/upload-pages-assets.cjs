@@ -8,7 +8,7 @@ const manifestPath = process.argv[3] || 'docs/service-cleanup-2026-10-30/manifes
 const manifest = JSON.parse(fs.readFileSync(path.resolve(base, manifestPath)));
 const authDir = process.argv[2];
 if (!authDir || !authDir.startsWith('/private/tmp/aicatalyst-pages-auth-')) throw Error('Expected the temporary directory created by prepare-pages-upload.cjs');
-const mime = {html:'text/html',css:'text/css',js:'application/javascript',svg:'image/svg+xml',jpg:'image/jpeg',webp:'image/webp',png:'image/png',mp4:'video/mp4',json:'application/json',xml:'application/xml',woff2:'font/woff2',ttf:'font/ttf',txt:'text/plain'};
+const mime = {html:'text/html',css:'text/css',js:'application/javascript',svg:'image/svg+xml',jpg:'image/jpeg',webp:'image/webp',png:'image/png',mp4:'video/mp4',json:'application/json',xml:'application/xml',woff2:'font/woff2',ttf:'font/ttf',txt:'text/plain',md:'text/markdown'};
 let token;
 async function request(endpoint, body) {
   if (!['check-missing', 'upload', 'upsert-hashes'].includes(endpoint)) throw Error('Unsupported endpoint');

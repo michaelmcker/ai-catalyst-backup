@@ -7,6 +7,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit
 ROOT=Path(__file__).resolve().parents[1]
+import importlib.util
+_spec=importlib.util.spec_from_file_location('site_discovery',ROOT/'scripts/site-discovery.py');discovery_tools=importlib.util.module_from_spec(_spec);_spec.loader.exec_module(discovery_tools)
 ORIGIN='https://aicatalyst.biz'
 LOCALES={'en':('','English','ltr'),'fr-CA':('fr-ca','Français (Québec)','ltr'),'fr-FR':('fr-fr','Français (France)','ltr'),'ar':('ar','العربية','rtl')}
 SHORT_LABELS={'en':'CAN EN','fr-CA':'CAN FR','fr-FR':'FRA FR','ar':'AR'}
@@ -92,7 +94,7 @@ class Renderer(HTMLParser):
     if chunk:groups.append(' '.join(chunk))
     return '<div class="transcript-text">'+''.join('<p>'+g+'</p>' for g in groups)+'</div>'
    s=re.sub(r'<div class="transcript-text">(.*?)</div>',paragraphs,s,flags=re.S)
-  return s
+  return discovery_tools.decorate(s,self.name,self.locale,ORIGIN+route(self.name,self.locale))
 PAGES=sorted(read_json('source-manifest.json'))
 def build(check=False,record_review=False):
  known=read_json('en.json');outputs={};reviews={}
@@ -109,6 +111,7 @@ def build(check=False,record_review=False):
  urls=[ORIGIN+route(n,l) for l in LOCALES for n in PAGES]
  outputs['sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>\n'
  outputs['case-studies/sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+ORIGIN+route(n,l)+'</loc></url>' for l in LOCALES for n in PAGES if n.startswith('case-studies/'))+'</urlset>\n'
+ outputs.update(discovery_tools.exports(outputs))
  if not record_review:
   if read_json('review.json')!=reviews:raise ValueError('Translation/source review hashes changed. Review all affected copy, then record with --record-review.')
  for name,s in outputs.items():

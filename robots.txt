@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_emdash/
+Disallow: /docs/
+Disallow: /templates/
+Disallow: /content/
+
+Sitemap: https://aicatalyst.biz/sitemap.xml

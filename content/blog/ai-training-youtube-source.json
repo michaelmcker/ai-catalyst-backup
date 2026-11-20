@@ -1,0 +1,303 @@
+{
+  "available_tracks": [
+    {
+      "is_translatable": true,
+      "kind": "asr",
+      "language_code": "en",
+      "name": "English (auto-generated)"
+    }
+  ],
+  "full_text": "A CEO said to me, \"I paid for the training. My team did the course. Nothing changed.\" That's the gap. It's not that people don't finish the course. It's that most finish it and Monday morning the work is exactly the same. The learning never becomes the workflow. AI stays a side activity, something people try when they have a spare minute, which they never do. And the CEO is the one who feels it. They're accountable for transforming how the organization works around AI. They encouraged the training, approved the spend for the training, and they're still waiting for the workflows to change. Now, they're impatient. They want action. Here's the number. 88% of people use AI at work now. But only 5% use it in a way that actually changes how they work. The rest are searching and summarizing faster, but the work itself hasn't changed. That's the gap. And in my opinion, online courses don't work when you're trying to learn AI. It's evolving so fast, your module is outdated in 8 weeks. So we built the training the way it was meant to be done. One method, every function. We start with a real problem, one specific piece of work that the team identifies as a target for faster, smarter, and better decisions. We map the workflow step by step where AI helps and where human judgment stays in control. Then we build the agent together in the session and we test it on live work right there until it holds up. It works the same way for every function, marketing, sales, finance, operations, even leadership groups. Same method customized to the work in person or live virtually. And everyone leaves with a completed agent set of instructions for that piece of work. Notes, not a demo. Something built, tested, and ready to use on Monday. That's the whole idea. Tools give you the power. Workflows give you the path. And the behavior using it every week is what makes it stick. One method, every function. If you're the one accountable for making AI real in your organization, start with one team and one problem. Ask for details or ask my AI twin at a catalyst.biz. It knows how I think about this.",
+  "has_transcript": true,
+  "kind": "asr",
+  "language_code": "en",
+  "observed_at_ms": 1795139059945,
+  "segment_count": 56,
+  "segments": [
+    {
+      "duration_ms": 4879,
+      "start_ms": 880,
+      "text": "A CEO said to me, \"I paid for the"
+    },
+    {
+      "duration_ms": 4239,
+      "start_ms": 3520,
+      "text": "training. My team did the course."
+    },
+    {
+      "duration_ms": 4081,
+      "start_ms": 5759,
+      "text": "Nothing changed.\""
+    },
+    {
+      "duration_ms": 4880,
+      "start_ms": 7759,
+      "text": "That's the gap. It's not that people"
+    },
+    {
+      "duration_ms": 5120,
+      "start_ms": 9840,
+      "text": "don't finish the course. It's that most"
+    },
+    {
+      "duration_ms": 4801,
+      "start_ms": 12639,
+      "text": "finish it and Monday morning the work is"
+    },
+    {
+      "duration_ms": 5040,
+      "start_ms": 14960,
+      "text": "exactly the same. The learning never"
+    },
+    {
+      "duration_ms": 4640,
+      "start_ms": 17440,
+      "text": "becomes the workflow. AI stays a side"
+    },
+    {
+      "duration_ms": 3760,
+      "start_ms": 20000,
+      "text": "activity, something people try when they"
+    },
+    {
+      "duration_ms": 4640,
+      "start_ms": 22080,
+      "text": "have a spare minute, which they never"
+    },
+    {
+      "duration_ms": 4880,
+      "start_ms": 23760,
+      "text": "do. And the CEO is the one who feels it."
+    },
+    {
+      "duration_ms": 4399,
+      "start_ms": 26720,
+      "text": "They're accountable for transforming how"
+    },
+    {
+      "duration_ms": 4400,
+      "start_ms": 28640,
+      "text": "the organization works around AI. They"
+    },
+    {
+      "duration_ms": 3681,
+      "start_ms": 31119,
+      "text": "encouraged the training, approved the"
+    },
+    {
+      "duration_ms": 3280,
+      "start_ms": 33040,
+      "text": "spend for the training, and they're"
+    },
+    {
+      "duration_ms": 3520,
+      "start_ms": 34800,
+      "text": "still waiting for the workflows to"
+    },
+    {
+      "duration_ms": 5759,
+      "start_ms": 36320,
+      "text": "change. Now, they're impatient. They"
+    },
+    {
+      "duration_ms": 7360,
+      "start_ms": 38320,
+      "text": "want action. Here's the number. 88% of"
+    },
+    {
+      "duration_ms": 5601,
+      "start_ms": 42079,
+      "text": "people use AI at work now. But only 5%"
+    },
+    {
+      "duration_ms": 4320,
+      "start_ms": 45680,
+      "text": "use it in a way that actually changes"
+    },
+    {
+      "duration_ms": 5199,
+      "start_ms": 47680,
+      "text": "how they work. The rest are searching"
+    },
+    {
+      "duration_ms": 5520,
+      "start_ms": 50000,
+      "text": "and summarizing faster, but the work"
+    },
+    {
+      "duration_ms": 5281,
+      "start_ms": 52879,
+      "text": "itself hasn't changed. That's the gap."
+    },
+    {
+      "duration_ms": 4640,
+      "start_ms": 55520,
+      "text": "And in my opinion, online courses don't"
+    },
+    {
+      "duration_ms": 4640,
+      "start_ms": 58160,
+      "text": "work when you're trying to learn AI."
+    },
+    {
+      "duration_ms": 5120,
+      "start_ms": 60160,
+      "text": "It's evolving so fast, your module is"
+    },
+    {
+      "duration_ms": 3920,
+      "start_ms": 62800,
+      "text": "outdated in 8 weeks. So we built the"
+    },
+    {
+      "duration_ms": 4400,
+      "start_ms": 65280,
+      "text": "training the way it was meant to be"
+    },
+    {
+      "duration_ms": 5360,
+      "start_ms": 66720,
+      "text": "done. One method, every function. We"
+    },
+    {
+      "duration_ms": 4320,
+      "start_ms": 69680,
+      "text": "start with a real problem, one specific"
+    },
+    {
+      "duration_ms": 4719,
+      "start_ms": 72080,
+      "text": "piece of work that the team identifies"
+    },
+    {
+      "duration_ms": 5520,
+      "start_ms": 74000,
+      "text": "as a target for faster, smarter, and"
+    },
+    {
+      "duration_ms": 5601,
+      "start_ms": 76799,
+      "text": "better decisions. We map the workflow"
+    },
+    {
+      "duration_ms": 5440,
+      "start_ms": 79520,
+      "text": "step by step where AI helps and where"
+    },
+    {
+      "duration_ms": 5120,
+      "start_ms": 82400,
+      "text": "human judgment stays in control. Then we"
+    },
+    {
+      "duration_ms": 4880,
+      "start_ms": 84960,
+      "text": "build the agent together in the session"
+    },
+    {
+      "duration_ms": 4800,
+      "start_ms": 87520,
+      "text": "and we test it on live work right there"
+    },
+    {
+      "duration_ms": 5599,
+      "start_ms": 89840,
+      "text": "until it holds up. It works the same way"
+    },
+    {
+      "duration_ms": 5839,
+      "start_ms": 92320,
+      "text": "for every function, marketing, sales,"
+    },
+    {
+      "duration_ms": 5281,
+      "start_ms": 95439,
+      "text": "finance, operations, even leadership"
+    },
+    {
+      "duration_ms": 5441,
+      "start_ms": 98159,
+      "text": "groups. Same method customized to the"
+    },
+    {
+      "duration_ms": 4880,
+      "start_ms": 100720,
+      "text": "work in person or live virtually. And"
+    },
+    {
+      "duration_ms": 3760,
+      "start_ms": 103600,
+      "text": "everyone leaves with a completed agent"
+    },
+    {
+      "duration_ms": 4799,
+      "start_ms": 105600,
+      "text": "set of instructions for that piece of"
+    },
+    {
+      "duration_ms": 5680,
+      "start_ms": 107360,
+      "text": "work. Notes, not a demo. Something"
+    },
+    {
+      "duration_ms": 4961,
+      "start_ms": 110399,
+      "text": "built, tested, and ready to use on"
+    },
+    {
+      "duration_ms": 4320,
+      "start_ms": 113040,
+      "text": "Monday. That's the whole idea. Tools"
+    },
+    {
+      "duration_ms": 4480,
+      "start_ms": 115360,
+      "text": "give you the power. Workflows give you"
+    },
+    {
+      "duration_ms": 5200,
+      "start_ms": 117360,
+      "text": "the path. And the behavior using it"
+    },
+    {
+      "duration_ms": 5200,
+      "start_ms": 119840,
+      "text": "every week is what makes it stick. One"
+    },
+    {
+      "duration_ms": 4720,
+      "start_ms": 122560,
+      "text": "method, every function. If you're the"
+    },
+    {
+      "duration_ms": 4639,
+      "start_ms": 125040,
+      "text": "one accountable for making AI real in"
+    },
+    {
+      "duration_ms": 5599,
+      "start_ms": 127280,
+      "text": "your organization, start with one team"
+    },
+    {
+      "duration_ms": 6481,
+      "start_ms": 129679,
+      "text": "and one problem. Ask for details or ask"
+    },
+    {
+      "duration_ms": 7401,
+      "start_ms": 132879,
+      "text": "my AI twin at a catalyst.biz."
+    },
+    {
+      "duration_ms": 4120,
+      "start_ms": 136160,
+      "text": "It knows how I think about this."
+    }
+  ],
+  "title": "Coffee Chats on AI Training",
+  "track_name": "English (auto-generated)",
+  "translated_to": null,
+  "url": "https://www.youtube.com/watch?v=ILDErIfscsk",
+  "video_id": "ILDErIfscsk"
+}

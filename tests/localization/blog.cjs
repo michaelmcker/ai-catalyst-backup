@@ -14,4 +14,4 @@ for(const prefix of ['', 'fr-ca/','fr-fr/','ar/']){
   assert(page.includes('hreflang="fr-CA"'));assert(page.includes('hreflang="ar"'));
  }
 }
-console.log('PASS: 12 blog editions, two correct embeds, transcripts, discovery, equivalent routes and no autoplay.');
+console.log(`PASS: ${4*(posts.length+1)} blog editions, ${posts.length} correct video mappings, transcripts, discovery, equivalent routes and no autoplay.`);

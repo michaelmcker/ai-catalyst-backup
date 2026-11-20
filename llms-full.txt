@@ -1,0 +1,396 @@
+# AI Catalyst Coffee Chats
+
+Public summaries, transcripts and FAQs. Each section links to its canonical HTML source. Video statements remain attributed to Randy Weyersberg.
+
+# Coffee Chat on AI Training
+
+Source: https://aicatalyst.biz/blog/ai-training/
+
+## Summary
+
+AI Catalyst’s AI training starts with one team and one real business problem. Randy Weyersberg describes mapping the workflow, deciding where AI helps and where human judgment stays in control, then building and testing an agent together on live work. The intended output is a usable set of agent instructions, supported by regular use after the session.
+
+## Transcript
+
+A CEO said to me, "I paid for the training. My team did the course. Nothing changed." That's the gap. It's not that people don't finish the course. It's that most finish it and Monday morning the work is exactly the same. The learning never becomes the workflow. AI stays a side activity, something people try when they have a spare minute, which they never do. And the CEO is the one who feels it. They're accountable for transforming how the organization works around AI. They encouraged the training, approved the spend for the training, and they're still waiting for the workflows to change. Now, they're impatient. They want action. Here's the number. 88% of people use AI at work now. But only 5% use it in a way that actually changes how they work. The rest are searching and summarizing faster, but the work itself hasn't changed. That's the gap. And in my opinion, online courses don't work when you're trying to learn AI. It's evolving so fast, your module is outdated in 8 weeks. So we built the training the way it was meant to be done. One method, every function. We start with a real problem, one specific piece of work that the team identifies as a target for faster, smarter, and better decisions. We map the workflow step by step where AI helps and where human judgment stays in control. Then we build the agent together in the session and we test it on live work right there until it holds up. It works the same way for every function, marketing, sales, finance, operations, even leadership groups. Same method customized to the work in person or live virtually. And everyone leaves with a completed agent set of instructions for that piece of work. Not notes. Not a demo. Something built, tested, and ready to use on Monday. That's the whole idea. Tools give you the power. Workflows give you the path. And the behavior using it every week is what makes it stick. One method, every function. If you're the one accountable for making AI real in your organization, start with one team and one problem. Ask for details or ask my AI twin at aicatalyst.biz. It knows how I think about this.
+
+## FAQ
+
+### What do participants build during AI training?
+
+Randy describes a completed set of agent instructions for a specific piece of work, built together and tested on live work during the session.
+
+### Which teams and delivery formats does Randy describe?
+
+The method is adapted to marketing, sales, finance, operations and leadership groups. The Coffee Chat describes in-person sessions or live virtual delivery, customized to the team’s work.
+
+### Where does human judgment remain in the workflow?
+
+Before building the agent, the team maps the work step by step and identifies where AI can help and where human judgment stays in control. Randy also emphasizes using the workflow every week.
+
+
+---
+
+# Coffee Chats with Randy
+
+Source: https://aicatalyst.biz/blog/
+
+Coffee Chats by Randy Weyersberg.
+- [Coffee Chat on MMM](https://aicatalyst.biz/blog/prove-it-or-lose-it/)
+- [Coffee Chat on Agentic Live Selling](https://aicatalyst.biz/blog/where-does-the-next-dollar-go/)
+- [Coffee Chat on AI Training](https://aicatalyst.biz/blog/ai-training/)
+
+---
+
+# Coffee Chat on MMM
+
+Source: https://aicatalyst.biz/blog/prove-it-or-lose-it/
+
+## Summary
+
+AI Catalyst’s Randy Weyersberg explains how marketing measurement should connect the full investment picture to the next business decision. His three questions are whether every spend line is visible, whether contributions can be compared, and whether the answer arrives in time to act.
+
+## Transcript
+
+Every CMO knows this meeting. The CFO slides the budget across the table and asks one question. Prove it or lose it. My own budget was cut twice in 10 years. Once for COVID, once for a measurement battle we frankly got wrong. What's helped me since is checking whether the measurement covers the same ground as the budget. Creator spend, influencer packages, retail media, the deals that never touch a dashboard. If those are missing from the picture, it's harder to explain what the whole investment is doing. So, I come back to three questions. Can you see every spend line? Can you compare what each one contributed? And does the answer arrive in time to help with the next decision? The thing I wish I'd had then back when I had legacy MMM is what we have today. Full Commerce MMM. The real full picture of go-to-market investments. all 10 spend lines in one picture. And the third question is where most enterprises fall down. The insight arrives, but the action doesn't. Not in time to change the next decision. This is a whole new world, though. Um, an AI interface that's learned on 10 years of MMM expert context, not just Claude or ChatGPT. Ask the question in plain language, run a live simulation in the meeting, and act on it while the market is still there. That's what keeps me engaged. what's possible. Now, I've sat in that chair for 20 plus years as a CMO. These days, I'm focused on paying it forward, sharing what I learned with the next generation of leaders. The shift that helped me most is being able to sit down with finance and say, "Here's what we're seeing. Here's what we've learned, and here's where the next dollar could help us grow. Faster, smarter, better decisions." If that's you, let's chat or start with my AI twin on aicatalyst.biz. It knows how I think about this.
+
+## FAQ
+
+### What should a CMO ask about marketing measurement?
+
+Randy Weyersberg proposes three questions: can you see every spend line, compare what each contributed, and get the answer in time for the next decision?
+
+### Which investments does Randy say can be missed?
+
+The Coffee Chat names creator spend, influencer packages, retail media and deals that never reach a dashboard. Randy argues that missing investments make the overall picture harder to explain.
+
+### How should measurement support action?
+
+In this Coffee Chat, Randy describes asking questions in plain language and running a simulation during a meeting, so the findings can inform the next investment decision.
+
+
+---
+
+# Coffee Chat on Agentic Live Selling
+
+Source: https://aicatalyst.biz/blog/where-does-the-next-dollar-go/
+
+## Summary
+
+AI Catalyst’s Randy Weyersberg describes two formats for agentic selling: a storefront brand agent serving an individual shopper or shopper’s agent, and a scheduled live show hosted by a brand agent for real consumers. Both formats should be built around the customer and grounded in the brand’s actual offer.
+
+## Transcript
+
+You proved it. The budget's yours. Now comes the harder question. Where does the next dollar go? Search, the front door of the internet for 20 years, is shifting. Your customer doesn't search anymore. Their agent does. 10 million people set up Meta's Muse in 6 weeks in the US and Canada alone. Amazon blocked it. Walmart and Shopify opened the door. And look at Google. Half a trillion dollars gone in a single day. Its worst day ever. Its own AI answers are eating its search ads. That's the market pricing in the end of the search box. So when your customer's agent comes knocking, who meets them? The way I look at it, the next dollar doesn't go to the search box. It goes to a brand agent on your own storefront, a digital human, your best salesperson, one-to-one around the clock, connected to your real inventory, your bundles, your margin. The experience hasn't changed in 25 years. Search box, scroll, click, the death scroll. The agent ends that. Just a conversation. And a conversation qualifies, guides, and converts. So the traffic you get is better traffic. More of what we buy happens online every year. If no one's there to meet that agent, the opportunity is gone. There's a second way in, one to many. a live show at a set time for a special launch, your brand agent hosting it, or even an influencer’s twin as your brand agent. Real people joining in. Folks love being part of an exclusive event. When the conversation happens, one-to-one or one to many, it's built around the customer. That's what drives higher consideration. The brands that build this now are the ones the agents recommend first. That's Agentic Commerce. I've spent 20 plus years as a CMO. These days, I'm focused on paying it forward, sharing what I learned with the next generation of leaders. Faster, smarter, better decisions. If that's you, let's chat or start with my AI twin on aicatalyst.biz. It knows how I think about this.
+
+## FAQ
+
+### How does one-to-one selling differ from a live show?
+
+One-to-one selling supports an individual customer or customer’s agent. In the scheduled one-to-many format described by Randy, real consumers join a live event hosted by a brand agent.
+
+### Can an influencer’s digital twin host a selling show?
+
+Randy describes an influencer’s twin acting as the brand agent for a scheduled launch show. The audience in that format is real people, not their shopping agents.
+
+### What business information should a storefront agent use?
+
+The Coffee Chat names real inventory, bundles and margin. Randy’s proposed storefront agent connects the conversation to that business context rather than offering a generic search box.
+
+
+---
+
+# Café-discussion sur la formation en IA
+
+Source: https://aicatalyst.biz/fr-ca/blog/ai-training/
+
+## Summary
+
+La formation en IA d’AI Catalyst commence avec une équipe et un vrai problème d’affaires. Randy Weyersberg décrit la cartographie du processus, le choix des tâches où l’IA aide et des points où le jugement humain garde le contrôle, puis la construction et l’essai d’un agent sur du travail réel. Le résultat visé est un ensemble utilisable d’instructions pour l’agent, soutenu par une utilisation régulière après la séance.
+
+## Transcript
+
+Un PDG m’a dit : « J’ai payé pour la formation. Mon équipe a suivi le cours. Rien n’a changé. » Voilà le fossé. Ce n’est pas que les gens ne terminent pas le cours. C’est que la plupart le terminent et, le lundi matin, le travail est exactement le même. L’apprentissage ne devient jamais le processus de travail. L’IA reste une activité secondaire, quelque chose qu’on essaie quand on a un moment libre, ce qui n’arrive jamais. Et c’est le PDG qui le ressent. Il est responsable de transformer la façon dont l’organisation travaille avec l’IA. Il a encouragé la formation, approuvé les dépenses, et il attend encore que les processus changent. Maintenant, l’impatience s’installe. Il veut de l’action. Voici le chiffre : 88 % des gens utilisent maintenant l’IA au travail. Mais seulement 5 % l’utilisent d’une façon qui change réellement leur travail. Les autres cherchent et résument plus vite, mais le travail lui-même n’a pas changé. Voilà le fossé. À mon avis, les cours en ligne ne fonctionnent pas quand on veut apprendre l’IA. Elle évolue si vite que votre module est dépassé en huit semaines. Nous avons donc conçu la formation comme elle devrait l’être. Une méthode, toutes les fonctions. Nous partons d’un vrai problème : un travail précis que l’équipe identifie comme une occasion de prendre des décisions plus rapides, plus éclairées et meilleures. Nous cartographions le processus étape par étape : où l’IA aide, et où le jugement humain garde le contrôle. Ensuite, nous construisons l’agent ensemble pendant la séance. Et nous le testons sur du travail réel, sur place, jusqu’à ce qu’il tienne la route. Cela fonctionne de la même façon pour chaque fonction : marketing, ventes, finances, opérations, même les équipes de direction. La même méthode, adaptée au travail, en personne ou en direct à distance. Tout le monde repart avec un ensemble complet d’instructions pour un agent qui réalise ce travail. Pas des notes. Pas une démonstration. Quelque chose de construit, testé et prêt à utiliser le lundi. C’est toute l’idée. Les outils vous donnent la puissance. Les processus vous donnent le chemin. Et le comportement, l’utilisation chaque semaine, permet d’ancrer le tout. Une méthode, toutes les fonctions. Si vous êtes responsable de concrétiser l’IA dans votre organisation, commencez avec une équipe et un problème. Demandez les détails, ou posez la question à mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Que construisent les participants pendant la formation en IA ?
+
+Randy décrit un ensemble complet d’instructions pour un agent réalisant un travail précis, construit ensemble et testé sur du travail réel pendant la séance.
+
+### Quelles équipes et quels modes de prestation Randy décrit-il ?
+
+La méthode est adaptée au marketing, aux ventes, aux finances, aux opérations et aux équipes de direction. Le café-discussion décrit des séances en personne ou en direct à distance, adaptées au travail de l’équipe.
+
+### Où le jugement humain reste-t-il présent dans le processus ?
+
+Avant de construire l’agent, l’équipe cartographie le travail étape par étape et précise où l’IA peut aider et où le jugement humain garde le contrôle. Randy insiste aussi sur l’utilisation du processus chaque semaine.
+
+
+---
+
+# Cafés-discussions avec Randy
+
+Source: https://aicatalyst.biz/fr-ca/blog/
+
+Coffee Chats by Randy Weyersberg.
+- [Café-discussion sur la MMM](https://aicatalyst.biz/fr-ca/blog/prove-it-or-lose-it/)
+- [Café-discussion sur la vente en direct agentique](https://aicatalyst.biz/fr-ca/blog/where-does-the-next-dollar-go/)
+- [Café-discussion sur la formation en IA](https://aicatalyst.biz/fr-ca/blog/ai-training/)
+
+---
+
+# Café-discussion sur la MMM
+
+Source: https://aicatalyst.biz/fr-ca/blog/prove-it-or-lose-it/
+
+## Summary
+
+Randy Weyersberg, d’AI Catalyst, explique comment la mesure marketing doit relier l’ensemble des investissements à la prochaine décision d’affaires. Ses trois questions : chaque poste de dépenses est-il visible, peut-on comparer les contributions, et la réponse arrive-t-elle à temps pour agir ?
+
+## Transcript
+
+Tous les directeurs marketing connaissent cette réunion. Le directeur financier fait glisser le budget sur la table et pose une question : démontrez les résultats ou perdez le budget. Mon propre budget a été coupé deux fois en dix ans. Une fois à cause de la COVID, et une fois à cause d’une bataille sur la mesure où, franchement, nous nous sommes trompés. Ce qui m’aide depuis, c’est de vérifier si la mesure couvre le même terrain que le budget. Les dépenses auprès des créateurs, les forfaits d’influenceurs, les médias de détail, les ententes qui ne passent jamais dans un tableau de bord. S’ils manquent au portrait, il est plus difficile d’expliquer ce que produit l’investissement total. Je reviens donc à trois questions. Voyez-vous chaque poste de dépenses? Pouvez-vous comparer la contribution de chacun? Et la réponse arrive-t-elle à temps pour éclairer la prochaine décision? Ce que j’aurais aimé avoir à l’époque, quand j’utilisais l’ancienne MMM, c’est ce que nous avons aujourd’hui : Full Commerce MMM. Le portrait complet des investissements de mise en marché. Les dix postes de dépenses réunis dans une seule vue. Et c’est à la troisième question que la plupart des entreprises échouent. L’information arrive, mais l’action ne suit pas. Pas à temps pour changer la prochaine décision. Nous sommes pourtant dans un tout nouveau monde. Euh, une interface d’IA qui a appris à partir de dix ans de contexte d’experts en MMM, pas simplement Claude ou ChatGPT. Posez la question en langage courant, faites une simulation en direct pendant la réunion et agissez pendant que l’occasion est encore là. C’est ce qui me garde engagé : ce qui est possible maintenant. J’ai occupé ce siège pendant plus de vingt ans comme directeur marketing. Aujourd’hui, je me consacre à donner au suivant, à partager ce que j’ai appris avec la prochaine génération de dirigeants. Le changement qui m’a le plus aidé, c’est de pouvoir m’asseoir avec les finances et dire : « Voici ce que nous observons. Voici ce que nous avons appris. Et voici où le prochain dollar pourrait nous aider à croître. Des décisions plus rapides, plus éclairées, meilleures. » Si vous vous reconnaissez, parlons-en. Ou commencez avec mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Quelles questions un directeur marketing devrait-il poser sur la mesure ?
+
+Randy Weyersberg propose trois questions : voyez-vous chaque poste de dépenses, pouvez-vous comparer leur contribution, et obtenez-vous la réponse à temps pour la prochaine décision ?
+
+### Quels investissements peuvent être oubliés selon Randy ?
+
+Le café-discussion cite les dépenses auprès des créateurs, les forfaits d’influenceurs, les médias de détail et les ententes qui n’atteignent jamais un tableau de bord. Selon Randy, ces investissements manquants rendent le portrait global plus difficile à expliquer.
+
+### Comment la mesure devrait-elle soutenir l’action ?
+
+Dans ce café-discussion, Randy décrit la possibilité de poser des questions en langage courant et de lancer une simulation pendant une réunion pour éclairer la prochaine décision d’investissement.
+
+
+---
+
+# Café-discussion sur la vente en direct agentique
+
+Source: https://aicatalyst.biz/fr-ca/blog/where-does-the-next-dollar-go/
+
+## Summary
+
+Randy Weyersberg, d’AI Catalyst, décrit deux formes de vente agentique : un agent de marque sur une boutique en ligne au service d’un client ou de son agent, et une émission en direct à heure fixe animée par un agent de marque pour de vrais consommateurs. Les deux formes doivent être centrées sur le client et sur l’offre réelle de la marque.
+
+## Transcript
+
+Vous avez fait vos preuves. Le budget est à vous. Maintenant vient la question plus difficile : où investir le prochain dollar? La recherche, porte d’entrée d’Internet depuis vingt ans, est en train de changer. Votre client ne cherche plus. Son agent le fait. Dix millions de personnes ont configuré Muse de Meta en six semaines, rien qu’aux États-Unis et au Canada. Amazon l’a bloqué. Walmart et Shopify ont ouvert la porte. Et regardez Google. Cinq cents milliards de dollars envolés en une seule journée. Sa pire journée. Ses propres réponses d’IA grugent ses annonces de recherche. C’est le marché qui anticipe la fin de la boîte de recherche. Alors, quand l’agent de votre client vient cogner, qui l’accueille? Selon moi, le prochain dollar ne va pas à la boîte de recherche. Il va à un agent de marque sur votre propre boutique en ligne : un humain numérique, votre meilleur vendeur, en tête-à-tête, jour et nuit, connecté à vos stocks réels, à vos offres groupées et à votre marge. L’expérience n’a pas changé depuis vingt-cinq ans. Boîte de recherche, défilement, clic, le défilement sans fin. L’agent y met fin. Une simple conversation. Et une conversation qualifie, guide et convertit. Le trafic que vous obtenez est donc de meilleure qualité. Chaque année, une part croissante de nos achats se fait en ligne. Si personne n’est là pour accueillir cet agent, l’occasion est perdue. Il y a une deuxième approche, d’un à plusieurs. Une émission en direct à heure fixe pour un lancement spécial, animée par votre agent de marque, ou même par le jumeau d’un influenceur jouant ce rôle. De vraies personnes y participent. Les gens aiment faire partie d’un événement exclusif. Quand la conversation a lieu, en tête-à-tête ou avec plusieurs personnes, elle est bâtie autour du client. C’est ce qui favorise une plus grande considération. Les marques qui bâtissent cela maintenant sont celles que les agents recommandent en premier. C’est le commerce agentique. J’ai passé plus de vingt ans comme directeur marketing. Aujourd’hui, je me consacre à donner au suivant, à partager ce que j’ai appris avec la prochaine génération de dirigeants. Des décisions plus rapides, plus éclairées, meilleures. Si vous vous reconnaissez, parlons-en. Ou commencez avec mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Quelle différence entre la vente individuelle et une émission en direct ?
+
+La vente individuelle accompagne un client ou son agent. Dans le format d’un à plusieurs décrit par Randy, de vrais consommateurs participent à un événement en direct animé par un agent de marque.
+
+### Le jumeau numérique d’un influenceur peut-il animer une émission de vente ?
+
+Randy décrit le jumeau d’un influenceur jouant le rôle d’agent de marque pour une émission de lancement à heure fixe. Le public est composé de vraies personnes, et non de leurs agents d’achat.
+
+### Quelles données d’affaires un agent de boutique devrait-il utiliser ?
+
+Le café-discussion cite les stocks réels, les offres groupées et la marge. L’agent de boutique proposé par Randy relie la conversation à ce contexte d’affaires plutôt que de proposer une boîte de recherche générique.
+
+
+---
+
+# Conversation café sur la formation en IA
+
+Source: https://aicatalyst.biz/fr-fr/blog/ai-training/
+
+## Summary
+
+La formation en IA d’AI Catalyst commence avec une équipe et un vrai problème métier. Randy Weyersberg décrit la cartographie du processus, le choix des tâches où l’IA aide et des points où le jugement humain garde le contrôle, puis la construction et l’essai d’un agent sur du travail réel. Le résultat visé est un ensemble utilisable d’instructions pour l’agent, soutenu par une utilisation régulière après la séance.
+
+## Transcript
+
+Un PDG m’a dit : « J’ai payé pour la formation. Mon équipe a suivi le cours. Rien n’a changé. » Voilà le fossé. Ce n’est pas que les gens ne terminent pas le cours. C’est que la plupart le terminent et, le lundi matin, le travail est exactement le même. L’apprentissage ne devient jamais le processus de travail. L’IA reste une activité secondaire, quelque chose qu’on essaie quand on a un moment libre, ce qui n’arrive jamais. Et c’est le PDG qui le ressent. Il est responsable de transformer la façon dont l’organisation travaille avec l’IA. Il a encouragé la formation, approuvé les dépenses, et il attend encore que les processus changent. Maintenant, l’impatience s’installe. Il veut de l’action. Voici le chiffre : 88 % des gens utilisent maintenant l’IA au travail. Mais seulement 5 % l’utilisent d’une façon qui change réellement leur travail. Les autres cherchent et résument plus vite, mais le travail lui-même n’a pas changé. Voilà le fossé. À mon avis, les cours en ligne ne fonctionnent pas quand on veut apprendre l’IA. Elle évolue si vite que votre module est dépassé en huit semaines. Nous avons donc conçu la formation comme elle devrait l’être. Une méthode, toutes les fonctions. Nous partons d’un vrai problème : un travail précis que l’équipe identifie comme une occasion de prendre des décisions plus rapides, plus éclairées et meilleures. Nous cartographions le processus étape par étape : où l’IA aide, et où le jugement humain garde le contrôle. Ensuite, nous construisons l’agent ensemble pendant la séance. Et nous le testons sur du travail réel, sur place, jusqu’à ce qu’il tienne la route. Cela fonctionne de la même façon pour chaque fonction : marketing, ventes, finances, opérations, même les équipes de direction. La même méthode, adaptée au travail, en personne ou en direct à distance. Tout le monde repart avec un ensemble complet d’instructions pour un agent qui réalise ce travail. Pas des notes. Pas une démonstration. Quelque chose de construit, testé et prêt à utiliser le lundi. C’est toute l’idée. Les outils vous donnent la puissance. Les processus vous donnent le chemin. Et le comportement, l’utilisation chaque semaine, permet d’ancrer le tout. Une méthode, toutes les fonctions. Si vous êtes responsable de concrétiser l’IA dans votre organisation, commencez avec une équipe et un problème. Demandez les détails, ou posez la question à mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Que construisent les participants pendant la formation en IA ?
+
+Randy décrit un ensemble complet d’instructions pour un agent réalisant un travail précis, construit ensemble et testé sur du travail réel pendant la séance.
+
+### Quelles équipes et quels modes de prestation Randy décrit-il ?
+
+La méthode est adaptée au marketing, aux ventes, aux finances, aux opérations et aux équipes de direction. Le conversation café décrit des séances en personne ou en direct à distance, adaptées au travail de l’équipe.
+
+### Où le jugement humain reste-t-il présent dans le processus ?
+
+Avant de construire l’agent, l’équipe cartographie le travail étape par étape et précise où l’IA peut aider et où le jugement humain garde le contrôle. Randy insiste aussi sur l’utilisation du processus chaque semaine.
+
+
+---
+
+# Conversations café avec Randy
+
+Source: https://aicatalyst.biz/fr-fr/blog/
+
+Coffee Chats by Randy Weyersberg.
+- [Conversation café sur la MMM](https://aicatalyst.biz/fr-fr/blog/prove-it-or-lose-it/)
+- [Conversation café sur la vente en direct agentique](https://aicatalyst.biz/fr-fr/blog/where-does-the-next-dollar-go/)
+- [Conversation café sur la formation en IA](https://aicatalyst.biz/fr-fr/blog/ai-training/)
+
+---
+
+# Conversation café sur la MMM
+
+Source: https://aicatalyst.biz/fr-fr/blog/prove-it-or-lose-it/
+
+## Summary
+
+Randy Weyersberg, d’AI Catalyst, explique comment la mesure marketing doit relier l’ensemble des investissements à la prochaine décision de l’entreprise. Ses trois questions : chaque poste de dépenses est-il visible, peut-on comparer les contributions, et la réponse arrive-t-elle à temps pour agir ?
+
+## Transcript
+
+Tous les directeurs marketing connaissent cette réunion. Le directeur financier fait glisser le budget sur la table et pose une question : démontrez les résultats ou perdez le budget. Mon propre budget a été coupé deux fois en dix ans. Une fois à cause du Covid, et une fois à cause d’une bataille sur la mesure où, franchement, nous nous sommes trompés. Ce qui m’aide depuis, c’est de vérifier si la mesure couvre le même terrain que le budget. Les dépenses auprès des créateurs, les forfaits d’influenceurs, les médias des distributeurs, les ententes qui ne passent jamais dans un tableau de bord. S’ils manquent à l’analyse, il est plus difficile d’expliquer ce que produit l’investissement total. Je reviens donc à trois questions. Voyez-vous chaque poste de dépenses? Pouvez-vous comparer la contribution de chacun? Et la réponse arrive-t-elle à temps pour éclairer la prochaine décision? Ce que j’aurais aimé avoir à l’époque, quand j’utilisais l’ancienne MMM, c’est ce que nous avons aujourd’hui : Full Commerce MMM. La vision complète des investissements de commercialisation. Les dix postes de dépenses réunis dans une seule vue. Et c’est à la troisième question que la plupart des entreprises échouent. L’information arrive, mais l’action ne suit pas. Pas à temps pour changer la prochaine décision. Nous sommes pourtant dans un tout nouveau monde. Euh, une interface d’IA qui a appris à partir de dix ans de contexte d’experts en MMM, pas simplement Claude ou ChatGPT. Posez la question en langage courant, faites une simulation en direct pendant la réunion et agissez pendant que l’occasion est encore là. C’est ce qui me garde engagé : ce qui est possible maintenant. J’ai occupé ce siège pendant plus de vingt ans comme directeur marketing. Aujourd’hui, je me consacre à transmettre mon expérience, à partager ce que j’ai appris avec la prochaine génération de dirigeants. Le changement qui m’a le plus aidé, c’est de pouvoir m’asseoir avec les finances et dire : « Voici ce que nous observons. Voici ce que nous avons appris. Et voici où le prochain dollar pourrait nous aider à croître. Des décisions plus rapides, plus éclairées, meilleures. » Si vous vous reconnaissez, échangeons. Ou commencez avec mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Quelles questions un directeur marketing devrait-il poser sur la mesure ?
+
+Randy Weyersberg propose trois questions : voyez-vous chaque poste de dépenses, pouvez-vous comparer leur contribution, et obtenez-vous la réponse à temps pour la prochaine décision ?
+
+### Quels investissements peuvent être oubliés selon Randy ?
+
+Le conversation café cite les dépenses auprès des créateurs, les forfaits d’influenceurs, les médias des distributeurs et les ententes qui n’atteignent jamais un tableau de bord. Selon Randy, ces investissements manquants rendent le portrait global plus difficile à expliquer.
+
+### Comment la mesure devrait-elle soutenir l’action ?
+
+Dans ce conversation café, Randy décrit la possibilité de poser des questions en langage courant et de lancer une simulation pendant une réunion pour éclairer la prochaine décision d’investissement.
+
+
+---
+
+# Conversation café sur la vente en direct agentique
+
+Source: https://aicatalyst.biz/fr-fr/blog/where-does-the-next-dollar-go/
+
+## Summary
+
+Randy Weyersberg, d’AI Catalyst, décrit deux formes de vente agentique : un agent de marque sur une boutique en ligne au service d’un client ou de son agent, et une émission en direct à heure fixe animée par un agent de marque pour de vrais consommateurs. Les deux formes doivent être centrées sur le client et sur l’offre réelle de la marque.
+
+## Transcript
+
+Vous avez fait vos preuves. Le budget est à vous. Maintenant vient la question plus difficile : où investir le prochain dollar? La recherche, porte d’entrée d’Internet depuis vingt ans, est en train de changer. Votre client ne cherche plus. Son agent le fait. Dix millions de personnes ont configuré Muse de Meta en six semaines, rien qu’aux États-Unis et au Canada. Amazon l’a bloqué. Walmart et Shopify ont ouvert la porte. Et regardez Google. Cinq cents milliards de dollars envolés en une seule journée. Sa pire journée. Ses propres réponses d’IA cannibalisent ses annonces de recherche. C’est le marché qui anticipe la fin de la boîte de recherche. Alors, quand l’agent de votre client frappe à la porte, qui l’accueille? Selon moi, le prochain dollar ne va pas à la boîte de recherche. Il va à un agent de marque sur votre propre boutique en ligne : un humain numérique, votre meilleur vendeur, en tête-à-tête, jour et nuit, connecté à vos stocks réels, à vos offres groupées et à votre marge. L’expérience n’a pas changé depuis vingt-cinq ans. Boîte de recherche, défilement, clic, le défilement sans fin. L’agent y met fin. Une simple conversation. Et une conversation qualifie, guide et convertit. Le trafic que vous obtenez est donc de meilleure qualité. Chaque année, une part croissante de nos achats se fait en ligne. Si personne n’est là pour accueillir cet agent, l’occasion est perdue. Il y a une deuxième approche, d’un à plusieurs. Une émission en direct à heure fixe pour un lancement spécial, animée par votre agent de marque, ou même par le jumeau d’un influenceur jouant ce rôle. De vraies personnes y participent. Les gens aiment faire partie d’un événement exclusif. Quand la conversation a lieu, en tête-à-tête ou avec plusieurs personnes, elle est bâtie autour du client. C’est ce qui favorise une plus grande considération. Les marques qui bâtissent cela maintenant sont celles que les agents recommandent en premier. C’est le commerce agentique. J’ai passé plus de vingt ans comme directeur marketing. Aujourd’hui, je me consacre à transmettre mon expérience, à partager ce que j’ai appris avec la prochaine génération de dirigeants. Des décisions plus rapides, plus éclairées, meilleures. Si vous vous reconnaissez, échangeons. Ou commencez avec mon jumeau numérique sur aicatalyst.biz. Il connaît ma façon d’aborder ces questions.
+
+## FAQ
+
+### Quelle différence entre la vente individuelle et une émission en direct ?
+
+La vente individuelle accompagne un client ou son agent. Dans le format d’un à plusieurs décrit par Randy, de vrais consommateurs participent à un événement en direct animé par un agent de marque.
+
+### Le jumeau numérique d’un influenceur peut-il animer une émission de vente ?
+
+Randy décrit le jumeau d’un influenceur jouant le rôle d’agent de marque pour une émission de lancement à heure fixe. Le public est composé de vraies personnes, et non de leurs agents d’achat.
+
+### Quelles données métier un agent de boutique devrait-il utiliser ?
+
+Le conversation café cite les stocks réels, les offres groupées et la marge. L’agent de boutique proposé par Randy relie la conversation à ce contexte métier plutôt que de proposer une champ de recherche générique.
+
+
+---
+
+# حديث قهوة عن التدريب على الذكاء الاصطناعي
+
+Source: https://aicatalyst.biz/ar/blog/ai-training/
+
+## Summary
+
+يبدأ تدريب AI Catalyst على الذكاء الاصطناعي بفريق واحد ومشكلة عمل حقيقية. يصف Randy Weyersberg رسم مسار العمل، وتحديد أين يساعد الذكاء الاصطناعي وأين يبقى الحكم البشري مسيطرًا، ثم بناء وكيل واختباره معًا على عمل فعلي. والنتيجة المستهدفة مجموعة تعليمات قابلة للاستخدام للوكيل، تدعمها الممارسة المنتظمة بعد الجلسة.
+
+## Transcript
+
+قال لي رئيس تنفيذي: «دفعت ثمن التدريب. أكمل فريقي الدورة. ولم يتغير شيء». هذه هي الفجوة. ليست المشكلة أن الناس لا يكملون الدورة، بل أن معظمهم يكملها ويأتي صباح الاثنين والعمل كما هو تمامًا. التعلم لا يتحول أبدًا إلى مسار العمل. يبقى الذكاء الاصطناعي نشاطًا جانبيًا، شيئًا يجربه الناس عندما تتاح لهم دقيقة فراغ، وهي لا تتاح أبدًا. والرئيس التنفيذي هو من يشعر بذلك. فهو مسؤول عن تغيير طريقة عمل المؤسسة حول الذكاء الاصطناعي. شجع التدريب ووافق على إنفاق المال عليه، وما زال ينتظر تغير مسارات العمل. والآن نفد صبره. يريد تحركًا. إليكم الرقم: 88% من الناس يستخدمون الذكاء الاصطناعي في العمل الآن، لكن 5% فقط يستخدمونه بطريقة تغير فعلًا طريقة عملهم. البقية يبحثون ويلخصون بسرعة أكبر، لكن العمل نفسه لم يتغير. هذه هي الفجوة. وبرأيي، لا تنجح الدورات عبر الإنترنت عندما تحاول تعلم الذكاء الاصطناعي. فهو يتطور بسرعة تجعل وحدتك التعليمية قديمة خلال ثمانية أسابيع. لذلك بنينا التدريب بالطريقة التي ينبغي أن يكون عليها. منهج واحد، لكل الوظائف. نبدأ بمشكلة حقيقية: مهمة محددة يختارها الفريق هدفًا لاتخاذ قرارات أسرع وأذكى وأفضل. نرسم مسار العمل خطوة بخطوة، ونحدد أين يساعد الذكاء الاصطناعي وأين يبقى الحكم البشري مسيطرًا. ثم نبني الوكيل معًا أثناء الجلسة، ونختبره على عمل فعلي، في اللحظة نفسها، حتى يثبت صلاحيته. وينطبق ذلك على كل وظيفة: التسويق والمبيعات والمالية والعمليات، وحتى فرق القيادة. المنهج نفسه، مخصص للعمل، حضوريًا أو افتراضيًا على الهواء مباشرة. ويغادر الجميع ومعهم مجموعة مكتملة من تعليمات الوكيل لتلك المهمة. ليست ملاحظات. وليست عرضًا تجريبيًا. بل شيء بُني واختُبر وأصبح جاهزًا للاستخدام يوم الاثنين. هذه هي الفكرة كلها. الأدوات تمنحك القوة، ومسارات العمل تمنحك الطريق، والسلوك، أي استخدامها كل أسبوع، هو ما يرسخها. منهج واحد، لكل الوظائف. إذا كنت المسؤول عن تحويل الذكاء الاصطناعي إلى واقع في مؤسستك، فابدأ بفريق واحد ومشكلة واحدة. اطلب التفاصيل، أو اسأل توأمي الرقمي على aicatalyst.biz. فهو يعرف كيف أفكر في هذه الأمور.
+
+## FAQ
+
+### ماذا يبني المشاركون أثناء التدريب على الذكاء الاصطناعي؟
+
+يصف Randy مجموعة مكتملة من تعليمات الوكيل لمهمة محددة، تُبنى معًا وتُختبر على عمل فعلي أثناء الجلسة.
+
+### ما الفرق وطرق تقديم التدريب التي يصفها Randy؟
+
+يُكيّف المنهج لفرق التسويق والمبيعات والمالية والعمليات والقيادة. ويصف حديث القهوة جلسات حضورية أو افتراضية مباشرة، مخصصة لعمل الفريق.
+
+### أين يبقى الحكم البشري ضمن مسار العمل؟
+
+قبل بناء الوكيل، يرسم الفريق العمل خطوة بخطوة ويحدد أين يمكن أن يساعد الذكاء الاصطناعي وأين يبقى الحكم البشري مسيطرًا. ويؤكد Randy أيضًا أهمية استخدام مسار العمل كل أسبوع.
+
+
+---
+
+# أحاديث القهوة مع Randy
+
+Source: https://aicatalyst.biz/ar/blog/
+
+Coffee Chats by Randy Weyersberg.
+- [حديث قهوة عن MMM](https://aicatalyst.biz/ar/blog/prove-it-or-lose-it/)
+- [حديث قهوة عن البيع المباشر بوكلاء الذكاء الاصطناعي](https://aicatalyst.biz/ar/blog/where-does-the-next-dollar-go/)
+- [حديث قهوة عن التدريب على الذكاء الاصطناعي](https://aicatalyst.biz/ar/blog/ai-training/)
+
+---
+
+# حديث قهوة عن MMM
+
+Source: https://aicatalyst.biz/ar/blog/prove-it-or-lose-it/
+
+## Summary
+
+يشرح Randy Weyersberg من AI Catalyst كيف ينبغي للقياس التسويقي أن يربط الصورة الكاملة للاستثمار بقرار العمل التالي. وتتمثل أسئلته الثلاثة في إمكان رؤية كل بند إنفاق، ومقارنة المساهمات، ووصول الإجابة في الوقت المناسب لاتخاذ إجراء.
+
+## Transcript
+
+يعرف كل مدير تسويق هذا الاجتماع. يمرر المدير المالي الميزانية عبر الطاولة ويطرح سؤالًا واحدًا: أثبت النتائج وإلا خسرتها. خُفّضت ميزانيتي مرتين خلال عشر سنوات. مرة بسبب كوفيد، ومرة بسبب خلاف حول القياس أخطأنا فيه بصراحة. ما ساعدني منذ ذلك الوقت هو التحقق مما إذا كان القياس يغطي النطاق نفسه الذي تغطيه الميزانية. الإنفاق على صُنّاع المحتوى، وباقات المؤثرين، وإعلانات التجزئة، والاتفاقات التي لا تظهر أبدًا في لوحة متابعة. إذا غابت هذه العناصر عن الصورة، يصعب تفسير ما يحققه الاستثمار بأكمله. لذلك أعود إلى ثلاثة أسئلة: هل ترى كل بند من بنود الإنفاق؟ هل تستطيع مقارنة مساهمة كل منها؟ وهل تصل الإجابة في الوقت المناسب للمساعدة في القرار التالي؟ ما كنت أتمنى امتلاكه آنذاك، حين كنت أستخدم نمذجة المزيج التسويقي التقليدية، هو ما لدينا اليوم: Full Commerce MMM. الصورة الكاملة الحقيقية لاستثمارات دخول السوق، مع بنود الإنفاق العشرة في صورة واحدة. وعند السؤال الثالث تتعثر معظم المؤسسات. تصل الرؤية، لكن الإجراء لا يأتي، أو لا يأتي في الوقت المناسب لتغيير القرار التالي. لكن هذا عالم جديد تمامًا. أمم، واجهة ذكاء اصطناعي تعلمت من عشر سنوات من سياق خبراء MMM، وليست مجرد Claude أو ChatGPT. اطرح السؤال بلغة عادية، وشغّل محاكاة مباشرة أثناء الاجتماع، واتخذ إجراءً ما دامت الفرصة في السوق قائمة. هذا ما يبقيني مهتمًا: ما أصبح ممكنًا الآن. شغلت ذلك المنصب لأكثر من عشرين عامًا كمدير تسويق. اليوم أركز على رد الجميل ومشاركة ما تعلمته مع الجيل القادم من القادة. أكثر تحول ساعدني هو القدرة على الجلوس مع الإدارة المالية والقول: «هذا ما نراه. وهذا ما تعلمناه. وهنا يمكن للدولار التالي أن يساعدنا على النمو. قرارات أسرع وأذكى وأفضل». إذا كان هذا يهمك، فلنتحدث. أو ابدأ مع توأمي الرقمي على aicatalyst.biz. فهو يعرف كيف أفكر في هذه الأمور.
+
+## FAQ
+
+### ما الأسئلة التي ينبغي لمدير التسويق طرحها حول القياس؟
+
+يقترح Randy Weyersberg ثلاثة أسئلة: هل ترى كل بند إنفاق، وهل تستطيع مقارنة مساهمة كل منها، وهل تحصل على الإجابة في الوقت المناسب للقرار التالي؟
+
+### ما الاستثمارات التي يقول Randy إنها قد تغيب عن الصورة؟
+
+يذكر حديث القهوة الإنفاق على صُنّاع المحتوى وباقات المؤثرين وإعلانات التجزئة والاتفاقات التي لا تصل أبدًا إلى لوحة متابعة. ويرى Randy أن غياب هذه الاستثمارات يجعل تفسير الصورة الكاملة أصعب.
+
+### كيف ينبغي للقياس أن يدعم اتخاذ إجراء؟
+
+في حديث القهوة هذا، يصف Randy طرح الأسئلة بلغة عادية وتشغيل محاكاة أثناء الاجتماع، كي تساعد النتائج في توجيه قرار الاستثمار التالي.
+
+
+---
+
+# حديث قهوة عن البيع المباشر بوكلاء الذكاء الاصطناعي
+
+Source: https://aicatalyst.biz/ar/blog/where-does-the-next-dollar-go/
+
+## Summary
+
+يصف Randy Weyersberg من AI Catalyst شكلين للبيع بوكلاء الذكاء الاصطناعي: وكيل علامة تجارية على واجهة المتجر يخدم متسوقًا منفردًا أو وكيله، وعرض مباشر مجدول يستضيفه وكيل علامة تجارية لمستهلكين حقيقيين. وينبغي أن يتمحور الشكلان حول العميل وأن يستندا إلى العرض الفعلي للعلامة.
+
+## Transcript
+
+أثبتَّ النتائج. الميزانية أصبحت لك. والآن يأتي السؤال الأصعب: أين تستثمر الدولار التالي؟ البحث، الذي كان بوابة الإنترنت طوال عشرين عامًا، يتغير. لم يعد عميلك يبحث بنفسه. وكيله يفعل ذلك. عشرة ملايين شخص أعدّوا Muse من Meta خلال ستة أسابيع في الولايات المتحدة وكندا وحدهما. حظرته Amazon، وفتحت Walmart وShopify الباب. وانظر إلى Google: تبخر نصف تريليون دولار في يوم واحد، أسوأ يوم لها على الإطلاق. إجابات الذكاء الاصطناعي الخاصة بها تلتهم إعلانات البحث لديها. هكذا يسعّر السوق نهاية مربع البحث. إذن، عندما يطرق وكيل عميلك الباب، من يستقبله؟ كما أرى الأمر، لا يذهب الدولار التالي إلى مربع البحث. بل إلى وكيل علامة تجارية على واجهة متجرك نفسه: إنسان رقمي، أفضل بائعيك، يعمل فرديًا على مدار الساعة، ومتصل بمخزونك الفعلي وباقاتك وهامشك. لم تتغير التجربة منذ خمسة وعشرين عامًا: مربع بحث، ثم تمرير، ثم نقر، ثم التمرير الذي لا ينتهي. الوكيل ينهي ذلك. مجرد محادثة. والمحادثة تؤهل العميل وتوجهه وتحوله إلى مشترٍ. لذلك تكون الزيارات التي تحصل عليها أفضل. كل عام تتم نسبة أكبر من مشترياتنا عبر الإنترنت. إذا لم يكن هناك من يستقبل ذلك الوكيل، تضيع الفرصة. وهناك طريق ثانٍ، من واحد إلى كثيرين: عرض مباشر في موعد محدد لإطلاق خاص، يستضيفه وكيل علامتك التجارية، أو حتى توأم أحد المؤثرين بصفته وكيل علامتك. أشخاص حقيقيون ينضمون. يحب الناس المشاركة في حدث حصري. عندما تجري المحادثة، فرديًا أو مع جمهور، فإنها تتمحور حول العميل. وهذا ما يعزز اهتمامه بالشراء. العلامات التي تبني هذا الآن هي التي يوصي بها الوكلاء أولًا. هذه هي التجارة بوكلاء الذكاء الاصطناعي. أمضيت أكثر من عشرين عامًا كمدير تسويق. واليوم أركز على رد الجميل ومشاركة ما تعلمته مع الجيل القادم من القادة. قرارات أسرع وأذكى وأفضل. إذا كان هذا يهمك، فلنتحدث. أو ابدأ مع توأمي الرقمي على aicatalyst.biz. فهو يعرف كيف أفكر في هذه الأمور.
+
+## FAQ
+
+### كيف يختلف البيع الفردي عن العرض المباشر؟
+
+يدعم البيع الفردي عميلًا واحدًا أو وكيله. أما في الصيغة المجدولة من واحد إلى كثيرين التي يصفها Randy، فينضم مستهلكون حقيقيون إلى حدث مباشر يستضيفه وكيل علامة تجارية.
+
+### هل يمكن لتوأم رقمي لأحد المؤثرين استضافة عرض بيع؟
+
+يصف Randy توأم أحد المؤثرين بصفته وكيل العلامة التجارية في عرض إطلاق مجدول. والجمهور في هذا الشكل أشخاص حقيقيون، وليس وكلاء التسوق التابعين لهم.
+
+### ما معلومات العمل التي ينبغي لوكيل واجهة المتجر استخدامها؟
+
+يذكر حديث القهوة المخزون الفعلي والباقات والهامش. ويربط وكيل المتجر الذي يقترحه Randy المحادثة بسياق العمل هذا بدلًا من تقديم مربع بحث عام.
+
+
+---
+
